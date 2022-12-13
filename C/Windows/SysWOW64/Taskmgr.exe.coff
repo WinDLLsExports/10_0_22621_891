@@ -1,0 +1,2302 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\SysWOW64\Taskmgr.exe
+
+File Type: EXECUTABLE IMAGE
+
+  Image has the following delay load dependencies:
+
+    api-ms-win-core-com-l1-1-0.dll
+    api-ms-win-power-base-l1-1-0.dll
+    api-ms-win-core-winrt-string-l1-1-0.dll
+    api-ms-win-core-winrt-l1-1-0.dll
+    api-ms-win-security-sddl-l1-1-0.dll
+    api-ms-win-service-management-l1-1-0.dll
+    api-ms-win-service-winsvc-l1-1-0.dll
+    SspiCli.dll
+    IPHLPAPI.DLL
+    samcli.dll
+    netutils.dll
+    USERENV.dll
+    api-ms-win-service-core-l1-1-1.dll
+    api-ms-win-service-management-l2-1-0.dll
+    wkscli.dll
+    api-ms-win-core-com-private-l1-1-0.dll
+    api-ms-win-security-lsalookup-l1-1-0.dll
+    api-ms-win-service-private-l1-1-0.dll
+    api-ms-win-devices-query-l1-1-0.dll
+    ADVAPI32.dll
+    ole32.dll
+    WINBRAND.dll
+    WTSAPI32.dll
+    WINSTA.dll
+    CHARTV.dll
+    dbghelp.dll
+    PROPSYS.dll
+    api-ms-win-appmodel-identity-l1-2-0.dll
+    XmlLite.dll
+    faultrep.dll
+    ext-ms-win-edputil-policy-l1-1-0.dll
+    ext-ms-win-uxtheme-themes-l1-1-0.dll
+    ext-ms-win-uxtheme-themes-l1-1-1.dll
+    ext-ms-win-devmgmt-policy-l1-1-1.dll
+    api-ms-win-appmodel-runtime-l1-1-0.dll
+    api-ms-win-appmodel-runtime-l1-1-1.dll
+    api-ms-win-appmodel-runtime-internal-l1-1-7.dll
+
+  Section contains the following delay load imports:
+
+    api-ms-win-core-com-l1-1-0.dll
+              00000001 Characteristics
+              006B858C Address of HMODULE
+              006CA0DC Import Address Table
+              00619B08 Import Name Table
+              0061A5EC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C700F              53 StringFromCLSID
+          004C6FA2               7 CoCreateFreeThreadedMarshaler
+          004C6F92              49 CoWaitForMultipleHandles
+          004C6F82              15 CoGetApartmentType
+          004C6D11              43 CoTaskMemFree
+          004C7050              42 CoTaskMemAlloc
+          004C7078              1F CoGetMalloc
+          004C6D7F              4B CreateStreamOnHGlobal
+          004C6D8F              4D GetHGlobalFromStream
+          004C6E41              50 PropVariantClear
+          004C6DEF               E CoDisableCallCancellation
+          004C7EB0              44 CoTaskMemRealloc
+          004C6DDF              11 CoEnableCallCancellation
+          004C6C59              46 CoUninitialize
+          004C6C25               9 CoCreateInstance
+          004C6DCF               5 CoCancelCall
+          004C6BF8              28 CoInitializeEx
+
+    api-ms-win-power-base-l1-1-0.dll
+              00000001 Characteristics
+              006B8590 Address of HMODULE
+              006CA16C Import Address Table
+              00619B98 Import Name Table
+              0061A5FC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6C69               0 CallNtPowerInformation
+
+    api-ms-win-core-winrt-string-l1-1-0.dll
+              00000001 Characteristics
+              006B8594 Address of HMODULE
+              006CA13C Import Address Table
+              00619B68 Import Name Table
+              0061A604 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6C8A               7 WindowsCreateStringReference
+          004C6F52               6 WindowsCreateString
+          004C6F06               8 WindowsDeleteString
+          004C6F16               4 WindowsCompareStringOrdinal
+          004C6F26               C WindowsGetStringRawBuffer
+          004C6F42               A WindowsDuplicateString
+
+    api-ms-win-core-winrt-l1-1-0.dll
+              00000001 Characteristics
+              006B8598 Address of HMODULE
+              006CA130 Import Address Table
+              00619B5C Import Name Table
+              0061A60C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6CAB               1 RoGetActivationFactory
+          004C7040               0 RoActivateInstance
+
+    api-ms-win-security-sddl-l1-1-0.dll
+              00000001 Characteristics
+              006B859C Address of HMODULE
+              006CA180 Import Address Table
+              00619BAC Import Name Table
+              0061A614 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6CE4               1 ConvertSidToStringSidW
+
+    api-ms-win-service-management-l1-1-0.dll
+              00000001 Characteristics
+              006B85A0 Address of HMODULE
+              006CA190 Import Address Table
+              00619BBC Import Name Table
+              0061A620 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6D4E               5 OpenServiceW
+          004C6D2D               4 OpenSCManagerW
+          004C6DBF               6 StartServiceW
+          004C6D9F               0 CloseServiceHandle
+
+    api-ms-win-service-winsvc-l1-1-0.dll
+              00000001 Characteristics
+              006B85A4 Address of HMODULE
+              006CA1C0 Import Address Table
+              00619BEC Import Name Table
+              0061A62C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6D5E               A QueryServiceStatus
+          004C6DAF               2 ControlService
+
+    SspiCli.dll
+              00000001 Characteristics
+              006B85A8 Address of HMODULE
+              006CA05C Import Address Table
+              00619A88 Import Name Table
+              0061A654 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6DFF              19 GetUserNameExW
+
+    IPHLPAPI.DLL
+              00000001 Characteristics
+              006B85AC Address of HMODULE
+              006CA02C Import Address Table
+              00619A58 Import Name Table
+              0061A65C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6F62              16 ConvertInterfaceNameToLuidW
+          004C6F72              14 ConvertInterfaceLuidToNameW
+          004C6FDE              43 GetAdaptersAddresses
+          004C6FEE              55 GetIfEntry2
+          004C6FFF              F1 NhGetInterfaceNameFromDeviceGuid
+          004C6FCE               5 CancelMibChangeNotify2
+          004C6FBE              FD NotifyUnicastIpAddressChange
+          004C6E20              11 ConvertInterfaceLuidToGuid
+
+    samcli.dll
+              00000001 Characteristics
+              006B85B0 Address of HMODULE
+              006CA224 Import Address Table
+              00619C50 Import Name Table
+              0061A668 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6E51              1B NetUserGetInfo
+
+    netutils.dll
+              00000001 Characteristics
+              006B85B4 Address of HMODULE
+              006CA210 Import Address Table
+              00619C3C Import Name Table
+              0061A670 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6E72               1 NetApiBufferFree
+
+    USERENV.dll
+              00000001 Characteristics
+              006B85B8 Address of HMODULE
+              006CA064 Import Address Table
+              00619A90 Import Name Table
+              0061A678 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6E93                 Ordinal   211
+
+    api-ms-win-service-core-l1-1-1.dll
+              00000001 Characteristics
+              006B85BC Address of HMODULE
+              006CA188 Import Address Table
+              00619BB4 Import Name Table
+              0061A680 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6EB4               1 EnumServicesStatusExW
+
+    api-ms-win-service-management-l2-1-0.dll
+              00000001 Characteristics
+              006B85C0 Address of HMODULE
+              006CA1A4 Import Address Table
+              00619BD0 Import Name Table
+              0061A688 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C6ED5               4 QueryServiceConfigW
+          004C6EF6               6 QueryServiceStatusEx
+
+    wkscli.dll
+              00000001 Characteristics
+              006B85C4 Address of HMODULE
+              006CA22C Import Address Table
+              00619C58 Import Name Table
+              0061A6D4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C701F               2 NetGetJoinInformation
+
+    api-ms-win-core-com-private-l1-1-0.dll
+              00000001 Characteristics
+              006B85C8 Address of HMODULE
+              006CA124 Import Address Table
+              00619B50 Import Name Table
+              0061A6E8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C70C0               B CoGetCallState
+          004C7090               9 CoGetActivationState
+
+    api-ms-win-security-lsalookup-l1-1-0.dll
+              00000001 Characteristics
+              006B85CC Address of HMODULE
+              006CA174 Import Address Table
+              00619BA0 Import Name Table
+              0061A6F4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7132               7 LookupAccountSidLocalW
+          004C70D0               5 LookupAccountNameLocalW
+
+    api-ms-win-service-private-l1-1-0.dll
+              00000001 Characteristics
+              006B85D0 Address of HMODULE
+              006CA1B0 Import Address Table
+              00619BDC Import Name Table
+              0061A6FC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7112              17 SubscribeServiceChangeNotifications
+          004C7122              18 UnsubscribeServiceChangeNotifications
+          004C70F1               2 I_QueryTagInformation
+
+    api-ms-win-devices-query-l1-1-0.dll
+              00000001 Characteristics
+              006B85D4 Address of HMODULE
+              006CA158 Import Address Table
+              00619B84 Import Name Table
+              0061A710 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7163               1 DevCreateObjectQuery
+          004C7142               0 DevCloseObjectQuery
+          004C7183               8 DevFreeObjectProperties
+          004C7173               A DevGetObjectProperties
+
+    ADVAPI32.dll
+              00000001 Characteristics
+              006B85D8 Address of HMODULE
+              006CA000 Import Address Table
+              00619A2C Import Name Table
+              0061A724 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C71B4             211 OpenThreadWaitChainSession
+          004C71D4             2AC RegisterWaitChainCOMCallback
+          004C7193              66 CloseThreadWaitChainSession
+          004C71C4             15A GetThreadWaitChain
+
+    ole32.dll
+              00000001 Characteristics
+              006B85DC Address of HMODULE
+              006CA218 Import Address Table
+              00619C44 Import Name Table
+              0061A738 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7205              9C CreateBindCtx
+          004C71E4              20 CoAllowSetForegroundWindow
+
+    WINBRAND.dll
+              00000001 Characteristics
+              006B85E0 Address of HMODULE
+              006CA06C Import Address Table
+              00619A98 Import Name Table
+              0061A744 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7215               7 BrandingLoadString
+
+    WTSAPI32.dll
+              00000001 Characteristics
+              006B85E4 Address of HMODULE
+              006CA084 Import Address Table
+              00619AB0 Import Name Table
+              0061A74C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7257               9 WTSDisconnectSession
+          004C7287              17 WTSFreeMemory
+          004C7267              1E WTSLogoffSession
+          004C7297              16 WTSEnumerateSessionsW
+          004C72A7              2A WTSRegisterSessionNotification
+          004C7236              2D WTSSendMessageW
+          004C72B7              3A WTSUnRegisterSessionNotification
+          004C7277              26 WTSQuerySessionInformationW
+
+    WINSTA.dll
+              00000001 Characteristics
+              006B85E8 Address of HMODULE
+              006CA074 Import Address Table
+              00619AA0 Import Name Table
+              0061A770 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7B7D              21 WinStationConnectW
+          004C7B5C              1E WinStationConnectAndLockDesktop
+          004C7B8D              49 WinStationGetProcessSid
+
+    CHARTV.dll
+              00000001 Characteristics
+              006B85EC Address of HMODULE
+              006CA014 Import Address Table
+              00619A40 Import Name Table
+              0061A780 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7B9D               7 CvUninitialize
+          004C7BDE               5 CvSetData
+          004C7BCE               0 CvCloseDataSource
+          004C7BBE               4 CvInitialize
+          004C7BEE               1 CvCreateDataSource
+
+    dbghelp.dll
+              00000001 Characteristics
+              006B85F0 Address of HMODULE
+              006CA1CC Import Address Table
+              00619BF8 Import Name Table
+              0061A798 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7BFE              1E MiniDumpWriteDump
+
+    PROPSYS.dll
+              00000001 Characteristics
+              006B85F4 Address of HMODULE
+              006CA050 Import Address Table
+              00619A7C Import Name Table
+              0061A7A0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7C40              9C PropVariantToUInt32
+          004C7C30              94 PropVariantToStringAlloc
+
+    api-ms-win-appmodel-identity-l1-2-0.dll
+              00000001 Characteristics
+              006B85F8 Address of HMODULE
+              006CA0B0 Import Address Table
+              00619ADC Import Name Table
+              0061A7AC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7C50               C AppXGetPackageSid
+          004C7C71               6 AppXFreeMemory
+
+    XmlLite.dll
+              00000001 Characteristics
+              006B85FC Address of HMODULE
+              006CA0A8 Import Address Table
+              00619AD4 Import Name Table
+              0061A7B8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7C81               0 CreateXmlReader
+
+    faultrep.dll
+              00000001 Characteristics
+              006B8600 Address of HMODULE
+              006CA208 Import Address Table
+              00619C34 Import Name Table
+              0061A7C0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7CA2               A ReportHang
+
+    ext-ms-win-edputil-policy-l1-1-0.dll
+              00000001 Characteristics
+              006B8610 Address of HMODULE
+              006CA1E0 Import Address Table
+              00619C0C Import Name Table
+              0061A7C8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7D2F               6 EdpFreeContext
+          004C7D0E               E EdpGetContextForProcess
+
+    ext-ms-win-uxtheme-themes-l1-1-0.dll
+              00000001 Characteristics
+              006B8614 Address of HMODULE
+              006CA1EC Import Address Table
+              00619C18 Import Name Table
+              0061A7D4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7D80               7 DrawThemeBackground
+          004C7D70              1C GetThemeMargins
+          004C7D60              28 IsThemePartDefined
+          004C7D3F              1A GetThemeFont
+
+    ext-ms-win-uxtheme-themes-l1-1-1.dll
+              00000001 Characteristics
+              006B8618 Address of HMODULE
+              006CA200 Import Address Table
+              00619C2C Import Name Table
+              0061A7E8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7D90               A DrawThemeTextEx
+
+    ext-ms-win-devmgmt-policy-l1-1-1.dll
+              00000001 Characteristics
+              006B862C Address of HMODULE
+              006CA1D4 Import Address Table
+              00619C00 Import Name Table
+              0061A7F0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7E1D               2 PolicyManager_FreeGetPolicyData
+          004C7DFC              1D PolicyManager_GetPolicy
+
+    api-ms-win-appmodel-runtime-l1-1-0.dll
+              00000001 Characteristics
+              006B8630 Address of HMODULE
+              006CA0C4 Import Address Table
+              00619AF0 Import Name Table
+              0061A7FC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7E7F              1A GetPackageFamilyName
+          004C7E2D              2C PackageFamilyNameFromFullName
+          004C7E6F              1C GetPackageFullName
+
+    api-ms-win-appmodel-runtime-l1-1-1.dll
+              00000001 Characteristics
+              006B8634 Address of HMODULE
+              006CA0D4 Import Address Table
+              00619B00 Import Name Table
+              0061A804 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7E4E              31 ParseApplicationUserModelId
+
+    api-ms-win-appmodel-runtime-internal-l1-1-7.dll
+              00000001 Characteristics
+              006B8638 Address of HMODULE
+              006CA0BC Import Address Table
+              00619AE8 Import Name Table
+              0061A814 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          004C7E8F               0 AddDependencyToProcessPackageGraph
+
+  Image has the following dependencies:
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+    api-ms-win-crt-private-l1-1-0.dll
+    api-ms-win-crt-string-l1-1-0.dll
+    api-ms-win-core-profile-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-0.dll
+    api-ms-win-core-sysinfo-l1-1-0.dll
+    api-ms-win-core-interlocked-l1-1-0.dll
+    api-ms-win-core-debug-l1-1-0.dll
+    api-ms-win-core-errorhandling-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-1.dll
+    api-ms-win-core-libraryloader-l1-2-0.dll
+    api-ms-win-core-heap-l1-1-0.dll
+    api-ms-win-core-heap-l2-1-0.dll
+    api-ms-win-core-handle-l1-1-0.dll
+    api-ms-win-core-libraryloader-l1-2-1.dll
+    api-ms-win-core-string-l1-1-0.dll
+    api-ms-win-eventing-provider-l1-1-0.dll
+    api-ms-win-core-localization-l1-2-0.dll
+    api-ms-win-core-synch-l1-1-0.dll
+    api-ms-win-core-registry-l1-1-0.dll
+    api-ms-win-core-synch-l1-2-0.dll
+    api-ms-win-core-threadpool-l1-2-0.dll
+    api-ms-win-security-base-l1-1-0.dll
+    api-ms-win-core-sysinfo-l1-2-0.dll
+    api-ms-win-core-datetime-l1-1-0.dll
+    api-ms-win-core-io-l1-1-1.dll
+    api-ms-win-core-synch-l1-2-1.dll
+    api-ms-win-core-file-l1-1-0.dll
+    api-ms-win-core-processenvironment-l1-1-0.dll
+    api-ms-win-core-timezone-l1-1-0.dll
+    OLEAUT32.dll
+    api-ms-win-core-memory-l1-1-1.dll
+    api-ms-win-power-setting-l1-1-0.dll
+    api-ms-win-core-file-l1-2-4.dll
+    api-ms-win-core-path-l1-1-0.dll
+    api-ms-win-core-wow64-l1-1-0.dll
+    api-ms-win-core-string-l2-1-0.dll
+    api-ms-win-core-version-l1-1-0.dll
+    api-ms-win-core-memory-l1-1-0.dll
+    api-ms-win-core-version-l1-1-1.dll
+    api-ms-win-core-datetime-l1-1-2.dll
+    api-ms-win-core-datetime-l1-1-1.dll
+    api-ms-win-core-psapi-l1-1-0.dll
+    RPCRT4.dll
+    api-ms-win-core-sysinfo-l1-2-2.dll
+    api-ms-win-core-processtopology-l1-1-0.dll
+    api-ms-win-core-io-l1-1-0.dll
+    api-ms-win-core-file-l1-2-0.dll
+    api-ms-win-core-sysinfo-l1-2-1.dll
+    api-ms-win-core-localization-l2-1-0.dll
+    api-ms-win-core-string-l2-1-1.dll
+    api-ms-win-core-processthreads-l1-1-3.dll
+    api-ms-win-core-winrt-error-l1-1-0.dll
+    api-ms-win-core-kernel32-legacy-l1-1-0.dll
+    api-ms-win-core-threadpool-legacy-l1-1-0.dll
+    api-ms-win-core-shlwapi-legacy-l1-1-0.dll
+    api-ms-win-perf-legacy-l1-1-0.dll
+    api-ms-win-core-windowserrorreporting-l1-1-3.dll
+    api-ms-win-core-pcw-l1-1-0.dll
+    NSI.dll
+    api-ms-win-core-atoms-l1-1-0.dll
+    COMCTL32.dll
+    ntdll.dll
+    SHLWAPI.dll
+    SHELL32.dll
+    credui.dll
+    GDI32.dll
+    USER32.dll
+    DUser.dll
+    DUI70.dll
+    UxTheme.dll
+    VDMDBG.dll
+    dwmapi.dll
+    api-ms-win-core-appcompat-l1-1-1.dll
+    pdh.dll
+    dxcore.dll
+    dxgi.dll
+    SETUPAPI.dll
+    d3d11.dll
+    d3d12.dll
+    SHCORE.dll
+    KERNEL32.dll
+    msvcp_win.dll
+    api-ms-win-core-delayload-l1-1-1.dll
+    api-ms-win-core-delayload-l1-1-0.dll
+    api-ms-win-core-file-l2-1-0.dll
+    api-ms-win-core-apiquery-l1-1-0.dll
+    api-ms-win-core-util-l1-1-0.dll
+
+  Section contains the following imports:
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+                6BEF80 Import Address Table
+                6C086C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   38 _initterm
+                   3F _register_thread_local_exe_atexit_callback
+                   39 _initterm_e
+                   16 _c_exit
+
+    api-ms-win-crt-private-l1-1-0.dll
+                6BEE4C Import Address Table
+                6C0738 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  3FA _o_malloc
+                  405 _o_memcpy_s
+                  420 _o_realloc
+                  42D _o_round
+                  452 _o_terminate
+                  458 _o_tolower
+                  45B _o_towupper
+                  469 _o_wcstod
+                  46C _o_wcstok_s
+                  46D _o_wcstol
+                  472 _o_wcstoul
+                   1C __current_exception
+                   1D __current_exception_context
+                   32 _except_handler4_common
+                  3DA _o_iswspace
+                  3D5 _o_iswdigit
+                  483 memmove
+                  3D0 _o_iswalpha
+                  3C7 _o_isdigit
+                  3B1 _o_free
+                  3A4 _o_floor
+                  306 _o__wcsnicmp
+                  395 _o_exit
+                  38A _o_ceil
+                  2FC _o__wcsicmp
+                  384 _o_bsearch
+                  370 _o_abort
+                  366 _o__wtol
+                  362 _o__wtoi
+                  2DD _o__ui64tow_s
+                    1 _CxxThrowException
+                  485 strchr
+                  48A wcsrchr
+                  489 wcschr
+                  48B wcsstr
+                   27 __std_type_info_compare
+                   26 __std_terminate
+                   10 __CxxFrameHandler3
+                  2B6 _o__strnicmp
+                  2AC _o__stricmp
+                  291 _o__set_new_mode
+                  28E _o__set_fmode
+                  28D _o__set_errno
+                  28B _o__set_app_type
+                  289 _o__seh_filter_exe
+                  281 _o__register_onexit_function
+                  273 _o__purecall
+                  167 _o__invalid_parameter_noinfo_noreturn
+                  166 _o__invalid_parameter_noinfo
+                  165 _o__initialize_wide_environment
+                  164 _o__initialize_onexit_table
+                  162 _o__i64tow_s
+                  140 _o__get_wide_winmain_command_line
+                  132 _o__get_errno
+                   EF _o__exit
+                   E8 _o__errno
+                   CF _o__crt_atexit
+                   CA _o__controlfp_s
+                   C9 _o__configure_wide_argv
+                   C7 _o__configthreadlocale
+                   47 _o__CIsqrt
+                   BB _o__cexit
+                   B9 _o__callnewh
+                   9B _o___stdio_common_vswscanf
+                   98 _o___stdio_common_vswprintf
+                   96 _o___stdio_common_vsprintf_s
+                   92 _o___stdio_common_vsnprintf_s
+                   90 _o___stdio_common_vfwprintf_s
+                   87 _o___std_exception_destroy
+                   86 _o___std_exception_copy
+                   7B _o___p__commode
+                   56 _o___acrt_iob_func
+                   52 _o____lc_codepage_func
+                   19 __RTDynamicCast
+                  481 memcmp
+                  482 memcpy
+
+    api-ms-win-crt-string-l1-1-0.dll
+                6BEF94 Import Address Table
+                6C0880 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   8E strncmp
+                   83 memset
+
+    api-ms-win-core-profile-l1-1-0.dll
+                6BEC78 Import Address Table
+                6C0564 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 QueryPerformanceCounter
+                    1 QueryPerformanceFrequency
+
+    api-ms-win-core-processthreads-l1-1-0.dll
+                6BEC0C Import Address Table
+                6C04F8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    D GetCurrentProcessId
+                   4D SetThreadPriority
+                    6 CreateThread
+                   20 GetProcessTimes
+                   10 GetCurrentThread
+                   2B GetThreadPriority
+                   37 ProcessIdToSessionId
+                   16 GetPriorityClass
+                   3D SetPriorityClass
+                    3 CreateProcessW
+                   14 GetExitCodeThread
+                   11 GetCurrentThreadId
+                   46 SetProcessShutdownParameters
+                   22 GetStartupInfoW
+                   55 TerminateProcess
+                    C GetCurrentProcess
+                   34 OpenProcessToken
+
+    api-ms-win-core-sysinfo-l1-1-0.dll
+                6BED8C Import Address Table
+                6C0678 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   1B GetTickCount64
+                    5 GetLocalTime
+                    F GetSystemDirectoryW
+                   21 GlobalMemoryStatusEx
+                   11 GetSystemInfo
+                   13 GetSystemTime
+                   1E GetVersionExW
+                    7 GetLogicalProcessorInformationEx
+                   16 GetSystemTimeAsFileTime
+                    3 GetComputerNameExW
+
+    api-ms-win-core-interlocked-l1-1-0.dll
+                6BEB48 Import Address Table
+                6C0434 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    9 InterlockedPushEntrySList
+                    0 InitializeSListHead
+
+    api-ms-win-core-debug-l1-1-0.dll
+                6BEA5C Import Address Table
+                6C0348 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    6 OutputDebugStringA
+                    7 OutputDebugStringW
+                    5 IsDebuggerPresent
+                    4 DebugBreak
+
+    api-ms-win-core-errorhandling-l1-1-0.dll
+                6BEA80 Import Address Table
+                6C036C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    4 GetErrorMode
+                    F SetUnhandledExceptionFilter
+                    7 RaiseException
+                   11 UnhandledExceptionFilter
+                    D SetLastError
+                    5 GetLastError
+                    C SetErrorMode
+
+    api-ms-win-core-processthreads-l1-1-1.dll
+                6BEC54 Import Address Table
+                6C0540 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   32 IsProcessorFeaturePresent
+                   1D GetProcessMitigationPolicy
+                   33 OpenProcess
+
+    api-ms-win-core-libraryloader-l1-2-0.dll
+                6BEB70 Import Address Table
+                6C045C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    D FreeLibrary
+                   12 GetModuleHandleA
+                   16 GetProcAddress
+                   14 GetModuleHandleExW
+                   11 GetModuleFileNameW
+                   10 GetModuleFileNameA
+                   1D LoadStringW
+                   15 GetModuleHandleW
+                   19 LoadLibraryExW
+
+    api-ms-win-core-heap-l1-1-0.dll
+                6BEB20 Import Address Table
+                6C040C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 GetProcessHeap
+                    2 HeapAlloc
+                    A HeapSetInformation
+                    9 HeapReAlloc
+                    B HeapSize
+                    6 HeapFree
+
+    api-ms-win-core-heap-l2-1-0.dll
+                6BEB3C Import Address Table
+                6C0428 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    3 LocalFree
+                    2 LocalAlloc
+
+    api-ms-win-core-handle-l1-1-0.dll
+                6BEB14 Import Address Table
+                6C0400 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    2 DuplicateHandle
+                    0 CloseHandle
+
+    api-ms-win-core-libraryloader-l1-2-1.dll
+                6BEB98 Import Address Table
+                6C0484 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   1A LoadLibraryW
+                   17 LoadLibraryA
+
+    api-ms-win-core-string-l1-1-0.dll
+                6BECDC Import Address Table
+                6C05C8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 CompareStringOrdinal
+                    0 CompareStringEx
+                    7 WideCharToMultiByte
+                    6 MultiByteToWideChar
+
+    api-ms-win-eventing-provider-l1-1-0.dll
+                6BEFA0 Import Address Table
+                6C088C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    4 EventSetInformation
+                    3 EventRegister
+                    9 EventWriteTransfer
+                    5 EventUnregister
+
+    api-ms-win-core-localization-l1-2-0.dll
+                6BEBA4 Import Address Table
+                6C0490 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    8 FormatMessageA
+                    9 FormatMessageW
+                   20 GetThreadUILanguage
+                   15 GetLocaleInfoW
+                   1F GetThreadPreferredUILanguages
+                   14 GetLocaleInfoEx
+
+    api-ms-win-core-synch-l1-1-0.dll
+                6BED04 Import Address Table
+                6C05F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 AcquireSRWLockExclusive
+                   1B InitializeSRWLock
+                    F DeleteCriticalSection
+                   24 ReleaseSRWLockExclusive
+                    5 CreateEventExW
+                   23 ReleaseMutex
+                    A CreateMutexW
+                   36 WaitForSingleObject
+                   1A InitializeCriticalSectionEx
+                   27 ResetEvent
+                   18 InitializeCriticalSection
+                   19 InitializeCriticalSectionAndSpinCount
+                    1 AcquireSRWLockShared
+                    9 CreateMutexExW
+                   25 ReleaseSRWLockShared
+                   21 OpenSemaphoreW
+                   37 WaitForSingleObjectEx
+                   11 EnterCriticalSection
+                   26 ReleaseSemaphore
+                    B CreateSemaphoreExW
+                   1F OpenEventW
+                   1D LeaveCriticalSection
+                    6 CreateEventW
+                   33 TryEnterCriticalSection
+                   29 SetEvent
+
+    api-ms-win-core-registry-l1-1-0.dll
+                6BEC8C Import Address Table
+                6C0578 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   1E RegOpenKeyExW
+                   21 RegQueryInfoKeyW
+                   25 RegQueryValueExW
+                    3 RegCreateKeyExW
+                   1B RegNotifyChangeKeyValue
+                   10 RegEnumValueW
+                   14 RegGetValueW
+                    0 RegCloseKey
+                   2E RegSetValueExW
+
+    api-ms-win-core-synch-l1-2-0.dll
+                6BED6C Import Address Table
+                6C0658 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   2E SleepConditionVariableCS
+                   39 WakeAllConditionVariable
+                   2D Sleep
+                   13 InitOnceBeginInitialize
+                   14 InitOnceComplete
+
+    api-ms-win-core-threadpool-l1-2-0.dll
+                6BEDD4 Import Address Table
+                6C06C0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   22 WaitForThreadpoolTimerCallbacks
+                    6 CloseThreadpoolTimer
+                    C CreateThreadpoolTimer
+                   1A SetThreadpoolTimer
+                   20 TrySubmitThreadpoolCallback
+
+    api-ms-win-security-base-l1-1-0.dll
+                6BEFD4 Import Address Table
+                6C08C0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   1E CopySid
+                   35 GetLengthSid
+                   15 AdjustTokenPrivileges
+                   4E IsWellKnownSid
+                   2C EqualSid
+                   23 CreateWellKnownSid
+                   67 SetTokenInformation
+                   1B CheckTokenMembership
+                   16 AllocateAndInitializeSid
+                   2E FreeSid
+                   42 GetTokenInformation
+
+    api-ms-win-core-sysinfo-l1-2-0.dll
+                6BEDB8 Import Address Table
+                6C06A4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    8 GetNativeSystemInfo
+                   10 GetSystemFirmwareTable
+
+    api-ms-win-core-datetime-l1-1-0.dll
+                6BEA40 Import Address Table
+                6C032C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    2 GetDateFormatW
+                    6 GetTimeFormatW
+
+    api-ms-win-core-io-l1-1-1.dll
+                6BEB5C Import Address Table
+                6C0448 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    2 CancelSynchronousIo
+
+    api-ms-win-core-synch-l1-2-1.dll
+                6BED84 Import Address Table
+                6C0670 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   34 WaitForMultipleObjects
+
+    api-ms-win-core-file-l1-1-0.dll
+                6BEAA0 Import Address Table
+                6C038C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   29 GetDriveTypeW
+                   4C ReadFile
+                   10 FindFirstChangeNotificationW
+                   1E FindVolumeClose
+                   30 GetFileSizeEx
+                   5E WriteFile
+                   18 FindNextChangeNotification
+                   1F FlushFileBuffers
+                   3A GetLongPathNameW
+                    D FindClose
+                   17 FindFirstVolumeW
+                    4 CreateDirectoryW
+                   4B QueryDosDeviceW
+                   37 GetLogicalDriveStringsW
+                   15 FindFirstFileW
+                   1B FindNextFileW
+                    E FindCloseChangeNotification
+                   32 GetFileType
+                   2C GetFileAttributesExW
+                    7 CreateFileW
+                    2 CompareFileTime
+                   1D FindNextVolumeW
+
+    api-ms-win-core-processenvironment-l1-1-0.dll
+                6BEBFC Import Address Table
+                6C04E8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 ExpandEnvironmentStringsA
+                    7 GetCurrentDirectoryW
+                    1 ExpandEnvironmentStringsW
+
+    api-ms-win-core-timezone-l1-1-0.dll
+                6BEDFC Import Address Table
+                6C06E8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 FileTimeToSystemTime
+                    A SystemTimeToFileTime
+                    B SystemTimeToTzSpecificLocalTime
+
+    OLEAUT32.dll
+                6BE664 Import Address Table
+                6BFF50 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                      Ordinal   411
+                      Ordinal    16
+                      Ordinal    26
+                      Ordinal     8
+                      Ordinal     9
+                      Ordinal     7
+                      Ordinal     2
+                      Ordinal     6
+                      Ordinal   201
+                      Ordinal   200
+
+    api-ms-win-core-memory-l1-1-1.dll
+                6BEBD0 Import Address Table
+                6C04BC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   26 SetProcessWorkingSetSize
+                   3B VirtualUnlock
+
+    api-ms-win-power-setting-l1-1-0.dll
+                6BEFC8 Import Address Table
+                6C08B4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    6 PowerSettingUnregisterNotification
+                    5 PowerSettingRegisterNotification
+
+    api-ms-win-core-file-l1-2-4.dll
+                6BEB04 Import Address Table
+                6C03F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   3F GetTempPath2W
+
+    api-ms-win-core-path-l1-1-0.dll
+                6BEBDC Import Address Table
+                6C04C8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    5 PathCchAppend
+                    7 PathCchCanonicalize
+                    9 PathCchCombine
+
+    api-ms-win-core-wow64-l1-1-0.dll
+                6BEE44 Import Address Table
+                6C0730 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    5 IsWow64Process
+
+    api-ms-win-core-string-l2-1-0.dll
+                6BECF0 Import Address Table
+                6C05DC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 CharLowerW
+                    4 CharUpperBuffW
+
+    api-ms-win-core-version-l1-1-0.dll
+                6BEE14 Import Address Table
+                6C0700 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 GetFileVersionInfoSizeExW
+                    0 GetFileVersionInfoExW
+                    5 VerQueryValueW
+
+    api-ms-win-core-memory-l1-1-0.dll
+                6BEBC8 Import Address Table
+                6C04B4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   20 ReadProcessMemory
+
+    api-ms-win-core-version-l1-1-1.dll
+                6BEE24 Import Address Table
+                6C0710 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    3 GetFileVersionInfoW
+                    2 GetFileVersionInfoSizeW
+
+    api-ms-win-core-datetime-l1-1-2.dll
+                6BEA54 Import Address Table
+                6C0340 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    3 GetDurationFormatEx
+
+    api-ms-win-core-datetime-l1-1-1.dll
+                6BEA4C Import Address Table
+                6C0338 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 GetDateFormatEx
+
+    api-ms-win-core-psapi-l1-1-0.dll
+                6BEC84 Import Address Table
+                6C0570 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   14 QueryFullProcessImageNameW
+
+    RPCRT4.dll
+                6BE690 Import Address Table
+                6BFF7C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  219 UuidCreate
+
+    api-ms-win-core-sysinfo-l1-2-2.dll
+                6BEDCC Import Address Table
+                6C06B8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    C GetProcessorSystemCycleTime
+
+    api-ms-win-core-processtopology-l1-1-0.dll
+                6BEC70 Import Address Table
+                6C055C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 GetProcessGroupAffinity
+
+    api-ms-win-core-io-l1-1-0.dll
+                6BEB54 Import Address Table
+                6C0440 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    4 DeviceIoControl
+
+    api-ms-win-core-file-l1-2-0.dll
+                6BEAFC Import Address Table
+                6C03E8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   47 GetVolumePathNamesForVolumeNameW
+
+    api-ms-win-core-sysinfo-l1-2-1.dll
+                6BEDC4 Import Address Table
+                6C06B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    B GetPhysicallyInstalledSystemMemory
+
+    api-ms-win-core-localization-l2-1-0.dll
+                6BEBC0 Import Address Table
+                6C04AC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    B GetNumberFormatEx
+
+    api-ms-win-core-string-l2-1-1.dll
+                6BECFC Import Address Table
+                6C05E8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    A SHLoadIndirectString
+
+    api-ms-win-core-processthreads-l1-1-3.dll
+                6BEC64 Import Address Table
+                6C0550 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   43 SetProcessInformation
+                   1C GetProcessInformation
+
+    api-ms-win-core-winrt-error-l1-1-0.dll
+                6BEE38 Import Address Table
+                6C0724 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   10 RoTransformError
+                    9 RoOriginateError
+
+    api-ms-win-core-kernel32-legacy-l1-1-0.dll
+                6BEB64 Import Address Table
+                6C0450 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   23 GetComputerNameW
+                   47 MulDiv
+
+    api-ms-win-core-threadpool-legacy-l1-1-0.dll
+                6BEDEC Import Address Table
+                6C06D8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    6 QueueUserWorkItem
+                    5 DeleteTimerQueueTimer
+                    2 CreateTimerQueueTimer
+
+    api-ms-win-core-shlwapi-legacy-l1-1-0.dll
+                6BECB4 Import Address Table
+                6C05A0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   26 PathIsPrefixW
+                   42 PathRemoveBlanksW
+                   56 SHExpandEnvironmentStringsW
+                   28 PathIsRelativeW
+                   4E PathStripPathW
+                   14 PathFileExistsW
+                   40 PathRemoveBackslashW
+                   1C PathGetArgsW
+                   44 PathRemoveExtensionW
+
+    api-ms-win-perf-legacy-l1-1-0.dll
+                6BEFB4 Import Address Table
+                6C08A0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    5 PerfOpenQueryHandle
+                    6 PerfQueryCounterData
+                    1 PerfCloseQueryHandle
+                    0 PerfAddCounters
+
+    api-ms-win-core-windowserrorreporting-l1-1-3.dll
+                6BEE30 Import Address Table
+                6C071C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    2 RegisterApplicationRestart
+
+    api-ms-win-core-pcw-l1-1-0.dll
+                6BEBEC Import Address Table
+                6C04D8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    2 PcwCollectData
+                    0 PcwAddQueryItem
+                    5 PcwCreateQuery
+
+    NSI.dll
+                6BE658 Import Address Table
+                6BFF44 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    A NsiGetAllParameters
+                    E NsiGetParameter
+
+    api-ms-win-core-atoms-l1-1-0.dll
+                6BEA34 Import Address Table
+                6C0320 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 AddAtomW
+                    2 DeleteAtom
+
+    COMCTL32.dll
+                6BE000 Import Address Table
+                6BF8EC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   51 ImageList_CoCreateInstance
+
+    ntdll.dll
+                6BF158 Import Address Table
+                6C0A44 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  60D RtlUnsubscribeWnfNotificationWaitForCompletion
+                  213 NtQueryWnfStateData
+                  5D6 RtlSubscribeWnfStateChangeNotification
+                  50F RtlNumberOfSetBitsUlongPtr
+                  1CC NtPowerInformation
+                  20B NtQuerySystemInformation
+                  5DF RtlTimeToElapsedTimeFields
+                   9A LdrQueryProcessModuleInformation
+                   34 EtwCheckCoverage
+                  507 RtlNtStatusToDosError
+                  1F0 NtQueryInformationThread
+                  471 RtlInitUnicodeString
+                  20F NtQueryTimerResolution
+                  1FD NtQueryObject
+                  1EB NtQueryInformationFile
+                  49D RtlIpv4AddressToStringExW
+                  4A5 RtlIpv6AddressToStringExW
+                  1EE NtQueryInformationProcess
+                  259 NtSetInformationFile
+                  2E8 RtlAllocateHeap
+                  828 ZwQueryWnfStateData
+                  25E NtSetInformationProcess
+                  325 RtlCompareUnicodeString
+                  508 RtlNtStatusToDosErrorNoTeb
+                  1F1 NtQueryInformationToken
+                  1B0 NtOpenFile
+                  30C RtlCheckPortableOperatingSystem
+                  58A RtlSecondsSince1970ToTime
+                  45D RtlImageNtHeader
+                  3FD RtlFreeHeap
+
+    SHLWAPI.dll
+                6BE714 Import Address Table
+                6C0000 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  157 StrToIntExW
+                      Ordinal   548
+                      Ordinal   199
+                      Ordinal   219
+                  142 StrRChrIW
+                   87 PathRemoveArgsW
+                   AE SHCreateStreamOnFileEx
+                   AF SHCreateStreamOnFileW
+                      Ordinal   278
+                  148 StrRetToBufW
+                  15A StrTrimW
+                      Ordinal   176
+                      Ordinal    16
+                    8 AssocQueryStringW
+                   65 PathIsNetworkPathW
+                      Ordinal   437
+                  152 StrStrW
+                      Ordinal   618
+                  14F StrStrIW
+
+    SHELL32.dll
+                6BE6B4 Import Address Table
+                6BFFA0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  16F SHGetStockIconInfo
+                  1BC Shell_NotifyIconW
+                  165 SHGetPropertyStoreForWindow
+                  14A SHGetFileInfoW
+                  151 SHGetIDListFromObject
+                      Ordinal     4
+                      Ordinal     2
+                  158 SHGetKnownFolderIDList
+                      Ordinal   727
+                    9 CommandLineToArgvW
+                  15A SHGetKnownFolderPath
+                  134 SHEvaluateSystemCommandTemplate
+                  1B0 ShellExecuteW
+                  1AF ShellExecuteExW
+                      Ordinal    75
+                  184 SHParseDisplayName
+                  180 SHOpenFolderAndSelectItems
+                      Ordinal    61
+                   86 SHBindToParent
+                      Ordinal   155
+                   2D DuplicateIcon
+                  159 SHGetKnownFolderItem
+                  1B6 Shell_GetCachedImageIndexW
+
+    credui.dll
+                6BF004 Import Address Table
+                6C08F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    A CredUIPromptForCredentialsW
+
+    GDI32.dll
+                6BE5C8 Import Address Table
+                6BFEB4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  28B GetDeviceCaps
+                   53 CreateRectRgn
+                   37 CreateDIBSection
+                   F3 D3DKMTQueryAdapterInfo
+                   D5 D3DKMTOpenAdapterFromLuid
+                  2CE GetStockObject
+                   5A CreateSolidBrush
+                  332 Rectangle
+                  2F9 LineTo
+                  30D MoveToEx
+                   4F CreatePen
+                  2E2 GetTextExtentPointW
+                  374 SelectObject
+                  283 GetCurrentObject
+                   13 BitBlt
+                   6D D3DKMTCloseAdapter
+                  1F7 GdiAlphaBlend
+                  3B0 StretchBlt
+                  18C DeleteDC
+                  2BD GetObjectW
+                  1DB ExcludeClipRect
+                  39F SetStretchBltMode
+                   43 CreateFontIndirectW
+                  18F DeleteObject
+                  3A3 SetTextColor
+                  37B SetBkColor
+                  37C SetBkMode
+                   31 CreateCompatibleDC
+
+    USER32.dll
+                6BE764 Import Address Table
+                6C0050 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   F2 EndDialog
+                  332 SetDlgItemTextW
+                  39B SwitchToThisWindow
+                  27F MessageBeep
+                  16F GetLastActivePopup
+                  38F ShowWindowAsync
+                  150 GetDoubleClickTime
+                  13C GetCurrentInputMessageSource
+                  3A8 TrackPopupMenu
+                  220 InvalidateRect
+                   4F CloseClipboard
+                  322 SetClipboardData
+                   E8 EmptyClipboard
+                  298 OpenClipboard
+                  187 GetMessagePos
+                  1BD GetScrollPos
+                  2B4 PtInRect
+                  27B MapWindowPoints
+                   BA DialogBoxParamW
+                  190 GetParent
+                  158 GetForegroundWindow
+                  21C InsertMenuW
+                   72 CreatePopupMenu
+                  3A9 TrackPopupMenuEx
+                  2FF RemoveMenu
+                  2D7 RedrawWindow
+                  378 SetWindowLongW
+                  140 GetCursorPos
+                   76 CreateWindowExW
+                   51 CloseGestureInfoHandle
+                  15C GetGestureInfo
+                  339 SetGestureConfig
+                   B2 DestroyMenu
+                  1C3 GetSysColor
+                  39E SystemParametersInfoW
+                   5B CopyRect
+                  10B EqualRect
+                  24C IsZoomed
+                  2FB ReleaseDC
+                  141 GetDC
+                   B1 DestroyIcon
+                  259 LoadImageW
+                  1E7 GetWindowLongW
+                  168 GetKeyState
+                  1C7 GetSystemMetrics
+                  24D KillTimer
+                  2AB PostQuitMessage
+                  246 IsWindowEnabled
+                  29B OpenIcon
+                  1F5 GetWindowTextW
+                  244 IsWindow
+                  157 GetFocus
+                  301 RemovePropW
+                   A7 DefWindowProcW
+                  36C SetTimer
+                  317 SendMessageW
+                  257 LoadIconW
+                  2AA PostMessageW
+                  131 GetClientRect
+                  3C8 UpdateWindow
+                  38E ShowWindow
+                  177 GetMenu
+                  343 SetMenu
+                   2D ChangeWindowMessageFilterEx
+                  337 SetForegroundWindow
+                   77 CreateWindowInBand
+                  2DB RegisterClassExW
+                   44 CheckMenuRadioItem
+                  1C2 GetSubMenu
+                  17E GetMenuItemID
+                  17D GetMenuItemCount
+                   43 CheckMenuItem
+                   E9 EnableMenuItem
+                   AB DeleteMenu
+                  37A SetWindowPos
+                  18B GetMonitorInfoW
+                  28A MonitorFromPoint
+                  1EE GetWindowRect
+                   BD DispatchMessageW
+                  3AE TranslateMessage
+                  3AC TranslateAcceleratorW
+                  189 GetMessageW
+                  24F LoadAcceleratorsW
+                  287 MessageBoxW
+                  316 SendMessageTimeoutW
+                    8 AllowSetForegroundWindow
+                  1F6 GetWindowThreadProcessId
+                  114 FindWindowW
+                   B5 DestroyWindow
+                  14C GetDlgItem
+                   EF EnableWindow
+                  28C MonitorFromWindow
+                  1F4 GetWindowTextLengthW
+                  16D GetKeyboardState
+                  308 ScreenToClient
+                   6A CreateDialogParamW
+                  10A EnumWindows
+                   DE DrawTextW
+                  18E GetNextDlgTabItem
+                  37F SetWindowTextW
+                      Ordinal  2521
+                   D6 DrawIconEx
+                  154 GetDpiForWindow
+                  261 LoadMenuW
+                    C AppendMenuW
+                  180 GetMenuItemInfoW
+                  182 GetMenuState
+                  345 SetMenuDefaultItem
+                  3E2 WindowFromDC
+                  3E4 WindowFromPoint
+                  28F MsgWaitForMultipleObjectsEx
+                  2A6 PeekMessageW
+                   59 CopyIcon
+                  3B9 UnregisterClassW
+                  12D GetClassLongW
+                  12F GetClassNameW
+                  1DB GetWindow
+                  24A IsWindowVisible
+                  1F8 GhostWindowFromHungWindow
+                  232 IsHungAppWindow
+                  1FE HungWindowFromGhostWindow
+                  29A OpenDesktopW
+                  1CC GetThreadDesktop
+                  368 SetThreadDesktop
+                   F9 EnumDesktopWindows
+                   50 CloseDesktop
+                   FB EnumDesktopsW
+                  1AE GetProcessWindowStation
+                  151 GetDpiAwarenessContextForProcess
+                    D AreDpiAwarenessContextsEqual
+                  15D GetGuiResources
+                  2E1 RegisterDeviceNotificationW
+                  3BA UnregisterDeviceNotification
+                  14F GetDlgItemTextW
+                  1B1 GetPropW
+                  21E InternalGetWindowText
+                  1DC GetWindowBand
+                      Ordinal  2574
+                  1DD GetWindowCompositionAttribute
+                      Ordinal  2573
+                      Ordinal  2569
+                  2F9 RegisterWindowMessageW
+                  33D SetLayeredWindowAttributes
+                  1B0 GetPropA
+                  358 SetPropA
+                  300 RemovePropA
+                  37B SetWindowRgn
+                  11E GetAncestor
+                  335 SetFocus
+                  359 SetPropW
+                  17C GetMenuInfo
+                  346 SetMenuInfo
+                  349 SetMenuItemInfoW
+                  34A SetMessageExtraInfo
+                  186 GetMessageExtraInfo
+                  153 GetDpiForSystem
+                  1E2 GetWindowDpiAwarenessContext
+                   DD DrawTextExW
+                  233 IsIconic
+
+    DUser.dll
+                6BE5B8 Import Address Table
+                6BFEA4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   39 ForwardGadgetMessage
+                   4C GetGadgetRect
+                   87 SetGadgetStyle
+
+    DUI70.dll
+                6BE008 Import Address Table
+                6BF8F4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                 10D9 StrToID
+                  5CC ?FindDescendent@Element@DirectUI@@QAEPAV12@G@Z
+                  7A7 ?GetKeyFocusedElement@HWNDElement@DirectUI@@SGPAVElement@2@XZ
+                  E9F ?StartNavigate@Browser@DirectUI@@SG?AVUID@@XZ
+                  D85 ?SetForegroundColor@Element@DirectUI@@QAEJK@Z
+                  CF6 ?SetBackgroundColor@Element@DirectUI@@QAEJK@Z
+                  CFD ?SetBorderColor@Element@DirectUI@@QAEJK@Z
+                   98 ??0HWNDElement@DirectUI@@QAE@XZ
+                  197 ??1HWNDElement@DirectUI@@UAE@XZ
+                  54C ?Destroy@NativeHWNDHost@DirectUI@@QAEXXZ
+                  F44 ?WndProc@HWNDElement@DirectUI@@UAEJPAUHWND__@@IIJ@Z
+                  83F ?GetRoot@Element@DirectUI@@QAEPAV12@XZ
+                  76A ?GetHWND@HWNDElement@DirectUI@@UAEPAUHWND__@@XZ
+                  E9E ?StartDefer@Element@DirectUI@@QAEXPAK@Z
+                  5AD ?EndDefer@Element@DirectUI@@QAEXK@Z
+                  7A4 ?GetKeyFocused@Element@DirectUI@@UAE_NXZ
+                  419 ?Click@Button@DirectUI@@SG?AVUID@@XZ
+                  5D7 ?FireEvent@Element@DirectUI@@QAEXPAUEvent@2@_N1@Z
+                  AB9 ?OnInput@HWNDElement@DirectUI@@UAEXPAUInputEvent@2@@Z
+                  DAE ?SetLayoutPos@Element@DirectUI@@QAEJH@Z
+                  C82 ?Release@Value@DirectUI@@QAEXXZ
+                  744 ?GetExtent@Element@DirectUI@@QAEPBUtagSIZE@@PAPAVValue@2@@Z
+                  779 ?GetID@Element@DirectUI@@QAEGXZ
+                  A01 ?KeyboardNavigate@Element@DirectUI@@SG?AVUID@@XZ
+                  A89 ?OnEvent@HWNDElement@DirectUI@@UAEXPAUEvent@2@@Z
+                  A7E ?OnDestroy@HWNDElement@DirectUI@@UAEXXZ
+                  549 ?Destroy@Element@DirectUI@@QAEJ_N@Z
+                  49B ?Create@NativeHWNDHost@DirectUI@@SGJPBGPAUHWND__@@PAUHICON__@@HHHHHHIPAPAV12@@Z
+                  76C ?GetHWND@NativeHWNDHost@DirectUI@@QAEPAUHWND__@@XZ
+                  967 ?Initialize@HWNDElement@DirectUI@@QAEJPAUHWND__@@_NIPAVElement@2@PAK@Z
+                  CE5 ?SetAccessible@Element@DirectUI@@QAEJ_N@Z
+                  CE2 ?SetAccRole@Element@DirectUI@@QAEJH@Z
+                  E5B ?SetVisible@Element@DirectUI@@QAEJ_N@Z
+                  90E ?Host@NativeHWNDHost@DirectUI@@QAEXPAVElement@2@@Z
+                  E87 ?ShowWindow@NativeHWNDHost@DirectUI@@QAEXH@Z
+                  4FB ?CreateElement@DUIXmlParser@DirectUI@@QAEJPBGPAVElement@2@1PAKPAPAV32@@Z
+                  474 ?Create@DUIXmlParser@DirectUI@@SGJPAPAV12@P6GPAVValue@2@PBGPAX@Z2P6GX11H2@Z2@Z
+                  E67 ?SetXMLFromResource@DUIXmlParser@DirectUI@@QAEJIPAUHINSTANCE__@@0@Z
+                  548 ?Destroy@DUIXmlParser@DirectUI@@QAEXXZ
+                 10AF DisableAnimations
+                 10B4 EnableAnimations
+                  3A6 ?ActivateTooltip@HWNDElement@DirectUI@@UAEXPAVElement@2@K@Z
+                 10C0 InitProcessPriv
+                 10C1 InitThread
+                 10DF UnInitThread
+                  7B1 ?GetLayoutPos@Element@DirectUI@@QAEHXZ
+                  A00 ?KeyWithinProp@Element@DirectUI@@SGPBUPropertyInfo@2@XZ
+                  487 ?Create@GridLayout@DirectUI@@SGJHHPAPAVLayout@2@@Z
+                   A8 ??0IProvider@DirectUI@@QAE@XZ
+                  3DF ?AdviseEventRemoved@ElementProvider@DirectUI@@UAGJHPAUtagSAFEARRAY@@@Z
+                  3DD ?AdviseEventAdded@ElementProvider@DirectUI@@UAGJHPAUtagSAFEARRAY@@@Z
+                  FFB ?get_FragmentRoot@ElementProvider@DirectUI@@UAGJPAPAUIRawElementProviderFragmentRoot@@@Z
+                  D78 ?SetFocus@ElementProvider@DirectUI@@UAGJXZ
+                  738 ?GetEmbeddedFragmentRoots@ElementProvider@DirectUI@@UAGJPAPAUtagSAFEARRAY@@@Z
+                  FF4 ?get_BoundingRectangle@ElementProvider@DirectUI@@UAGJPAUUiaRect@@@Z
+                  846 ?GetRuntimeId@ElementProvider@DirectUI@@UAGJPAPAUtagSAFEARRAY@@@Z
+                  A5A ?Navigate@ElementProvider@DirectUI@@UAGJW4NavigateDirection@@PAPAUIRawElementProviderFragment@@@Z
+                  E80 ?ShowContextMenu@ElementProvider@DirectUI@@UAGJXZ
+                  FFF ?get_HostRawElementProvider@ElementProvider@DirectUI@@UAGJPAPAUIRawElementProviderSimple@@@Z
+                  80C ?GetPropertyValue@ElementProvider@DirectUI@@UAGJHPAUtagVARIANT@@@Z
+                 1007 ?get_ProviderOptions@ElementProvider@DirectUI@@UAGJPAW4ProviderOptions@@@Z
+                  EED ?TossElement@ElementProvider@DirectUI@@UAEXXZ
+                  BF0 ?QueryInterface@ElementProvider@DirectUI@@UAGJABU_GUID@@PAPAX@Z
+                  47A ?Create@ElementProvider@DirectUI@@SGJPAVElement@2@PAVInvokeHelper@2@PAPAV12@@Z
+                  48C ?Create@HWNDElementProvider@DirectUI@@SGJPAVHWNDElement@2@PAVInvokeHelper@2@PAPAV12@@Z
+                  5CA ?Find@ElementProviderManager@DirectUI@@SGPAVElementProvider@2@PAVElement@2@@Z
+                   DC ??0ProviderProxy@DirectUI@@IAE@XZ
+                   73 ??0ElementProxy@DirectUI@@IAE@XZ
+                  18B ??1ElementProvider@DirectUI@@UAE@XZ
+                   EC ??0RefcountBase@DirectUI@@QAE@XZ
+                   72 ??0ElementProvider@DirectUI@@QAE@XZ
+                  794 ?GetInvokeHelper@InvokeManager@DirectUI@@SGJPAPAVInvokeHelper@2@@Z
+                  93A ?Init@ProviderProxy@DirectUI@@MAEXPAVElement@2@@Z
+                  51B ?CreatePatternProvider@Schema@DirectUI@@SGJW4Pattern@12@PAVElementProvider@2@PAPAUIUnknown@@@Z
+                  9D6 ?IsPatternSupported@ElementProxy@DirectUI@@IAEJW4Pattern@Schema@2@PA_N@Z
+                  3C0 ?AddRef@ElementProvider@DirectUI@@UAGKXZ
+                  EEE ?TossPatternProvider@ElementProvider@DirectUI@@QAEXW4Pattern@Schema@2@@Z
+                  1B4 ??1RefcountBase@DirectUI@@UAE@XZ
+                  574 ?DoInvokeArgs@ElementProvider@DirectUI@@QAEJHP6GPAVProviderProxy@2@PAVElement@2@@ZPAD@Z
+                  725 ?GetElement@ElementProvider@DirectUI@@UAEPDVElement@2@XZ
+                  3C7 ?AddRef@RefcountBase@DirectUI@@QAEJXZ
+                  C7A ?Release@RefcountBase@DirectUI@@QAEJXZ
+                  92B ?Init@ElementProxy@DirectUI@@MAEXPAVElement@2@@Z
+                  57F ?DoMethod@ElementProxy@DirectUI@@UAEJHPAD@Z
+                  80B ?GetProperty@ElementProxy@DirectUI@@IAEJPAUtagVARIANT@@H@Z
+                  C73 ?Release@ElementProvider@DirectUI@@UAGKXZ
+                  929 ?Init@ElementProvider@DirectUI@@MAEJPAVElement@2@PAVInvokeHelper@2@@Z
+                  166 ??1AutoLock@DirectUI@@QAE@XZ
+                   16 ??0AutoLock@DirectUI@@QAE@PAU_RTL_CRITICAL_SECTION@@@Z
+                  572 ?DoInvoke@ElementProvider@DirectUI@@IAAJHZZ
+                  BC9 ?PatternFromPatternId@Schema@DirectUI@@SG?AW4Pattern@12@H@Z
+                  53A ?DataGridControlType@Schema@DirectUI@@2HA
+                  CCF ?SelectionPattern@Schema@DirectUI@@2HA
+                  EC6 ?TablePattern@Schema@DirectUI@@2HA
+                  9AD ?InvokePattern@Schema@DirectUI@@2HA
+                  EC3 ?TableItemPattern@Schema@DirectUI@@2HA
+                  9BC ?IsControlElementProperty@Schema@DirectUI@@2HA
+                  9B7 ?IsContentElementProperty@Schema@DirectUI@@2HA
+                  EF6 ?TreeItemControlType@Schema@DirectUI@@2HA
+                  A13 ?ListItemControlType@Schema@DirectUI@@2HA
+                  438 ?ControlTypeProperty@Schema@DirectUI@@2HA
+                  8E0 ?GridPattern@Schema@DirectUI@@2HA
+                  CCC ?SelectionItemPattern@Schema@DirectUI@@2HA
+                  5C0 ?ExpandCollapsePattern@Schema@DirectUI@@2HA
+                  8DA ?GridItemPattern@Schema@DirectUI@@2HA
+                  F02 ?UiaRaiseAutomationPropertyChangedEvent@Schema@DirectUI@@2P6GJPAUIRawElementProviderSimple@@HUtagVARIANT@@1@ZA
+                  603 ?GetAccessible@Element@DirectUI@@QAE_NXZ
+                  F39 ?WantPropertyEvent@EventManager@DirectUI@@SG_NH@Z
+                  5C5 ?FWantAnyEvent@EventManager@DirectUI@@SG_NPAVElement@2@@Z
+                 10BB GetScaleFactor
+                  104 ??0ScrollViewer@DirectUI@@QAE@XZ
+                  1BD ??1ScrollViewer@DirectUI@@UAE@XZ
+                  B31 ?OnPropertyChanging@BaseScrollViewer@DirectUI@@UAE_NPBUPropertyInfo@2@HPAVValue@2@1@Z
+                  B23 ?OnPropertyChanged@ScrollViewer@DirectUI@@UAEXPBUPropertyInfo@2@HPAVValue@2@1@Z
+                  A85 ?OnEvent@BaseScrollViewer@DirectUI@@UAEXPAUEvent@2@@Z
+                  3AB ?Add@BaseScrollViewer@DirectUI@@UAEJPAPAVElement@2@I@Z
+                  51F ?CreateScrollBars@ScrollViewer@DirectUI@@MAEJXZ
+                  3B8 ?AddChildren@ScrollViewer@DirectUI@@MAEJXZ
+                  AE1 ?OnListenerAttach@BaseScrollViewer@DirectUI@@UAEXPAVElement@2@@Z
+                  AE4 ?OnListenerDetach@BaseScrollViewer@DirectUI@@UAEXPAVElement@2@@Z
+                  ADE ?OnListenedPropertyChanging@BaseScrollViewer@DirectUI@@UAE_NPAVElement@2@PBUPropertyInfo@2@HPAVValue@2@2@Z
+                  ADA ?OnListenedPropertyChanged@ScrollViewer@DirectUI@@UAEXPAVElement@2@PBUPropertyInfo@2@HPAVValue@2@2@Z
+                  AD5 ?OnListenedInput@BaseScrollViewer@DirectUI@@UAEXPAVElement@2@PAUInputEvent@2@@Z
+                  AD2 ?OnListenedEvent@BaseScrollViewer@DirectUI@@UAEXPAVElement@2@PAUEvent@2@@Z
+                  673 ?GetClassInfoPtr@ScrollViewer@DirectUI@@SGPAUIClassInfo@2@XZ
+                  94F ?Initialize@BaseScrollViewer@DirectUI@@QAEJPAVElement@2@PAK@Z
+                  C53 ?Register@ScrollViewer@DirectUI@@SGJXZ
+                  AAC ?OnInput@BaseScrollViewer@DirectUI@@UAEXPAUInputEvent@2@@Z
+                  8CE ?GetXScrollable@BaseScrollViewer@DirectUI@@QAE_NXZ
+                  767 ?GetHScroll@ScrollViewer@DirectUI@@MAEPAVBaseScrollBar@2@XZ
+                  8B0 ?GetVScroll@ScrollViewer@DirectUI@@MAEPAVBaseScrollBar@2@XZ
+                  B42 ?OnReceivedDialogFocus@Button@DirectUI@@UAE_NPAUIDialogElement@2@@Z
+                  AE9 ?OnLostDialogFocus@Button@DirectUI@@UAE_NPAUIDialogElement@2@@Z
+                  53C ?DefaultAction@Button@DirectUI@@UAEJXZ
+                  AAD ?OnInput@Button@DirectUI@@UAEXPAUInputEvent@2@@Z
+                  645 ?GetClassInfoPtr@Button@DirectUI@@SGPAUIClassInfo@2@XZ
+                  16D ??1Button@DirectUI@@UAE@XZ
+                   2A ??0Button@DirectUI@@QAE@XZ
+                  54B ?Destroy@Layout@DirectUI@@QAEXXZ
+                  C24 ?Register@Button@DirectUI@@SGJXZ
+                  9FF ?KeyFocusedProp@Element@DirectUI@@SGPBUPropertyInfo@2@XZ
+                  B0D ?OnPropertyChanged@Button@DirectUI@@UAEXPBUPropertyInfo@2@HPAVValue@2@1@Z
+                  A52 ?MouseWithinProp@Element@DirectUI@@SGPBUPropertyInfo@2@XZ
+                  625 ?GetBackgroundColor@Element@DirectUI@@QAEPBUFill@2@PAPAVValue@2@@Z
+                  953 ?Initialize@Button@DirectUI@@QAEJIPAVElement@2@PAK@Z
+                  DAB ?SetLayout@Element@DirectUI@@QAEJPAVLayout@2@@Z
+                  4AD ?Create@RowLayout@DirectUI@@SGJHIIPAPAVLayout@2@@Z
+                  D81 ?SetFontStyle@Element@DirectUI@@QAEJH@Z
+                  D82 ?SetFontWeight@Element@DirectUI@@QAEJH@Z
+                  758 ?GetFontWeight@Element@DirectUI@@QAEHXZ
+                  7D0 ?GetMouseWithin@Element@DirectUI@@QAE_NXZ
+                  CE6 ?SetActive@Element@DirectUI@@QAEJH@Z
+                  D94 ?SetID@Element@DirectUI@@QAEJPBG@Z
+                  DF1 ?SetPressed@Button@DirectUI@@QAEJ_N@Z
+                  62B ?GetBoolFalse@Value@DirectUI@@SGPAV12@XZ
+                  6FE ?GetContentString@Element@DirectUI@@QAEPBGPAPAVValue@2@@Z
+                  CF0 ?SetAnimation@Element@DirectUI@@QAEJH@Z
+                  907 ?HeightProp@Element@DirectUI@@SGPBUPropertyInfo@2@XZ
+                  A06 ?LayoutPosProp@Element@DirectUI@@SGPBUPropertyInfo@2@XZ
+                  C92 ?RemoveLocalValue@Element@DirectUI@@QAEJP6GPBUPropertyInfo@2@XZ@Z
+                  901 ?HasPadding@Element@DirectUI@@QAE_NXZ
+                  8F9 ?HasBorder@Element@DirectUI@@QAE_NXZ
+                  8A7 ?GetType@Value@DirectUI@@QBEHXZ
+                  533 ?CustomProp@Element@DirectUI@@SGPBUPropertyInfo@2@XZ
+                  8B3 ?GetValue@Element@DirectUI@@QAEPAVValue@2@P6GPBUPropertyInfo@2@XZHPAUUpdateCache@2@@Z
+                  D0C ?SetClass@Element@DirectUI@@QAEJPBG@Z
+                  514 ?CreateInt@Value@DirectUI@@SGPAV12@HW4DynamicScaleValue@@@Z
+                  9C4 ?IsDestroyed@Element@DirectUI@@QAE_NXZ
+                  B04 ?OnNotify@HWNDHost@DirectUI@@UAE_NIIJPAJ@Z
+                  B1B ?OnPropertyChanged@HWNDHost@DirectUI@@UAEXPBUPropertyInfo@2@HPAVValue@2@1@Z
+                  661 ?GetClassInfoPtr@HWNDHost@DirectUI@@SGPAUIClassInfo@2@XZ
+                  C41 ?Register@HWNDHost@DirectUI@@SGJXZ
+                  ABA ?OnInput@HWNDHost@DirectUI@@UAEXPAUInputEvent@2@@Z
+                  C72 ?Release@Element@DirectUI@@QAGKXZ
+                  969 ?Initialize@HWNDHost@DirectUI@@QAEJIIPAVElement@2@PAK@Z
+                  19A ??1HWNDHost@DirectUI@@UAE@XZ
+                   9F ??0HWNDHost@DirectUI@@QAE@XZ
+                  739 ?GetEnabled@Element@DirectUI@@QAE_NXZ
+                  CE1 ?SetAccName@Element@DirectUI@@QAEJPBG@Z
+                  710 ?GetDPI@Element@DirectUI@@QAEHXZ
+                  D6E ?SetEnabled@Element@DirectUI@@QAEJ_N@Z
+                  F20 ?UpdateSheets@DUIXmlParser@DirectUI@@QAEJPAVElement@2@@Z
+                  DC2 ?SetMinSize@Element@DirectUI@@QAEJHH@Z
+                  9C1 ?IsDescendent@Element@DirectUI@@QAE_NPAV12@@Z
+                  3AC ?Add@Element@DirectUI@@QAEJPAV12@@Z
+                  CDD ?SetAccDesc@Element@DirectUI@@QAEJPBG@Z
+                  E48 ?SetTooltip@Element@DirectUI@@QAEJ_N@Z
+                  7BA ?GetLocation@Element@DirectUI@@QAEPBUtagPOINT@@PAPAVValue@2@@Z
+                  E64 ?SetX@Element@DirectUI@@QAEJH@Z
+                  7E3 ?GetPadding@Element@DirectUI@@QAEPBUtagRECT@@PAPAVValue@2@@Z
+                  630 ?GetBorderThickness@Element@DirectUI@@QAEPBUtagRECT@@PAPAVValue@2@@Z
+                  D50 ?SetContentAlign@Element@DirectUI@@QAEJH@Z
+                  431 ?ContentProp@Element@DirectUI@@SGPBUPropertyInfo@2@XZ
+                  E53 ?SetValue@Element@DirectUI@@QAEJP6GPBUPropertyInfo@2@XZHPAVValue@2@@Z
+                  505 ?CreateGraphic@Value@DirectUI@@SGPAV12@PAUHICON__@@_N11@Z
+                  65E ?GetClassInfoPtr@Expando@DirectUI@@SGPAUIClassInfo@2@XZ
+                   71 ??0Element@DirectUI@@QAE@XZ
+                  F93 ?_PostEvent@Element@DirectUI@@AAEXPAUEvent@2@H@Z
+                  C3B ?Register@Element@DirectUI@@SGJXZ
+                  E6E ?SetXScrollable@BaseScrollViewer@DirectUI@@QAEJ_N@Z
+                  DD8 ?SetPadding@Element@DirectUI@@QAEJHHHH@Z
+                  E6C ?SetXOffset@BaseScrollViewer@DirectUI@@QAEJH@Z
+                  F4A ?XOffsetProp@BaseScrollViewer@DirectUI@@SGPBUPropertyInfo@2@XZ
+                  E7A ?ShiftChild@Element@DirectUI@@QAEJII@Z
+                  75A ?GetForegroundColor@Element@DirectUI@@QAEPBUFill@2@PAPAVValue@2@@Z
+                  853 ?GetSelected@Element@DirectUI@@QAE_NXZ
+                  8BB ?GetVisible@Element@DirectUI@@QAE_NXZ
+                  961 ?Initialize@Element@DirectUI@@QAEJIPAV12@PAK@Z
+                  D93 ?SetHeight@Element@DirectUI@@QAEJH@Z
+                  999 ?Insert@Element@DirectUI@@QAEJPAV12@I@Z
+                  C87 ?Remove@Element@DirectUI@@QAEJPAV12@@Z
+                  86A ?GetSize@Value@DirectUI@@QAEPBUtagSIZE@@XZ
+                  5C4 ?ExtentProp@Element@DirectUI@@SGPBUPropertyInfo@2@XZ
+                  AB8 ?OnInput@Element@DirectUI@@UAEXPAUInputEvent@2@@Z
+                  718 ?GetDesiredSize@Element@DirectUI@@QAEPBUtagSIZE@@XZ
+                  78E ?GetInt@Value@DirectUI@@QAEHXZ
+                  8C0 ?GetWidth@Element@DirectUI@@QAEHXZ
+                  184 ??1DCSurface@DirectUI@@UAE@XZ
+                   66 ??0DCSurface@DirectUI@@QAE@PAUHDC__@@@Z
+                  E54 ?SetValue@Element@DirectUI@@QAEJPBUPropertyInfo@2@HPAVValue@2@@Z
+                  CE4 ?SetAccValue@Element@DirectUI@@QAEJPBG@Z
+                  E5E ?SetWidth@Element@DirectUI@@QAEJH@Z
+                  C91 ?RemoveListener@Element@DirectUI@@QAEXPAUIElementListener@2@@Z
+                  D53 ?SetContentString@Element@DirectUI@@QAEJPBG@Z
+                  936 ?Init@NavReference@DirectUI@@QAEXPAVElement@2@PAUtagRECT@@@Z
+                  7A8 ?GetKeyWithin@Element@DirectUI@@QAE_NXZ
+                  A87 ?OnEvent@Element@DirectUI@@UAEXPAUEvent@2@@Z
+                  3BB ?AddListener@Element@DirectUI@@QAEJPAUIElementListener@2@@Z
+                  18A ??1Element@DirectUI@@UAE@XZ
+                  B18 ?OnPropertyChanged@Element@DirectUI@@UAEXPBUPropertyInfo@2@HPAVValue@2@1@Z
+                  A7D ?OnDestroy@Element@DirectUI@@UAEXXZ
+                  604 ?GetAccessibleImpl@Element@DirectUI@@UAEJPAPAUIAccessible@@@Z
+                  5C1 ?ExpandCollapse_ExpandCollapseState_Property@Schema@DirectUI@@2HA
+                  E13 ?SetSelected@Element@DirectUI@@QAEJ_N@Z
+                  4EB ?CreateBool@Value@DirectUI@@SGPAV12@_N@Z
+                  D74 ?SetExpanded@Expandable@DirectUI@@QAEJ_N@Z
+                  741 ?GetExpanded@Expandable@DirectUI@@QAE_NXZ
+                  E9A ?SortChildren@Element@DirectUI@@QAEJP6AHPBX0@Z@Z
+                  62A ?GetBool@Value@DirectUI@@QAE_NXZ
+                  8B4 ?GetValue@Element@DirectUI@@QAEPAVValue@2@PBUPropertyInfo@2@HPAUUpdateCache@2@@Z
+                  8FA ?HasChildren@Element@DirectUI@@QAE_NXZ
+                  63D ?GetChildren@Element@DirectUI@@QAEPAV?$DynamicArray@PAVElement@DirectUI@@$0A@@2@PAPAVValue@2@@Z
+                  65B ?GetClassInfoPtr@Element@DirectUI@@SGPAUIClassInfo@2@XZ
+                  63E ?GetClass@Element@DirectUI@@QAEPBGPAPAVValue@2@@Z
+                  787 ?GetIndex@Element@DirectUI@@QAEHXZ
+                  176 ??1CCListView@DirectUI@@UAE@XZ
+                  BDA ?PostCreate@CCBase@DirectUI@@MAEXPAUHWND__@@@Z
+                  B43 ?OnReceivedDialogFocus@CCBase@DirectUI@@UAE_NPAUIDialogElement@2@@Z
+                  AEA ?OnLostDialogFocus@CCBase@DirectUI@@UAE_NPAUIDialogElement@2@@Z
+                  A78 ?OnCustomDraw@CCBase@DirectUI@@UAE_NPAUtagNMCUSTOMDRAWINFO@@PAJ@Z
+                  5B9 ?EraseBkgnd@HWNDHost@DirectUI@@MAE_NPAUHDC__@@PAJ@Z
+                  E62 ?SetWindowDirection@HWNDHost@DirectUI@@UAEXPAUHWND__@@@Z
+                  B62 ?OnWindowStyleChanged@HWNDHost@DirectUI@@UAEXIPBUtagSTYLESTRUCT@@@Z
+                  A77 ?OnCtrlThemeChanged@HWNDHost@DirectUI@@UAE_NIIJPAJ@Z
+                  B53 ?OnSinkThemeChanged@HWNDHost@DirectUI@@UAE_NIIJPAJ@Z
+                  B55 ?OnSysChar@HWNDHost@DirectUI@@UAE_NG@Z
+                  53D ?DefaultAction@CCBase@DirectUI@@UAEJXZ
+                  607 ?GetAccessibleImpl@HWNDHost@DirectUI@@UAEJPAPAUIAccessible@@@Z
+                  7A5 ?GetKeyFocused@HWNDHost@DirectUI@@UAE_NXZ
+                  C97 ?RemoveTooltip@Element@DirectUI@@MAEXPAV12@@Z
+                  3A5 ?ActivateTooltip@Element@DirectUI@@MAEXPAV12@K@Z
+                  F24 ?UpdateTooltip@Element@DirectUI@@MAEXPAV12@@Z
+                  B5C ?OnUnHosted@HWNDHost@DirectUI@@MAEXPAVElement@2@@Z
+                  AA1 ?OnHosted@HWNDHost@DirectUI@@MAEXPAVElement@2@@Z
+                  A47 ?MessageCallback@HWNDHost@DirectUI@@UAEIPAUtagGMSG@@@Z
+                  6F3 ?GetContentSize@CCListView@DirectUI@@UAE?AUtagSIZE@@HHPAVSurface@2@@Z
+                  B7C ?Paint@HWNDHost@DirectUI@@UAEXPAUHDC__@@PBUtagRECT@@1PAU4@2@Z
+                  A8A ?OnEvent@HWNDHost@DirectUI@@UAEXPAUEvent@2@@Z
+                  A7F ?OnDestroy@HWNDHost@DirectUI@@UAEXXZ
+                  A9D ?OnGroupChanged@Element@DirectUI@@UAEXH_N@Z
+                  B0E ?OnPropertyChanged@CCBase@DirectUI@@UAEXPBUPropertyInfo@2@HPAVValue@2@1@Z
+                  64E ?GetClassInfoPtr@CCListView@DirectUI@@SGPAUIClassInfo@2@XZ
+                  C2D ?Register@CCListView@DirectUI@@SGJXZ
+                  D01 ?SetBorderThickness@Element@DirectUI@@QAEJHHHH@Z
+                  AAE ?OnInput@CCBase@DirectUI@@UAEXPAUInputEvent@2@@Z
+                  7EC ?GetParent@Element@DirectUI@@QAEPAV12@XZ
+                  71E ?GetDisplayNode@Element@DirectUI@@QAEPAUHGADGET__@@XZ
+                  DA6 ?SetKeyFocus@HWNDHost@DirectUI@@UAEXXZ
+                  AFD ?OnNotify@CCBase@DirectUI@@UAE_NIIJPAJ@Z
+                  AF5 ?OnMessage@HWNDHost@DirectUI@@UAE_NIIJPAJ@Z
+                  841 ?GetRootRelativeBounds@Element@DirectUI@@QAEJPAUtagRECT@@@Z
+                  A6F ?OnAdjustWindowSize@HWNDHost@DirectUI@@UAEHHHI@Z
+                  76B ?GetHWND@HWNDHost@DirectUI@@UAEPAUHWND__@@XZ
+                  E5F ?SetWinStyle@CCBase@DirectUI@@QAEJH@Z
+                  956 ?Initialize@CCListView@DirectUI@@QAEJIPAVElement@2@PAK@Z
+                  50A ?CreateHWND@CCBase@DirectUI@@UAEPAUHWND__@@PAU3@@Z
+                   44 ??0CCListView@DirectUI@@QAE@XZ
+                  3EA ?AssertPIZeroRef@ClassInfoBase@DirectUI@@UBEXXZ
+                  63C ?GetChildren@ClassInfoBase@DirectUI@@UBEHXZ
+                  C8E ?RemoveChild@ClassInfoBase@DirectUI@@UAEXXZ
+                  3B7 ?AddChild@ClassInfoBase@DirectUI@@UAEXXZ
+                  9CB ?IsGlobal@ClassInfoBase@DirectUI@@UBE_NXZ
+                  7CD ?GetModule@ClassInfoBase@DirectUI@@UBEPAUHINSTANCE__@@XZ
+                  9F2 ?IsSubclassOf@ClassInfoBase@DirectUI@@UBE_NPAUIClassInfo@2@@Z
+                  9F7 ?IsValidProperty@ClassInfoBase@DirectUI@@UBE_NPBUPropertyInfo@2@@Z
+                  7D6 ?GetName@ClassInfoBase@DirectUI@@UBEPBGXZ
+                  763 ?GetGlobalIndex@ClassInfoBase@DirectUI@@UBEIXZ
+                  7E1 ?GetPICount@ClassInfoBase@DirectUI@@UBEIXZ
+                  636 ?GetByClassIndex@ClassInfoBase@DirectUI@@UAEPBUPropertyInfo@2@I@Z
+                  5B8 ?EnumPropertyInfo@ClassInfoBase@DirectUI@@UAEPBUPropertyInfo@2@I@Z
+                  C70 ?Release@ClassInfoBase@DirectUI@@UAEHXZ
+                  3BD ?AddRef@ClassInfoBase@DirectUI@@UAEXXZ
+                  F8E ?_OnUIStateChanged@HWNDElement@DirectUI@@MAEXGG@Z
+                  8C6 ?GetWindowClassNameAndStyle@HWNDElement@DirectUI@@UAEXPAPBGPAI@Z
+                  9D0 ?IsMSAAEnabled@HWNDElement@DirectUI@@UAE_NXZ
+                  406 ?CanSetFocus@HWNDElement@DirectUI@@UAE_NXZ
+                  A76 ?OnCompositionChanged@HWNDElement@DirectUI@@UAEXXZ
+                  B66 ?OnWmSettingChanged@HWNDElement@DirectUI@@UAEXIJ@Z
+                  B67 ?OnWmThemeChanged@HWNDElement@DirectUI@@UAEXIJ@Z
+                  A9C ?OnGetDlgCode@HWNDElement@DirectUI@@UAEXPAUtagMSG@@PAJ@Z
+                  AFB ?OnNoChildWithShortcutFound@HWNDElement@DirectUI@@UAEXPAUKeyboardEvent@2@@Z
+                  AAB ?OnImmersiveColorSchemeChanged@HWNDElement@DirectUI@@UAEXXZ
+                  8AC ?GetUiaFocusDelegate@Element@DirectUI@@UAEPAV12@XZ
+                  8F4 ?HandleUiaEventListener@Element@DirectUI@@UAEXPAUEvent@2@@Z
+                  8F5 ?HandleUiaPropertyChangingListener@Element@DirectUI@@UAEXPBUPropertyInfo@2@@Z
+                  8F6 ?HandleUiaPropertyListener@Element@DirectUI@@UAEXPBUPropertyInfo@2@HPAVValue@2@1@Z
+                  8F3 ?HandleUiaDestroyListener@Element@DirectUI@@UAEXXZ
+                  72F ?GetElementProviderImpl@Element@DirectUI@@UAEJPAVInvokeHelper@2@PAPAVElementProvider@2@@Z
+                  8AA ?GetUIAElementProvider@Element@DirectUI@@UAEJABU_GUID@@PAPAX@Z
+                  53F ?DefaultAction@Element@DirectUI@@UAEJXZ
+                  605 ?GetAccessibleImpl@HWNDElement@DirectUI@@UAEJPAPAUIAccessible@@@Z
+                  C98 ?RemoveTooltip@HWNDElement@DirectUI@@UAEXPAVElement@2@@Z
+                  F25 ?UpdateTooltip@HWNDElement@DirectUI@@UAEXPAVElement@2@@Z
+                  B5B ?OnUnHosted@Element@DirectUI@@MAEXPAV12@@Z
+                  AA0 ?OnHosted@Element@DirectUI@@MAEXPAV12@@Z
+                  FAE ?_SelfLayoutUpdateDesiredSize@Element@DirectUI@@MAE?AUtagSIZE@@HHPAVSurface@2@@Z
+                  FA9 ?_SelfLayoutDoLayout@Element@DirectUI@@MAEXHH@Z
+                  783 ?GetImmersiveFocusRectOffsets@Element@DirectUI@@UAEXPAUtagRECT@@@Z
+                  BEF ?QueryInterface@Element@DirectUI@@UAGJABU_GUID@@PAPAX@Z
+                  A46 ?MessageCallback@Element@DirectUI@@UAEIPAUtagGMSG@@@Z
+                  C8D ?RemoveBehavior@Element@DirectUI@@UAEJPAUIDuiBehavior@@@Z
+                  3B6 ?AddBehavior@Element@DirectUI@@UAEJPAUIDuiBehavior@@@Z
+                  DA5 ?SetKeyFocus@Element@DirectUI@@UAEXXZ
+                  5B2 ?EnsureVisible@Element@DirectUI@@UAE_NHHHH@Z
+                  60E ?GetAdjacent@Element@DirectUI@@UAEPAV12@PAV12@HPBUNavReference@2@K@Z
+                  C88 ?Remove@Element@DirectUI@@UAEJPAPAV12@I@Z
+                  99A ?Insert@Element@DirectUI@@UAEJPAPAV12@II@Z
+                  3AE ?Add@Element@DirectUI@@UAEJPAPAV12@I@Z
+                  6FA ?GetContentSize@Element@DirectUI@@UAE?AUtagSIZE@@HHPAVSurface@2@@Z
+                  B7B ?Paint@Element@DirectUI@@UAEXPAUHDC__@@PBUtagRECT@@1PAU4@2@Z
+                  AFA ?OnMouseFocusMoved@Element@DirectUI@@UAEXPAV12@0@Z
+                  AC9 ?OnKeyFocusMoved@Element@DirectUI@@UAEXPAV12@0@Z
+                  A9E ?OnGroupChanged@HWNDElement@DirectUI@@UAEXH_N@Z
+                  B17 ?OnPropertyChanged@Element@DirectUI@@UAEXPAUPropertyInfo@2@HPAVValue@2@1@Z
+                  B1A ?OnPropertyChanged@HWNDElement@DirectUI@@UAEXPBUPropertyInfo@2@HPAVValue@2@1@Z
+                  B34 ?OnPropertyChanging@Element@DirectUI@@UAE_NPAUPropertyInfo@2@HPAVValue@2@1@Z
+                  B35 ?OnPropertyChanging@Element@DirectUI@@UAE_NPBUPropertyInfo@2@HPAVValue@2@1@Z
+                  700 ?GetContentStringAsDisplayed@Element@DirectUI@@UAEPBGPAPAVValue@2@@Z
+                  9B9 ?IsContentProtected@Element@DirectUI@@UAE_NXZ
+                  9E9 ?IsRTL@Element@DirectUI@@QAE_NXZ
+                  9EA ?IsRTLReading@Element@DirectUI@@UAE_NXZ
+                  180 ??1ClassInfoBase@DirectUI@@UAE@XZ
+                   5E ??0ClassInfoBase@DirectUI@@QAE@XZ
+                  660 ?GetClassInfoPtr@HWNDElement@DirectUI@@SGPAUIClassInfo@2@XZ
+                  95A ?Initialize@ClassInfoBase@DirectUI@@QAEJPAUHINSTANCE__@@PBG_NPBQBUPropertyInfo@2@I@Z
+                  C36 ?Register@ClassInfoBase@DirectUI@@QAEJXZ
+                  413 ?ClassExist@ClassInfoBase@DirectUI@@SG_NPAPAUIClassInfo@2@PBQBUPropertyInfo@2@IPAU32@PAUHINSTANCE__@@PBG_N@Z
+                  183 ??1CritSecLock@DirectUI@@QAE@XZ
+                  746 ?GetFactoryLock@Element@DirectUI@@SGPAU_RTL_CRITICAL_SECTION@@XZ
+                   64 ??0CritSecLock@DirectUI@@QAE@PAU_RTL_CRITICAL_SECTION@@@Z
+                  C40 ?Register@HWNDElement@DirectUI@@SGJXZ
+                  B58 ?OnThemeChanged@HWNDElement@DirectUI@@UAEXPAUThemeChangedEvent@2@@Z
+                 10DE UnInitProcessPriv
+
+    UxTheme.dll
+                6BE9E4 Import Address Table
+                6C02D0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   2A GetThemeColor
+                   4D OpenThemeData
+                    9 CloseThemeData
+                    2 BeginPanningFeedback
+                   51 SetWindowTheme
+                      Ordinal   138
+                      Ordinal   135
+                   2F GetThemeInt
+                   54 UpdatePanningFeedback
+                   19 EndPanningFeedback
+
+    VDMDBG.dll
+                6BEA10 Import Address Table
+                6C02FC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    2 VDMEnumProcessWOW
+                   1B VDMTerminateTaskWOW
+                    4 VDMEnumTaskWOWEx
+
+    dwmapi.dll
+                6BF01C Import Address Table
+                6C0908 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   1B DwmSetWindowAttribute
+
+    api-ms-win-core-appcompat-l1-1-1.dll
+                6BEA28 Import Address Table
+                6C0314 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    5 BaseFreeAppCompatDataForProcess
+                    8 BaseReadAppCompatDataForProcess
+
+    pdh.dll
+                6BF1D4 Import Address Table
+                6C0AC0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   42 PdhGetRawCounterArrayW
+                    E PdhCollectQueryData
+                    D PdhCloseQuery
+                   50 PdhOpenQueryW
+                    1 PdhAddCounterW
+                   3C PdhGetFormattedCounterArrayW
+
+    dxcore.dll
+                6BF024 Import Address Table
+                6C0910 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 DXCoreCreateAdapterFactory
+
+    dxgi.dll
+                6BF02C Import Address Table
+                6C0918 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    A DXGIDeclareAdapterRemovalSupport
+                    5 CreateDXGIFactory2
+
+    SETUPAPI.dll
+                6BE698 Import Address Table
+                6BFF84 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  170 SetupDiGetDevicePropertyW
+                  140 SetupDiEnumDeviceInfo
+                  154 SetupDiGetClassDevsW
+
+    d3d11.dll
+                6BF00C Import Address Table
+                6C08F8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    6 D3D11CreateDevice
+
+    d3d12.dll
+                6BF014 Import Address Table
+                6C0900 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                      Ordinal   101
+
+    SHCORE.dll
+                6BE6A8 Import Address Table
+                6BFF94 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                      Ordinal   244
+                    8 GetDpiForMonitor
+
+    KERNEL32.dll
+                6BE63C Import Address Table
+                6BFF28 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  352 GlobalGetAtomNameW
+                  28B GetModuleHandleExA
+                  2A9 GetNumberFormatW
+                  1C6 GetActiveProcessorGroupCount
+                  2C5 GetProcessAffinityMask
+                  55C SetProcessAffinityMask
+
+    msvcp_win.dll
+                6BF038 Import Address Table
+                6C0924 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  359 ?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+                  4BE ?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z
+                  24A ?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ
+                    C ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
+                   13 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+                  461 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z
+                  368 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
+                  3C6 ?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+                  447 ?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+                  36B ?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z
+                   89 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ
+                  228 ?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+                  27F ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+                  4D5 ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ
+                  51B ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+                  543 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
+                  546 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
+                  4B5 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z
+                  4FD ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+                  3F6 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
+                   7D ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ
+                   80 ??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ
+                  591 _Query_perf_frequency
+                  5B6 _Thrd_sleep
+                  590 _Query_perf_counter
+                  5CC _Xtime_get_ticks
+                  293 ?__ExceptionPtrAssign@@YAXPAXPBX@Z
+                  297 ?__ExceptionPtrCreate@@YAXPAX@Z
+                  350 ?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+                  295 ?__ExceptionPtrCopy@@YAXPAXPBX@Z
+                  299 ?__ExceptionPtrDestroy@@YAXPAX@Z
+                  298 ?__ExceptionPtrCurrentException@@YAXPAX@Z
+                  29A ?__ExceptionPtrRethrow@@YAXPBX@Z
+                  28D ?_Xinvalid_argument@std@@YAXPBD@Z
+                   6D ??0_Lockit@std@@QAE@H@Z
+                   A5 ??1_Lockit@std@@QAE@XZ
+                  376 ?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEHXZ
+                  5C9 _Wcsxfrm
+                  20F ?_Init@locale@std@@CAPAV_Locimp@12@_N@Z
+                  1D5 ?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ
+                  3D0 ?id@?$ctype@G@std@@2V0locale@2@A
+                  3CD ?id@?$collate@G@std@@2V0locale@2@A
+                  291 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
+                  29F ?c_str@?$_Yarn@D@std@@QBEPBDXZ
+                  1B7 ?_Getcat@?$ctype@G@std@@SAIPAPBVfacet@locale@2@PBV42@@Z
+                  512 ?tolower@?$ctype@G@std@@QBEPBGPAGPBG@Z
+                  511 ?tolower@?$ctype@G@std@@QBEGG@Z
+                  411 ?is@?$ctype@G@std@@QBE_NFG@Z
+                   AB ??1facet@locale@std@@MAE@XZ
+                   75 ??0facet@locale@std@@IAE@I@Z
+                  19E ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
+                  1F2 ?_Incref@facet@locale@std@@UAEXXZ
+                  131 ??Bid@locale@std@@QAEIXZ
+                  1C6 ?_Getcoll@_Locinfo@std@@QBE?AU_Collvec@@XZ
+                   A4 ??1_Locinfo@std@@QAE@XZ
+                   6C ??0_Locinfo@std@@QAE@PBD@Z
+                  4BA ?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z
+                  28C ?_Xbad_function_call@std@@YAXXZ
+                  4BF ?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD0@Z
+                  34D ?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+                  43E ?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+                   2F ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ
+                  296 ?__ExceptionPtrCopyException@@YAXPAXPBX1@Z
+                  444 ?peek@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEHXZ
+                  28E ?_Xlength_error@std@@YAXPBD@Z
+                  25D ?_Random_device@std@@YAIXZ
+                  28B ?_Xbad_alloc@std@@YAXXZ
+                  273 ?_Syserror_map@std@@YAPBDH@Z
+                  285 ?_Winerror_map@std@@YAHH@Z
+                  28F ?_Xout_of_range@std@@YAXPBD@Z
+                  5C8 _Wcscoll
+
+    api-ms-win-core-delayload-l1-1-1.dll
+                6BEA78 Import Address Table
+                6C0364 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 ResolveDelayLoadedAPI
+
+    api-ms-win-core-delayload-l1-1-0.dll
+                6BEA70 Import Address Table
+                6C035C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 DelayLoadFailureHook
+
+    api-ms-win-core-file-l2-1-0.dll
+                6BEB0C Import Address Table
+                6C03F8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    7 GetFileInformationByHandleEx
+
+    api-ms-win-core-apiquery-l1-1-0.dll
+                6BEA20 Import Address Table
+                6C030C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 ApiSetQueryApiSetPresence
+
+    api-ms-win-core-util-l1-1-0.dll
+                6BEE0C Import Address Table
+                6C06F8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    4 EncodePointer
+
+  Summary
+
+       A2000 .data
+        1000 .didat
+        C000 .idata
+        1000 .imrsiv
+       30000 .reloc
+        1000 .rsrc
+      21A000 .text

@@ -1,0 +1,863 @@
+        <condition negation="Yes">MigXmlHelper.IsUpgrade()</condition>
+        <condition>MigXmlHelper.IsUpgrade()</condition>
+        <pattern type="File">
+        <pattern type="Registry">HKLM\Software\Microsoft\Windows Search [IndexerCatalogVersion]</pattern>
+        <pattern type="Registry">HKLM\Software\Microsoft\Windows Search\Applications\* [*]</pattern>
+        <pattern type="Registry">HKLM\Software\Microsoft\Windows Search\CatalogList\* [*]</pattern>
+        <pattern type="Registry">HKLM\Software\Microsoft\Windows Search\CatalogNames\* [*]</pattern>
+        <pattern type="Registry">HKLM\Software\Microsoft\Windows Search\Databases\* [*]</pattern>
+        <pattern type="Registry">HKLM\Software\Microsoft\Windows Search\Gather\Windows\* [*]</pattern>
+        <pattern type="Registry">HKLM\Software\Microsoft\Windows Search\Gathering Manager [DefaultApplicationsPath]</pattern>
+        <pattern type="Registry">HKLM\Software\Microsoft\Windows Search\Gathering Manager [TempPath]</pattern>
+        <pattern type="Registry">HKLM\Software\Microsoft\Windows Search\Gathering Manager\Applications\* [*]</pattern>
+        <pattern type="Registry">HKLM\Software\Microsoft\Windows Search\ProtocolHandlers\* [*]</pattern>
+        <pattern type="Registry">HKLM\Software\Microsoft\Windows Search\ScopeChangeNotification\* [*]</pattern>
+      </detect>
+      </objectSet>
+      <detect>
+      <objectSet>
+    </detects>
+    </include>
+    </merge>
+    <detects>
+    <include>
+    <merge script = "MigXmlHelper.SourcePriority()">
+  </rules>
+  <rules context="System">
+ http://www.microsoft.com/windows0
+ Microsoft Corporation. All rights reserved.
+ Microsoft Operations Puerto Rico1
+ Search
+!]_0t
+!This program cannot be run in DOS mode.
+!TkjE
+"Microsoft Window
+$Microsoft Ireland Operations Limited1&0$
+%APPID%
+%FriendlyName%
+%hs!%p: 
+%hs(%d) tid(%x) %08X %ws
+%hs(%u)\%hs!%p: 
+%hs: %hs
+%Microsoft Windows Production PCA 2011
+%Microsoft Windows Production PCA 20110
+%MIG_SCOPE%
+%MODULE%
+%MODULEGUID%
+%MODULETYPE%
+&S|9a
+(caller: %p) 
+)Microsoft Root Certificate Authority 20100
+* [*]
+,Vf8Ot8J11r0pxIhWTsYPcDtPemPdNxbpWxMLvpSAmos=0Z
+.?AV_com_error@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVbad_typeid@std@@
+.?AVbad_weak_ptr@std@@
+.?AVCAtlException@ATL@@
+.?AVdomain_error@std@@
+.?AVexception@std@@
+.?AVinvalid_argument@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVoverflow_error@std@@
+.?AVrange_error@std@@
+.?AVResultException@wil@@
+.?AVruntime_error@std@@
+.?AVsystem_error@std@@
+.?AVtype_info@@
+.?AVunderflow_error@std@@
+.00cfg
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$brc
+.data$r$brc
+.data$rs$brc
+.didat$2
+.didat$3
+.didat$4
+.didat$5
+.didat$6
+.didat$7
+.edata
+.gfids
+.giats
+.ics\PersistentHandler
+.idata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.rdata
+.rdata$brc
+.rdata$r$brc
+.rdata$sxdata
+.rdata$T$brc
+.rdata$voltmd
+.rdata$zETW0
+.rdata$zETW1
+.rdata$zETW2
+.rdata$zETW9
+.rdata$zzzdbg
+.rsrc
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata$x
+: :$:(:0:
+: ;n;
+:):B:T:v:
+:@:O:l:
+:@;o;
+:7:A:W:a:p:
+:A:d:
+:D;q;x;};
+:I;v;
+:R;Y;e;p;
+:W:`:m:s:
+;!;J;t;%<7<m<z<
+;&<H<T<w<
+;);=;H;f;
+;/;K;\;d;q;|;
+;0<4<8<<<@<D<H<L<P<T<X<\<
+;1;T;
+;4;J;
+?"?&?C?
+?"?,?6?
+?"?;?F?e?n?t?y?
+?#?1?7?d?
+?$?5?N?[?l?
+?%?t?
+?&?A?O?U?h?o?t?}?
+?;?E?S?n?
+?;?G?S?_?k?w?
+?a?o?
+@.didat
+@.reloc
+[%hs(%hs)]
+[%hs]
+\Implemented Categories
+\Required Categories
+^Vj Vj
+__current_exception
+__current_exception_context
+__CxxFrameHandler3
+_CxxThrowException
+_except_handler4_common
+_initterm
+_initterm_e
+_o___std_exception_copy
+_o___std_exception_destroy
+_o___std_type_info_destroy_list
+_o___stdio_common_vsnprintf_s
+_o___stdio_common_vswprintf
+_o__callnewh
+_o__cexit
+_o__configure_narrow_argv
+_o__crt_atexit
+_o__errno
+_o__execute_onexit_table
+_o__initialize_narrow_environment
+_o__initialize_onexit_table
+_o__invalid_parameter_noinfo
+_o__invalid_parameter_noinfo_noreturn
+_o__purecall
+_o__recalloc
+_o__register_onexit_function
+_o__seh_filter_dll
+_o__wcsicmp
+_o__wcsnicmp
+_o_free
+_o_malloc
+_o_terminate
+_o_wcscat_s
+_o_wcscpy_s
+_o_wcsncpy_s
+_o_wmemcpy_s
+`.data
+`0^0\
+`syLS
+{5e941d80-bf96-11cd-b579-08002b30bfeb}
+{617c0a54-d12e-4340-87e7-01cc31bde762}
+{e4c2c4de-bc6a-495e-ae1e-83f1ce9c2d31}
+~p_^]
++unknown error
+<"<+<6<D<`<
+<)<.<A<a<~<
+<.<5<;<C<I<O<U<Z<`<
+</migXml>
+</pattern>
+<>=f=
+<0@0H0P0h0
+<C<s<
+<D<[<d<w<
+<k<s<{<
+<M<W<
+<migXml>
+= >6><>P>Y>b>h>
+=&=a=
+=.>Z>g>
+=;=G=a=
+=?>F>R>[>g>p>
+=0=I=V=g=
+=0=X=
+=L9o<
+>!>d>
+>&>I>c>r>
+>*>?>]>j>{>
+>,u'W3
+>0>6>K>W>g>
+>0>D>L>X>e>~>
+>8>A>J>X>a>
+>8>Z>
+>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+>K?V?
+>NGdx
+0 0,0P0X0`0d0|0
+0$0>0M0[0~0
+0$000P0X0t0x0
+0%010N0q0}0
+0%070@0L0T0f0
+0&020B0N0Z0f0r0~0
+0+0B0
+040904B0
+040t0
+080i0
+0F1s1
+0f3s3
+0h0y0
+0P1\1h1t1
+0R1X1v1
+1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+1(0&0
+1,0*0
+1,151>1D1I1N1U1]1r1
+1,181X1d1l1
+1,2<2H2P2
+10181@1H1P1X1`1h1p1x1
+1'1=1j1
+111019184142Z
+111R1V1\1`1f1j1
+1'161@1F1L1R1X1g1p1y1~1
+182E2Y2^2l2
+1M2T2
+1O2w2
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+2 2r3|3
+2!2(2/262>2F2N2Z2c2h2n2x2
+2$2(2,2H2L2P2d2
+2(2/3
+2*2P2^2n2
+2.pF6/p
+2/pRich
+20221004220448.527Z0
+20221005013052Z
+20221006013052Z0t0:
+210930182225Z
+2'2,2<2A2a2g2l2w2
+220505192314Z
+220920202159Z
+229879+4700210
+230504192314Z0p1
+231214202159Z0
+261019185142Z0
+262Q2`2g2m2
+2C3T3
+2F2s2
+2N2`2 3;3z3
+3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+3 3D3h3
+3!3*3/353<3F3J3Z3`3v3
+3"3)30373>3E3L3T3\3d3o3t3z3
+3$3,343<3D3L3T3\3d3l3t3|3
+3$4A4U4
+3)3T3
+300930183225Z0|1
+333?3_3
+373?3L3_3h3p3z3
+3E4i475
+3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+4 4T4d4p4x4
+4"5A5\5y5
+4#4?4L4x4
+4$404<4H4T4`4|4
+4(4P4p4
+4)464L4V4f4p4z4
+4)545K5\5s5
+4>5X5\7
+484C4[4b4
+4A5e5v5
+4R4c4r4y4
+5!6`6
+5"6(6k6u6
+5$5,545<5D5L5T5\5d5l5t5|5
+5$5D5P5p5|5
+5(5S5
+5)6k6r668O8
+5+6=6]6l6
+5<5I5g5
+506;6I6
+5C6O6
+5ineI
+5ntel
+5X5}5
+6$6,646<6D6h6|6
+6$6,646<6D6L6T6\6d6l6t6|6
+6&7I7l7
+6:7C7Q7_7t7
+6+7T7i7q7w7
+6>7K7b7
+616Y6
+6E6{6
+6Q6b6o6
+6r6y6
+7 7$7,7D7T7X7h7l7p7t7|7
+7 7<7@7\7`7
+7!7(7`7|7
+7!7`7
+7%7D7N7^7h7r7
+7&7;7B7H7Z7d7
+7*8Z8t8
+7.0.22621.746
+7.0.22621.746 (WinBuild.160101.0800)
+7?8j8|8
+7@7l7
+757U7k7
+7D8\8
+7H8V8m8
+8 84888<8P8`8p8
+8#8*81888?8L8x8
+8#8X8]8p8
+8$8(8H8X8|8
+8).S8\0<
+8/8I8Z8
+8]\.t
+8>8a8
+8b8h8
+8C9M9
+8M9Y9l9
+8O9m9
+8twt0P
+9 :N:q:z:
+9 9(90989@9H9\9d9x9
+9 9@9S9u9
+9%9H9k9
+9&:3:J:
+9,9F9\9o9w9
+9:9D9S9
+909j9x9
+90u:h0b
+93t89w
+93uHWV
+97s/j
+989E9e9
+9F9g9t9
+9m:t:~:
+9w%&X?
+9x:U;
+AcquireSRWLockExclusive
+AcquireSRWLockShared
+address family not supported
+address in use
+address not available
+advapi32.dll
+already connected
+api-ms-win-core-com-l1-1-0.dll
+api-ms-win-core-debug-l1-1-0.dll
+api-ms-win-core-delayload-l1-1-0.dll
+api-ms-win-core-delayload-l1-1-1.dll
+api-ms-win-core-errorhandling-l1-1-0.dll
+api-ms-win-core-handle-l1-1-0.dll
+api-ms-win-core-heap-l1-1-0.dll
+api-ms-win-core-heap-obsolete-l1-1-0.dll
+api-ms-win-core-interlocked-l1-1-0.dll
+api-ms-win-core-libraryloader-l1-1-0.dll
+api-ms-win-core-localization-l1-2-0.dll
+API-MS-Win-Core-LocalRegistry-L1-1-0.dll
+api-ms-win-core-processthreads-l1-1-0.dll
+api-ms-win-core-processthreads-l1-1-1.dll
+api-ms-win-core-profile-l1-1-0.dll
+api-ms-win-core-registry-l1-1-0.dll
+api-ms-win-core-string-l2-1-0.dll
+api-ms-win-core-string-obsolete-l1-1-0.dll
+api-ms-win-core-synch-l1-1-0.dll
+api-ms-win-core-synch-l1-2-0.dll
+api-ms-win-core-sysinfo-l1-1-0.dll
+api-ms-win-core-threadpool-l1-2-0.dll
+api-ms-win-crt-private-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-eventing-provider-l1-1-0.dll
+api-ms-win-service-core-l1-1-1.dll
+api-ms-win-service-management-l1-1-0.dll
+api-ms-win-service-management-l2-1-0.dll
+api-ms-win-service-winsvc-l1-1-0.dll
+api-ms-win-shcore-registry-l1-1-0.dll
+AppID
+APPID
+argument list too long
+argument out of domain
+as.,k{n?,
+ATL$__a
+ATL$__m
+ATL$__z
+awLtg
+bad address
+bad allocation
+bad array new length
+bad file descriptor
+bad message
+broken pipe
+callContext
+CallContext
+callContext
+CallContext:[%hs] 
+CharNextW
+Chttp://www.microsoft.com/pkiops/crl/MicWinProPCA2011_2011-10-19.crl0a
+CloseHandle
+CloseServiceHandle
+CloseThreadpoolTimer
+CLSID
+CLSID\
+CMigrationPlugin Object
+CoCreateInstance
+CompanyName
+connection aborted
+connection already in progress
+connection refused
+connection reset
+ControlService
+CoTaskMemFree
+Count
+CreateEventW
+CreateMutexExW
+CreateSemaphoreExW
+CreateThreadpoolTimer
+cross device link
+currentContextId
+currentContextMessage
+currentContextName
+CurVer
+D$$Ph
+D$@SVW
+D$<PV
+D$0Pj
+D$0PW
+DataDirectory
+DataMigrationEligible
+DataMigrationSupport
+DebugBreak
+DelayLoadFailureHook
+DeleteCriticalSection
+destination address required
+device or resource busy
+diacriticsUpdated
+DiacriticsUpdated
+directory not empty
+DllCanUnloadNow
+DllGetClassObject
+DllMain
+DllRegisterServer
+DllUnregisterServer
+E(SVW
+E0C1)0'
+Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+Ehttp://www.microsoft.com/pkiops/certs/MicWinProPCA2011_2011-10-19.crt0
+EnterCriticalSection
+EnumDependentServicesW
+EventRegister
+EventSetInformation
+EventUnregister
+EventWriteTransfer
+Exception
+executable format error
+failed
+FailFast
+failureCount
+failureId
+FailureId
+failureType
+FallbackError
+fg:SM
+file exists
+file too large
+FileDescription
+fileName
+filename too long
+FileVersion
+FindResourceExW
+FormatMessageA
+FormatMessageW
+FreeLibrary
+FriendlyName
+function
+function not supported
+FYY;w
+generic
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetLastError
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleExW
+GetModuleHandleW
+GetProcAddress
+GetProcessHeap
+GetSystemDefaultLCID
+GetSystemPreferredUILanguages
+GetSystemTimeAsFileTime
+GetThreadLocale
+GetTickCount64
+Global\WSearchMigPluginActive
+H^Ut0
+H`>sC
+HeapAlloc
+HeapDestroy
+HeapFree
+HeapReAlloc
+HeapSize
+HKLM\
+host unreachable
+HResult
+hresult
+icsFilterReplaced
+IcsFilterReplaced
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+IndexerCatalogVersion
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+InitializeSRWLock
+InitOnceBeginInitialize
+InitOnceComplete
+InprocServer32
+InternalName
+interrupted
+invalid argument
+invalid seek
+io error
+is a directory
+IsDebuggerPresent
+IsProcessorFeaturePresent
+j*Zj"
+J>f;O
+jn>YRv
+kernel32.dll
+KERNEL32.dll
+KERNEL32.DLL
+kernelbase.dll
+L$L_^[3
+LeaveCriticalSection
+LegalCopyright
+LineNumber
+lineNumber
+LoadLibraryExA
+LoadLibraryExW
+LoadResource
+Local\SM0:%lu:%lu:%hs
+LocaleNameToLCID
+LocalFree
+LocalServer32
+LockResource
+LogHr
+LogNt
+lstrcmpiW
+M0K0I
+MaxEntriesFlushed
+MaxEntriesStored
+MaxEvents
+mD~]VX
+memcmp
+memcpy
+memmove
+memset
+message
+message size
+Microsoft Corporation
+Microsoft Corporation1
+Microsoft Corporation1&0$
+Microsoft Corporation1.0,
+Microsoft Corporation1-0+
+Microsoft Corporation1200
+Microsoft Time-Stamp PCA 2010
+Microsoft Time-Stamp PCA 20100
+Microsoft Time-Stamp Service
+Microsoft Time-Stamp Service0
+Microsoft Windows Search Migration Plugin
+Microsoft Windows0
+Microsoft.Windows.Search.Indexer
+Microsoft.Windows.Search.Indexer.Aggregated.Medium
+Microsoft.Windows.Search.Indexer.Diagnostics
+Microsoft.Windows.TlgAggregateInternal
+MigPluginHandle
+Migration_PostApplyMigrate
+Migration_PostApplyUpgrade
+migrationEligible
+MinEntriesFlushed
+module
+Module
+Module_Raw
+MODULEGUID
+MODULETYPE
+Msg:[%ws] 
+N0L0J
+network down
+network reset
+network unreachable
+Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+ntdll.dll
+NumAllocationFailures
+NumBucketLimitReached
+NumFlushes
+NumLargeEventFailures
+O0M0K
+offline
+OLEAUT32.dll
+onecore\internal\sdk\inc\wil\opensource\wil\resource.h
+onecoreuap\base\appmodel\search\migplugin\wsmigpluginclass.cpp
+online
+OpenSCManagerW
+OpenSemaphoreW
+OpenServiceW
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+OriginalFilename
+OriginalPersistentHandler
+originatingContextId
+originatingContextMessage
+originatingContextName
+OutputDebugStringW
+Ow~ugO
+owner dead
+PartA_PrivTags
+Period
+permission denied
+Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+Pj+RRVh
+PQQSVW
+PQSVW
+ProductName
+ProductVersion
+ProgID
+Programmable
+protocol error
+protocol not supported
+Provider
+PSSSV
+q(9>u
+q\Q17
+qFileName
+QQSVW
+QRPh8Z
+QSSSj
+QSVj2^
+QSVWj
+QueryPerformanceCounter
+QueryServiceConfigW
+QueryServiceStatus
+R!s4Z
+RaiseException
+RaiseFailFastException
+read only file system
+Rebuild
+RebuildIndex
+Redmond1
+RegCloseKey
+RegCreateKeyExW
+RegDeleteKeyExW
+RegDeleteKeyW
+RegDeleteValueW
+RegEnumKeyExW
+RegGetValueW
+RegOpenKeyExW
+RegQueryInfoKeyW
+RegQueryValueExW
+RegSetValueExW
+ReleaseMutex
+ReleaseSemaphore
+ReleaseSRWLockExclusive
+ReleaseSRWLockShared
+ResetEvent
+ResolveDelayLoadedAPI
+ResolveDelayLoadsFromDll
+resource deadlock would occur
+resource unavailable try again
+result out of range
+ReturnHr
+ReturnNt
+RSh`c
+RtlDisownModuleHeapAllocation
+RtlDllShutdownInProgress
+SearchIndexerFallbackError_Aggregate
+SetEvent
+SetLastError
+SetThreadLocale
+SetThreadpoolTimer
+SetUnhandledExceptionFilter
+SHDeleteValueW
+SHELL32.dll
+SHGetFileInfoW
+SHSetValueW
+SizeofResource
+Sleep
+SleepConditionVariableCS
+sNG/_
+SOFTWARE\Microsoft\Windows Search
+SSSSSSPSSSV
+StartServiceW
+state not recoverable
+std::bad_array_new_length
+std::bad_cast
+std::bad_exception
+std::bad_typeid
+std::bad_weak_ptr
+std::domain_error
+std::exception
+std::invalid_argument
+std::length_error
+std::logic_error
+std::out_of_range
+std::overflow_error
+std::range_error
+std::runtime_error
+std::system_error
+std::underflow_error
+stream timeout
+string too long
+StringFileInfo
+StringFromCLSID
+StringFromGUID2
+succeeded
+SummaryCount
+SVWh?
+SVWQQ3
+system
+SYSTEM\Setup\Upgrade\WSearch
+SystemIndexNormalization
+t$4YY
+t(hPR
+TerminateProcess
+text file busy
+Thales TSS ESN:2AD4-4B92-FA011%0#
+threadId
+ThreadingModel
+timed out
+TlgAggregateSummary
+TlP0X
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+TotalEntriesFlushed
+Translation
+TryAcquireSRWLockExclusive
+TypeLib
+u$WSQ
+U0S0Q
+u5VWj
+uGf9G
+uhVVW
+UnhandledExceptionFilter
+Unknown exception
+Upgrade
+UtcAggParams
+UtcAggVal
+uUSSSSSSS
+v,Sh`
+Value
+value too large
+VarFileInfo
+VerifyVersionInfoW
+VerSetConditionMask
+VersionIndependentProgID
+VS_VERSION_INFO
+VWUmH
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
+WakeAllConditionVariable
+Washington1
+WilError_03
+WilFailureNotifyWatchers
+wilResult
+Windows
+WPWSV
+wrong protocol type
+WSearch
+WSearchMigPlugin.dll
+WSearchMigPlugin.pdb
+WSMIG - DataMigrationEligible: FALSE
+WSMIG - DataMigrationEligible: TRUE
+WSMIG - DiacriticsUpdated: FALSE
+WSMIG - DiacriticsUpdated: TRUE
+WSMIG - Exception in MapRegKeyPathIfNeeded, HRESULT=%08x
+WSMIG - IcsFilterReplaced: TRUE
+WSMIG - Index Reset For Migration
+WSMIG - Index Reset For Upgrade
+WSMIG - IsIcsFilterReplaced: FALSE
+WSMIG - Mapping registry path from %s to %s in %s mode %s
+WSMIG - Non-upgrade detected
+WSMIG - StringCchCopy of mapped path in MapRegKeyPathIfNeeded failed
+WSMIG - StringCchCopy of original path in MapRegKeyPathIfNeeded failed
+WSMIG - Upgrade detected
+WSMigPlugin.dll
+WSMigPlugin.MigrationPlugin
+WSMigPlugin.MigrationPlugin.1
+X[_^]
+X0V0T
+xSu$W
+Y__^[
+YnjF?
+Z\9;s

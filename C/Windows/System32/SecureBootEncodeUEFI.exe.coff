@@ -1,0 +1,181 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\SecureBootEncodeUEFI.exe
+
+File Type: EXECUTABLE IMAGE
+
+  Image has the following dependencies:
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+    api-ms-win-crt-private-l1-1-0.dll
+    api-ms-win-crt-string-l1-1-0.dll
+    ntdll.dll
+    KERNEL32.dll
+    ADVAPI32.dll
+    bcrypt.dll
+
+  Section contains the following imports:
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+             14000E958 Import Address Table
+             140013278 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          15 _c_exit
+                          3D _register_thread_local_exe_atexit_callback
+                          37 _initterm_e
+                          36 _initterm
+
+    api-ms-win-crt-private-l1-1-0.dll
+             14000E818 Import Address Table
+             140013138 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          91 _o__callnewh
+                          93 _o__cexit
+                          9F _o__configthreadlocale
+                          A1 _o__configure_wide_argv
+                          A7 _o__crt_atexit
+                          C0 _o__errno
+                          C7 _o__exit
+                         10F _o__get_initial_wide_environment
+                         13D _o__initialize_onexit_table
+                         13E _o__initialize_wide_environment
+                         13F _o__invalid_parameter_noinfo
+                         243 _o__purecall
+                         251 _o__register_onexit_function
+                         25A _o__seh_filter_exe
+                         25C _o__set_app_type
+                         25F _o__set_fmode
+                         262 _o__set_new_mode
+                         464 memmove
+                         36D _o_exit
+                         38D _o_free
+                         3D8 _o_malloc
+                         3FA _o_qsort
+                         436 _o_terminate
+                           C __C_specific_handler
+                          20 __current_exception
+                          21 __current_exception_context
+                          12 __CxxFrameHandler3
+                           1 _CxxThrowException
+                          2A __std_terminate
+                          13 __CxxFrameHandler4
+                          70 _o___stdio_common_vswprintf
+                          6A _o___stdio_common_vsnprintf_s
+                          5F _o___std_exception_destroy
+                          5E _o___std_exception_copy
+                          53 _o___p__commode
+                          51 _o___p___wargv
+                          4F _o___p___argc
+                         462 memcmp
+                         463 memcpy
+
+    api-ms-win-crt-string-l1-1-0.dll
+             14000E980 Import Address Table
+             1400132A0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          83 memset
+
+    ntdll.dll
+             14000E9A0 Import Address Table
+             1400132C0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         489 RtlInitUnicodeString
+                         305 RtlCaptureContext
+                         64E RtlVirtualUnwind
+                         509 RtlLookupFunctionEntry
+                         204 NtQuerySystemEnvironmentValueEx
+
+    KERNEL32.dll
+             14000E6A0 Import Address Table
+             140012FC0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         19E GetCurrentThread
+                         2CC InitializeSListHead
+                         257 GetSystemTimeAsFileTime
+                         38E QueryPerformanceCounter
+                         2E3 IsProcessorFeaturePresent
+                         485 TerminateProcess
+                         19A GetCurrentProcess
+                         46B SetUnhandledExceptionFilter
+                         496 UnhandledExceptionFilter
+                         19B GetCurrentProcessId
+                          B1 DeleteCriticalSection
+                           1 AcquireSRWLockShared
+                          81 CreateMutexExW
+                          99 CreateThreadpoolTimer
+                         3C2 ReleaseSRWLockShared
+                         465 SetThreadpoolTimer
+                          3B CloseHandle
+                         35A OpenSemaphoreW
+                         4BB WaitForSingleObjectEx
+                           0 AcquireSRWLockExclusive
+                          44 CloseThreadpoolTimer
+                         3C1 ReleaseSRWLockExclusive
+                         3BF ReleaseMutex
+                         4BA WaitForSingleObject
+                         4BD WaitForThreadpoolTimerCallbacks
+                         2C9 InitializeCriticalSectionEx
+                         31A LeaveCriticalSection
+                         3C3 ReleaseSemaphore
+                          CF EnterCriticalSection
+                          8F CreateSemaphoreExW
+                         2DD IsDebuggerPresent
+                          A8 DebugBreak
+                         1F1 GetModuleHandleW
+                         224 GetProcessHeap
+                         21E GetProcAddress
+                         2B1 HeapAlloc
+                         328 LocalFree
+                         360 OutputDebugStringW
+                         1DA GetLastError
+                         13E FormatMessageW
+                         19F GetCurrentThreadId
+                         1F0 GetModuleHandleExW
+                         430 SetLastError
+                         2B5 HeapFree
+                         1EC GetModuleFileNameA
+                         324 LocalAlloc
+
+    ADVAPI32.dll
+             14000E650 Import Address Table
+             140012F70 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         18F OpenThreadToken
+                         253 SetThreadToken
+                         18A OpenProcessToken
+                         1CE RegCloseKey
+                         1D7 RegCreateKeyExW
+                         219 RegSetValueExW
+                          16 AdjustTokenPrivileges
+                         133 LookupPrivilegeValueW
+                          BC DuplicateTokenEx
+
+    bcrypt.dll
+             14000E990 Import Address Table
+             1400132B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          22 BCryptHash
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        7000 .rdata
+        1000 .reloc
+        C000 .text

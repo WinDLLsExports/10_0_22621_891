@@ -1,0 +1,869 @@
+                            image.
+        /Optimize-Image /Boot 
+        /Optimize-Image /WimBoot 
+      DISM.exe /Image:C:\test\offline 
+    Examples: 
+  image after optimizing it. 
+  Performs specified configurations to an offline image. 
+  rendered invalid if any servicing operations are performed on the 
+  the OS spends during boot. Note that this optimization may be 
+  Use /Boot to try and reduce the online configuration time that 
+  Use /WIMBoot to configure an offline image for installing on a 
+  WIMBoot system. 
+ http://www.microsoft.com/windows0
+ Microsoft Corporation. All rights reserved.
+ Operating System
+ SSh,G
+ Windows
+!]_0t
+!0K0x0
+!This program cannot be run in DOS mode.
+!TkjE
+"Error optimizing boot via provider: %s"
+"Microsoft Window
+#I1n)P
+$0A0Q0a0s0y0
+$Microsoft Ireland Operations Limited1
+%Microsoft Windows Production PCA 2011
+%Microsoft Windows Production PCA 20110
+%S:%d
+%s\%s
+%s\%s.mui
+%s\%s\%s.mui
+&S|9a
+)Microsoft Root Certificate Authority 20100
+,p+p52Rv/OgvDQYzV8TsaJqisdQAn5lNhiiIU1O0FsuE=0Z
+.?AU?$CAtlValidateModuleConfiguration@$00VCGenericProviderModule@@@ATL@@
+.?AU_ATL_MODULE70@ATL@@
+.?AUIClassFactory@@
+.?AUIDismCommand@@
+.?AUIDismCommandCollection@@
+.?AUIDismGenericManager@@
+.?AUIDismGenericManager2@@
+.?AUIDismHelpItem@@
+.?AUIDismHelpItemCollection@@
+.?AUIDismKcacheManager@@
+.?AUIDismObject@@
+.?AUIDismProvider@@
+.?AUIDismServicingProvider@@
+.?AUIDismSetMachineName@@
+.?AUIDismSupportCommands@@
+.?AUIDispatch@@
+.?AUIEnumVARIANT@@
+.?AUISupportErrorInfo@@
+.?AUIUnknown@@
+.?AV?$CAtlDllModuleT@VCGenericProviderModule@@@ATL@@
+.?AV?$CAtlModuleT@VCGenericProviderModule@@@ATL@@
+.?AV?$CComAggObject@VCGenericManager@@@ATL@@
+.?AV?$CComCoClass@VCDISMCommand@@$1?GUID_NULL@@3U_GUID@@B@ATL@@
+.?AV?$CComCoClass@VCDISMCommandCollection@@$1?GUID_NULL@@3U_GUID@@B@ATL@@
+.?AV?$CComCoClass@VCDISMHelpItem@@$1?GUID_NULL@@3U_GUID@@B@ATL@@
+.?AV?$CComCoClass@VCDISMHelpItemCollection@@$1?GUID_NULL@@3U_GUID@@B@ATL@@
+.?AV?$CComCoClass@VCGenericManager@@$1?CLSID_GenericManager@@3U_GUID@@B@ATL@@
+.?AV?$CComContainedObject@VCGenericManager@@@ATL@@
+.?AV?$CComEnumOnSTL@UIEnumVARIANT@@$1?IID_IEnumVARIANT@@3U_GUID@@BUtagVARIANT@@U?$_CopyVariantFromAdaptItf@UIDismCommand@@@@V?$list@V?$CAdapt@V?$CComPtr@UIDismCommand@@@ATL@@@ATL@@V?$allocator@V?$CAdapt@V?$CComPtr@UIDismCommand@@@ATL@@@ATL@@@std@@@std@@VCComMultiThreadModel@ATL@@@ATL@@
+.?AV?$CComEnumOnSTL@UIEnumVARIANT@@$1?IID_IEnumVARIANT@@3U_GUID@@BUtagVARIANT@@U?$_CopyVariantFromAdaptItf@UIDismHelpItem@@@@V?$list@V?$CAdapt@V?$CComPtr@UIDismHelpItem@@@ATL@@@ATL@@V?$allocator@V?$CAdapt@V?$CComPtr@UIDismHelpItem@@@ATL@@@ATL@@@std@@@std@@VCComMultiThreadModel@ATL@@@ATL@@
+.?AV?$CComObject@V?$CComEnumOnSTL@UIEnumVARIANT@@$1?IID_IEnumVARIANT@@3U_GUID@@BUtagVARIANT@@U?$_CopyVariantFromAdaptItf@UIDismCommand@@@@V?$list@V?$CAdapt@V?$CComPtr@UIDismCommand@@@ATL@@@ATL@@V?$allocator@V?$CAdapt@V?$CComPtr@UIDismCommand@@@ATL@@@ATL@@@std@@@std@@VCComMultiThreadModel@ATL@@@ATL@@@ATL@@
+.?AV?$CComObject@V?$CComEnumOnSTL@UIEnumVARIANT@@$1?IID_IEnumVARIANT@@3U_GUID@@BUtagVARIANT@@U?$_CopyVariantFromAdaptItf@UIDismHelpItem@@@@V?$list@V?$CAdapt@V?$CComPtr@UIDismHelpItem@@@ATL@@@ATL@@V?$allocator@V?$CAdapt@V?$CComPtr@UIDismHelpItem@@@ATL@@@ATL@@@std@@@std@@VCComMultiThreadModel@ATL@@@ATL@@@ATL@@
+.?AV?$CComObject@VCDISMCommand@@@ATL@@
+.?AV?$CComObject@VCDISMCommandCollection@@@ATL@@
+.?AV?$CComObject@VCDISMHelpItem@@@ATL@@
+.?AV?$CComObject@VCDISMHelpItemCollection@@@ATL@@
+.?AV?$CComObject@VCGenericManager@@@ATL@@
+.?AV?$CComObjectCached@VCComClassFactory@ATL@@@ATL@@
+.?AV?$CComObjectRootEx@VCComMultiThreadModel@ATL@@@ATL@@
+.?AV?$CComObjectRootEx@VCComMultiThreadModelNoCS@ATL@@@ATL@@
+.?AV?$CComObjectRootEx@VCComSingleThreadModel@ATL@@@ATL@@
+.?AV?$ICollectionOnSTLImpl@V?$IDispatchImpl@UIDismCommandCollection@@$1?IID_IDismCommandCollection@@3U_GUID@@B$1?m_libid@CAtlModule@ATL@@2U_GUID@@A$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@V?$list@V?$CAdapt@V?$CComPtr@UIDismCommand@@@ATL@@@ATL@@V?$allocator@V?$CAdapt@V?$CComPtr@UIDismCommand@@@ATL@@@ATL@@@std@@@std@@PAUIDismCommand@@U?$_CopyItfFromAdaptItf@UIDismCommand@@@@V?$CComEnumOnSTL@UIEnumVARIANT@@$1?IID_IEnumVARIANT@@3U_GUID@@BUtagVARIANT@@U?$_CopyVariantFromAdaptItf@UIDismCommand@@@@V?$list@V?$CAdapt@V?$CComPtr@UIDismCommand@@@ATL@@@ATL@@V?$allocator@V?$CAdapt@V?$CComPtr@UIDismCommand@@@ATL@@@ATL@@@std@@@std@@VCComMultiThreadModel@ATL@@@2@@ATL@@
+.?AV?$ICollectionOnSTLImpl@V?$IDispatchImpl@UIDismHelpItemCollection@@$1?IID_IDismHelpItemCollection@@3U_GUID@@B$1?m_libid@CAtlModule@ATL@@2U_GUID@@A$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@V?$list@V?$CAdapt@V?$CComPtr@UIDismHelpItem@@@ATL@@@ATL@@V?$allocator@V?$CAdapt@V?$CComPtr@UIDismHelpItem@@@ATL@@@ATL@@@std@@@std@@PAUIDismHelpItem@@U?$_CopyItfFromAdaptItf@UIDismHelpItem@@@@V?$CComEnumOnSTL@UIEnumVARIANT@@$1?IID_IEnumVARIANT@@3U_GUID@@BUtagVARIANT@@U?$_CopyVariantFromAdaptItf@UIDismHelpItem@@@@V?$list@V?$CAdapt@V?$CComPtr@UIDismHelpItem@@@ATL@@@ATL@@V?$allocator@V?$CAdapt@V?$CComPtr@UIDismHelpItem@@@ATL@@@ATL@@@std@@@std@@VCComMultiThreadModel@ATL@@@2@@ATL@@
+.?AV?$IDispatchImpl@UIDismCommandCollection@@$1?IID_IDismCommandCollection@@3U_GUID@@B$1?m_libid@CAtlModule@ATL@@2U_GUID@@A$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@
+.?AV?$IDispatchImpl@UIDismGenericManager2@@$1?IID_IDismGenericManager2@@3U_GUID@@B$1?LIBID_GenericProviderLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@
+.?AV?$IDispatchImpl@UIDismHelpItemCollection@@$1?IID_IDismHelpItemCollection@@3U_GUID@@B$1?m_libid@CAtlModule@ATL@@2U_GUID@@A$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@
+.?AV?$IDispatchImpl@UIDismKcacheManager@@$1?_GUID_ed08f15d_d5f2_40bf_b08b_73a8456ca62d@@3U__s_GUID@@B$1?LIBID_GenericProviderLib@@3U_GUID@@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@
+.?AV?$IDispatchImpl@UIDismProvider@@$1?_GUID_33f93018_edb7_4092_978a_4b37d5dfb1c0@@3U__s_GUID@@B$1?LIBID_GenericProviderLib@@3U_GUID@@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@
+.?AV?$IDispatchImpl@UIDismServicingProvider@@$1?_GUID_c8292388_8d1d_4c34_9a41_8763fcd304f7@@3U__s_GUID@@B$1?LIBID_GenericProviderLib@@3U_GUID@@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@
+.?AV?$IDispatchImpl@UIDismSetMachineName@@$1?_GUID_16fcf50b_1eb0_4ed3_9a5c_8a33c80f0d83@@3U__s_GUID@@B$1?LIBID_GenericProviderLib@@3U_GUID@@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@
+.?AV?$IDispatchImpl@UIDismSupportCommands@@$1?_GUID_7234ec82_c68b_4c4e_ba1d_d333f5b87b37@@3U__s_GUID@@B$1?LIBID_GenericProviderLib@@3U_GUID@@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@
+.?AV?$IEnumOnSTLImpl@UIEnumVARIANT@@$1?IID_IEnumVARIANT@@3U_GUID@@BUtagVARIANT@@U?$_CopyVariantFromAdaptItf@UIDismCommand@@@@V?$list@V?$CAdapt@V?$CComPtr@UIDismCommand@@@ATL@@@ATL@@V?$allocator@V?$CAdapt@V?$CComPtr@UIDismCommand@@@ATL@@@ATL@@@std@@@std@@@ATL@@
+.?AV?$IEnumOnSTLImpl@UIEnumVARIANT@@$1?IID_IEnumVARIANT@@3U_GUID@@BUtagVARIANT@@U?$_CopyVariantFromAdaptItf@UIDismHelpItem@@@@V?$list@V?$CAdapt@V?$CComPtr@UIDismHelpItem@@@ATL@@@ATL@@V?$allocator@V?$CAdapt@V?$CComPtr@UIDismHelpItem@@@ATL@@@ATL@@@std@@@std@@@ATL@@
+.?AVbad_alloc@std@@
+.?AVCAtlException@ATL@@
+.?AVCAtlModule@ATL@@
+.?AVCComClassFactory@ATL@@
+.?AVCComObjectRootBase@ATL@@
+.?AVCDISMCommand@@
+.?AVCDISMCommandCollection@@
+.?AVCDISMHelpItem@@
+.?AVCDISMHelpItemCollection@@
+.?AVCGenericManager@@
+.?AVCGenericProviderModule@@
+.?AVexception@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.\%s.mui
+.\%s\%s.mui
+.00cfg
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIZ
+.data
+.data$brc
+.data$r$brc
+.data$rs$brc
+.edata
+.gfids
+.giats
+.idata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.LWM&x
+.rdata
+.rdata$brc
+.rdata$r$brc
+.rdata$sxdata
+.rdata$voltmd
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.text
+.text$di
+.text$mn
+.text$x
+.text$yd
+.xdata$x
+/Optimize-Image {/WimBoot | /Boot}
+/Optimize-Image command. Run the command again and include the
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+:":.:Q:W:r:v:
+:#:*:1:7:C:N:S:X:^:h:r:
+:$:;:L:c:t:
+:*:5:::A:K:V:[:o:}:
+:,:4:
+:-:=:
+:@:h:
+:+;E;\;
+:1;S;Z;u;Y<`<n<u<&=-=R=a=
+:4:8:P:T:l:p:
+:E;R;];b;i;
+:n:y:
+:R:[:j:s:
+:S<h<
+; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+;";,;C;k;y;
+;"<-<?<N<
+;%;,;8;>;G;N;g;
+;(;>;Q;V;a;k;|;
+;*;<;I;x;
+;?<x<
+;0;4;L;P;h;l;
+;0<x<
+;3<:<X<r<x<~<
+;4;>;Q;s;
+;4;X;t;
+;6;c;
+;M;\;
+;T;X;d;l;
+? ?>?
+? ?0?@?P?`?p?
+? ?6?E?N?
+?$?0?T?\?d?l?t?|?
+?,?<?L?P?X?\?`?d?h?l?p?t?x?|?
+?:?@?K?[?f?k?
+??0exception@@QAE@ABQBD@Z
+??0exception@@QAE@ABQBDH@Z
+??0exception@@QAE@ABV0@@Z
+??1exception@@UAE@XZ
+??1type_info@@UAE@XZ
+?-?U?
+?0?B?l?
+?2?u?
+?d?m?
+?terminate@@YAXXZ
+?what@exception@@UBEPBDXZ
+@.reloc
+@.rsrc
+[%S] %S
+\ControlSet%03u\Control\ProductOptions
+\Implemented Categories
+\Required Categories
+\Select
+]}Nh@y
+^Y1j%G5
+__CxxFrameHandler3
+__dllonexit
+__RTDynamicCast
+_`.oI
+_amsg_exit
+_CxxThrowException
+_except_handler4_common
+_initterm
+_lock
+_onexit
+_purecall
+_unlock
+_vscwprintf
+_vsnprintf
+_vsnwprintf
+_XcptFilter
+`.data
+`0^0\
+~nKP[
+< <,<8<D<\<h<
+<!<;<
+<">t>
+<#=T=b=m=r=
+<%<t<}<
+<&<=<F<d<
+<)=D=P=n=}=
+<,<0<H<L<d<h<
+<^<e<l<
+<0<<<\<d<l<x<
+<b<i<y<~<
+<E=L=S=
+<h=m=
+<unknown>
+= =(=0=H=
+=&=5===H=P=y=
+=(=,=D=H=`=d=|=
+=(>Q>X>
+=)=7=
+=,=4=<=D=L=T=\=
+=>=E=d=
+=5>A>X>h>
+=6===G=W=`=
+=L9o<
+=O= >S>X>
+=Rich
+> >$><>@>X>\>t>x>
+> >(>0>@>d>l>t>|>
+> >0>@>P>`>p>
+>!>)>\>g>l>s>
+>$>g>{>
+>)>;>f>w>
+>,u(W3
+>\?f?
+>0>=>H>M>V>k>v>{>
+>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+>J>P>w>
+>NGdx
+>P>b>
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0t0|0
+0 0$0(0,04080@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+0 000@0P0`0p0
+0$0(0,0004080P0T0l0p0
+0;0F0K0R0k0
+0@0}0!1(1>2~2
+000@0L0T0t0
+0-0P0s0
+020?0m0
+030t0
+040904B0
+070w0~0
+0P0m0
+0s0y0
+1 1$1(1,1014181<1@1D1L1P1T1X1`1d1h1l1t1x1|1
+1 10141D1H1X1\1l1p1
+1 272Q2d2i2o2
+1"1-12191T1\1e1m1
+1"161P1[1p1
+1#1N1h1}1
+1$1,141<1D1L1T1\1d1l1t1|1
+1$2h2o2
+1(0&0
+1,141@1H1h1
+1/0-0
+1?1o1
+1+191A1P1k1
+10.0.22621.436
+10.0.22621.436 (WinBuild.160101.0800)
+111019184142Z
+131@1o1z1
+1C1I1V1q1
+1D1M1[1
+1L1P1T1X1`1t1x1|1
+2 2$24282H2L2\2`2p2t2
+2!2B2I2M2f2
+2"2(2/2<2J2v2
+2$2(2,24282<2@2D2H2L2P2T2X2\2d2h2l2p2t2|2
+2$2,242<2D2L2T2\2d2l2t2|2
+2$282
+2(20282@2H2T2t2|2
+2(2H2h2
+2.2H2U2`2e2v2
+2:2A2
+2+2S2Y2m2
+2>3K3b3
+20220713031256.675Z0
+20220713050501Z
+20220714050501Z0w0=
+210902182341Z
+210930182225Z
+211202190516Z
+220901182341Z0p1
+229879+4675800
+2'3.4
+230228190516Z0
+253S3_3
+261019185142Z0
+262^2i2n2
+262N2z2
+2R2s2
+2y80T
+3 3(3,3034383@3D3H3L3T3\3`3h3l3p3t3|3
+3$3,343<3D3L3T3\3d3l3t3|3
+3$3|3
+3$4-4H4
+3(3H3h3
+3)3B3`3
+3*3\3
+3,303D3H3`3d3|3
+3;3H3S3X3i3
+3@3P4x5(6
+300930183225Z0|1
+303V3d3k3
+313@3G3M3b3g3m3q3v3|3
+3'30393S3
+3'3-323:3@3E3K3S3[3g3m3s3y3
+333B3I3
+384`4
+3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+4 4$4,40484<4D4H4P4h4l4
+4#4*4>4
+4#4*41484?4F4M4Z4x4
+4#4<4C4
+4$4,444<4D4L4T4\4d4l4t4|4
+4$4/444E4d4}4
+4(555d5k5
+4,4<4@4D4H4L4P4T4X4\4d4h4l4p4t4x4
+414T4g4v4
+415c5
+4-494m4
+4H4O4M7X7f7
+4O4V4
+4X5b5}5
+5 7h7
+5!5*525b5
+5"5/5?5h5q5
+5$5,545@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
+5%6C6|6
+5&636J6
+5&6y6
+5,5<5L5\5l5p5t5x5|5
+5,505H5L5d5h5
+5+525V5
+5+595A5N5Y5^5e5l5w5|5
+585E5e5
+5H5P5X5d5l5
+6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+6 6(646\6p6x6
+6"6i6p6
+6#6-61676P6W6`6i6u6
+6$6/646H6V6^6n6y6~6
+6$6K6u6
+6%676B6I6R6z6
+6(6,6D6H6`6d6|6
+6(757I7N7\7
+6,6J6f6q6v6
+60646L6\6l6|6
+607b7
+626I6
+636Y6
+6C6N6[6q6{6
+7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+7 7(7/757;7A7_7o7v7
+7 707\7d7
+7"7n7
+7#7(797U7c7n7s7
+7$7(7@7D7\7`7x7|7
+7$737;7F7N7q7|7
+7%7N7U7n7u7
+737Y7
+738D8
+7F7Y7`7p7
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+8 8$8<8@8X8\8t8x8
+8 9d9
+8!8/8:8?8S8a8i8r8z8
+8#9Z9e9}9
+8$8(8,848H8P8X8`8d8h8p8
+8$8+80898@8E8N8U8Z8d8h8n8u8|8
+8$828:8a8v8
+8$9B9
+8<9N9i9
+8=8Q8
+838V8
+838Y8
+848;8@8U8^8l8
+8P8a8l8q8
+8zuDISM Generic Provider
+9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+9 9%969G9O9[9c9
+9 9@9`9p9
+9 989<9T9X9p9t9
+9#9+939;9G9P9U9[9e9o9
+9&:S:y:
+9(9Q9c9q9
+9-:U:
+9;9]9
+9+9t9
+90u:h
+919E9o9
+93t89w
+9F:^:
+9J;Q;
+9l9w9
+address family not supported
+address in use
+address not available
+address_family_not_supported
+address_in_use
+address_not_available
+ADVAPI32.dll
+advapi32.dll
+already connected
+already_connected
+API-MS-Win-Core-LocalRegistry-L1-1-0.dll
+api-ms-win-eventing-provider-l1-1-0.dll
+APPID
+argument list too long
+argument out of domain
+as.,k{n?,
+ATL$__a
+ATL$__m
+ATL$__z
+bad address
+bad allocation
+bad file descriptor
+bad message
+bad_address
+bad_file_descriptor
+broken pipe
+CGenericManager::ExecuteCmdLine
+CGenericManager::GetCommandCollection
+CGenericManager::GetHelpItemCollection
+CGenericManager::Initialize
+CGenericManager::OnConnect
+CGenericManager::OptimizeImage
+CGenericManager::Private_GetOptionAndValue
+CGenericManager::ProcessCmdLine_OptimizeImage
+CGenericManager::SetMachineName
+CharLowerBuffW
+CharNextW
+Chttp://www.microsoft.com/pkiops/crl/MicWinProPCA2011_2011-10-19.crl0a
+CKCacheManager::GetBinaryValue
+CKCacheManager::GetDwordValue
+CKCacheManager::GetKernelCacheValues
+CKCacheManager::GetStringValue
+CKCacheManager::Initialize
+CloseHandle
+CLSID\
+CoCreateInstance
+CompanyName
+CompareStringW
+ComputerName
+connection aborted
+connection already in progress
+connection refused
+connection reset
+connection_aborted
+connection_already_in_progress
+connection_refused
+connection_reset
+Control\ComputerName\ActiveComputerName
+Control\ComputerName\ComputerName
+ControlSet%03u\
+CoTaskMemFree
+CreateFileMappingW
+CreateFileW
+cross device link
+Current
+DeleteCriticalSection
+destination address required
+destination_address_required
+device or resource busy
+directory not empty
+DisableThreadLibraryCalls
+DISM does not support optimization online.
+DISM does not support to set machine name online.
+DISM Generic Provider
+DismComputerNameSet
+dismcore.tlbWW
+DllCanUnloadNow
+DllGetClassObject
+DLLGetDISMProviderCLSID
+DllRegisterServer
+DllUnregisterServer
+Edition Manager
+Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+Ehttp://www.microsoft.com/pkiops/certs/MicWinProPCA2011_2011-10-19.crt0
+Encountered the option "%s"
+EnterCriticalSection
+en-US
+Et,@8
+EtwEventEnabled
+EtwEventRegister
+EtwEventUnregister
+EtwEventWrite
+EventRegister
+EventUnregister
+EventWrite
+Exactly one of /WimBoot or /Boot options must be specified with
+executable format error
+Failed getting the option string from token at index %d.
+Failed getting the token collection count.
+Failed getting the token count at index %d.
+Failed to add the command to the collection.
+Failed to add the help to the collection.
+Failed to allocate memory to convert string value.
+Failed to convert the option to lower case.
+Failed to copy the Option to the out parameter.
+Failed to create a new command collection.
+Failed to create a new command object.
+Failed to create a new help collection.
+Failed to create a new help object.
+Failed to create or open DJOIN key.
+Failed to form current control set into a path.
+Failed to get current control set.
+Failed to get ITransmogrify4 interface
+Failed to get KernelCache value.
+Failed to get parents Event Manager interface
+Failed to get Software key path.
+Failed to get System key path.
+Failed to get target state.
+Failed to get the argument count.
+Failed to get the image state string.
+Failed to get the option and value for argument %d
+Failed to get the option.
+Failed to get the OS state from the os services provider.
+Failed to get the parent's interface from OnConnect
+Failed to get the token.
+Failed to get transmog provider
+Failed to get underlying collection class.
+Failed to initialize critical section.
+Failed to mount registry.
+Failed to open key software.
+Failed to open key system.
+Failed to optimize the OS.
+Failed to parse binary blob as the kernel cache.
+Failed to prepare image for WimBoot!
+Failed to QI the CDISMHelpItemCollection for IDismHelpItemCollection.
+Failed to retrieve binary data from kernel cache.
+Failed to retrieve integer value from kernel cache.
+Failed to retrieve string value from kernel cache.
+Failed to retrieve the kernel cache from the registry.
+Failed to set computer name.
+Failed to set value.
+Failed while processing command %s.
+fg:SM
+file exists
+file too large
+FileDescription
+filename too long
+filename_too_long
+FileVersion
+FindResourceExW
+FormatMessageW
+FreeLibrary
+function not supported
+GeneralCommands0Information on the available general OS commands
+generic
+Generic provider did not recognize the command string, passing on.
+GenericManager
+GenericManager ClassWW
+GenericManager Type LibraryWWW
+GenericManagerWW
+GenericProvider
+GenericProvider is not supported when running DISM online in Windows PE
+GenericProvider.dll
+GenericProvider.DLL
+GenericProvider.pdb
+GenericProviderLibWW
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetLastError
+GetModuleFileNameW
+GetModuleHandleExW
+GetModuleHandleW
+GetProcAddress
+GetProcessHeap
+GetSystemTimeAsFileTime
+GetThreadLocale
+GetTickCount
+GetTraceEnableFlags
+GetTraceEnableLevel
+GetTraceLoggerHandle
+GetVersionExW
+HeapAlloc
+HeapDestroy
+HeapFree
+HeapReAlloc
+HeapSize
+host unreachable
+host_unreachable
+Hostname
+I0G1-0+
+identifier removed
+illegal byte sequence
+IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE
+IMAGE_STATE_SPECIALIZE_RESEAL_TO_OOBE
+IMAGE_STATE_UNDEPLOYABLE
+ImageState
+ImageTopLevelHelp
+inappropriate io control operation
+Incorrect option specified for optimize-image.
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InternalName
+interrupted
+invalid argument
+invalid seek
+invalid string position
+invalid_argument
+io error
+iostream
+iostream stream error
+is a directory
+j\Zf;Ty
+J>f;O
+KERNEL32.dll
+LeaveCriticalSection
+LegalCopyright
+list<T> too long
+LoadLibraryExW
+LoadResource
+LoadStringW
+LocalAlloc
+LocalFree
+LockResource
+M0K0I
+malloc
+MapViewOfFile
+memcmp
+memcpy
+memcpy_s
+memmove
+memmove_s
+memset
+message size
+message_size
+Microsoft
+Microsoft America Operations1&0$
+Microsoft Corporation
+Microsoft Corporation1
+Microsoft Corporation1%0#
+Microsoft Corporation1&0$
+Microsoft Corporation1.0,
+Microsoft Corporation1200
+Microsoft Time-Stamp PCA 2010
+Microsoft Time-Stamp PCA 20100
+Microsoft Time-Stamp Service
+Microsoft Time-Stamp Service0
+Microsoft Windows0
+Microsoft\Windows\CurrentVersion\Setup\State
+msvcrt.dll
+MUI\%04hx
+MultiByteToWideChar
+N0L0J
+network down
+network reset
+network unreachable
+network_down
+network_reset
+network_unreachable
+Nh1#v
+Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+no_buffer_space
+no_protocol_option
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+not_a_socket
+not_connected
+ntdll.dll
+NV Hostname
+O0M0K
+ole32.dll
+OLEAUT32.dll
+onecore\base\ntsetup\lib\unattendlog\src\unattendlog.cpp
+onecore\base\ntsetup\opktools\dism\providers\genericprovider\dll\genericmanager.cpp
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operation_in_progress
+operation_not_supported
+operation_would_block
+Optimize-Image
+optimize-image
+OrchestrateSetComputer: Computer name was truncated to a valid length.
+OrchestrateSetComputerName: Computer name set to %s
+OrchestrateSetComputerName: Critical error setting computer name, HRESULT = 0x%x
+OrchestrateSetComputerName: Failed create key %s, HRESULT = 0x%x
+OrchestrateSetComputerName: Failed to build key path to [%s], HRESULT = 0x%x
+OrchestrateSetComputerName: Failed to find current control set, HRESULT = 0x%x
+OrchestrateSetComputerName: Failed to set the computer name, HRESULT = 0x%x
+OrchestrateSetComputerName: Failed to set value [%s] under [%s], HRESULT = 0x%x
+OriginalFilename
+OS GENERAL COMMANDS:
+OutputDebugStringW
+owner dead
+permission denied
+permission_denied
+Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+PID=%d TID=%d %s - %s
+PID=%d TID=%d %s - %s(hr:0x%x)
+PQQSVW
+Preparing image for WimBoot
+ProductName
+ProductPolicy
+ProductVersion
+ProgIDFromCLSID
+protocol error
+protocol not supported
+protocol_not_supported
+PSSSV
+PSVVh
+PWh J
+q(9>u
+q\Q17
+QQSVW
+QQSVW3
+QQSWhxk
+QSSSj
+QSVW3
+QSVWj
+QueryPerformanceCounter
+R!s4Z
+RaiseException
+read only file system
+Redmond1
+RegCloseKey
+RegCreateKeyExW
+RegDeleteKeyExW
+RegDeleteKeyW
+RegisterTraceGuidsW
+RegOpenKeyExW
+RegQueryInfoKeyW
+RegQueryValueExW
+RegSetValueExW
+required parameter.
+resource deadlock would occur
+resource unavailable try again
+result out of range
+Routing the command...
+RSDST
+RtlAllocateHeap
+RtlFreeHeap
+sbl~0
+SearchPathW
+Select
+Services\Tcpip\Parameters
+SetComputerNameExW
+SetLastError
+SetMachineName
+SetThreadLocale
+SetThreadUILanguage
+SetUnhandledExceptionFilter
+Setup\DJOIN
+SizeofResource
+Sleep
+SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\State
+SPerforms specified configurations to an offline 
+SSSSSSSPSSSV
+state not recoverable
+stream timeout
+String operation exception!
+string too long
+StringFileInfo
+StringFromGUID2
+SVj(j
+SWjXj
+SysprepManager
+system
+SYSTEM
+SYSTEM\ControlSet%03u\
+SYSTEM\CurrentControlSet\Control\MiniNT
+SYSTEM\Select
+t$hPt
+t$WSj
+t,hPt
+T^r|B
+t3WQj
+t4SSSj
+TerminateProcess
+text file busy
+Thales TSS ESN:8A82-E34F-9DDA1%0#
+This image does not have image state, so proceeding.
+timed out
+timed_out
+TlP0X
+tNSSSj
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+too_many_files_open
+Translation
+TYPELIB
+U0S0Q
+uGf9G
+UnattendLogWV
+UnhandledExceptionFilter
+unknown error
+Unknown Error
+UnmapViewOfFile
+UnregisterTraceGuids
+uOi@Y
+USER32.dll
+uUSSSSSSS
+uvh,G
+value too large
+VarFileInfo
+VQhhG
+VQRQj
+VS_VERSION_INFO
+vswprintf_s
+VWPQ3
+W93|3
+WaNja
+Washington1
+wcscat_s
+wcscpy_s
+wcsncpy_s
+wcsrchr
+wimboot
+wrong protocol type
+wrong_protocol_type
+WVhpk
+x`}0"
+X0_0r0y0n1u1
+X0V0T
+xSu$W
+Y__^[
+Zof1G

@@ -1,0 +1,1268 @@
+            
+                                Style="{StaticResource ToggleTextStyle}"/>
+                                x:Name="filterkeysToggleText"
+                                x:Name="oskToggleText"
+                                x:Name="stickykeysToggleText"
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="16" />
+                            <ColumnDefinition Width="Auto" />
+                            <Setter Property="AutomationProperties.AccessibilityView" Value="Raw"/>
+                            <Setter Property="Background" Value="{ThemeResource AccessibilityFlyoutBackgroundBrush}" />
+                            <Setter Property="BorderBrush" Value="Transparent" />
+                            <Setter Property="BorderThickness" Value="0" />
+                            <Setter Property="FontFamily" Value="{StaticResource SymbolThemeFontFamily}" />
+                            <Setter Property="FontSize" Value="{StaticResource CurrentFontSize}" />
+                            <Setter Property="FontSize" Value="{StaticResource IconSize}" />
+                            <Setter Property="HorizontalAlignment" Value="Stretch" />
+                            <Setter Property="IsTabStop" Value="True" />
+                            <Setter Property="IsTextScaleFactorEnabled" Value="False" />
+                            <Setter Property="IsTextScaleFactorEnabled" Value="True" />
+                            <Setter Property="Margin" Value="0,0,0,0" />
+                            <Setter Property="Margin" Value="0,0,0,4"/>
+                            <Setter Property="Margin" Value="0,2,12,0" />
+                            <Setter Property="Margin" Value="12,0,-106,0" />
+                            <Setter Property="MinHeight" Value="38" />
+                            <Setter Property="MinWidth" Value="56" />
+                            <Setter Property="OffContent" Value="" />
+                            <Setter Property="OnContent" Value="" />
+                            <Setter Property="Padding" Value="0,0,0,0" />
+                            <Setter Property="Padding" Value="0,0,0,0"/>
+                            <Setter Property="TextAlignment" Value="Right" />
+                            <Setter Property="TextWrapping" Value="Wrap" />
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                            <Setter Property="VerticalAlignment" Value="Stretch" />
+                            AutomationProperties.Name="%s"
+                            Grid.Column="1"
+                            Grid.Column="1"/>
+                            Grid.Column="4"
+                            Style="{StaticResource IconStyle}"
+                            Style="{StaticResource IconStyle}"/>
+                            Style="{StaticResource LabelStyle}" />
+                            Style="{StaticResource LabelStyle}"/>
+                            Style="{StaticResource RightAlignedSwitch}"
+                            Style="{StaticResource ToggleTextStyle}"/>
+                            x:Name="highcontrastToggle"/>
+                            x:Name="highcontrastToggleText"
+                            x:Name="magnifierpaneToggle"/>
+                            x:Name="magnifierpaneToggleText"
+                            x:Name="narratorToggle"/>
+                            x:Name="narratorToggleText"
+                            x:Name="oskToggle"/>
+                            x:Name="stickykeysToggle"/>
+                        </Grid.ColumnDefinitions>
+                        </Style>
+                        <FontIcon Glyph="&#xE3BA;"
+                        <FontIcon Glyph="&#xE3BB;"
+                        <FontIcon Glyph="&#xE765;"
+                        <FontIcon Glyph="&#xE7A1;"
+                        <FontIcon Glyph="&#xE8A3;"
+                        <FontIcon Glyph="&#xED4D;"
+                        <Grid.ColumnDefinitions>
+                        <Setter Property="Background" Value="{ThemeResource AccessibilityFlyoutBackgroundBrush}" />
+                        <Setter Property="BorderThickness" Value="{ThemeResource FlyoutBorderThickness}" />
+                        <Setter Property="CornerRadius" Value="7" />
+                        <Setter Property="Margin" Value="0,0,0,0" />
+                        <Setter Property="MinHeight" Value="296" />
+                        <Setter Property="MinWidth" Value="358" />
+                        <Setter Property="Padding" Value="0,0,0,0" />
+                        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
+                        <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled" />
+                        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto" />
+                        <Setter Property="ScrollViewer.VerticalScrollMode" Value="Auto" />
+                        <SolidColorBrush Color="Transparent" />
+                        <SolidColorBrush x:Key="AccessibilityFlyoutBackgroundBrush" Color="#2c2c2c" />
+                        <SolidColorBrush x:Key="AccessibilityFlyoutBackgroundBrush" Color="#F9F9F9" />
+                        <SolidColorBrush x:Key="AccessibilityFlyoutBackgroundBrush" Color="{ThemeResource SystemColorWindowColor}" />
+                        <Style TargetType="Grid">
+                        <Style x:Key="IconStyle" TargetType="FontIcon">
+                        <Style x:Key="LabelStyle" TargetType="TextBlock">
+                        <Style x:Key="RightAlignedSwitch" TargetType="ToggleSwitch">
+                        <Style x:Key="ToggleTextStyle" TargetType="TextBlock" BasedOn="{StaticResource LabelStyle}">
+                        <TextBlock Grid.Column="2" Text="%s"
+                        <TextBlock Grid.Column="3" Text="%s"
+                        <Thickness x:Key="FlyoutBorderThickness">1</Thickness>
+                        <Thickness x:Key="FlyoutBorderThickness">2</Thickness>
+                        <ToggleSwitch
+                        <x:Double x:Key="CurrentFontSize">14</x:Double>
+                        <x:Double x:Key="IconSize">16</x:Double>
+                        x:Name="filterkeysToggle"/>
+                    </Grid>
+                    </ResourceDictionary>
+                    </StackPanel.BorderBrush>
+                    </StackPanel.Resources>
+                    </Style>
+                    <Grid>
+                    <ResourceDictionary x:Key="Dark">
+                    <ResourceDictionary x:Key="HighContrast">
+                    <ResourceDictionary x:Key="Light">
+                    <StackPanel.BorderBrush>
+                    <StackPanel.Resources>
+                    <Style TargetType="FlyoutPresenter">
+                    CornerRadius="7"
+                    Margin="0,2,0,2"
+                    MinHeight="290">
+                    MinWidth="358"
+                    Padding="0,0,0,0"
+                    VerticalAlignment="Top"
+                </Flyout.FlyoutPresenterStyle>
+                </ResourceDictionary.ThemeDictionaries>
+                </StackPanel>
+                <Flyout.FlyoutPresenterStyle>
+                <ResourceDictionary.ThemeDictionaries>
+                <Setter Property="Background" Value="{ThemeResource AccessibilityFlyoutBackgroundBrush}"/>
+                <StackPanel
+            </Flyout>
+            </ResourceDictionary>
+            </Style>
+            <Flyout x:Name="FlyoutRoot" Placement="TopEdgeAlignedLeft">
+            <ResourceDictionary>
+            <Style TargetType="Grid">
+          />                                
+          language="*"
+          name="Microsoft.Windows.Common-Controls"
+          processorArchitecture="*"
+          publicKeyToken="6595b64144ccf1df"
+          type="win32"
+          version="6.0.0.0"
+        </FlyoutBase.AttachedFlyout>
+        </Grid.Resources>
+        <FlyoutBase.AttachedFlyout>
+        <Grid.Resources>
+        <requestedExecutionLevel level="asInvoker" uiAccess="false"/>
+        CornerRadius="7"
+        Height="296"
+        Width="358"
+        x:Name="RootGrid"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      />
+      </requestedPrivileges>
+      <assemblyIdentity
+      <dpiAware>per monitor</dpiAware>
+      <requestedPrivileges>
+      name="Microsoft.windows.Utilman"
+      processorArchitecture="*"
+      type="win32"
+      version="1.0.0.0"
+    </asmv3:windowsSettings>
+    </dependentAssembly>                  
+    </Grid>
+    </security>
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
+    <dependentAssembly>
+    <Grid
+    <security>
+    >
+    manifestVersion="1.0"
+    xmlns:asmv3="urn:schemas-microsoft-com:asm.v3"
+    xmlns="urn:schemas-microsoft-com:asm.v1"
+  </asmv3:application>             
+  </dependency> 
+  </trustInfo>
+  <asmv3:application>
+  <assemblyIdentity
+  <dependency>
+  <description>Utilman</description>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+ Microsoft Corporation. All rights reserved.
+ Operating System
+ Windows
+!This program cannot be run in DOS mode.
+"0D0M0q0
+#000R1_1
+$_^[]
+%hs!%p: 
+%hs(%d) tid(%x) %08X %ws
+%hs(%u)\%hs!%p: 
+%s %s %s
+%s /start %s %s %s
+%s\ATConfig
+%SystemRoot%\System32\ATBroker.exe
+%SystemRoot%\system32\EaseOfAccessDialog.exe
+&amp;
+&apos;
+&quot;
+(_^[]
+(caller: %p) 
+(null)
+),?"4B=
+*0>0D0J0T0^0m0
+,0004080@0X0p0
+,magnifierpane
+,Narrator
+.?AUException@cereal@@
+.?AUhresult_access_denied@winrt@@
+.?AUhresult_canceled@winrt@@
+.?AUhresult_changed_state@winrt@@
+.?AUhresult_class_not_available@winrt@@
+.?AUhresult_class_not_registered@winrt@@
+.?AUhresult_error@winrt@@
+.?AUhresult_illegal_delegate_assignment@winrt@@
+.?AUhresult_illegal_method_call@winrt@@
+.?AUhresult_illegal_state_change@winrt@@
+.?AUhresult_invalid_argument@winrt@@
+.?AUhresult_no_interface@winrt@@
+.?AUhresult_not_implemented@winrt@@
+.?AUhresult_out_of_bounds@winrt@@
+.?AUhresult_wrong_thread@winrt@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVinvalid_argument@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVResultException@wil@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.00cfg
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$brc
+.data$r$brc
+.data$rs$brc
+.didat$2
+.didat$3
+.didat$4
+.didat$5
+.didat$6
+.didat$7
+.gfids
+.idata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.imrsiv
+.rdata
+.rdata$brc
+.rdata$r$brc
+.rdata$sxdata
+.rdata$T$brc
+.rdata$voltmd
+.rdata$zETW0
+.rdata$zETW1
+.rdata$zETW2
+.rdata$zETW9
+.rdata$zzzdbg
+.rsrc
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata$x
+/050~2
+/hardwarebuttonlaunch
+/launchnarratorhome
+/restart
+/startSecureDesktopToolsForOOBE
+:#:.:i:
+:#:+:
+:#:E:P:
+:$:,:`:p:|:
+:&:E:N:T:Y:e:n:t:y:
+:&:M:i:
+:*;I;[;
+::;G;
+::;r;
+:;:U:l:
+:<:D:P:p:x:
+:=;B;^;h;q;
+:0@0H0U0`0n0
+:1:C:N:h:
+:2;>;Q;
+:4:d:
+:4:F:Z:g:
+:D:]:i:
+:F<S<n<
+:O:s:
+:t;{;
+:V!2m
+;!;2;C;T;e;p;
+;!<-<:<L<
+;%;7;@;L;T;d;
+;&;2;?;
+;(;4;<;\;x;
+;(<8<D<L<
+;);L;o;
+;);X;p;
+;/;6;@;H;[;h;
+;[<j<
+;1;=;p;|;
+;1<><Z<h<
+;2<H<Z<
+;4;<;D;L;X;`;
+;5;D;[;j;
+;8;W;b;i;
+;9;q;
+;a<p<
+;C(t+
+;C(w!
+;D<P<\<h<t<
+;M;z;
+;N=e?
+;t04u
+;U<~<
+;V;o;
+?#?I?]?
+?$?1?
+?&?2?>?J?V?b?
+?,?<?D?L?T?\?d?l?
+?,?4?<?D?P?p?x?
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
+??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ
+?-?H?
+?@?i?~?
+?@s-f
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+?_Xbad_alloc@std@@YAXXZ
+?_Xlength_error@std@@YAXPBD@Z
+?_Xout_of_range@std@@YAXPBD@Z
+?+?S?
+?333?
+?9?_?
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
+?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEHXZ
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
+?peek@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEHXZ
+?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
+@.didat
+@.reloc
+[%hs(%hs)]
+[%hs]
+[*QmU
+\$LPW
+\Magnifier.lnk
+\Narrator.lnk
+\On-Screen Keyboard.lnk
+]0D1Q1
+__current_exception
+__current_exception_context
+__CxxFrameHandler3
+__std_terminate
+_c_exit
+_CxxThrowException
+_except_handler4_common
+_initterm
+_initterm_e
+_o___p__commode
+_o___std_exception_copy
+_o___std_exception_destroy
+_o___stdio_common_vsnprintf_s
+_o___stdio_common_vswprintf
+_o__callnewh
+_o__cexit
+_o__configthreadlocale
+_o__configure_wide_argv
+_o__controlfp_s
+_o__crt_atexit
+_o__errno
+_o__exit
+_o__get_wide_winmain_command_line
+_o__initialize_onexit_table
+_o__initialize_wide_environment
+_o__invalid_parameter_noinfo
+_o__invalid_parameter_noinfo_noreturn
+_o__ltow_s
+_o__purecall
+_o__register_onexit_function
+_o__seh_filter_exe
+_o__set_app_type
+_o__set_fmode
+_o__set_new_mode
+_o__wcsicmp
+_o__wcslwr_s
+_o__wtoi
+_o_abort
+_o_exit
+_o_free
+_o_iswspace
+_o_malloc
+_o_memcpy_s
+_o_realloc
+_o_terminate
+_register_thread_local_exe_atexit_callback
+`.imrsiv
+`;C(u
+`anonymous-namespace'::WriteAccessibilityConfigStringListToRegistry
+{zel#|67
+|$hWQ
+~)p$w
+~p_^]
+< <9<G<r<
+<!=Y=
+<#<+<g<q<z<
+<$<0<=<
+<%<*<:<A<H<Z<
+<(<?<N<^<n<
+<(<0<<<\<d<p<
+<)?4?=?M?Z?
+</assembly>
+</duixml>
+</EaseOfAccessDialog>
+</Element>
+</if>
+</style>
+</stylesheets>
+</TouchScrollViewer>
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<+<4<?<I<N<Y<o<
+<0@0H0P0
+<0=@=L=T=
+<0uN!}
+<2=>=J=R=s=
+<2=>=J=V=b=n=
+<5=q=
+<7<q<
+<a<{<
+<assembly
+<duixml>
+<EaseOfAccessDialog resid="main" sheet="EaseOfAccessStyleSheet" layout="BorderLayout()" accessible="true" accrole="pane" borderthickness="rect(0rp, 0rp, 0rp, 0rp)" active="mouse|pointer">
+<Element id="atom(ContainerElement)" active="mouse|keyboard|pointer" accessible="true" padding="rect(0rp,5rp,0rp,5rp)" layout="BorderLayout()" bordercolor="activeborder">
+<if class="EOA_TouchButton">
+<if class="EOA_TouchSwitch">
+<if keyfocused="true">
+<if mousefocused="true">
+<if pressed="true">
+<Nt$9{
+<style resid="EaseOfAccessStyleSheet" base="ressheet(ImmersiveStyles, library(dui70.dll), Light)">
+<stylesheets>
+<TouchButton background="ImmersiveControlContextMenuBackgroundPressed" foreground="ImmersiveControlContextMenuTextPressed"/>
+<TouchButton background="ImmersiveLightHoverBackground" foreground="ImmersiveLightHoverPrimaryText"/>
+<TouchButton font="resstr(520)" foreground="ImmersiveLightPrimaryText" background="ImmersiveLightBackground" height="-1"/>
+<TouchButton id="atom(MagnifierPane)" class="EOA_TouchButton" active="mouse|keyboard|pointer" layoutpos="top" padding="rect(22rp,10rp,20rp,10rp)" borderthickness = "rect(0rp,0rp,0rp,0rp)" contentalign="middleleft" content="resstr(503)" custom="resstr(504)" accname="resstr(505)" accdesc="resstr(505)" accessible="true" accrole="pushbutton"/>
+<TouchButton id="atom(Osk)" class="EOA_TouchButton" active="mouse|keyboard|pointer" layoutpos="top" padding="rect(22rp,10rp,20rp,10rp)" borderthickness = "rect(0rp,0rp,0rp,0rp)" contentalign="middleleft" content="resstr(506)" custom="resstr(507)" accname="resstr(508)" accdesc="resstr(508)" accessible="true" accrole="pushbutton"/>
+<TouchScrollViewer accessible="true" accrole="pane" layoutpos="top" active="mouse|pointer" YScrollable="true" XScrollable="false" YBarVisibility="AsNeeded" InteractionMode="TranslateY|Inertia">
+<TouchSwitch font="resstr(520)" foreground="ImmersiveLightPrimaryText" background="ImmersiveLightBackground" height="-1"/>
+<TouchSwitch id="atom(FilterKeys)" class="EOA_TouchSwitch" active="mouse|keyboard|pointer" layoutpos="top" padding="rect(20rp,10rp,20rp,0rp)" ontext="resstr(518)" offtext="resstr(519)" titletext="resstr(515)" custom="resstr(516)" accname="resstr(517)" accdesc="resstr(517)" accessible="true" accrole="PushButton"/>
+<TouchSwitch id="atom(HighContrast)" class="EOA_TouchSwitch" active="mouse|keyboard|pointer" layoutpos="top" padding="rect(20rp,10rp,20rp,0rp)" ontext="resstr(518)" offtext="resstr(519)" titletext="resstr(509)" custom="resstr(510)" accname="resstr(511)" accdesc="resstr(511)" accessible="true" accrole="PushButton"/>
+<TouchSwitch id="atom(Narrator)" class="EOA_TouchSwitch" active="mouse|keyboard|pointer" layoutpos="top" padding="rect(20rp,10rp,20rp,0rp)" ontext="resstr(518)" offtext="resstr(519)" titletext="resstr(500)" custom="resstr(501)" accname="resstr(502)" accdesc="resstr(502)" accessible="true" accrole="PushButton"/>
+<TouchSwitch id="atom(StickyKeys)" class="EOA_TouchSwitch" active="mouse|keyboard|pointer" layoutpos="top" padding="rect(20rp,10rp,20rp,0rp)" ontext="resstr(518)" offtext="resstr(519)" titletext="resstr(512)" custom="resstr(513)" accname="resstr(514)" accdesc="resstr(514)" accessible="true" accrole="PushButton"/>
+="=7=a=w=
+=$=4=@=H=h=p=x=
+=&=<=D=K=W=h=x=
+=(=1=@=K=T=]=f=
+=(=s=
+=)=2=>=K=s=}=
+=*>R>
+=/>R>u>
+=]=}=
+=0=r=
+=3?a?j?v?~?
+=3=D=N=
+=F=R=
+=L9o<
+>!?\?
+>"?E?
+>">.>:>F>R>^>j>v>
+>#>I>e>
+>(?:?S?
+>(>2>O>Y>h>
+>(>H>T>t>|>
+>*>~>
+>,>4><>D>P>p>|>
+>,>O>Y>c>
+>,uQW3
+>/>A>c>|>
+>@s5f
+>@uBj
+>+?t?
+>+>H>R>
+><>F>T>Y>^>
+>'>i>y>
+>8>I>
+>A?N?t?
+>b>G?
+>C>Y>,?5?n?
+>G?c?~?
+>LS\?rpi
+>Y>c>i>
+0#1/2z2@3
+0$0,040<0D0L0X0x0
+0%1>1V1\1b1l1r1v1|1
+0&01080S0a0g0m0s0y0
+0&1V1
+0(0[0
+0(080D0L0l0t0
+0*060B0K0q0
+0.0^0
+0@0e0y0
+0>0a0
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899string too long
+010Q0r0v0|0
+0123456789ABCDEFonecore\internal\sdk\inc\wil\opensource/wil/result.h
+0-1a1p1
+040904B0
+080g0}0
+0e1n1
+0h(%@
+0k1w1
+0n1y1
+0O0^0
+0O1x1
+0pRich
+0Qh@)@
+0Qh`)@
+0Qh0)@
+0SVWQQP
+1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+1!1B1F1L1P1V1Z1`1d1j1n1
+1$1,181X1d1
+1$1D1P1X1x1
+1$1h1t1
+1$2C2V2b2w2
+1%1.181J1
+1%1\1
+1%2a2
+1)121O1v1
+1*2^2
+1,151
+10.0.22621.1
+10.0.22621.1 (WinBuild.160101.0800)
+101H1`1x1
+11eU%
+122O2l2
+132D2]2
+1f;2u
+1g1v1
+1P1b1
+1T2[2f2u2z2
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+2 2&2Z2
+2 282T2x2|2
+2#3]3
+2$2`2m2
+2%3E3Q3_3l3
+2%6-6M6f6q6
+2&3R3
+2:2I2`2f2l2r2x2~2
+2:3Q3
+2;2T2f2v2
+2?2x2
+202;2R2c2|2
+20282D2d2l2x2
+2'2e2w2
+242<2V2^2x2
+242S2
+243N3Z3g3p3
+273B3I3R3d3i3
+2C2O2T2
+2D2T2`2
+2F2i2
+2I2y2
+2M3b3
+2S3Y3
+3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+3 3(3@3T3\3p3x3
+3!3,3E3_3
+3"3*3D3L3f3n3
+3$4,4`4h4p4
+3%4O4z4
+3&4V4
+3(4T4
+3,3>3V3b3
+3?3x3
+3<3D3L3T3\3d3p3
+3<3j3
+303C3K3z3
+333B3a3q3
+343X3|3
+354k4
+363C3
+364H4v4
+373N3]3h3n3
+3B3P3u3
+3F4P4
+3G4T4t4.5N5
+3h4w4
+3p3w3
+3S3\3
+3T3J4o4
+3U3x3
+3U4u4
+4 4(4<4D4L4T4h4p4x4
+4 5z5?6
+4#424>4N4U4a4m4
+4$4<4L4P4`4d4l4
+4$404
+4$4a6s6
+4%40464@4J4
+4%5O5
+4(4^4
+4,525X5
+4?4~4
+4\809Y9
+40?0F0O0a0f0
+444@4`4h4p4
+4'575D5M5W5u5
+465<5(828^8|8
+465m5|5
+4I4p4|4
+4S5`5
+4S5b5
+4X4j4
+5 5(5,5054585<5@5D5H5L5P5T5X5\5`5l5p5t5x5|5
+5 5(505D5L5T5\5p5x5
+5 5,545<5D5L5T5d5p5x5
+5 606@6P6
+5!5'5,575I5P5V5`5o5w5
+5"6m6v6
+5#6F6Z6
+5$5,545<5D5L5T5\5d5l5t5|5
+5&6c6
+5(545@5L5X5d5p5|5
+5)6p6
+5*5@5;6
+5*51575@5O5p5
+5,6:6~6
+5@5f5p5
+5+5W5c5y5
+50;0F0M0R0X0n0
+546\6|6
+5'545;5D5U5
+575G5^5o5
+585a5k5
+585l5
+5C6P6b6
+5ineI
+5m6v6
+5N6d6
+5ntel
+5r6}6
+5Y6*7
+6 6(60686L6T6\6d6l6t6
+6 646B6G6M6V6]6h6n6u6
+6!7*7K7\7p7y7~7
+6$646<6D6L6T6\6d6l6t6|6
+6@6W6]6
+6[6m6-7H7
+6+636:6@6J6T6b6
+6>6^8i8v8|8
+626C6q6
+646D6P6X6x6
+657#818
+657U7
+667T7
+6-6G6Y6n6z6
+6'6i6
+6a6g6
+6C7S7{7
+6F7S7r7
+6h7s7
+7 7(7,74787@7D7L7P7X7\7d7h7p7t7|7
+7 7'7<7b7
+7!8*868C8Y8c8s8}8
+7#7;7
+7#808?8
+7&848T8b8
+7,8d8t9
+7`8_9
+707<7\7h7
+737M7V7b7j7y7
+738K8P8
+767p7y7
+7'767;7J7d7
+7'7V7y7
+7-7Z7t7
+787T7d7p7x7
+7A8j8y8
+7B7L7z7
+8 8&8,82888?8I8O8Z8`8f8l8r8x8N9
+8&939l9y9@:M:
+8(8K8n8
+8<8D8L8T8\8d8p8
+8=8F8_8e8
+8>8`8
+8'8/8?8L8V8{8
+888@8L8l8t8
+8'8B8Q8b8
+8'9W9
+8A8Y8q8
+8B9f9
+8f;:u
+8H8U8}8
+8S8Y8
+8SVW3
+9!9'949=9
+9"9r9
+9#9*9094999?9C9
+9#909
+9$9,949<9D9L9T9\9d9l9t9|9
+9$9?9H9[9a9e9j9p9t9
+9$9^9
+9(9<9I9i93:
+9):`:
+9)9.9c9y9
+9:9D9R9t9
+9':J:z:
+9?9X9c9
+9@:Q:V:i:
+9\$ t
+9\$ u
+9]9c9
+9^Pt`
+9_htl9
+9=9C9y9~9
+90:9:I:R:b:k:
+93uHWV
+949@9`9h9p9x9
+97s/j
+98:A:H<
+9b;o;z<
+9l9y9
+9Y>)F$
+AccessibilityDialogFlyoutLaunchTest
+AccessibilityDialogWindow
+AccessibilityXamlUICallbackWindowClass
+AcquireSRWLockExclusive
+AcquireSRWLockShared
+Active
+AdjustWindowRectExForDpi
+ADVAPI32.dll
+Af;2u
+AllocateAndInitializeSid
+animations
+api-ms-win-core-synch-l1-2-0.dll
+api-ms-win-crt-private-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+ApplicationName
+ATExe
+atName
+ATToggled
+audiodescription
+AUnknown exception
+B<$"<
+bad allocation
+bad array new length
+C++/WinRT version:2.0.220110.5
+callContext
+CallContext:[%hs] 
+caretbrowsing
+caretwidth
+CheckTokenMembership
+CloseHandle
+CloseThreadpoolTimer
+CoCreateFreeThreadedMarshaler
+CoCreateInstance
+CoIncrementMTAUsage
+CoInitialize
+ColorFilter
+colorfiltering
+combase.dll
+CompanyName
+CompareStringOrdinal
+Configuration
+context
+ConvertSidToStringSidW
+CopySettingsToLockedDesktop
+CoTaskMemAlloc
+CoTaskMemFree
+CoUninitialize
+CreateEventW
+CreateMutexExW
+CreateProcessW
+CreateSemaphoreExW
+CreateThreadpoolTimer
+CreateWindowExW
+CreateWindowInBand
+currentContextId
+currentContextMessage
+currentContextName
+CxhOnlyUse
+D$$PSh
+D$(PQ
+D$4PS
+D$4SV
+D$8SV
+DebugBreak
+DefaultAccountSAMName
+DefWindowProcW
+DeleteCriticalSection
+DeleteFileW
+DeleteProcThreadAttributeList
+deque<T> too long
+Description
+DestroyWindow
+DispatchMessageW
+DllGetActivationFactory
+DtCSV
+dwmapi.dll
+DwmSetWindowAttribute
+eax~Z
+ekhHD
+enduser\ezap\easeofaccess\accessibilitydialog\accessibilitydialog.cpp
+enduser\ezap\xamlcommon\xamlresourceutils.cpp
+enduser\ezap\XamlCommon\XamlResourceUtils.h
+enduser\ezap\xamlcommon\xamlui.cpp
+EnterCriticalSection
+en-US
+errors
+EventRegister
+EventSetInformation
+EventUnregister
+EventWriteTransfer
+Exception
+ExpandEnvironmentStringsW
+F$+F 
+F(;F,t
+FailFast
+failureCount
+failureId
+failureType
+FallbackError
+FileDescription
+fileName
+FileVersion
+filterkeys
+FilterType
+FindResourceExW
+FlyoutRoot
+focusborderheight
+focusborderwidth
+FormatMessageW
+FreeLibrary
+FreeSid
+function
+G;~$|
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetDpiForWindow
+GetFileAttributesW
+GetFocus
+GetKeyState
+GetLastError
+GetLocaleInfoEx
+GetMessageW
+GetModuleFileNameA
+GetModuleHandleExW
+GetModuleHandleW
+GetMonitorInfoW
+GetProcAddress
+GetProcessHeap
+GetProductInfo
+GetShellWindow
+GetStartupInfoW
+GetSystemInfo
+GetSystemTimeAsFileTime
+GetTaskmanWindow
+GetThreadDesktop
+GetThreadPreferredUILanguages
+GetTokenInformation
+GetTraceEnableFlags
+GetTraceEnableLevel
+GetTraceLoggerHandle
+GetUserNameExW
+GetUserObjectInformationW
+GetWindowLongW
+GetWindowRect
+GetWindowThreadProcessId
+Global\Windows.Machine.OOBE
+Global\Windows.User.OOBE
+HeapAlloc
+HeapDestroy
+HeapFree
+HeapReAlloc
+HeapSetInformation
+HeapSize
+highcontrast
+hresult
+Inconsistent state data size in wnf_query
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeProcThreadAttributeList
+InitializeSListHead
+InitOnceBeginInitialize
+InitOnceComplete
+InterlockedPushEntrySList
+InternalName
+invalid string position
+IsDebuggerPresent
+IsProcessInJob
+IsProcessorFeaturePresent
+IsWindow
+j$Z_[
+j[^AjU
+jH_W3
+JSON missing:
+JSONInputArchive
+k*do^
+K32EnumProcesses
+K32EnumProcessModules
+K32GetModuleBaseNameW
+kernel32.dll
+KERNEL32.dll
+kernelbase.dll
+keyboardcues
+keyboardpref
+KillTimer
+L$ P3
+L$<^[3
+L$<_^3
+L$4^3
+L$4QS
+L$D_^[3
+L$T^3
+LaunchCflScenario
+LaunchUserOOBE
+LeaveCriticalSection
+LegalCopyright
+length
+lineNumber
+LoadLibraryExA
+LoadLibraryW
+LoadResource
+LoadStringW
+Local\EaseOfAccessDialog
+Local\SM0:%lu:%lu:%hs
+LocalFree
+LockResource
+LogHr
+LogNt
+LogStagedFeatureUsage
+lstd::exception: %hs
+magnifierpane
+memcmp
+memcpy
+memmove
+memmove_s
+memset
+message
+messageduration
+metrics
+Microsoft
+Microsoft Corporation
+Microsoft.Windows.AccessibilityFlyout
+Microsoft.Windows.Narrator.Asimov
+Microsoft.Windows.Settings.Accessibility
+minimumhitradius
+module
+MonitorFromWindow
+mousekeys
+MoveWindow
+mr"iR
+Msg:[%ws] 
+msvcp_win.dll
+MulDiv
+MultiByteToWideChar
+N 99t
+N$99t
+N(99t
+N,99t
+N099t
+N499t
+narrator
+newToggleState
+ntdll.dll
+NtQueryWnfStateData
+NtUpdateWnfStateData
+ole32.dll
+OLEAUT32.dll
+onecore\internal\sdk\inc\wil/Staging.h
+onecore\internal\sdk\inc\wil\opensource\wil\resource.h
+onecore\internal\sdk\inc\wil\Resource.h
+OOBEComplete
+OOBEInProgress
+OpenEventW
+OpenJobObjectW
+OpenMutexW
+OpenProcess
+OpenProcessToken
+OpenSemaphoreW
+OriginalFilename
+originatingContextId
+originatingContextMessage
+originatingContextName
+ORoGetActivationFactory
+OutputDebugStringW
+overlappedcontent
+pagegroup=SettingsPageGroupEaseOfAccess
+PartA_PrivTags
+PassiveAutoStartBehavior
+Ph0)@
+PhD!@
+PhhCC
+PhL$@
+Phl+@
+Php$@
+PhP)@
+PjMZf
+PostMessageW
+PostQuitMessage
+PQh|<@
+PQQSVW
+PQQVW
+PQSVW
+ProcessIdToSessionId
+ProductName
+ProductVersion
+Profile
+PRVQh
+PRWWh
+PSSSSSSSj
+PVh`7C
+PVWQRj+
+PWVSR
+Q0Z0f0n0
+Qh '@
+Qh(8C
+Qh`/A
+QPVQQ
+QQh` @
+QQQQP
+QQSVW
+QQSVWj
+QSVW3
+QueryPerformanceCounter
+QVWh<
+raB3G
+RaiseException
+RaiseFailFastException
+rapidjson
+RegCloseKey
+RegCreateKeyExW
+RegDeleteTreeW
+RegDeleteValueW
+RegEnumKeyExW
+RegEnumValueW
+RegGetValueW
+RegisterClassExW
+RegisterTraceGuidsW
+RegLoadMUIStringW
+RegOpenKeyExW
+RegQueryValueExW
+RegSetValueExW
+ReleaseMutex
+ReleaseSemaphore
+ReleaseSRWLockExclusive
+ReleaseSRWLockShared
+ResetEvent
+ReturnHr
+ReturnNt
+RoOriginateLanguageException
+RootGrid
+RtlDisownModuleHeapAllocation
+RtlDllShutdownInProgress
+RtlNotifyFeatureUsage
+RtlNtStatusToDosErrorNoTeb
+RtlQueryFeatureConfiguration
+RtlRegisterFeatureConfigurationChangeNotification
+RtlUnregisterFeatureConfigurationChangeNotification
+s\ax}?
+s3j@Y
+Secur32.dll
+SecureConfiguration
+SecureDesktopAccommodation
+selectedFilter
+SendInput
+SendNotifyMessageW
+SetDesktopColorTransform
+SetEvent
+SetFocus
+SetForegroundWindow
+SetLastError
+SetThreadpoolTimer
+SetThreadUILanguage
+SetTimer
+SettingConfiguration
+SetUnhandledExceptionFilter
+SetWindowLongW
+SetWindowPos
+Sh,I@
+SHELL32.dll
+ShellExecuteW
+showsounds
+ShowWindow
+SimpleProfile
+SizeofResource
+sKjdY
+Sleep
+SleepConditionVariableCS
+Software\Microsoft\ColorFiltering
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATConfig
+Software\Microsoft\Windows NT\CurrentVersion\Accessibility\ATConfig\
+Software\Microsoft\Windows NT\CurrentVersion\Accessibility\ATConfig\colorfiltering
+Software\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs
+Software\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs\
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\OOBE
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\Session
+Software\Microsoft\Windows NT\CurrentVersion\Accessibility\Session
+Software\Microsoft\Windows NT\CurrentVersion\AccessibilityTemp
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\CandidateAccountManager
+SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\CFL\ExperienceManagerData
+SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\SessionData\
+Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE
+soundsentry
+-sSO\
+StartExe
+StartList::CreateATProcess
+StartList::IsDesktopSwitch
+StartList::SaveSessionKey
+StartList::SaveSettings
+StartList::Synchronize
+StartParams
+StartSecureDesktopToolsForOOBE
+Startup
+stickykeys
+String conversion failed to convert a non-empty ANSI string to Unicode.
+String conversion failed to convert a non-empty Unicode string to ANSI.
+StringFileInfo
+strncmp
+STv/N
+SVWj'3
+SVWjx
+SVWQQ3
+SwitchApps
+System\Setup
+SystemParametersInfoW
+SystemSetting
+T$0QQV
+T$pRQ
+t:QPQQ
+t;PWV
+t@j\V
+t|PWV
+t3hh@@
+t3hH@@
+t3hT@@
+tC7Ddx
+TerminateOnDesktopSwitch
+TerminateProcess
+TestClose
+TestCreate
+TestOpen
+TestQueryData
+TestReport
+TestUnlockData
+tFhL<C
+tgPPPP
+threadId
+Toggle
+togglekeys
+ToggleText
+TraceMessage
+TranslateMessage
+Translation
+tYj@_+
+tz9^ tu
+u h\"@
+u$h4 @
+u$hH @
+u$WSQ
+u&9r8r
+u,h4+@
+u+j0Xj1Zf;E
+u09C u
+U1(\Q
+u9hx"@
+uEj03
+UIFILE
+UnhandledExceptionFilter
+UnregisterClassA
+UnregisterTraceGuids
+UpdateProcThreadAttribute
+USER32.dll
+UserLanguageID
+Utility Manager
+Utilman.pdb
+utilman2.exe
+uuuuuuuubtnufruuuuuuuuuuuuuuuuuu
+V<[t3<ft(<nt
+value
+VarFileInfo
+vector too long
+version
+Vh`7C
+VhhI@
+VirtualProtect
+VirtualQuery
+VRQQQ
+VS_VERSION_INFO
+VWjbZ
+VWjkZ
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
+WakeAllConditionVariable
+wcschr
+wcscspn
+wcsrchr
+wcsspn
+wcsstr
+Wh '@
+Wh`&@
+WideCharToMultiByte
+WilError_03
+WilFailureNotifyWatchers
+wilResult
+WilStaging_02
+windowarranging
+windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel
+Windows.System.Threading.ThreadPoolTimer
+Windows.UI.Core.CoreWindow
+Windows.UI.Xaml.Hosting.DesktopWindowXamlSource
+Windows.UI.Xaml.Hosting.WindowsXamlManager
+Windows.UI.Xaml.Hosting.XamlSourceFocusNavigationRequest
+Windows.UI.Xaml.Markup.XamlReader
+windowtracking
+windowtrackingtimeout
+windowtrackingzorder
+Winlogon
+WinlogonAccess
+winrt::hresult_error: %ls
+WinSqmAddToStream
+WinSqmIsOptedIn
+WPQQV
+WWWWh
+WWWWWWh
+X[_^]
+X5AHx
+xg^Jp5|
+xM;~$}H
+Y__^[
+YY_^]
+Z\9;s
+Z~$|7

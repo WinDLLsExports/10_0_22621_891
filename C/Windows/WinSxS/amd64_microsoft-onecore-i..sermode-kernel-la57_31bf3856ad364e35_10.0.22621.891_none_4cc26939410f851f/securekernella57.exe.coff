@@ -1,0 +1,362 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\WinSxS\amd64_microsoft-onecore-i..sermode-kernel-la57_31bf3856ad364e35_10.0.22621.891_none_4cc26939410f851f\securekernella57.exe
+
+File Type: EXECUTABLE IMAGE
+
+  Image has the following dependencies:
+
+    skci.dll
+    cng.sys
+    ext-ms-win-ntos-ksr-l1-1-0.dll
+    ext-ms-win-ntos-vmsvc-l1-1-0.dll
+
+  Section contains the following exports for securekernella57.exe
+
+    00000000 characteristics
+    2D316222 time date stamp
+        0.00 version
+           1 ordinal base
+         247 number of functions
+         247 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0008A8A8 DbgPrintEx
+          2    1 00004498 EtwRegister
+          3    2 00004680 EtwSetInformation
+          4    3 00004758 EtwUnregister
+          5    4 00004970 EtwWrite
+          6    5 00004CDC EtwWriteTransfer
+          7    6 00058838 ExAcquireFastMutex
+          8    7 00058838 ExAcquirePushLockExclusiveEx
+          9    8 00058838 ExAcquirePushLockSharedEx
+         10    9 00058838 ExAcquireResourceExclusiveLite
+         11    A 00058838 ExAcquireResourceSharedLite
+         12    B 00058838 ExAllocateFromLookasideListEx
+         13    C 00058838 ExAllocateFromNPagedLookasideList
+         14    D 00058838 ExAllocateFromPagedLookasideList
+         15    E 00058838 ExAllocatePool2
+         16    F 00058838 ExAllocatePoolWithTag
+         17   10 00058838 ExAllocateTimer
+         18   11 00058838 ExCreateCallback
+         19   12 00058838 ExDeletePagedLookasideList
+         20   13 00058838 ExDeleteResourceLite
+         21   14 00058838 ExEventObjectType
+         22   15 00058838 ExFreePoolWithTag
+         23   16 00058838 ExFreeToLookasideListEx
+         24   17 00058838 ExFreeToNPagedLookasideList
+         25   18 00058838 ExFreeToPagedLookasideList
+         26   19 00058838 ExInitializePagedLookasideList
+         27   1A 00058838 ExInitializeResourceLite
+         28   1B 00058838 ExIsResourceAcquiredSharedLite
+         29   1C 00058838 ExNotifyCallback
+         30   1D 00058838 ExQueryDepthSList
+         31   1E 00058838 ExRegisterExtension
+         32   1F 00058838 ExReleaseFastMutex
+         33   20 00058838 ExReleasePushLockExclusiveEx
+         34   21 00058838 ExReleasePushLockSharedEx
+         35   22 00058838 ExReleaseResourceLite
+         36   23 00058838 ExSetTimer
+         37   24 00058838 ExSubscribeWnfStateChange
+         38   25 00058838 ExUnsubscribeWnfStateChange
+         39   26 00058838 ExpInterlockedPopEntrySList
+         40   27 00058838 ExpInterlockedPushEntrySList
+         41   28 00058838 IoAllocateIrp
+         42   29 00058838 IoAllocateWorkItem
+         43   2A 00058838 IoBuildDeviceIoControlRequest
+         44   2B 00058838 IoCreateDevice
+         45   2C 00058838 IoDeleteDevice
+         46   2D 00058838 IoGetDeviceObjectPointer
+         47   2E 00058838 IoQueueWorkItem
+         48   2F 00058838 IoQueueWorkItemEx
+         49   30 00058838 IoRegisterPlugPlayNotification
+         50   31 00058838 IoReuseIrp
+         51   32 00058838 IoUnregisterPlugPlayNotificationEx
+         52   33 00058838 IoWMIRegistrationControl
+         53   34 00058838 IofCallDriver
+         54   35 00058838 IofCompleteRequest
+         55   36 000058D0 IumDebugNumToString
+         56   37 0000597C IumDebugPrintNt
+         57   38 00058838 KeAcquireSpinLockRaiseToDpc
+         58   39 00058838 KeBugCheck
+         59   3A 00058708 KeBugCheckEx
+         60   3B 00058838 KeDelayExecutionThread
+         61   3C 00058838 KeEnterCriticalRegion
+         62   3D 00058838 KeEnterGuardedRegion
+         63   3E 00005AE4 KeGetCurrentIrql
+         64   3F 00079F98 KeGetCurrentProcessorNumberEx
+         65   40 00058838 KeGetCurrentThread
+         66   41 00058838 KeInitializeEvent
+         67   42 00058838 KeInitializeMutex
+         68   43 00058838 KeInitializeSpinLock
+         69   44 00058838 KeLeaveCriticalRegion
+         70   45 00058838 KeLeaveGuardedRegion
+         71   46 00058838 KeQueryPerformanceCounter
+         72   47 00058838 KeQueryUnbiasedInterruptTime
+         73   48 00058838 KeReleaseMutex
+         74   49 00058838 KeReleaseSpinLock
+         75   4A 00058838 KeResetEvent
+         76   4B 00058838 KeRestoreExtendedProcessorState
+         77   4C 00058838 KeSaveExtendedProcessorState
+         78   4D 00058838 KeSetEvent
+         79   4E 00058838 KeWaitForSingleObject
+         80   4F 00058838 MmAllocateMappingAddress
+         81   50 00058838 MmFreeMappingAddress
+         82   51 00058838 MmFreePagesFromMdl
+         83   52 00058838 MmGetSystemRoutineAddress
+         84   53 00058838 MmMapLockedPagesSpecifyCache
+         85   54 00058838 MmMapLockedPagesWithReservedMapping
+         86   55 00058838 MmUnmapLockedPages
+         87   56 00058838 MmUnmapReservedMapping
+         88   57 00058838 NtQuerySystemInformation
+         89   58 00058838 ObReferenceObjectByHandle
+         90   59 00058838 ObSetSecurityObjectByPointer
+         91   5A 00058838 ObfDereferenceObject
+         92   5B 00058838 ObfReferenceObject
+         93   5C 00058838 PsGetCurrentProcess
+         94   5D 00058838 PsGetProcessCreateTimeQuadPart
+         95   5E 00058838 PsLookupProcessByProcessId
+         96   5F 00058838 PsSetCreateProcessNotifyRoutine
+         97   60 0008AA50 RtlAnsiStringToUnicodeString
+         98   61 0008AB4C RtlAppendUnicodeStringToString
+         99   62 0008ABE4 RtlAppendUnicodeToString
+        100   63 00058838 RtlAssert
+        101   64 0008ACDC RtlAvlInsertNodeEx
+        102   65 0008ADF8 RtlAvlRemoveNode
+        103   66 0008944C RtlClearAllBits
+        104   67 00089480 RtlClearBit
+        105   68 0008C110 RtlCompareExchangePointerMapping
+        106   69 0008C2A4 RtlCompareExchangePropertyStore
+        107   6A 000A61E0 RtlCompareMemory
+        108   6B 000AE794 RtlCompareUnicodeString
+        109   6C 000AE7C8 RtlCompareUnicodeStrings
+        110   6D 00058838 RtlCopyUnicodeString
+        111   6E 000AE91C RtlDuplicateUnicodeString
+        112   6F 000AEA54 RtlEqualUnicodeString
+        113   70 00089978 RtlFindClearBitsAndSet
+        114   71 000AED70 RtlFindExportedRoutineByName
+        115   72 00089D24 RtlFindNextForwardRunClear
+        116   73 00089E28 RtlFindSetBits
+        117   74 000AEBAC RtlFreeUnicodeString
+        118   75 0008CC30 RtlGetEnabledExtendedFeatures
+        119   76 00058838 RtlGetPersistedStateLocation
+        120   77 0008CC58 RtlGetSystemGlobalData
+        121   78 000AEF2C RtlGetVersion
+        122   79 0008D11C RtlImageNtHeaderEx
+        123   7A 0008D1C4 RtlInitUnicodeString
+        124   7B 0008D208 RtlInitUnicodeStringEx
+        125   7C 0008A1CC RtlInitializeBitMap
+        126   7D 000AF10C RtlIntegerToUnicodeString
+        127   7E 00058838 RtlNtStatusToDosError
+        128   7F 00058838 RtlNtStatusToDosErrorNoTeb
+        129   80 0008A550 RtlNumberOfSetBits
+        130   81 000AEBD8 RtlPrefixUnicodeString
+        131   82 0008C504 RtlQueryPointerMapping
+        132   83 0008C5CC RtlQueryPropertyStore
+        133   84 00058838 RtlQueryRegistryValuesEx
+        134   85 0008B0E4 RtlRbInsertNodeEx
+        135   86 0008B570 RtlRbRemoveNode
+        136   87 0008C664 RtlRemovePointerMapping
+        137   88 0008C760 RtlRemovePropertyStore
+        138   89 0008A6F0 RtlSetBit
+        139   8A 0008A710 RtlSetBits
+        140   8B 0008CF2C RtlSetSystemGlobalData
+        141   8C 0008D24C RtlTimeFieldsToTime
+        142   8D 000AF18C RtlUTF8StringToUnicodeString
+        143   8E 000AF290 RtlUTF8ToUnicodeN
+        144   8F 00058838 RtlUnicodeStringToInteger
+        145   90 000AF728 RtlUnicodeStringToUTF8String
+        146   91 000AF844 RtlUnicodeToUTF8N
+        147   92 000AED0C RtlUpcaseUnicodeChar
+        148   93 00058838 SeAuditFipsCryptoSelftests
+        149   94 00058838 SeCaptureSubjectContext
+        150   95 00058838 SeLockSubjectContext
+        151   96 00058838 SeQueryAuthenticationIdToken
+        152   97 000B1708 SeQuerySecureBootPlatformManifest
+        153   98 000B1778 SeQuerySecureBootPolicyValue
+        154   99 00058838 SeReleaseSubjectContext
+        155   9A 00058838 SeReportSecurityEventWithSubCategory
+        156   9B 00058838 SeSetAuditParameter
+        157   9C 00058838 SeUnlockSubjectContext
+        158   9D 0005FDE8 ShvlCompleteIntercept
+        159   9E 0005FE98 ShvlCompleteIsolatedImport
+        160   9F 0005FF24 ShvlEnableVpVtlForPartition
+        161   A0 00060050 ShvlGetInterceptData
+        162   A1 000600A8 ShvlGetPartitionProperty
+        163   A2 000601B0 ShvlGetVpRegisters
+        164   A3 00060504 ShvlLockSparseGpaPageMapping
+        165   A4 000606AC ShvlModifySparseSpaPageHostAccess
+        166   A5 00060EB0 ShvlSetPartitionProperty
+        167   A6 00060FA4 ShvlSetVpRegisters
+        168   A7 00061158 ShvlUnlockSparseGpaPageMapping
+        169   A8 0007A0F4 SkAcquirePushLockExclusive
+        170   A9 0007A10C SkAcquirePushLockShared
+        171   AA 0007A2C4 SkAllocateNormalModePool
+        172   AB 0007A3BC SkAllocatePool
+        173   AC 0007A3EC SkFreeNormalModePool
+        174   AD 0007A488 SkFreePool
+        175   AE 0007A5D8 SkGetIdkSignatureForData
+        176   AF 0007A1B8 SkInitializePushLock
+        177   B0 0005CA2C SkIsSecureKernel
+        178   B1 0007A024 SkQuerySecureKernelInformation
+        179   B2 0007B9A4 SkQuerySystemTime
+        180   B3 0007A1C4 SkReleasePushLockExclusive
+        181   B4 0007A1DC SkReleasePushLockShared
+        182   B5 0007BAD4 SkSystemExceptionFilter
+        183   B6 00001286 SkciCreateSecureImage
+        184   B7 00001292 SkciFinalizeSecureImageHash
+        185   B8 0000129E SkciFinishImageValidation
+        186   B9 000012AA SkciFreeImageContext
+        187   BA 00058A6C SkeCacheInvalidatePage
+        188   BB 0005A798 SkeEnterCriticalRegion
+        189   BC 0005A7C4 SkeLeaveCriticalRegion
+        190   BD 000A3570 SkeZeroPages
+        191   BE 00011574 SkmmCancelPreRegisterHvImage
+        192   BF 00011644 SkmmCommitPreRegisterHvImage
+        193   C0 000145FC SkmmFreeReservedMapping
+        194   C1 00014C54 SkmmFreeSecureAllocation
+        195   C2 000158C8 SkmmMapMdl
+        196   C3 000159FC SkmmMapMdlWithReservedMapping
+        197   C4 00011D04 SkmmPreRegisterHvImage
+        198   C5 0001D20C SkmmReleasePageRestriction
+        199   C6 00014718 SkmmReserveMappingAddress
+        200   C7 0001D388 SkmmRestrictPage
+        201   C8 00015AB4 SkmmUnmapMdl
+        202   C9 00064064 SkobCreateHandle
+        203   CA 00064F48 SkobCreateObject
+        204   CB 00065044 SkobDereferenceObject
+        205   CC 00065060 SkobReferenceObject
+        206   CD 000644A0 SkobReferenceObjectByHandle
+        207   CE 00058838 VslExchangeEntropy
+        208   CF 00058838 ZwClose
+        209   D0 00058838 ZwCreateKey
+        210   D1 00058838 ZwDeleteKey
+        211   D2 00058838 ZwDeleteValueKey
+        212   D3 00058838 ZwEnumerateKey
+        213   D4 00058838 ZwEnumerateValueKey
+        214   D5 00058838 ZwLoadDriver
+        215   D6 00058838 ZwOpenKey
+        216   D7 00058838 ZwQueryInformationProcess
+        217   D8 00058838 ZwQueryKey
+        218   D9 00058838 ZwQuerySystemInformation
+        219   DA 00058838 ZwQueryValueKey
+        220   DB 00058838 ZwSetSystemInformation
+        221   DC 00058838 ZwSetValueKey
+        222   DD 00058838 ZwUnloadDriver
+        223   DE 000010B0 __C_specific_handler
+        224   DF 000013D8 __GSHandlerCheck
+        225   E0 00001464 __GSHandlerCheck_SEH
+        226   E1 000A7060 __chkstk
+        227   E2 0007BC68 _invalid_parameter
+        228   E3 00058838 _local_unwind
+        229   E4 00003234 _ultow_s
+        230   E5 00058838 _vsnwprintf
+        231   E6 000014F8 _wcsicmp
+        232   E7 0000154C _wcsnicmp
+        233   E8 000015BC atoi
+        234   E9 000015D4 atol
+        235   EA 000015FC bsearch
+        236   EB 0000170C bsearch_s
+        237   EC 0000182C isdigit
+        238   ED 00001870 memcmp
+        239   EE 000AC400 memcpy
+        240   EF 000AC400 memmove
+        241   F0 000B6010 memset
+        242   F1 00001950 qsort
+        243   F2 00001D30 qsort_s
+        244   F3 00002138 strnlen
+        245   F4 00002158 wcscmp
+        246   F5 0000339C wcscpy_s
+        247   F6 00002194 wcsncmp
+
+  Section contains the following imports:
+
+    skci.dll
+             1400B85C8 Import Address Table
+             1400CD680 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           6 SkciInitialize
+                           D SkciValidateAmeCertChain
+                           C SkciTransferVersionResource
+                           E SkciValidateDynamicCodePages
+                           F SkciValidateImageData
+                           9 SkciQueryImageUniqueID
+                           8 SkciQueryImageAuthorID
+                           0 SkciCompareSigningLevels
+                           2 SkciCreateSecureImage
+                           B SkciSetCodeIntegrityPolicy
+                           1 SkciCreateCodeCatalog
+                           7 SkciMatchHotPatch
+                           A SkciQueryInformation
+                           5 SkciFreeImageContext
+                           4 SkciFinishImageValidation
+                           3 SkciFinalizeSecureImageHash
+
+    cng.sys
+             1400B84F0 Import Address Table
+             1400CD5A8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1A BCryptHashData
+                           8 BCryptDestroyHash
+                          18 BCryptGetProperty
+                          12 BCryptFinishHash
+                           2 BCryptCreateHash
+                          29 CngGetFipsAlgorithmMode
+                          42 SystemPrng
+                          1D BCryptKeyDerivation
+                           4 BCryptDecrypt
+                          16 BCryptGenerateSymmetricKey
+                          1C BCryptImportKeyPair
+                           D BCryptEncrypt
+                          2D EntropyRegisterSource
+                          28 BCryptVerifySignature
+                           9 BCryptDestroyKey
+                          25 BCryptSignHash
+                          24 BCryptSetProperty
+                          2B EntropyProvideData
+                          2A EntropyPoolTriggerReseedForIum
+                          14 BCryptGenRandom
+                          1E BCryptOpenAlgorithmProvider
+                           1 BCryptCloseAlgorithmProvider
+
+    ext-ms-win-ntos-ksr-l1-1-0.dll
+             1400B85A8 Import Address Table
+             1400CD660 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           F KsrSkInitSystem
+
+    ext-ms-win-ntos-vmsvc-l1-1-0.dll
+             1400B85B8 Import Address Table
+             1400CD670 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 SvcSkInitSystem
+
+  Summary
+
+       23000 .data
+        7000 .pdata
+       16000 .rdata
+        3000 .reloc
+        1000 .rsrc
+       B1000 .text
+        7000 ALMOSTRO
+        1000 CFGRO
+        2000 FUNCTBL
+        2000 KVASCODE
+        1000 PAGELK
+        4000 TABLERO
+        1000 TRNS
+        1000 ZEROPAGE
+        1000 fothk
+       13000 nlsdata

@@ -1,0 +1,1693 @@
+ Microsoft Corporation. All rights reserved.
+ Operating System
+ Windows
+!0&0+0;0X0]0b0
+!1R1q1
+!This program cannot be run in DOS mode.
+$SSSj
+%hs!%p: 
+%hs(%d) tid(%x) %08X %ws
+%hs(%u)\%hs!%p: 
+%ls\%ls
+%ls=%ls
+%s - hr: 0x%08x
+%s finished
+%s started
+%s started. %s: %lu.
+%s started. %s: %s.
+%s started. joinType = %d (%s), tenantId = "%s", userEmail = "%s", infoKind = %d (%s), ignoreMetadataFailure = %s, useDefaultIfValueIsMissing = %s.
+%s/manage/%s/
+%s/webauthn/%s/
+%s: "%s" should not be null.
+%s: %s failed with error code: 0x%08x
+%s: %s failed with error code: 0x%08x.
+%s: %s failed with error code: 0x%08x. Ignore Error: %s
+%s: %s failed with win32 error code: 0x%08x.
+%s: %s(%s) failed with error code: 0x%08x.
+%s: %u total %s certificate(s) found. %u certificate(s) checked.
+%s: Always try unloading reg key "%s" first before loading it. RegUnLoadKeyW failed with error code: 0x%08x. Failure ignored. Continue to load the key...
+%s: Cannot close reg key %s. RegCloseKey failed with error code: 0x%08x.
+%s: Cannot enumerate keys under registry key "%s\%s". Win32 error code: 0x%08x.
+%s: Cannot load file "%s" into registry key "%s". RegLoadKeyW error code: 0x%08x.
+%s: Cannot open NGC key registry. Key name: %s. Error code: 0x%08x.
+%s: Cannot open reg key %s. Assuming the host is NOT WinPE. RegOpenKeyExW error code: 0x%08x.
+%s: Cannot open registry key "%s". RegOpenKeyExW error code: 0x%08x.
+%s: Cannot open registry key "%s". RegOpenKeyExW error code: 0x%08x. Try loading the registry key...
+%s: Cannot open registry key "%s\%s". Win32 error code: 0x%08x.
+%s: Cannot open registry key %s. Error code: 0x%08x.
+%s: Cannot parse NGC endpoint to get server string. NGC endpoint is "%s". Default WebAuthN and device management endpoint will not be set.
+%s: Cannot query values of registry key "%s\%s". Win32 error code: 0x%08x.
+%s: Cannot read any accounts out of a total of %lu certificate(s).
+%s: Cannot read registry key value "%s@%s". Error code: 0x%08x.
+%s: Cannot unload reg key %s. RegUnLoadKeyW failed with error code: 0x%08x.
+%s: cbInputCount size is not the size of Guid: %d.
+%s: Cert matching: %s
+%s: CertCloseStore failed with error code: 0x%08x
+%s: CertDuplicateCertificateContext failed with error code: 0x%08x
+%s: CertificateUtil::FindAllCertificatesByOidValue didn't find any certificate so returning CRYPT_E_NOT_FOUND.
+%s: CertificateUtil::FindAllCertificatesByOidValue found just one certificate and recovery certificate is requested so returning CRYPT_E_NOT_FOUND.
+%s: CertOpenStore failed with error code: 0x%08x
+%s: CryptBinaryToStringW with error code: 0x%08x
+%s: CryptDecodeObjectEx failed with error code: 0x%08x
+%s: CryptDecodeObjectEx with error code: 0x%08x
+%s: DeviceRegistrationStateApi::PopulateJoinInfo failed with error code: 0x%08x.
+%s: DeviceRegistrationStateApi::PopulateJoinInfo failed with error code: 0x%08x. Some join infor is missing. Skip this certificate.
+%s: DsrInstance: %d
+%s: Extension was not found in the certificate. OID: %hs.
+%s: Failed to open registry key "%s". Error code: 0x%08x.
+%s: Failed to read one or more join status entries from the registry.
+%s: Failed to read registry key "%s\%s\%s". Error code: 0x%08x.
+%s: File "%s" loaded into registry key "%s".
+%s: FindExtensionByOid: pCertContext is NULL.
+%s: FindExtensionByOid: pcszOid is NULL.
+%s: Found NO certificate.
+%s: GetWindowsDirectoryWinPE returns an empty path.
+%s: Invalid CXH_SCENARIO_TYPE value: %d
+%s: Invalid join type %d. Only DEVICE and WORKPLACE are allowed.
+%s: JoinStatusStorage::SetDefaultDiscoveryMetadata failed with error code: 0x%08x.
+%s: keyName should not be null.
+%s: No device cert is found. Checking workplace cert...
+%s: No device cert or workplace cert is found.
+%s: No explicit UPN given. Using the work account's UPN for matching. UPN: %s.
+%s: Out of memory. Allocation failed.
+%s: parentKeyPath should not be null.
+%s: pbExists should not be null.
+%s: reg key "%s" unloaded.
+%s: RegistrationCertStatus::GetCertificates returned CRYPT_E_NOT_FOUND. Returning S_FALSE.
+%s: RegistrationCertStatus::GetDeviceCertificate returned CRYPT_E_NOT_FOUND. Returning S_FALSE.
+%s: RegistrationCertStatus::GetDeviceCertificates returned NO certificate.
+%s: RegistrationCertStatus::GetWorkplaceCertificate returned CRYPT_E_NOT_FOUND. Returning S_FALSE.
+%s: RegistrationCertStatus::GetWorkplaceCertificates returned NO certificate.
+%s: Registry key %s@%s does not have a value. Default value is also NULL. Returning NULL...
+%s: Registry key %s@%s does not have a value. Using default value...
+%s: Registry key based on certificate thumbprint (%s) does not exist. Using registry key based on device ID (%s) ...
+%s: Registry path is longer than %d characters
+%s: RegOpenCurrentUser failed with win32 error code: 0x%08x. samDesired = %lu.
+%s: RegOpenCurrentUserKey(%lu) failed with win32 error code: 0x%08x.
+%s: Requested scenario: %d
+%s: Returning %d certificate(s) (found total of %d certificate(s)). Requested infoKind is %s
+%s: Returning certificate with UTC timestamp (YYYY-MM-DD HH:MM:SS.sss) %04u-%02u-%02u %02u:%02u:%02u.%03u and thumbprint %s
+%s: RtlGetPersistedStateLocation failed with NT status code : 0x%08x. SourceID = "%s", DefaultPath = "%s"
+%s: Scenario Id is: %s
+%s: subPath is empty. Nothing to do.
+%s: subPath is longer than %d characters
+%s: Successfully opened reg key %s. Assuming the host is WinPE.
+%s: Successfully read %lu accounts out of a total of %lu certificate(s).
+%s: System is WinPE.
+%s: Tenant ID is empty. Default WebAuthN and device management endpoint will not be set.
+%s: The email does not contain the @ sign.
+%s: The email does not have any characters after the @ sign.
+%s: The NGC key is not for the given tenant %s. Key tenant: %s. Return no key.
+%s: The NGC key is not for the given UPN %s. Key UPN: %s. Return no key.
+%s: The registry key "%s" is not a valid NGC key ID. Error code: 0x%08x.
+%s: The registry key "%s\%s" does not exist. Noting to read.
+%s: The registry key value "%s@%s" does not exist. Using default value %I64d. Error code: 0x%08x.
+%s: The registry key value "%s@%s" does not exist. Using default value %lu. Error code: 0x%08x.
+%s: The registry key value "%s@%s" does not exist. Using default value NULL. Error code: 0x%08x.
+%s: The registry key value "%s@%s" is not of one of the specified types (flags = 0x%08x). Using default value NULL.
+%s: The registry key value "%s@%s" is not of type DWORD. Using default value %lu. Error code: 0x%08x.
+%s: The registry key value "%s@%s" is not of type QWORD. Using default value %I64d. Error code: 0x%08x.
+%s: The returned join certificate is NULL. Returning S_FALSE.
+%s: The specified level "%lu" is not supported.
+%s: The specified tenant ID is empty. Returning the default account certificate...
+%s: There is no enterprise DRS certificates in the user store. Returning CRYPT_E_NOT_FOUND.
+%s: There is no valid key registry.
+%s: This path object has not been properly initiliazed. Either root key or full path is NULL.
+%s: Unknown CERT_OID_VALUE_TYPE: %d.
+%s: UuidToStringW failed with RPC_STATUS error code: 0x%08x
+%s: wcsncpy_s failed with errno %d (%s).
+%s: Will try to find the OID: '%hs' and value: '%s'
+%s: wmemcpy_s failed with error code: 0x%08x.
+%s@%s
+%s\%s
+%s\%s@%s
+&|=Huw
+()$^.*+?[]|\-{},:=!
+([A-z0-9._%+-]+)(@[A-z0-9.-]+\.[A-z]{2,4})
+(2:2u2
+(caller: %p) 
+(default)
+)0`0|0
+,%ls=%ls
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVexception@std@@
+.?AVResultException@wil@@
+.?AVtype_info@@
+.00cfg
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$brc
+.data$r$brc
+.data$rs$brc
+.didat$2
+.didat$3
+.didat$4
+.didat$5
+.didat$6
+.didat$7
+.edata
+.gfids
+.giats
+.idata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.rdata
+.rdata$brc
+.rdata$r$brc
+.rdata$sxdata
+.rdata$T$brc
+.rdata$voltmd
+.rdata$zETW0
+.rdata$zETW1
+.rdata$zETW2
+.rdata$zETW9
+.rdata$zzzdbg
+.rsrc
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata$x
+/w.t'
+: :%:+:7:A:K:W:\:j:o:u:~:
+: :(:0:8:@:P:\:d:l:t:|:
+: :4:B:G:M:V:]:h:n:u:
+: :F:O:r:y:
+: ;U;d;l;
+:!:1:A:V:i:
+:#:S:n:
+:$:,:8:X:`:h:t:
+:$:2:M:U:^:
+:%;*;_;j;o;~;
+:&;9;
+:):8:=:B:_:n:s:x:
+:);>;L;W;b;z;
+:*:D:Z:
+:*:E:X:c:~:
+:,:1:O:~:
+:/:t:
+:-:4:A:H:a:
+:;;^;y;
+:;;y;
+:2:F:
+:7:C:U:
+:B;r;
+:B;y;
+:G:P:~:
+:H;R;
+:P:|:
+:r;x;
+; ;`;h;
+;$;);/;8;>;H;N;W;];c;m;y;~;
+;$;>;d;i;
+;%;,;;;B;Q;X;
+;&;C;];h;
+;*;7;>;E;L;3<I<
+;,<><
+;/;Z;
+;]=h=
+;<;D;P;p;|;
+;6;=;{;
+;7;F;K;P;m;|;
+;7<`<
+;B;T;
+;C<V<
+;E;O;c;
+;QLu$;QPu
+;T;x;
+? ?,?L?X?x?
+? ?t?
+?&?a?
+?,?2?8?T?Y?_?
+?;?C?X?]?b?y?
+?'???J?f?
+??0_Locinfo@std@@QAE@PBD@Z
+??0_Lockit@std@@QAE@H@Z
+??0facet@locale@std@@IAE@I@Z
+??1_Locinfo@std@@QAE@XZ
+??1_Lockit@std@@QAE@XZ
+??1facet@locale@std@@MAE@XZ
+?'?2?
+??Bid@locale@std@@QAEIXZ
+?[?k?
+?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
+?_Getcat@?$ctype@G@std@@SAIPAPBVfacet@locale@2@PBV42@@Z
+?_Getcoll@_Locinfo@std@@QBE?AU_Collvec@@XZ
+?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ
+?_Incref@facet@locale@std@@UAEXXZ
+?_Init@locale@std@@CAPAV_Locimp@12@_N@Z
+?_Xbad_alloc@std@@YAXXZ
+?_Xlength_error@std@@YAXPBD@Z
+?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
+?3?;?J?{?
+?5?D?t?
+?D?X?
+?H?}?
+?H?b?g?l?
+?H?Q?Z?h?q?
+?id@?$collate@G@std@@2V0locale@2@A
+?id@?$ctype@G@std@@2V0locale@2@A
+?is@?$ctype@G@std@@QBE_NFG@Z
+?Q?[?`?
+?T?b?
+?tolower@?$ctype@G@std@@QBEGG@Z
+?tolower@?$ctype@G@std@@QBEPBGPAGPBG@Z
+?w}t$j
+?wKWP
+@.didat
+@.reloc
+@/;TF
+@c~lY
+[%hs(%hs)]
+[%hs]
+[_9*O
+\NetworkProvider
+^^^GGGGGGGGGGGGGGGGGGGGG^^^
+^^^GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+^^^GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG^^^
+^^^GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+^^^GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+^^^GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGjjj
+^Vh0O
+_^[Y]
+__CxxFrameHandler3
+__std_terminate
+_CxxThrowException
+_EnumerateEmpty
+_except_handler4_common
+_initterm
+_initterm_e
+_netChangePassword
+_o___std_exception_copy
+_o___std_exception_destroy
+_o___std_type_info_destroy_list
+_o___stdio_common_vsnprintf_s
+_o___stdio_common_vswprintf
+_o__callnewh
+_o__cexit
+_o__configure_narrow_argv
+_o__crt_atexit
+_o__errno
+_o__execute_onexit_table
+_o__get_errno
+_o__initialize_narrow_environment
+_o__initialize_onexit_table
+_o__invalid_parameter_noinfo
+_o__invalid_parameter_noinfo_noreturn
+_o__purecall
+_o__register_onexit_function
+_o__seh_filter_dll
+_o__set_errno
+_o__wcserror
+_o_free
+_o_iswspace
+_o_malloc
+_o_memcpy_s
+_o_realloc
+_o_wcsncpy_s
+_OnLocalPasswordReset exit
+_Wcscoll
+_Wcsxfrm
+`.data
+{$_^[
+|$hWQ
+}[hD+
+~(_^]
+~L}uI
+~p_^]
++FL+NL
++NL+FL
+< <$<(<,<8<<<H<L<X<\<h<l<x<|<
+< <,<L<T<`<
+< <'<.<5<<<C<K<S<[<g<p<u<{<
+<!<&<?<D<k<p<u<
+<#<)<2<8<C<K<T<Z<e<p<u<{<
+<#<5<H<x<
+<$<0<8<P<X<`<d<l<
+<%=Q=
+<(=/=;=B=k=
+<)<><_<
+<.<><N<^<n<~<
+</correlation>
+</stringSID>
+<;=Z=j={=
+<^=q=%>x>
+<'<H<`<e<j<
+<>>J>
+<0@0H0P0h0
+<0<S<
+<1<i<u<
+<2<=<\<g<V=
+<3<z<
+<6<C<N<f<q<
+<8=?=D=I=
+<9<I<q<z<
+<A=S=
+<correlation>
+<D=U=
+<E<J<O<
+<I=N=
+<NULL>
+<O<V<y<
+<Q<k<
+<signal type="bluetooth"
+<stringSID>
+= =(=,=0=8=<=D=H=P=T=X=\=
+=!=S=X=]=
+=!=t=
+="=(=/=6===D=K=R=Y=a=i=q=|=
+=#=+=O=
+=(=,=0=4=L=P=`=d=l=
+=*>9>
+=,=4=<=D=L=T=`=
+=,>T>Z>
+=.=?=J=Z=g={=
+=@>Q>l>
+=+=0=
+='=<=I=k=r=y=
+=0=?=P=[=
+=2>]>
+=4>l>
+=6>;>\>a>
+=8>q>*?
+=D=T=}=
+=n=y=
+=O=[=a=p=
+=Z>r>
+> ?S?`?k?s?
+> >(>0><>\>d>l>x>
+> ><>R>f>k>
+>!?0?9?h?
+>!?b?
+>!>L>
+>#>(>R>W>
+>(?4?T?Z?g?r?
+>(>,><>@>D>H>P>h>p>t>x>|>
+>)>4>>>D>_>e>
+>.?j?
+>.>=>s>
+>:>d>j>{>
+>;?J?s?|?
+>+><>U>b>m>
+>+>6>R>X>r>
+>>>J>
+>0>i>
+>2>7><>
+>3>9>t>
+>c>v>
+>H>Q>X>
+>H>X>
+>J?O?T?p?u?
+>l?q?v?
+>P?c?o?
+>W>d>
+0 0$0,00040<0@0D0H0P0T0X0\0`0h0l0p0t0x0|0
+0 1)1U1h1
+0$000<0H0T0`0l0x0
+0$030h0u0
+0$1>1R1m1
+0$1G1j1
+0%0+0@0N0
+0&0:0_0
+0)0?0L0W0_0
+0)000=0t0
+0,0|0
+0.040C0
+0^162
+0+0I0l0
+000C0\0m0y0
+001=1Z1p1
+0-060=0C0
+0123456789ABCDEF
+0123456789abcdef
+030b0
+040<0D0L0X0x0
+040904B0
+050W0v0
+060K0P0
+061<1X1
+071x1
+081y1
+090R0b0m0
+0c1}1
+0d0o0x1
+0f;1u
+0O0p0
+0S1~1
+1 1$1(1,14181@1D1L1T1\1`1d1h1p1t1x1
+1 1%1M1S1
+1 2P2
+1!2D2g2
+1$1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+1$1,141@1`1h1p1x1
+1$161
+1$2.2@2R2[2a2j2
+1%1.151;1s1|1
+1%1=1O1^1s1
+1%1Z1`1k1
+1&1:1J1Z1g1{1
+1,1D1[1Z2f2r2
+1.2.840.113556.1.5.284.2
+1.2.840.113556.1.5.284.5
+1.2.840.113556.1.5.284.7
+1;qPu
+1?2D2I2b2g2
+1^2q2
+1>1C1K1w1
+10.0.22621.1
+10.0.22621.1 (WinBuild.160101.0800)
+102W2q2
+112=2
+131F1\1d1k1w1
+1D1g1
+1E1J1
+1O1r1
+1P1q1{1
+1U1`1e1t1
+1U1y1
+1W1\1
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+2 252:2?2_2~2
+2!2&2n2
+2!232J2P2
+2#2=2D2
+2#353H3x3
+2#3X3e3
+2$3|3
+2%2]2f2m2s2
+2%2-2B2
+2%3,3B3I3
+2%393[3
+2,2;2a2
+2.2>2N2[2o2
+2/2F2L2h2}2
+2+2B2]2
+2<2D2L2T2\2x2
+212y2
+22393a3
+2-2z2
+2'333;3K3S3h3p3}3
+2'333N3y3
+2'3N3~3
+272E2Y2f2x2
+293>3g3r3~3
+2D2U2
+2g3}3
+2l2w2
+2l3x3
+2p2v2
+2Q3c3
+2q3x3
+2Z2b2
+3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+3 3'3.3@3Q3X3_3f3m3
+3"3/3C3P3d3t3
+3$404^4
+3%4)4.444:4@4F4L4R4X4_4i4o4z4
+3%4*4/4o4t4y4
+3&3I3T3
+3&4W4`4g4
+3(3V3k3
+3(4-4G4}4
+3)3Y3y3
+3,393>3C3z3
+3,3C3Z3
+3,4h4q4y4
+3/343:3D3]3c3q3|3
+3/3N3
+3\4p4v4
+3^4u4
+3+484T4
+3>3i3
+304D4Q4`4
+314:4A4G4
+32363<3@3F3J3P3T3Z3^3d3h3n3r3x3|3
+3'4.444Z4a4g4
+343<3D3L3T3\3d3l3t3|3
+354B4w4
+383a3889-5bc9-47a3-846c-2b70f0b7fe0e
+393C3Z3
+3A3M3W3]3
+3B3e3
+3g3m3
+3G3P3W3]3
+4 4$4(4,4044484<4@4D4L4T4X4\4`4d4h4l4p4t4x4|4
+4 484S4m4~4
+4 4B4H4S4r4
+4 4D4U4[4
+4 4I4
+4!4&404Q4V4`4
+4"464F4V4c4w4
+4"545>5D5M5
+4$404P4X4`4h4p4|4
+4,5\5
+4`5e5~5
+4+4>4W4e4v4
+4<4_4
+4'494V4b4k4w4
+4'4F4
+464;4F4
+4A4F4_4j4o4~4
+4A5g5{5
+4b4|4
+4b5g5
+4D4N4
+4D5K5
+4h5t5
+4j5v5
+4K4R4a4k4|4
+4L4\4g4l4t4
+4l5z5
+4X5b5t5
+5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
+5 5q5
+5!5(5d5~5
+5#5x5
+5$5+515i5r5y5
+5$505P5\5|5
+5$545A5Z5u5
+5(5/5F5P5^5e5
+5(5A5U5
+5(696N6q6
+5:5I5a5f5k5
+5@6r6
+51575<5K5P5
+52565<5@5F5J5a5
+535C5
+5B6o6u6
+5g5q5
+5I5S5
+5ineI
+5K5\5b5
+5L6Q6V6
+5ntel
+5T5Z5e5
+6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+6"646s6
+6#6/64696>6T6Y6`6e6v6{6
+6$6D6L6T6\6d6l6x6
+6%6/696C6M6X6]6|6
+6%6e6
+6&6+6f6p6w6
+6)616e6l6y6
+6)626I6b6t6
+6)6A6L6k6~6
+6)747=7
+6*60696B6L6^6}6
+6@6N6d6m6s6{6
+6\6h6
+6+6d6
+6+6N6a6s6
+6=6F6R6Z6q6
+6=6u6
+627^7
+62787y7
+636r6
+637Q7{7
+6-6:6A6h6x6~6
+6-6:6N6[6o6|6
+6'7.7B8
+686N6a6i6
+6A7[7n7t7
+6B7~7
+6B7Q7\7v7
+6G6]6
+6g7n7
+6O6!7
+6S6\6c6i6
+6SVQRQ
+6T7k7
+6T7r7
+7 7$7(7,7074787<7@7D7H7P7
+7 7(70787@7L7l7t7
+7!717A7Q7p7
+7#7F7W7k7v7~7
+7#8T8Y8d8q8
+7(7C7Q7
+7)747G7L7
+7;7J7q7
+7?8o8
+7+787T7l7{7
+7+7E7V7f7
+7+8=8
+7=7F7M7S7
+707:7O7Y7h7
+708g8
+73797H7n7{7
+737E7T7]7}7
+738B8Q8
+757D7I7N7k7z7
+7-7G7g7z7
+7'80878=8
+787M7T7Z7l7v7
+7B7G7
+7r7y7
+8 8@8H8T8t8
+8!8&8C8R8W8\8y8
+8#8;8H8O8a8i8r8
+8$9c9
+8(8i8
+8*8/8>8D8I8o8t8
+8*9d9
+8,:,;{;
+8,9?9D9[9`9t9
+8,949<9D9L9X9`9
+8/8?8a8t8
+8/8a8f8z8
+8:8?8V8j8o8
+8;8W8\8
+8@9G9
+8>9I9P9
+818G8k8x8
+819G9]9u9
+838N8U8
+848<8H8h8t8
+848>8S8g8r8z8
+8'8W8i8|8
+8-969B9J9Y9
+8J9U9j9
+8R8\8
+8SVWj
+8U,u"9U(t
+9!:0:9:h:
+9!9'9,979I9P9V9`9o9w9
+9!9'9H9
+9#9/9d9
+9#9A9N9Y9a9w9
+9%:w:
+9&9F9f9~9
+9&9s9
+9(9\9g9y9
+9(949T9\9h9
+9(959:9N9S9Y9b9h9q9v9|9
+9)939Q9u9
+9*:/:6:g:m:w:
+9*9/949Q9`9e9j9
+9.9A9F9K9`9{9
+9::g:
+9:9r9
+9?:_:
+9@:G:w:
+91:?:Y:n;x;
+93:A:b:s:
+93uHWV
+949Z:s;y;
+969?9
+97s/j
+999S9d9
+9A9J9Q9W9
+9G tR
+9K tfVj
+9K:k:u:
+9O tC
+9O$tT9O(tO9O,tJ9O0tE9O4t@9O8t;9O<t69O@t19ODt,9OHt'9OLt"9OPt
+9O9^9
+9S9s9
+9W9\9a9
+9X`uh
+AAD SSPR
+AADSSPR link
+AccessTokenUrl
+accountOptions
+AcquireSRWLockExclusive
+AcquireSRWLockShared
+ActivityError
+ActivityStoppedAutomatically
+AikCertStatus
+AllowExternalDeviceSignon
+AllowPasswordReset
+alnum
+alpha
+answer
+api-ms-win-core-apiquery-l1-1-0.dll
+api-ms-win-core-com-l1-1-0.dll
+api-ms-win-core-debug-l1-1-0.dll
+api-ms-win-core-delayload-l1-1-0.dll
+api-ms-win-core-delayload-l1-1-1.dll
+api-ms-win-core-errorhandling-l1-1-0.dll
+api-ms-win-core-file-l1-1-0.dll
+api-ms-win-core-handle-l1-1-0.dll
+api-ms-win-core-heap-l1-1-0.dll
+api-ms-win-core-heap-l2-1-0.dll
+api-ms-win-core-interlocked-l1-1-0.dll
+api-ms-win-core-kernel32-legacy-l1-1-1.dll
+api-ms-win-core-libraryloader-l1-2-0.dll
+api-ms-win-core-localization-l1-2-0.dll
+api-ms-win-core-processenvironment-l1-1-0.dll
+api-ms-win-core-processthreads-l1-1-0.dll
+api-ms-win-core-processthreads-l1-1-1.dll
+api-ms-win-core-profile-l1-1-0.dll
+api-ms-win-core-registry-l1-1-0.dll
+api-ms-win-core-registry-l1-1-1.dll
+api-ms-win-core-shlwapi-obsolete-l1-1-0.dll
+api-ms-win-core-string-l1-1-0.dll
+api-ms-win-core-string-obsolete-l1-1-0.dll
+api-ms-win-core-synch-l1-1-0.dll
+api-ms-win-core-synch-l1-2-0.dll
+api-ms-win-core-sysinfo-l1-1-0.dll
+api-ms-win-core-sysinfo-l1-2-0.dll
+api-ms-win-core-threadpool-l1-2-0.dll
+api-ms-win-core-timezone-l1-1-0.dll
+api-ms-win-core-util-l1-1-0.dll
+api-ms-win-core-winrt-error-l1-1-0.dll
+api-ms-win-core-winrt-l1-1-0.dll
+api-ms-win-core-winrt-string-l1-1-0.dll
+api-ms-win-crt-private-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-eventing-provider-l1-1-0.dll
+api-ms-win-security-base-l1-1-0.dll
+api-ms-win-security-credentials-l1-1-0.dll
+api-ms-win-security-credentials-l2-1-1.dll
+api-ms-win-security-lsalookup-l1-1-0.dll
+api-ms-win-security-lsalookup-l1-1-1.dll
+api-ms-win-security-lsalookup-l1-1-2.dll
+api-ms-win-security-lsapolicy-l1-1-0.dll
+api-ms-win-security-sddl-l1-1-0.dll
+api-ms-win-stateseparation-helpers-l1-1-0.dll
+ApiSetQueryApiSetPresence
+AttestationLevel
+AuthCodeUrl
+Authentication
+autologon
+AutoLogonAfterUserConfigAndReboot
+AutoLogonFailed
+autoLogonWithDefault
+autoLogonWithFirstCredential
+AutoLogonWithNoPassword
+bad allocation
+bad array new length
+bad cast
+blank
+C hd-
+C9O tE
+callContext
+CallContext:[%hs] 
+calledBySspiPfc
+CdjEndpoint
+CdjResourceId
+CdjServiceVersion
+CEnumCredentialProviderUsers::CallCloudAPPackage
+CEnumCredentialProviderUsers::s_CreatePropStoreFromFullNameAndSid
+CEnumCredentialProviderUsers::s_LookupAccountName
+CEnumCredentialProviderUsers::s_LookupInternetDisplayName
+CertCloseStore
+CertDuplicateCertificateContext
+CertFindCertificateInStore
+CertFindExtension
+CertFreeCertificateContext
+CertGetCertificateContextProperty
+CertificateUtil::DoesExtensionWithValueExist
+CertificateUtil::FindAllCertificatesByOidValue
+CertificateUtil::FindExtensionByOid
+CertificateUtil::FindExtensionGuidValueByOid
+CertificateUtil::FindExtensionStrValueByOid
+CertificateUtil::GetCertificateThumbprint
+CertificateUtil::GetCertificateThumbprintBytes
+CertificateUtil::GuidStringFromByteArray
+CertOpenStore
+CflClearScenarioData
+CflDeserializeSessionContext
+CflFreeBuffer
+CflSecureFreeBuffer
+CflSerializeSessionContext
+CflSetScenarioData
+CflSetupAuthEnvironment
+changeMode
+Class
+CloseHandle
+CloseThreadpoolTimer
+CloudAP
+CloudDomainJoinRoot
+CLSIDFromString
+cntrl
+CoCreateInstance
+CoGetMalloc
+CoInitializeEx
+CompanyName
+CompareFileTime
+CompareStringEx
+CompareStringInternal
+CompareStringOrdinal
+CompareStringW
+ConnectedCredentials
+ConvertSidToStringSid
+ConvertSidToStringSidW
+ConvertStringSidToSid
+ConvertStringSidToSidW
+CopySid
+CopyStringNullSafeW
+CopyStringSafeW
+CopyStringW
+CoTaskMemAlloc
+CoTaskMemFree
+CoTaskMemRealloc
+CoUninitialize
+CPasswordCredential::_CheckAndPersistCredentials
+CPasswordCredential::_EncryptAndMarshal
+CPasswordCredential::_GetLogonPasswordReset
+CPasswordCredential::_GetSerializationChange
+CPasswordCredential::_GetSerializationForSspiPfc
+CPasswordCredential::_GetSerializationSecurityQAChange
+CPasswordCredential::_GetSerializationUnlockLogon
+CPasswordCredential::_KerbChangePasswordRequestFill
+CPasswordCredential::_KerbInteractiveUnlockLogonFill
+CPasswordCredential::_OnLocalPasswordReset
+CPasswordCredential::_OnPasswordLink
+CPasswordCredential::_sPasswordResetThreadProc
+CPasswordCredential::GetBitmapBufferValue
+CPasswordCredential::GetBitmapValue
+CPasswordCredential::GetSerialization
+CPasswordCredential::Initialize
+CPasswordCredential::InitializeWebScenario
+CPasswordCredential::ReportResult
+CPasswordCredential::SetSelected
+CPasswordCredential::SetStringValue
+CPasswordProvider::_CreateEnumeratedCredentials
+CPasswordProvider::_EnumerateAutoLogonUser
+CPasswordProvider::_EnumerateCredentials
+CPasswordProvider::_EnumerateOneCredential
+CPasswordProvider::_EnumerateSetSerialization
+CPasswordProvider::_LoadPersistedCredentials
+CPasswordProvider::_SetInputAuthIdentity
+CPasswordProvider::_SetSerializationForSspiPfc
+CPasswordProvider::_SetTargetName
+CPasswordProvider::GetCredentialCount
+CPasswordProvider::RuntimeClassInitialize
+CPasswordProvider::SetIsV1CredProv
+CPasswordProvider::SetSerialization
+CPasswordProvider::SetUsageScenario
+CreateEventW
+CreateMutexExW
+CreatePasswordProviderWrapperInstance
+CreateSemaphoreExW
+CreateThread
+CreateThreadpoolTimer
+Credential Providers
+CredFree
+CredIsMarshaledCredentialW
+CredIsProtectedW
+CredPackAuthenticationBufferW
+CredProtectEx
+CredProtectW
+CredProvCommonCore.DLL
+credprovs.dll
+credprovs.pdb
+CredReadDomainCredentialsW
+CredReadW
+CredUIOnly
+credUIOnlyFlag
+CredUnPackAuthenticationBufferW
+CredUnprotectW
+CredWriteW
+CRYPT32.dll
+CryptAcquireContextW
+CryptBinaryToStringW
+CryptDecodeObjectEx
+CryptGenRandom
+CryptReleaseContext
+CRYPTSP.dll
+CryptUnprotectData
+currentContextId
+currentContextMessage
+currentContextName
+CurrentUser
+D$(PQ
+DdidUpToDate
+DebugBreak
+DecodePointer
+defaultCredential
+DelayLoadFailureHook
+DeleteCriticalSection
+DEVICE
+DeviceDisplayName
+DeviceManagementEndpoint
+DeviceManagementResourceId
+DeviceManagementServiceVersion
+DeviceRegistrationStateApi::GetJoinCertificate
+DeviceRegistrationStateApi::GetJoinInfo
+DeviceRegistrationStateApi::IsJoined
+DeviceRegistrationStateApi::PopulateJoinInfo
+DeviceUnlock
+digit
+DisableCAD
+DisableThreadLibraryCalls
+DisplayName
+DllCanUnloadNow
+DllGetClassObject
+DnsFullyQualifiedName
+DomainName
+doNotLoadStoredCreds
+DrsEndpoint
+DrsResourceId
+DrsServiceVersion
+DsrFreeCxhScenarioInfo
+DsrFreeJoinInfoEx
+DsrGetCxhScenarioInfo
+DsrGetJoinInfoEx
+DsrIsDeviceJoinedEx
+DsrIsWorkplaceJoined
+dwRet
+Enabled
+EnableFIDODeviceLogon
+EncodePointer
+EnterCriticalSection
+EnumerateIdentityProviders
+en-US
+equal
+Error
+EventActivityIdControl
+EventLevel
+EventRegister
+EventSetInformation
+EventUnregister
+EventWriteGetPersistedStateLocationFailureEvent
+EventWriteNullOrEmptyParameterFailureEvent
+EventWriteRegistryFailureEvent
+EventWriteTransfer
+EW>o9Dj
+Exception
+ExpandEnvironmentStringsW
+ext-ms-win-devmgmt-policy-l1-1-0
+ext-ms-win-devmgmt-policy-l1-1-0.dll
+ext-ms-win-devmgmt-policy-l1-1-1
+ext-ms-win-devmgmt-policy-l1-1-2
+ext-ms-win-devmgmt-policy-l1-1-3
+ext-ms-win-ntuser-draw-l1-1-1.dll
+ext-ms-win-rtcore-ntuser-sysparams-l1-1-0.dll
+ext-ms-win-security-cfl-l1-1-0
+ext-ms-win-security-cfl-l1-1-0.dll
+ext-ms-win-security-cfl-l1-1-1
+ext-ms-win-security-cfl-l1-1-1.dll
+ext-ms-win-security-credui-l1-1-0.dll
+ext-ms-win-security-credui-l1-1-1.dll
+ext-ms-win-security-ngc-local-l1-1-0
+ext-ms-win-security-ngc-local-l1-1-0.dll
+ext-ms-win-session-winsta-l1-1-0
+ext-ms-win-session-winsta-l1-1-1
+ext-ms-win-session-winsta-l1-1-1.dll
+ext-ms-win-session-winsta-l1-1-2
+ext-ms-win-session-winsta-l1-1-3
+ext-ms-win-session-winsta-l1-1-4
+ext-ms-win-session-winsta-l1-1-5
+f90t;
+f90u9
+f91t7
+f92tJ
+f98u#j
+f98u2
+FailFast
+failureCount
+failureId
+failureType
+FallbackError
+FALSE
+fieldID
+FileDescription
+fileName
+FileTimeToSystemTime
+FileVersion
+FillJoinStatus
+FindResourceExW
+FormatMessageW
+FormatString
+FP t:
+function
+GetComputerNameExW
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetDomainFromEmail
+GetLastError
+GetLengthSid
+GetModuleFileNameA
+GetModuleHandleExA
+GetModuleHandleExW
+GetModuleHandleW
+GetPersistedRegistryLocationW
+GetProcAddress
+GetProcessHeap
+GetSidSubAuthority
+GetSidSubAuthorityCount
+GetSystemMetrics
+GetSystemTimeAsFileTime
+GetValidAuthPackageId
+GetwinDirectoryWinPE
+GetWindowsDirectoryWinPE
+GGGGGGGGGGGG
+GGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG^^^
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG^^^
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGjjj
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGuuu
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGjjj
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGuuu
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGuuu
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGjjj
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGjjj
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGjjj
+GGGGGGGGGGGGGGGGGGGGGGGGGGGjjj
+GGGGGGGGGGGGGGGGGGGGGGGGjjj
+GGGGGGGGGGGGGGGGGGGGGjjj
+GGGGGGGGGGGGGGGGGGjjj
+GGGGGGGGGGGGuuu
+graph
+HeapAlloc
+HeapFree
+HeapReAlloc
+HKEY_CURRENT_USER
+HKEY_LOCAL_MACHINE
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\RecoveryEnvironment
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MiniNT
+HKEY_LOCAL_MACHINE\TargetSoftware
+HKEY_LOCAL_MACHINE\TargetSoftware\Microsoft\SystemCertificates\MY
+HomeGroupUser$
+hrCoCreate
+hresult
+hrUpdateStuffer
+hrUserArray2
+https://enterpriseregistration.windows.net/EnrollmentServer/device/
+https://enterpriseregistration.windows.net/EnrollmentServer/DeviceEnrollmentWebService.svc
+https://enterpriseregistration.windows.net/EnrollmentServer/key/
+https://login.microsoftonline.com/%s/oauth2/authorize
+https://login.microsoftonline.com/%s/oauth2/token
+hUserRegistry
+ICredentialProviderUserArray::GetAccountOptions
+IdpDomain
+ImpersonateLoggedOnUser
+Inconsistent state data size in wnf_query
+Information
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSListHead
+InitOnceBeginInitialize
+InitOnceComplete
+InitOnceExecuteOnce
+InitPropVariantFromCLSID
+InternalName
+Invoke
+isCflApiPresent
+isCloudDomainJoined
+IsConnectedAutoLogon
+IsConnectedUser
+IsDebuggerPresent
+isDevice
+isDomainJoined
+isInternetPresent
+isLocalUser
+IsProcessorFeaturePresent
+isRemoteDesktop
+IsWinPEHost
+j Y+M
+j@^f90t
+j@Yf9
+j\Xf9FHu
+j\Yf;
+j^H9=J
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG^^^
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG^^^
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGuuu
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGSSS
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGuuu
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGjjj
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGSSS
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGjjj
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGjjj
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGjjj
+jjjGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGuuu
+JoinInfo
+JoinStatusStorage::GetExistingDeviceKeyPath
+JoinStatusStorage::InitJoinStatusRegPath
+JoinStatusStorage::ReadDeviceKey
+JoinStatusStorage::ReadJoinStatus
+JoinStatusStorage::ReadTenantKey
+JoinStatusStorage::SetDefaultDiscoveryMetadata
+JTk_S/
+Kerberos
+kernel32.dll
+kernelbase.dll
+L$,^3
+L$_SQSA_%ls
+L$4^3
+LastSyncTime
+LeaveCriticalSection
+LegalCopyright
+level
+lineNumber
+linkIsDisplayed
+LoadBitmapW
+LoadResource
+Local\SM0:%lu:%lu:%hs
+LocalAlloc
+LocalFree
+LocalMachine
+LocalReAlloc
+LocalUsersSSPRChangePassword
+LocalUsersSSPRResetClicked
+LocationTypeRegistry
+LockResource
+Logger::WriteGetPersistedStateLocationFailureEvent
+Logger::WriteNullOrEmptyParameterFailureEvent
+Logger::WriteRegistryFailureEvent
+Logger::WriteRegistryFailureEventEx
+LogHr
+LogNt
+logonNoElevation
+LogonPasswordReset
+LogonUI
+LookupAccountNameLocal
+LookupAccountNameLocalW
+lower
+LsaCallAuthenticationPackage
+LsaClose
+LsaConnectUntrusted
+LsaDeregisterLogonProcess
+LsaFreeMemory
+LsaFreeReturnBuffer
+LsaLookupAuthenticationPackage
+LsaLookupNames2
+LsaLookupSids2
+LsaLookupUserAccountType
+LsaOpenPolicy
+LsaQueryInformationPolicy
+LsaRetrievePrivateData
+lstd::exception: %hs
+lstrcmpiW
+MdmComplianceUrl
+MdmEnrollmentUrl
+MdmTermsOfUseUrl
+memcmp
+memcpy
+memmove
+memset
+message
+Microsoft
+Microsoft Corporation
+Microsoft.OSG.OSS.CredProvFramework
+Microsoft.Windows.CredProviders.PasswordProvider
+MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+MicrosoftTelemetryAssertTriggeredUM
+minATL$__a
+minATL$__f
+minATL$__m
+minATL$__z
+module
+ms-cxh://AADPINRESETAUTH
+ms-cxh://AADSSPR
+ms-cxh://AADSSPRV2
+ms-cxh://AADWEBAUTH
+ms-cxh://NTHAADNGCFIXME
+ms-cxh://NTHAADNGCONLY
+ms-cxh://NTHAADNGCRESET
+ms-cxh://NTHAADNGCRESETDESTRUCTIVE
+ms-cxh://NTHAADNGCRESETNONDESTRUCTIVE
+ms-cxh://NTHAADORMDM?ngc=enabled
+ms-cxh://NTHENTNGCFIXME
+ms-cxh://NTHENTNGCONLY
+ms-cxh://NTHENTNGCRESET
+ms-cxh://NTHENTNGCRESETDESTRUCTIVE
+ms-cxh://NTHENTORMDM?ngc=enabled
+Msg:[%ws] 
+msvcp_win.dll
+Negotiate
+NetApiBufferFree
+NetUserGetInfo
+NetUserSetInfo
+netutils.dll
+NgcEndpoint
+NgcKeyName
+NgcKeyStatus
+NgcLocalChangeCredential
+NgcLocalChangeCredentialNotPresent
+NgcResourceId
+NgcServiceVersion
+NgcStatusStorage::Load
+NgcStatusStorage::ReadKey
+noCheckboxSspi
+NoLocalPasswordResetQuestions
+NORMAL
+ntdll.dll
+NtPowerInformation
+NtQueryWnfStateData
+NTStatus
+NtUpdateWnfStateData
+numOfCredentials
+O RSj
+OHt*f;
+OLDEST_NORMAL
+onecore\internal\sdk\inc\wil\opensource\wil\resource.h
+onecore\internal\sdk\inc\wil\opensource\wil\result.h
+onecore\internal\sdk\inc\wil\resource.h
+onecore\internal\sdk\inc\wil\Staging.h
+onecore\shell\auth\credprovcommon\credprovutils\credprovutils.cpp
+onecoreuap\shell\auth\credproviders\pwprov\passwordprovider.cpp
+onecoreuap\shell\auth\credproviders\pwprov\securityquestions.cpp
+OpenRootKey
+OpenSemaphoreW
+OptionValue
+OriginalFilename
+originatingContextId
+originatingContextMessage
+originatingContextName
+OSDATA\Software\Microsoft\Windows\CurrentVersion\RetailDemo\OobeWrite
+OsVersion
+OutputDebugStringW
+p`hhV
+packageId
+PartA_PrivTags
+PasswordResetDefaultScreenOffTimeout
+pbResult
+pCert
+pCertContext
+pCertContexts
+pcszOid
+pcszOids
+pcszOidValue
+pcszOidValues
+pData
+pDest
+pdwBufferSize
+pdwCount
+pInputArg
+pJoined
+pJoinInfo
+pJoinStatus
+Plugins
+PolicyManager_FreeStringValue
+PolicyManager_GetPolicyString
+PowerCreateRequest
+ppbBuffer
+ppCertContext
+ppCxhInfo
+ppJoinInfo
+pppCertContexts
+PPPWh
+ppszOut
+ppszOutBuffer
+PPVh0
+PQQSVW
+PQSVW
+PreferredAadTenantDomainName
+print
+ProductName
+ProductVersion
+PROPSYS.dll
+PropVariantClear
+PropVariantToGUID
+PropVariantToStringAlloc
+ProviderGuid
+ProviderOrder
+PSCreateMemoryPropertyStore
+PSShx
+PSSVj
+pszEmail
+pszSource
+punct
+PVh({
+PVh<]
+PWh$5
+QCShd-
+QPRV3
+QPRVh
+QQQQh
+QQQQQQP
+QQSV3
+QQSVW
+QQSVWj X
+QQSVWQ
+QRPh(
+QRPhh
+QRPhH
+QRPhh
+QRPhH
+QRPhh
+QRPhH
+QRPSR
+QSVWj 
+QueryInterfaceForICredentialProviderUserArray2
+QueryPerformanceCounter
+question
+questions
+RaiseException
+RaiseFailFastException
+RbacPolicyEndpoint
+RbacResourceId
+RECOVERY
+RECOVERY_ALL
+RegCloseKey
+RegCreateKeyExW
+RegDeleteKeyValueW
+RegEnumKeyExW
+RegGetValueW
+RegistrationCertStatus::GetCertificate
+RegistrationCertStatus::GetCertificates
+RegistrationCertStatus::GetDeviceCertificate
+RegistrationCertStatus::GetDeviceCertificates
+RegistrationCertStatus::GetDeviceId
+RegistrationCertStatus::GetTenantId
+RegistrationCertStatus::GetTenantIdExtensionValue
+RegistrationCertStatus::GetWorkplaceCertificate
+RegistrationCertStatus::GetWorkplaceCertificates
+RegistryPath::Append
+RegistryPath::Initialize
+RegistryPath::InitializeCurrentUserPath
+RegistryPath::InitializeLocalMachinePath
+RegistryPath::InitializePersistedStatePath
+RegistryPath::OpenSubKey
+RegistryPath::ReadDwordValue
+RegistryPath::ReadQwordValue
+RegistryPath::ReadStringValue
+RegistryPath::SubKeyExists
+RegLoadKeyW
+RegLoadKeyWinPE
+RegOpenCurrentUser
+RegOpenCurrentUserKey
+RegOpenKeyExW
+RegQueryInfoKeyW
+RegQueryValueExW
+RegReadDwordValue
+RegReadQwordValue
+RegReadStringValue
+RegSetValueExW
+RegSubKeyExists
+RegUnLoadKeyW
+ReleaseIdentityProviderEnumContext
+ReleaseMutex
+ReleaseSemaphore
+ReleaseSRWLockExclusive
+ReleaseSRWLockShared
+requestedAuthPackage
+ResetEvent
+ResolveDelayLoadedAPI
+response
+result
+ResultCode
+ReturnHr
+ReturnNt
+retValue
+RevertToSelf
+rM9_ vH
+RoGetActivationFactory
+RoOriginateError
+RPCRT4.dll
+RpcStringFreeW
+RtlDisownModuleHeapAllocation
+RtlDllShutdownInProgress
+RtlGetDeviceFamilyInfoEnum
+RtlGetPersistedStateLocation
+RtlInitString
+RtlInitUnicodeString
+RtlIsMultiSessionSku
+RtlNotifyFeatureUsage
+RtlNtStatusToDosError
+RtlNtStatusToDosErrorNoTeb
+RtlRegisterFeatureConfigurationChangeNotification
+RtlSubscribeWnfStateChangeNotification
+RtlUnregisterFeatureConfigurationChangeNotification
+RtlUnsubscribeWnfNotificationWaitForCompletion
+s:jz[
+s_FindConnectedUserBySid
+samcli.dll
+SamCloseHandle
+SamConnect
+SamFreeMemory
+SAMLIB.dll
+SamOpenDomain
+SamOpenUser
+SamQueryInformationUser
+SamSetInformationUser
+saveCredsByCaller
+SAVED_PASSWORD
+Security Question Data Not Found
+SecurityQAChangeEntry
+SecurityQuestionState
+sessionId=
+SetEvent
+SetLastError
+SetThreadpoolTimer
+SetUnhandledExceptionFilter
+SHCORE.dll
+showPasswordResetLinkForAad
+SHRegGetValueW
+SizeofResource
+SleepConditionVariableCS
+Software\Microsoft\IdentityStore\Providers
+SOFTWARE\Microsoft\Policies\PassportForWork
+Software\Microsoft\Policies\PassportForWork\SecurityKey
+SOFTWARE\Microsoft\RecoveryEnvironment
+Software\Microsoft\Windows NT\CurrentVersion\Winlogon
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\WorkplaceJoin
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\WorkplaceJoin\AADNGC
+Software\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers
+Software\Microsoft\Windows\CurrentVersion\Authentication\LogonUI
+SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\UpdatePasswordStuffer
+Software\Microsoft\Windows\CurrentVersion\Policies\System
+Software\Microsoft\Windows\CurrentVersion\RetailDemo\OobeWrite
+Software\Policies\Microsoft\AzureADAccount
+Software\Policies\Microsoft\FIDO
+SOFTWARE\Policies\Microsoft\PassportForWork
+Software\Policies\Microsoft\Windows\System
+SortCertificatesInPlace
+source
+space
+SQQPj
+SspiCli.dll
+SspiCopyAuthIdentity
+SspiEncodeAuthIdentityAsStrings
+SspiEncryptAuthIdentityEx
+SspiFreeAuthIdentity
+SspiGetCredUIContext
+SspiGetTargetHostName
+SspiLocalFree
+SspiMarshalAuthIdentity
+SspiPfc
+SspiUnmarshalAuthIdentity
+SspiUnmarshalCredUIContext
+SSSGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG^^^
+SSSGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGuuu
+SSSGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGSSS
+SSSGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGSSS
+SSSGGGGGGGGGGGGGGGGGGuuu
+SSSRh
+status
+strchr
+StrChrW
+string too long
+StringCat
+StringCchCatW
+StringCchCopyW
+StringCchLengthW
+StringCchPrintfW
+StringCompare
+StringDup
+StringFileInfo
+StringFromCLSID
+StringLen
+subStatus
+SVh@S
+SVPh0
+SVPSh
+SVWjT
+SVWQQ3
+SWh@S
+SWhx:
+SYSTEM\CurrentControlSet\Control\CloudDomainJoin
+SYSTEM\CurrentControlSet\Control\MiniNT
+System\CurrentControlSet\Control\NetworkProvider\Order
+System\CurrentControlSet\Control\SafeBoot\Option
+system\CurrentControlSet\Services\
+system32\config\software
+t QQS
+t Vhd
+t!Sh`
+t#ShXm
+T$0QQV
+t%h,h
+t&f98t!
+t*Vh(
+t*VhH
+t,Vh<
+t.Ph0
+t/f90t*
+t~f90ty9
+t2PQh
+t9f9_
+TargetOS
+TargetSoftware
+TargetSoftware\Microsoft\SystemCertificates\MY
+TenantDomain
+tenantid
+TenantId
+TenantInfo
+TerminateProcess
+TerminateThread
+threadId
+thVQS
+tiSj0Zj
+tnf98ti
+Translation
+TransportKeyStatus
+TSSSP
+t'Vh<
+t'VShp
+tZf99tU
+u hD~
+u!h@3
+u!hH_
+u$WSQ
+u.h<_
+u.h0]
+u;hL9
+u+j0Xj1Zf;E
+u0hl[
+u'h87
+UnhandledExceptionFilter
+Unknown
+Unknown exception
+upper
+uqh$9
+uQhD+
+urn:ms-drs:enterpriseregistration.windows.net
+usage
+useCloudDomainSpecificUi
+useDefaultPasswordResetScreenTimeOffTimeoutForAad
+userArraySize
+userCountAfterFiltering
+UserEmail
+UserId
+username
+userNameIsUpn
+UserSettingSyncUrl
+UserTile
+UseSecurityKeyForSignin
+UuidCreate
+UuidFromStringW
+UuidIsNil
+UuidToStringW
+uuuGGGGGGGGGGGG
+uuuGGGGGGGGGGGGGGG
+uuuGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+uuuGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+uuuGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGuuu
+uuuGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGSSS
+uuuGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGSSS
+uuuSSSGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+v h02
+v hH2
+v$h\1
+V,^[_
+validAuthPackage
+VarFileInfo
+vector too long
+vector<bool> too long
+VerifyVersionInfoW
+VerSetConditionMask
+version
+Vf9>u
+VS_VERSION_INFO
+VSWh({
+Vt5RQ
+VWh0}
+VWjbZ
+VWjkZ
+VWQQf
+VZwV9W
+W PhD-
+w$WP3
+w(_^[]
+w8^lu
+W9VhvQ
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
+WakeAllConditionVariable
+Warning
+wcschr
+wcsnlen
+wcsstr
+WebAuthnEndpoint
+WebAuthnResourceId
+WebAuthnServiceVersion
+wilActivity
+WilError_03
+WilFailureNotifyWatchers
+wilResult
+WilStaging_02
+Windows.Data.Json.JsonValue
+WindowsCreateStringReference
+WindowsDeleteString
+WindowsGetStringRawBuffer
+WinStationGetCurrentSessionCapabilities
+WORKPLACE
+WPh@S
+WPWWWWWVR
+WSh@S
+WVhxh
+X[_^]
+x]9W tX8U
+xdigit
+xr9W tm8
+y"Vht]
+y(VShH
+y/VhH
+Y__^[
+YPhx6
+YPSh<
+YPVh<
+YVhht
+YWj$Z
+YY_^[
+YY_^]
+YY_^Y]
+YYjW^
+YYjW_
+YYjWX^]
+YYjWX^Y]
+YYjWX_^[]
+YYPSj
+Z\9;s

@@ -1,0 +1,78 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\drivers\stornvme.sys
+
+File Type: EXECUTABLE IMAGE
+
+  Image has the following dependencies:
+
+    storport.sys
+    ntoskrnl.exe
+
+  Section contains the following imports:
+
+    storport.sys
+             1C0033030 Import Address Table
+             1C0033158 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          2C StorPortResume
+                          30 StorPortStallExecution
+                          1A StorPortPause
+                          12 StorPortGetScatterGatherList
+                           B StorPortExtendedFunction
+                          1C StorPortQuerySystemTime
+                          2A StorPortRegistryRead
+                           D StorPortFreeRegistryBuffer
+                           4 StorPortAllocateRegistryBuffer
+                           F StorPortGetDeviceBase
+                           E StorPortGetBusData
+                          16 StorPortInitialize
+                          19 StorPortNotification
+                          14 StorPortGetUncachedExtension
+                          2F StorPortSetDeviceQueueDepth
+                          11 StorPortGetPhysicalAddress
+
+    ntoskrnl.exe
+             1C0033000 Import Address Table
+             1C0033128 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         976 RtlQueryFeatureConfigurationChangeStamp
+                         975 RtlQueryFeatureConfiguration
+                         98F RtlRegisterFeatureConfigurationChangeNotification
+                         955 RtlNotifyFeatureUsage
+                         9E4 RtlUnregisterFeatureConfigurationChangeNotification
+
+  Section contains the following exports for stornvme.sys
+
+    00000000 characteristics
+    5058789E time date stamp
+        0.00 version
+           1 ordinal base
+           2 number of functions
+           2 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00002E90 DumpPreInitialize
+          2    1 00002EB0 DumpUninitialize
+
+  Summary
+
+        1000 .data
+        1000 .edata
+        1000 .idata
+        2000 .pdata
+        7000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       28000 .text
+        1000 GFIDS
+        1000 INIT
+        1000 PAGE
+        1000 fothk

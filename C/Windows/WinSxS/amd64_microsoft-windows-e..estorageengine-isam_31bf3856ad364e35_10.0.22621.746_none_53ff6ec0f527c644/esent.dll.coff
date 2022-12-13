@@ -1,0 +1,986 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\WinSxS\amd64_microsoft-windows-e..estorageengine-isam_31bf3856ad364e35_10.0.22621.746_none_53ff6ec0f527c644\esent.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    msvcrt.dll
+    ntdll.dll
+    api-ms-win-core-processthreads-l1-1-0.dll
+    api-ms-win-core-libraryloader-l1-2-0.dll
+    api-ms-win-core-heap-l1-1-0.dll
+    api-ms-win-core-errorhandling-l1-1-0.dll
+    api-ms-win-core-sysinfo-l1-2-0.dll
+    api-ms-win-core-sysinfo-l1-1-0.dll
+    api-ms-win-core-memory-l1-1-0.dll
+    api-ms-win-core-memory-l1-1-1.dll
+    api-ms-win-core-handle-l1-1-0.dll
+    api-ms-win-core-heap-l2-1-0.dll
+    api-ms-win-core-file-l1-1-0.dll
+    api-ms-win-core-synch-l1-1-0.dll
+    api-ms-win-core-io-l1-1-0.dll
+    api-ms-win-core-string-l1-1-0.dll
+    api-ms-win-core-debug-l1-1-0.dll
+    api-ms-win-core-localization-l1-2-0.dll
+    api-ms-win-core-synch-l1-2-0.dll
+    api-ms-win-core-processthreads-l1-1-1.dll
+    api-ms-win-core-console-l1-1-0.dll
+    api-ms-win-core-profile-l1-1-0.dll
+    api-ms-win-core-timezone-l1-1-0.dll
+    api-ms-win-core-datetime-l1-1-0.dll
+    api-ms-win-core-file-l1-2-0.dll
+    api-ms-win-core-file-l2-1-0.dll
+    api-ms-win-core-file-l2-1-1.dll
+    api-ms-win-core-processenvironment-l1-1-0.dll
+    api-ms-win-core-console-l2-1-0.dll
+    api-ms-win-core-errorhandling-l1-1-3.dll
+    api-ms-win-core-localization-l1-2-2.dll
+    api-ms-win-eventing-provider-l1-1-0.dll
+    api-ms-win-core-privateprofile-l1-1-0.dll
+    api-ms-win-core-kernel32-legacy-l1-1-0.dll
+    api-ms-win-core-threadpool-legacy-l1-1-0.dll
+    api-ms-win-core-windowserrorreporting-l1-1-0.dll
+    api-ms-win-core-delayload-l1-1-1.dll
+    api-ms-win-core-delayload-l1-1-0.dll
+
+  Image has the following delay load dependencies:
+
+    CRYPTSP.dll
+
+  Section contains the following exports for ESENT.dll
+
+    00000000 characteristics
+    EC078152 time date stamp
+        0.00 version
+           1 ordinal base
+         385 number of functions
+         385 number of names
+
+    ordinal hint RVA      name
+
+          2    0 002B8310 DebugExtensionInitialize
+          3    1 002B8330 DebugExtensionNotify
+          4    2 000DFE00 DebugExtensionUninitialize
+          1    3 00265C20 DllRegisterServer
+          5    4 001E1550 JetAddColumn
+          6    5 001E1550 JetAddColumnA
+          7    6 001E1B20 JetAddColumnW
+          8    7 000E6890 JetAttachDatabase
+          9    8 001E1DB0 JetAttachDatabase2
+         10    9 001E1DB0 JetAttachDatabase2A
+         11    A 00020C50 JetAttachDatabase2W
+         12    B 001E1FF0 JetAttachDatabase3
+         13    C 001E1FF0 JetAttachDatabase3A
+         14    D 001E2230 JetAttachDatabase3W
+         15    E 000E6890 JetAttachDatabaseA
+         16    F 000D9B90 JetAttachDatabaseW
+         17   10 001E2470 JetAttachDatabaseWithStreaming
+         18   11 001E2470 JetAttachDatabaseWithStreamingA
+         19   12 001E2520 JetAttachDatabaseWithStreamingW
+         20   13 001E25D0 JetBackup
+         21   14 001E25D0 JetBackupA
+         22   15 001E2630 JetBackupInstance
+         23   16 001E2630 JetBackupInstanceA
+         24   17 001E2B10 JetBackupInstanceW
+         25   18 001E2D50 JetBackupW
+         26   19 001E2DB0 JetBeginDatabaseIncrementalReseed
+         27   1A 001E2DB0 JetBeginDatabaseIncrementalReseedA
+         28   1B 001E3240 JetBeginDatabaseIncrementalReseedW
+         29   1C 001E3470 JetBeginExternalBackup
+         30   1D 001E34B0 JetBeginExternalBackupInstance
+         31   1E 00098A00 JetBeginSession
+         32   1F 00098A00 JetBeginSessionA
+         33   20 000CB4B0 JetBeginSessionW
+         34   21 001E38C0 JetBeginSurrogateBackup
+         35   22 000608C0 JetBeginTransaction
+         36   23 001E3D00 JetBeginTransaction2
+         37   24 001E3F00 JetBeginTransaction3
+         38   25 00097EC0 JetCloseDatabase
+         39   26 001E4120 JetCloseFile
+         40   27 001E4160 JetCloseFileInstance
+         41   28 00065150 JetCloseTable
+         42   29 00095970 JetCommitTransaction
+         43   2A 0010EFC0 JetCommitTransaction2
+         44   2B 001E4500 JetCompact
+         45   2C 001E4500 JetCompactA
+         46   2D 001E4AE0 JetCompactW
+         47   2E 001E4D20 JetComputeStats
+         48   2F 001E5130 JetConfigureProcessForCrashDump
+         49   30 001E5230 JetConsumeLogData
+         50   31 001E5820 JetConvertDDL
+         51   32 001E5820 JetConvertDDLA
+         52   33 001E66D0 JetConvertDDLW
+         53   34 001E7230 JetCreateDatabase
+         54   35 001E6910 JetCreateDatabase2
+         55   36 001E6910 JetCreateDatabase2A
+         56   37 001E6B60 JetCreateDatabase2W
+         57   38 001E6DB0 JetCreateDatabase3
+         58   39 001E6DB0 JetCreateDatabase3A
+         59   3A 001E6FF0 JetCreateDatabase3W
+         60   3B 001E7230 JetCreateDatabaseA
+         61   3C 000C57D0 JetCreateDatabaseW
+         62   3D 001E7510 JetCreateDatabaseWithStreaming
+         63   3E 001E7510 JetCreateDatabaseWithStreamingA
+         64   3F 001E7570 JetCreateDatabaseWithStreamingW
+         65   40 001E75D0 JetCreateEncryptionKey
+         66   41 001E8670 JetCreateIndex
+         67   42 001E77D0 JetCreateIndex2
+         68   43 001E77D0 JetCreateIndex2A
+         69   44 001E7A40 JetCreateIndex2W
+         70   45 001E7CB0 JetCreateIndex3A
+         71   46 001E7F20 JetCreateIndex3W
+         72   47 001E8190 JetCreateIndex4A
+         73   48 001E8400 JetCreateIndex4W
+         74   49 001E8670 JetCreateIndexA
+         75   4A 001E93E0 JetCreateIndexW
+         76   4B 000E77D0 JetCreateInstance
+         77   4C 000E77F0 JetCreateInstance2
+         78   4D 000E77F0 JetCreateInstance2A
+         79   4E 00010930 JetCreateInstance2W
+         80   4F 000E77D0 JetCreateInstanceA
+         81   50 000DE4E0 JetCreateInstanceW
+         82   51 001E96A0 JetCreateTable
+         83   52 001E96A0 JetCreateTableA
+         84   53 001EA5A0 JetCreateTableColumnIndex
+         85   54 001E98E0 JetCreateTableColumnIndex2
+         86   55 001E98E0 JetCreateTableColumnIndex2A
+         87   56 001E9B00 JetCreateTableColumnIndex2W
+         88   57 0000AC90 JetCreateTableColumnIndex3A
+         89   58 00006F60 JetCreateTableColumnIndex3W
+         90   59 001E9D20 JetCreateTableColumnIndex4A
+         91   5A 001E9F40 JetCreateTableColumnIndex4W
+         92   5B 001EA160 JetCreateTableColumnIndex5A
+         93   5C 001EA380 JetCreateTableColumnIndex5W
+         94   5D 001EA5A0 JetCreateTableColumnIndexA
+         95   5E 00006180 JetCreateTableColumnIndexW
+         96   5F 001EAD90 JetCreateTableW
+         97   60 001EAFD0 JetDBUtilities
+         98   61 001EAFD0 JetDBUtilitiesA
+         99   62 001EB5B0 JetDBUtilitiesW
+        100   63 001EB730 JetDatabaseScan
+        101   64 001EC0F0 JetDefragment
+        102   65 001EBB90 JetDefragment2
+        103   66 001EBB90 JetDefragment2A
+        104   67 001EBDE0 JetDefragment2W
+        105   68 001EC030 JetDefragment3
+        106   69 001EC030 JetDefragment3A
+        107   6A 001EC090 JetDefragment3W
+        108   6B 001EC0F0 JetDefragmentA
+        109   6C 001EC680 JetDefragmentW
+        110   6D 00099D00 JetDelete
+        111   6E 001ECDB0 JetDeleteColumn
+        112   6F 001EC8D0 JetDeleteColumn2
+        113   70 001EC8D0 JetDeleteColumn2A
+        114   71 001ECB40 JetDeleteColumn2W
+        115   72 001ECDB0 JetDeleteColumnA
+        116   73 001ED290 JetDeleteColumnW
+        117   74 001ED4F0 JetDeleteIndex
+        118   75 001ED4F0 JetDeleteIndexA
+        119   76 001ED9B0 JetDeleteIndexW
+        120   77 001EDC10 JetDeleteTable
+        121   78 000F78D0 JetDeleteTable2
+        122   79 000F78D0 JetDeleteTable2A
+        123   7A 000F7B00 JetDeleteTable2W
+        124   7B 001EDC10 JetDeleteTableA
+        125   7C 0000CE20 JetDeleteTableW
+        126   7D 000E17F0 JetDetachDatabase
+        127   7E 001EDE30 JetDetachDatabase2
+        128   7F 001EDE30 JetDetachDatabase2A
+        129   80 001EE050 JetDetachDatabase2W
+        130   81 000E17F0 JetDetachDatabaseA
+        131   82 000EF210 JetDetachDatabaseW
+        132   83 001EE270 JetDupCursor
+        133   84 001EE6B0 JetDupSession
+        134   85 000B7BF0 JetEnableMultiInstance
+        135   86 000B7BF0 JetEnableMultiInstanceA
+        136   87 001EEA50 JetEnableMultiInstanceW
+        137   88 001EEBF0 JetEndDatabaseIncrementalReseed
+        138   89 001EEBF0 JetEndDatabaseIncrementalReseedA
+        139   8A 001EF0E0 JetEndDatabaseIncrementalReseedW
+        140   8B 001EF340 JetEndExternalBackup
+        141   8C 001EF370 JetEndExternalBackupInstance
+        142   8D 001EF570 JetEndExternalBackupInstance2
+        143   8E 00098430 JetEndSession
+        144   8F 001EF900 JetEndSurrogateBackup
+        145   90 0010F1F0 JetEnumerateColumns
+        146   91 000D3CB0 JetEscrowUpdate
+        147   92 001F0230 JetExternalRestore
+        148   93 001EFC90 JetExternalRestore2
+        149   94 001EFC90 JetExternalRestore2A
+        150   95 001F0030 JetExternalRestore2W
+        151   96 001F0230 JetExternalRestoreA
+        152   97 001F12B0 JetExternalRestoreW
+        153   98 0010F720 JetFreeBuffer
+        154   99 001F14B0 JetGetAttachInfo
+        155   9A 001F14B0 JetGetAttachInfoA
+        156   9B 001F1510 JetGetAttachInfoInstance
+        157   9C 001F1510 JetGetAttachInfoInstanceA
+        158   9D 001F19D0 JetGetAttachInfoInstanceW
+        159   9E 001F1C10 JetGetAttachInfoW
+        160   9F 000DADA0 JetGetBookmark
+        161   A0 000E45E0 JetGetColumnInfo
+        162   A1 000E45E0 JetGetColumnInfoA
+        163   A2 0006F160 JetGetColumnInfoW
+        164   A3 001F1C70 JetGetCounter
+        165   A4 001F2080 JetGetCurrentIndex
+        166   A5 001F2080 JetGetCurrentIndexA
+        167   A6 001F2590 JetGetCurrentIndexW
+        168   A7 001F2800 JetGetCursorInfo
+        169   A8 001F2C70 JetGetDatabaseFileInfo
+        170   A9 001F2C70 JetGetDatabaseFileInfoA
+        171   AA 000D0B20 JetGetDatabaseFileInfoW
+        172   AB 000E4C90 JetGetDatabaseInfo
+        173   AC 000E4C90 JetGetDatabaseInfoA
+        174   AD 001F2EB0 JetGetDatabaseInfoW
+        175   AE 001F30F0 JetGetDatabasePages
+        176   AF 000EF860 JetGetErrorInfoW
+        177   B0 001F3570 JetGetIndexInfo
+        178   B1 001F3570 JetGetIndexInfoA
+        179   B2 001F3CD0 JetGetIndexInfoW
+        180   B3 0010F930 JetGetInstanceInfo
+        181   B4 0010F930 JetGetInstanceInfoA
+        182   B5 001F3F20 JetGetInstanceInfoW
+        183   B6 001F40B0 JetGetInstanceMiscInfo
+        184   B7 001F46D0 JetGetLS
+        185   B8 001F4B10 JetGetLock
+        186   B9 001F4F30 JetGetLogFileInfo
+        187   BA 001F4F30 JetGetLogFileInfoA
+        188   BB 001F5450 JetGetLogFileInfoW
+        189   BC 001F5600 JetGetLogInfo
+        190   BD 001F5600 JetGetLogInfoA
+        191   BE 001F5B20 JetGetLogInfoInstance
+        192   BF 001F5660 JetGetLogInfoInstance2
+        193   C0 001F5660 JetGetLogInfoInstance2A
+        194   C1 001F58C0 JetGetLogInfoInstance2W
+        195   C2 001F5B20 JetGetLogInfoInstanceA
+        196   C3 001F60C0 JetGetLogInfoInstanceW
+        197   C4 001F6310 JetGetLogInfoW
+        198   C5 001F6370 JetGetMaxDatabaseSize
+        199   C6 001F6770 JetGetObjectInfo
+        200   C7 001F6770 JetGetObjectInfoA
+        201   C8 001F6EB0 JetGetObjectInfoW
+        202   C9 001F7110 JetGetPageInfo
+        203   CA 001F7330 JetGetPageInfo2
+        204   CB 001F79C0 JetGetRBSFileInfoA
+        205   CC 001F7E30 JetGetRBSFileInfoW
+        206   CD 001F7FE0 JetGetRecordPosition
+        207   CE 001F8420 JetGetRecordSize
+        208   CF 001F8690 JetGetRecordSize2
+        209   D0 001F89B0 JetGetRecordSize3
+        210   D1 001F8E70 JetGetResourceParam
+        211   D2 0010FC00 JetGetSecondaryIndexBookmark
+        212   D3 001F92A0 JetGetSessionInfo
+        213   D4 001100D0 JetGetSessionParameter
+        214   D5 000E75D0 JetGetSystemParameter
+        215   D6 000E75D0 JetGetSystemParameterA
+        216   D7 000D4560 JetGetSystemParameterW
+        217   D8 001F97F0 JetGetTableColumnInfo
+        218   D9 001F97F0 JetGetTableColumnInfoA
+        219   DA 0009A1D0 JetGetTableColumnInfoW
+        220   DB 00110310 JetGetTableIndexInfo
+        221   DC 00110310 JetGetTableIndexInfoA
+        222   DD 000E5F70 JetGetTableIndexInfoW
+        223   DE 00006750 JetGetTableInfo
+        224   DF 00006750 JetGetTableInfoA
+        225   E0 000E65F0 JetGetTableInfoW
+        226   E1 001F9A70 JetGetThreadStats
+        227   E2 001F9D30 JetGetTruncateLogInfoInstance
+        228   E3 001F9D30 JetGetTruncateLogInfoInstanceA
+        229   E4 001FA220 JetGetTruncateLogInfoInstanceW
+        230   E5 001FA460 JetGetVersion
+        231   E6 0009A750 JetGotoBookmark
+        232   E7 001FA830 JetGotoPosition
+        233   E8 00110590 JetGotoSecondaryIndexBookmark
+        234   E9 001FAEE0 JetGrowDatabase
+        235   EA 001FB410 JetIdle
+        236   EB 000E4930 JetIndexRecordCount
+        237   EC 001FB7B0 JetIndexRecordCount2
+        238   ED 000DD0E0 JetInit
+        239   EE 00010910 JetInit2
+        240   EF 00012320 JetInit3
+        241   F0 00012320 JetInit3A
+        242   F1 000EFB60 JetInit3W
+        243   F2 001FBA20 JetInit4
+        244   F3 001FBA20 JetInit4A
+        245   F4 000123B0 JetInit4W
+        246   F5 000E8FA0 JetIntersectIndexes
+        247   F6 00061460 JetMakeKey
+        248   F7 0009AFA0 JetMove
+        249   F8 001FBAA0 JetOSSnapshotAbort
+        250   F9 001FBD20 JetOSSnapshotEnd
+        251   FA 001FBF40 JetOSSnapshotFreeze
+        252   FB 001FBF40 JetOSSnapshotFreezeA
+        253   FC 001FC2B0 JetOSSnapshotFreezeW
+        254   FD 001FC460 JetOSSnapshotGetFreezeInfo
+        255   FE 001FC460 JetOSSnapshotGetFreezeInfoA
+        256   FF 001FC780 JetOSSnapshotGetFreezeInfoW
+        257  100 001FC930 JetOSSnapshotPrepare
+        258  101 001FCB50 JetOSSnapshotPrepareInstance
+        259  102 001FCF10 JetOSSnapshotThaw
+        260  103 001FD130 JetOSSnapshotTruncateLog
+        261  104 001FD350 JetOSSnapshotTruncateLogInstance
+        262  105 001FD710 JetOnlinePatchDatabasePage
+        263  106 000E6AB0 JetOpenDatabase
+        264  107 000E6AB0 JetOpenDatabaseA
+        265  108 00099740 JetOpenDatabaseW
+        266  109 001FDB90 JetOpenFile
+        267  10A 001FDB90 JetOpenFileA
+        268  10B 001FDC00 JetOpenFileInstance
+        269  10C 001FDC00 JetOpenFileInstanceA
+        270  10D 001FE100 JetOpenFileInstanceW
+        271  10E 001FE360 JetOpenFileSectionInstance
+        272  10F 001FE360 JetOpenFileSectionInstanceA
+        273  110 001FE6A0 JetOpenFileSectionInstanceW
+        274  111 001FE930 JetOpenFileW
+        275  112 000E3550 JetOpenTable
+        276  113 000E3550 JetOpenTableA
+        277  114 00099EA0 JetOpenTableW
+        278  115 001FE9A0 JetOpenTempTable
+        279  116 001FEBE0 JetOpenTempTable2
+        280  117 001FEEE0 JetOpenTempTable3
+        281  118 001FF430 JetOpenTemporaryTable
+        282  119 001FF6A0 JetOpenTemporaryTable2
+        283  11A 001FF910 JetPatchDatabasePages
+        284  11B 001FF910 JetPatchDatabasePagesA
+        285  11C 001FFE30 JetPatchDatabasePagesW
+        286  11D 002000A0 JetPrepareToCommitTransaction
+        287  11E 00095160 JetPrepareUpdate
+        288  11F 002004C0 JetPrereadColumnsByReference
+        289  120 002009C0 JetPrereadIndexRange
+        290  121 00200E60 JetPrereadIndexRanges
+        291  122 00201320 JetPrereadKeys
+        292  123 002019C0 JetPrereadTablesW
+        293  124 00201C00 JetRBSCancelRevert
+        294  125 00201D80 JetRBSExecuteRevert
+        295  126 00201F20 JetRBSPrepareRevert
+        296  127 002020E0 JetReadFile
+        297  128 00202150 JetReadFileInstance
+        298  129 00202580 JetRegisterCallback
+        299  12A 00202A10 JetRemoveLogfileA
+        300  12B 00202DE0 JetRemoveLogfileW
+        301  12C 00202F80 JetRenameColumn
+        302  12D 00202F80 JetRenameColumnA
+        303  12E 002034E0 JetRenameColumnW
+        304  12F 00203750 JetRenameTable
+        305  130 00203750 JetRenameTableA
+        306  131 00203C40 JetRenameTableW
+        307  132 00203E70 JetResetCounter
+        308  133 00099320 JetResetSessionContext
+        309  134 00204250 JetResetTableSequential
+        310  135 00204670 JetResizeDatabase
+        311  136 00204B50 JetRestore
+        312  137 00204A90 JetRestore2
+        313  138 00204A90 JetRestore2A
+        314  139 00204AF0 JetRestore2W
+        315  13A 00204B50 JetRestoreA
+        316  13B 00204BA0 JetRestoreInstance
+        317  13C 00204BA0 JetRestoreInstanceA
+        318  13D 00205250 JetRestoreInstanceW
+        319  13E 00205490 JetRestoreW
+        320  13F 00060B40 JetRetrieveColumn
+        321  140 002054E0 JetRetrieveColumnByReference
+        322  141 002059E0 JetRetrieveColumnFromRecordStream
+        323  142 000618F0 JetRetrieveColumns
+        324  143 00205CD0 JetRetrieveKey
+        325  144 00206160 JetRetrieveTaggedColumnList
+        326  145 0009A920 JetRollback
+        327  146 00060FE0 JetSeek
+        328  147 000AEB40 JetSetColumn
+        329  148 00206610 JetSetColumnDefaultValue
+        330  149 00206610 JetSetColumnDefaultValueA
+        331  14A 00206B80 JetSetColumnDefaultValueW
+        332  14B 000AFA60 JetSetColumns
+        333  14C 000E3010 JetSetCurrentIndex
+        334  14D 00110820 JetSetCurrentIndex2
+        335  14E 00110820 JetSetCurrentIndex2A
+        336  14F 0009A580 JetSetCurrentIndex2W
+        337  150 00206DD0 JetSetCurrentIndex3
+        338  151 00206DD0 JetSetCurrentIndex3A
+        339  152 00207050 JetSetCurrentIndex3W
+        340  153 002072D0 JetSetCurrentIndex4
+        341  154 002072D0 JetSetCurrentIndex4A
+        342  155 00207550 JetSetCurrentIndex4W
+        343  156 000E3010 JetSetCurrentIndexA
+        344  157 0009A3B0 JetSetCurrentIndexW
+        345  158 002077D0 JetSetCursorFilter
+        346  159 00207C40 JetSetDatabaseSize
+        347  15A 00207C40 JetSetDatabaseSizeA
+        348  15B 002080D0 JetSetDatabaseSizeW
+        349  15C 0009AAB0 JetSetIndexRange
+        350  15D 00208300 JetSetLS
+        351  15E 00208740 JetSetMaxDatabaseSize
+        352  15F 00208B40 JetSetResourceParam
+        353  160 000991C0 JetSetSessionContext
+        354  161 00209140 JetSetSessionParameter
+        355  162 000E6F00 JetSetSystemParameter
+        356  163 000E6F00 JetSetSystemParameterA
+        357  164 000977A0 JetSetSystemParameterW
+        358  165 00209530 JetSetTableInfo
+        359  166 00209530 JetSetTableInfoA
+        360  167 00209530 JetSetTableInfoW
+        361  168 002099A0 JetSetTableSequential
+        362  169 00209DC0 JetSnapshotStart
+        363  16A 00209DC0 JetSnapshotStartA
+        364  16B 00209E20 JetSnapshotStartW
+        365  16C 00209E80 JetSnapshotStop
+        366  16D 00209EE0 JetStopBackup
+        367  16E 00209F10 JetStopBackupInstance
+        368  16F 0020A1C0 JetStopService
+        369  170 0020A1F0 JetStopServiceInstance
+        370  171 0020A3F0 JetStopServiceInstance2
+        371  172 0020AD30 JetStreamRecords
+        372  173 000B8220 JetTerm
+        373  174 000B7A20 JetTerm2
+        374  175 0020B200 JetTestHook
+        375  176 0020B920 JetTracing
+        376  177 0020BE00 JetTruncateLog
+        377  178 0020BE30 JetTruncateLogInstance
+        378  179 0020C1C0 JetUnregisterCallback
+        379  17A 00095560 JetUpdate
+        380  17B 0020C600 JetUpdate2
+        381  17C 0020C880 JetUpgradeDatabase
+        382  17D 0020C880 JetUpgradeDatabaseA
+        383  17E 0020CD20 JetUpgradeDatabaseW
+        384  17F 002B84C0 ese
+        385  180 00398B80 rgEDBGGlobals
+
+  Section contains the following imports:
+
+    msvcrt.dll
+             180306770 Import Address Table
+             180391CC0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         31F _strtoui64
+                         4F1 time
+                         4A2 memmove_s
+                         3D5 _wfullpath
+                         47C iswalpha
+                         4E6 strtoul
+                         4E4 strtok_s
+                         47A isupper
+                         51C wcspbrk
+                         376 _vsnwprintf
+                         4E1 strstr
+                         42F bsearch
+                         4B1 qsort
+                         4B6 realloc
+                         518 wcsncmp
+                         3E0 _wmakepath_s
+                         403 _wsplitpath_s
+                         473 isdigit
+                         51D wcsrchr
+                         4A5 modf
+                         3A1 _wcsnicmp
+                         52D wprintf
+                         1E4 _itoa_s
+                         477 isprint
+                         370 _vsnprintf
+                         4B5 rand_s
+                         524 wcstok_s
+                         3AB _wcstoi64
+                         413 _wtoi64
+                         4F6 tolower
+                         1F2 _lock
+                         34E _unlock
+                         501 vprintf
+                          84 __dllonexit
+                         29C _onexit
+                          B7 _amsg_exit
+                         443 fclose
+                         446 fflush
+                         452 fprintf
+                         4E9 swprintf_s
+                         4DE strpbrk
+                         189 _initterm
+                         4A3 memset
+                         3D1 _wfopen_s
+                         521 wcsstr
+                         525 wcstol
+                         4DA strncmp
+                         3B0 _wcstoui64
+                         4C6 sprintf_s
+                         513 wcscspn
+                         50E wcschr
+                         4DF strrchr
+                         397 _wcsicmp
+                         2DB _snprintf_s
+                         4A1 memmove
+                         310 _strnicmp
+                         345 _ultoa_s
+                         306 _stricmp
+                         4EB swscanf_s
+                         49F memcpy
+                         4CE strchr
+                         493 malloc
+                         459 free
+                         471 isalpha
+                         49E memcmp
+                         4D3 strcspn
+                         4AA printf
+                         483 iswprint
+                         4B4 rand
+                         416 _wtol
+                         472 iscntrl
+                         4A0 memcpy_s
+                          8A __iob_func
+                          5E __C_specific_handler
+                         2AA _purecall
+                         488 isxdigit
+                         4CF strcmp
+
+    ntdll.dll
+             1803069E0 Import Address Table
+             180391F30 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         305 RtlCaptureContext
+                         307 RtlCaptureStackBackTrace
+                         509 RtlLookupFunctionEntry
+                         64E RtlVirtualUnwind
+
+    api-ms-win-core-processthreads-l1-1-0.dll
+             180306520 Import Address Table
+             180391A70 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          10 GetCurrentThread
+                          55 TerminateProcess
+                           6 CreateThread
+                           3 CreateProcessW
+                          14 GetExitCodeThread
+                          58 TlsFree
+                           D GetCurrentProcessId
+                          5A TlsSetValue
+                           C GetCurrentProcess
+                          11 GetCurrentThreadId
+                          57 TlsAlloc
+                          4D SetThreadPriority
+                          4E SetThreadPriorityBoost
+                          59 TlsGetValue
+                          35 OpenThread
+                          3C ResumeThread
+
+    api-ms-win-core-libraryloader-l1-2-0.dll
+             180306408 Import Address Table
+             180391958 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          14 GetModuleHandleExW
+                          11 GetModuleFileNameW
+                          15 GetModuleHandleW
+                          16 GetProcAddress
+                          19 LoadLibraryExW
+                           1 DisableThreadLibraryCalls
+                           D FreeLibrary
+
+    api-ms-win-core-heap-l1-1-0.dll
+             180306378 Import Address Table
+             1803918C8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           A HeapSetInformation
+                           5 HeapDestroy
+                           6 HeapFree
+                           2 HeapAlloc
+                           0 GetProcessHeap
+
+    api-ms-win-core-errorhandling-l1-1-0.dll
+             1803061E8 Import Address Table
+             180391738 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           D SetLastError
+                           5 GetLastError
+                           F SetUnhandledExceptionFilter
+                          11 UnhandledExceptionFilter
+
+    api-ms-win-core-sysinfo-l1-2-0.dll
+             180306700 Import Address Table
+             180391C50 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           8 GetNativeSystemInfo
+
+    api-ms-win-core-sysinfo-l1-1-0.dll
+             1803066A8 Import Address Table
+             180391BF8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 GetLogicalProcessorInformationEx
+                          19 GetSystemWindowsDirectoryW
+                           5 GetLocalTime
+                          11 GetSystemInfo
+                          1E GetVersionExW
+                          1A GetTickCount
+                          21 GlobalMemoryStatusEx
+                          20 GetWindowsDirectoryW
+                          16 GetSystemTimeAsFileTime
+                          13 GetSystemTime
+
+    api-ms-win-core-memory-l1-1-0.dll
+             180306490 Import Address Table
+             1803919E0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1B OpenFileMappingW
+                          29 UnmapViewOfFile
+                          12 MapViewOfFile
+                          36 VirtualProtect
+                          33 VirtualFree
+                           6 CreateFileMappingW
+                          2D VirtualAlloc
+                          3A VirtualQueryEx
+                          15 MapViewOfFileEx
+
+    api-ms-win-core-memory-l1-1-1.dll
+             1803064E0 Import Address Table
+             180391A30 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 CreateMemoryResourceNotification
+                          3B VirtualUnlock
+                          1D QueryMemoryResourceNotification
+
+    api-ms-win-core-handle-l1-1-0.dll
+             180306358 Import Address Table
+             1803918A8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 CloseHandle
+                           4 SetHandleInformation
+                           2 DuplicateHandle
+
+    api-ms-win-core-heap-l2-1-0.dll
+             1803063A8 Import Address Table
+             1803918F8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           2 LocalAlloc
+                           3 LocalFree
+
+    api-ms-win-core-file-l1-1-0.dll
+             180306220 Import Address Table
+             180391770 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          4E ReadFileScatter
+                          5E WriteFile
+                          60 WriteFileGather
+                           7 CreateFileW
+                          30 GetFileSizeEx
+                          56 SetFileInformationByHandle
+                          5B SetFileValidData
+                          2D GetFileAttributesW
+                          34 GetFinalPathNameByHandleW
+                          46 GetVolumePathNameW
+                          24 GetDiskFreeSpaceExW
+                          2C GetFileAttributesExW
+                          3D GetTempFileNameW
+                          51 SetEndOfFile
+                           4 CreateDirectoryW
+                          50 RemoveDirectoryW
+                           A DeleteFileW
+                          4C ReadFile
+                          59 SetFilePointerEx
+                          29 GetDriveTypeW
+                          36 GetFullPathNameW
+                          2E GetFileInformationByHandle
+                          17 FindFirstVolumeW
+                          44 GetVolumeInformationW
+                          1D FindNextVolumeW
+                          1E FindVolumeClose
+                          1F FlushFileBuffers
+                          15 FindFirstFileW
+                          1B FindNextFileW
+                           D FindClose
+
+    api-ms-win-core-synch-l1-1-0.dll
+             1803065F0 Import Address Table
+             180391B40 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           A CreateMutexW
+                          29 SetEvent
+                          23 ReleaseMutex
+                           6 CreateEventW
+                          19 InitializeCriticalSectionAndSpinCount
+                           F DeleteCriticalSection
+                          1D LeaveCriticalSection
+                          11 EnterCriticalSection
+                          26 ReleaseSemaphore
+                          30 SleepEx
+                          37 WaitForSingleObjectEx
+                          27 ResetEvent
+                          24 ReleaseSRWLockExclusive
+                           0 AcquireSRWLockExclusive
+                          20 OpenMutexW
+                          36 WaitForSingleObject
+                          1F OpenEventW
+                          35 WaitForMultipleObjectsEx
+
+    api-ms-win-core-io-l1-1-0.dll
+             1803063C0 Import Address Table
+             180391910 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 GetQueuedCompletionStatus
+                           9 PostQueuedCompletionStatus
+                           4 DeviceIoControl
+                           5 GetOverlappedResult
+                           3 CreateIoCompletionPort
+
+    api-ms-win-core-string-l1-1-0.dll
+             1803065D8 Import Address Table
+             180391B28 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 WideCharToMultiByte
+                           6 MultiByteToWideChar
+
+    api-ms-win-core-debug-l1-1-0.dll
+             1803061B0 Import Address Table
+             180391700 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           4 DebugBreak
+                           6 OutputDebugStringA
+
+    api-ms-win-core-localization-l1-2-0.dll
+             180306448 Import Address Table
+             180391998 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          14 GetLocaleInfoEx
+                          35 LCMapStringW
+                          36 LocaleNameToLCID
+                          15 GetLocaleInfoW
+                           9 FormatMessageW
+                          34 LCMapStringEx
+
+    api-ms-win-core-synch-l1-2-0.dll
+             180306688 Import Address Table
+             180391BD8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          39 WakeAllConditionVariable
+                          2F SleepConditionVariableSRW
+                          2D Sleep
+
+    api-ms-win-core-processthreads-l1-1-1.dll
+             1803065A8 Import Address Table
+             180391AF8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          32 IsProcessorFeaturePresent
+                          29 GetThreadIdealProcessorEx
+
+    api-ms-win-core-console-l1-1-0.dll
+             180306178 Import Address Table
+             1803916C8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          10 SetConsoleCtrlHandler
+
+    api-ms-win-core-profile-l1-1-0.dll
+             1803065C0 Import Address Table
+             180391B10 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 QueryPerformanceCounter
+                           1 QueryPerformanceFrequency
+
+    api-ms-win-core-timezone-l1-1-0.dll
+             180306720 Import Address Table
+             180391C70 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           A SystemTimeToFileTime
+                           1 FileTimeToSystemTime
+                           B SystemTimeToTzSpecificLocalTime
+
+    api-ms-win-core-datetime-l1-1-0.dll
+             180306198 Import Address Table
+             1803916E8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           2 GetDateFormatW
+                           6 GetTimeFormatW
+
+    api-ms-win-core-file-l1-2-0.dll
+             180306318 Import Address Table
+             180391868 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          45 GetVolumeNameForVolumeMountPointW
+
+    api-ms-win-core-file-l2-1-0.dll
+             180306328 Import Address Table
+             180391878 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 GetFileInformationByHandleEx
+                           8 MoveFileExW
+                           1 CopyFileExW
+
+    api-ms-win-core-file-l2-1-1.dll
+             180306348 Import Address Table
+             180391898 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           A OpenFileById
+
+    api-ms-win-core-processenvironment-l1-1-0.dll
+             180306510 Import Address Table
+             180391A60 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           C GetStdHandle
+
+    api-ms-win-core-console-l2-1-0.dll
+             180306188 Import Address Table
+             1803916D8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           9 GetConsoleScreenBufferInfo
+
+    api-ms-win-core-errorhandling-l1-1-3.dll
+             180306210 Import Address Table
+             180391760 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           E SetThreadErrorMode
+
+    api-ms-win-core-localization-l1-2-2.dll
+             180306480 Import Address Table
+             1803919D0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          32 LCIDToLocaleName
+
+    api-ms-win-eventing-provider-l1-1-0.dll
+             180306750 Import Address Table
+             180391CA0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           3 EventRegister
+                           5 EventUnregister
+                           9 EventWriteTransfer
+
+    api-ms-win-core-privateprofile-l1-1-0.dll
+             180306500 Import Address Table
+             180391A50 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           B GetProfileStringW
+
+    api-ms-win-core-kernel32-legacy-l1-1-0.dll
+             1803063F0 Import Address Table
+             180391940 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          52 RegisterWaitForSingleObject
+                          37 GetSystemPowerStatus
+
+    api-ms-win-core-threadpool-legacy-l1-1-0.dll
+             180306710 Import Address Table
+             180391C60 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 UnregisterWaitEx
+
+    api-ms-win-core-windowserrorreporting-l1-1-0.dll
+             180306740 Import Address Table
+             180391C90 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           A WerRegisterMemoryBlock
+
+    api-ms-win-core-delayload-l1-1-1.dll
+             1803061D8 Import Address Table
+             180391728 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           1 ResolveDelayLoadedAPI
+
+    api-ms-win-core-delayload-l1-1-0.dll
+             1803061C8 Import Address Table
+             180391718 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 DelayLoadFailureHook
+
+  Section contains the following delay load imports:
+
+    CRYPTSP.dll
+              00000001 Characteristics
+      000000018039E7E8 Address of HMODULE
+      00000001803BE000 Import Address Table
+      000000018038E610 Import Name Table
+      000000018038E720 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    00000001800F0BCC     2 CryptAcquireContextW
+                                    00000001800F0CD5     B CryptEncrypt
+                                    00000001800F0C57    1C CryptReleaseContext
+                                    00000001800F0C69    11 CryptGenKey
+                                    00000001800F0C7B    10 CryptExportKey
+                                    00000001800F0C8D     8 CryptDestroyKey
+                                    00000001800F0C9F    1B CryptImportKey
+                                    00000001800F0CB1    12 CryptGenRandom
+                                    00000001800F0CC3    1E CryptSetKeyParam
+                                    00000001800F0CE7     5 CryptDecrypt
+
+  Summary
+
+        F000 .data
+        1000 .didat
+       1B000 .pdata
+       9B000 .rdata
+        4000 .reloc
+        1000 .rsrc
+      2F8000 .text
+        2000 cachelin

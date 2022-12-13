@@ -1,0 +1,3171 @@
+                                 H
+                (0x%p, 0x%p, 0x%p, 0x%p)
+         (((((                  H
+         h((((                  H
+        Check Width: x%d
+        Columns:     %d
+        Rows:        %d
+        Width:       x%d
+      <_locDefault _loc="locData"/>
+      <_locTag _locAttrData="height,width">textarea</_locTag>
+      <_locTag _locAttrData="minsize">select</_locTag>
+      <_locTag _locAttrData="pad-left,pad-right">p</_locTag>
+      <_locTag _locAttrData="size">progressbar</_locTag>
+      <_locTag _locAttrData="size,maxlen">input</_locTag>
+      <_locTag _locAttrData="tip">option</_locTag>
+      <_locTag _locAttrData="value">osxml:update</_locTag>
+      <option selected="true" value="0" tip="Use the default cache setting of each test.">Default</option>
+      <option selected="true" value="1" tip="Turn the cache on for all tests.">On</option>
+      <option selected="true" value="2" tip="The Basic tests are MATS+, INVC, and SCHCKR (cache enabled).">Basic</option>
+      <option selected="true" value="2" tip="Turn the cache off for all tests.">Off</option>
+      <option selected="true" value="4" tip="The Standard tests include all the Basic tests, plus LRAND, Stride6 (cache enabled), CHCKR3, WMATS+, and WINVC.">Standard</option>
+      <option selected="true" value="8" tip="The Extended tests include all the Standard tests plus MATS+ (cache disabled), Stride38, WSCHCKR, WStride-6, CHCKR4,
+      <option value="0" tip="Use the default cache setting of each test.">Default</option>
+      <option value="1" tip="Turn the cache on for all tests.">On</option>
+      <option value="2" tip="The Basic tests are MATS+, INVC, and SCHCKR (cache enabled).">Basic</option>
+      <option value="2" tip="Turn the cache off for all tests.">Off</option>
+      <option value="4" tip="The Standard tests include all the Basic tests, plus LRAND, Stride6 (cache enabled), CHCKR3, WMATS+, and WINVC.">Standard</option>
+      <option value="8" tip="The Extended tests include all the Standard tests plus MATS+ (cache disabled), Stride38, WSCHCKR, WStride-6, CHCKR4,
+      <textarea name="status-prompt" height="2">Hardware problems were detected.  To identify and repair these problems, you will need to contact the computer manufacturer.</textarea>
+      <textarea name="status-prompt" height="2">No problems have been detected yet.</textarea>
+      <textarea name="status-prompt2" height="2">Although the test may appear inactive at times, it is still running.  Please wait until testing is complete...</textarea>
+      <textarea name="status-prompt2" height="2">Although the test may appear inactive at times, it is still running.</textarea>
+      <xsl:value-of select="@passes"/>
+      <xsl:value-of select="@progress"/>
+    %d bits wide
+    %d logical %s per device
+    %lx - %lx
+    %lx-based
+    %S
+    </font>
+    </input>
+    </xsl:attribute>
+    </xsl:for-each>
+    <br/>
+    <font foreground-color="RGBI">
+    <footer color="XXBXRGBX"><xsl:text> F1=Options                                                           ESC=Exit </xsl:text></footer>
+    <footer color="XXBXRGBX"><xsl:text> TAB=Next                        F10=Apply                          ESC=Cancel </xsl:text></footer>
+    <meta key="ESC" action="exit"/>
+    <meta key="F1" action="options"/>
+    <meta key="F10" action="submit"/>
+    <meta key="F5" action="fault"/>
+    <title color="XXBXRGBX"><xsl:text>                        Windows Memory Diagnostics Tool                        </xsl:text></title>
+    <title color="XXBXRGBX"><xsl:text>                   Windows Memory Diagnostics Tool - Options                   </xsl:text></title>
+    <xsl:attribute name="default">
+    <xsl:attribute name="value">
+    <xsl:for-each select="@basic">
+    <xsl:for-each select="@cacheoff">
+    <xsl:for-each select="@cacheon">
+    <xsl:for-each select="@defcache">
+    <xsl:for-each select="@definite">
+    <xsl:for-each select="@extended">
+    <xsl:for-each select="@failure">
+    <xsl:for-each select="@infinite">
+    <xsl:for-each select="@standard">
+    <xsl:for-each select="@success">
+    <xsl:text>Current test pass status: </xsl:text><textarea name="passpercent" width="2"> _ </textarea><xsl:text>% complete</xsl:text>
+    <xsl:text>Overall test status: </xsl:text><textarea name="testpercent" width="2"> _ </textarea><xsl:text>% complete</xsl:text>    
+    <xsl:text>Running test pass </xsl:text><textarea name="currentpass" width="2"> _ </textarea><xsl:text> of </xsl:text><textarea name="totalpasses" width="2"> _ </textarea><xsl:text>: </xsl:text><textarea name="passpercent" width="2"> _ </textarea><xsl:text>% complete</xsl:text>
+    <xsl:text>Running test pass </xsl:text><textarea name="currentpass" width="8"> _______ </textarea>
+    A
+    about twice as long to run.
+    Bank 0:
+    Bank 1:
+    be processed.
+    because the boot debugger is enabled.
+    boot debugger is enabled.
+    boundary to be processed.
+    Density mask is %x
+    It will be allowed to load because the
+    Not present
+    Offset %d
+    One or more memory map entries were aligned in a way that could not
+    Suspect data
+    the file %s.  It will be allowed to load
+    The memory map contained memory ranges too near the four-gigabyte
+    The memory map contained ranges that extended above four gigabytes.
+    the memory used by the test program. However, each test will take
+    This might take several minutes.
+    tR3
+    ug
+    Windows will continue to check for memory problems until you choose to exit.
+    Windows will restart the computer automatically. Test results will be displayed again after you log on.
+   Description: <font foreground-color="RGBI"><textarea name="cache-ctx" height="2"/></font>
+   Description: <font foreground-color="RGBI"><textarea name="testmix-ctx" height="3"/></font> 
+  </body>
+  </font>
+  </form>
+  </head>
+  </meter>
+  </p>
+  </select>
+  </xsl:for-each>
+  <body background-color="XXBX" foreground-color="RGBX">
+  <body background-color="XXXX" foreground-color="RGBX">
+  <br/>
+  <font foreground-color="RGXI">
+  <form>
+  <head>
+  <meter name="progressbar" blank-color ="RGBXXXBX" size="80">
+  <osxml:update control="currentpass" value="{@currentpass}"/>
+  <osxml:update control="passpercent" value="{@passpercent}"/>
+  <osxml:update control="progressbar" value="{@value}"/>
+  <osxml:update control="status-prompt" value="Hardware problems were detected.  To identify and repair these problems, you will need to contact the computer manufacturer."/>
+  <osxml:update control="testpercent" value="{@testpercent}"/>
+  <osxml:update control="totalpasses" value="{@totalpasses}"/>
+  <p pad-left="13" pad-right="3"><font foreground-color="RGBI">repeat (Max = 15).
+  <p pad-right="3">
+  <p pad-right="66">
+  <select name="cache" tip-target="cache-ctx" active-color="XXBXRGBX" right-justify="true">
+  <select name="testmix" tip-target="testmix-ctx" active-color="XXBXRGBX" right-justify="true">
+  <xsl:for-each select="@definite">
+  <xsl:for-each select="@infinite">
+  <xsl:text>Status: </xsl:text>
+  8PP
+  Cache:
+  Description: <font foreground-color="RGBI">Set the total number of times the entire test mix will</font>
+  Manufacturer: %s
+  Pass Count (0 - 15): <input type="numeric" name="passcount" maxlen="2" border-color="RGBI" size="7">
+  Production date: Week %x, %s%02x
+  Shanghai  
+  Test Mix:
+  Windows is checking for memory problems...  
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ =6?:?>?B?F?J?N?R?V?Z?^?b?f?j?n?r?v?z?~?
+ '0PW
+ http://www.microsoft.com/windows0
+ iZwK
+ j Zf
+ match="
+ Microsoft Code Verification Root
+ Microsoft Corporation. All rights reserved.
+ Microsoft Operations Puerto Rico1&0$
+ mode="
+ name="
+ Operating System
+ SVW3
+ SVWj
+ SVWj,
+ System memory map
+ u:+K4
+ u+9u
+ Windows
+!]@9]
+!]_0t
+!0.080J0V0d0p0{0
+!030L0
+!5|mQ
+!88Hp
+!9G t
+!D$@f
+!h@@N
+!j Zj'
+!T$$P
+!This program cannot be run in DOS mode.
+!TkjE
+!Windows OEM Root 2017 (TEST ONLY)
+""fD**~T
+"0/040U0^0c0
+"Copyright (c) 1997 Microsoft Corp.1
+"Copyright (c) 1999 Microsoft Corp.1
+"fD"*~T*
+"j@Xj
+"Microsoft Window
+#\$L#
+#D$$#
+#D$(#|$
+#D$,#L$h
+#D$D3
+#HMDuV
+$$lH\\
+$?0(G
+$_^][
+$`<`u
+$161=1
+$4,8-9'66.:$?#1*HhXpAeS~ZrNlS
+$lH$\
+$Microsoft Ireland Operations Limited1
+$Microsoft Root Certificate Authority
+$SVW3
+%%oJ..r\
+%-*I64d
+%{XFRVT
+%0*lx%-*s
+%8ld %s line %d
+%8ld %s line %d FATAL HALT
+%8ld %s line %d value %lx
+%ls%ls
+%ls\%ls
+%Microsoft Windows Production PCA 2011
+%Microsoft Windows Production PCA 20110
+%s\%s%016I64X
+%s\%s\%s.MUI
+%s\FveTcg_%d.log
+%u.%u.%u.%u
+&02080>0D0}0
+&go`4
+&jL&6Zl6?A~?
+&Microsoft Digital Media Authority 2005
+&N''i
+&S|9a
+(090G0X0b0s0
+(C) Resume (M) Menu (TAB/ARROW) Navigate
+(j0Zj(
+(null)
+(P) Pause (X) Exit (T) Run extended tests
+(P) Pause (X) Exit (T) Run standard tests
+(PGUP/PGDN) Scroll (X) Exit
+(S) Saves the current test suite and exits.
+(SVWj
+(X) Exits without saving any changes.
+)#_ck
+)Microsoft Authenticode(tm) Root Authority
+)Microsoft Root Certificate Authority 2010
+)Microsoft Root Certificate Authority 20100
+)--wZ
+*** Certificate of the file %s has expired.
+*** Fatal Error 0x%08x :
+*** Integrity validation failed for block %u.
+*** Windows is unable to verify the signature of
+*050>0C0l0t0
+*MdI.
+,@  `
+,0@0G0W0_0f0
+,1014181<1
+,343<3D3L3T3\3d3l3t3|3
+,6Z}p
+,8$4_
+,8$4'6-9:$6.1*?#XpHhS~AeNlZrEbS
+,s9ASJscb/pomtMhh/IlfpMq2Zc03cZmrReHzBc0mJWQ=0Z
+.00cfg
+.data
+.edata
+.h4-N
+.rdata
+.rdata$voltmd
+.rdata$zETW0
+.rdata$zETW1
+.rdata$zETW2
+.rdata$zETW9
+.rdata$zzzdbg
+.rsrc
+.rsrc$01
+.rsrc$02
+.text
+.text$mn
+.text$mn$00
+.text$s
+.vhdx
+/0B2F2J2N2R2V2Z2^2b2f2j2n2c>
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+: :&:,:6:A:M:]:s:
+: :,:2:E:K:k:t:}:
+: :2:O:U:\:f:o:u:}:
+: :6:G:P:Y:j:
+: ;E;
+:!>(>L?S?
+:";p;u;};
+:#:f:
+:$:*:J:o:v:{:M;j;/<T<
+:$:o:
+:$;\;
+:%:q:
+:&:.:?:X:p:z:
+:&:/:8:D:J:x:
+:(:4:@:X:d:p:|:
+:(:E:N:W:`:i:
+:(;?;
+:*:0:R:b:
+:,:1:6:K:
+:,:2:8:K:U:_:j:o:x:
+:/; <F<
+:/;|;
+:/;6;Y;`;v;
+:/;8;
+:':/:6:
+:':0:9:B:Y:_:m:t:
+:':3:9:R:_:h:t:z:
+:;:V:s:
+:?=L=S=
+:^;e;
+:_;u;
+:`:t:
+:`;g;J<
+:+:/:
+:<:K:q:
+:0:L:Q:f:
+:0;9;Z;`;e;~;
+:0G0g0
+:3:w:
+:5:C:P:]:f:o:
+:6:<:G:T:Z:g:
+:d=l=t=|=
+:descSVW
+:e:m:
+:f98t
+:jHSV
+:k<u<|<
+:L:V:^:h:x:
+:MDBGu;
+:N:\:f:
+:O:d:v:
+:Q;V;\;
+:regiu
+:s;k<
+:SPACuI
+:T:a:
+:Tt3n
+:XPuH
+:zerou,
+; ;&;5;B;K;W;];|;
+;!<.<[<j<
+;!<Z<r</=
+;!>Y>j>u>
+;";3;;;w;
+;";D;J;\;q;w;
+;">,>
+;#;m;
+;$;(;,;0;4;8;<;@;
+;$;-;C;I;h;o;
+;$;0;<;T;`;l;x;
+;%;.;7;@;W;^;r;
+;%;.;E;K;Y;b;k;t;};
+;%;@;[;w;
+;%;+;1;7;=;C;I;O;U;p;~;
+;%;B;[;t;
+;%;M;
+;&<4<><\<
+;(;.;7;Q;
+;);3;>;H;U;_;l;v;
+;*;2;D;W;
+;,;1;e;u;{;
+;,;2;7;Z;
+;,;H;S;Y;_;d;};
+;/<6<I<N<`<
+;;;Y;`;d;h;l;p;t;x;|;
+;';+;M;i;z;
+;;< =
+;;<O<
+;';3;I;V;u;z;
+;';K;
+;?<I<
+;@;F;L;g;
+;@<S<
+;\$ w
+;](s?
+;^HszW
+;|$(r
+;|$,|
+;~ v+
+;~DtE
+;+;:;
+;+;:;?;g;
+;+;H;t;
+;+<1<\<j<x<
+;=`JR
+;=LoQ
+;=X0R
+;><I<d<k<p<t<x<
+;1;?;I;O;b;x;};
+;1;X;
+;1<l<
+;3;;;J;^;l;s;|;
+;3;<;
+;4<F<U<
+;5@mQ
+;A(wi
+;A\uu
+;A|u`
+;A|uvW
+;Axu~
+;Axuh
+;B0v(
+;BOOT
+;C0r~
+;D$$s23
+;D$(s
+;D$,u
+;D$@|b
+;D$`s
+;D$<rW
+;D$4v
+;D$HsG
+;d22Vt::N
+;E sU
+;F w|
+;F$w6
+;F<ta
+;F0u0
+;F4u(
+;F8u 
+;F8u~
+;Ftw;r
+;FVPW
+;G uE;O$u@
+;H4uq
+;I<S<[<b<h<p<x<
+;J;r;
+;j;t;
+;J0uC
+;J4t_
+;JDw%r
+;Jdw%r
+;K\t)Q
+;K0sh
+;L$$r
+;L$8s}
+;L$dw
+;meta
+;N0s?
+;o?t?
+;QtsN
+;r;w;|;
+;regiu
+;RSA1t
+;s<y<
+;S4wu
+;sDst
+;T$ u
+;T$$u
+;t$$u
+;t$(v
+;T$|r
+;T$0u
+;T$0u#
+;t$hr&;|$t
+;t$pw
+;t;{;E>M>b>r>z>
+;V t6
+;V4wI
+;Vps4
+;W<t<
+;WDtjSj
+;Y<`<
+;Z<m<
+? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+? ?,?8?
+?!?*?6?<?O?U?c?p?}?
+?"?)?/?@?E?P?d?o?
+?"?-?o?
+?"?7?E?X?k?s?|?
+?#?*?;?F?Q?Y?_?j?u?{?
+?$?-?`?y?
+?%?*?0?G?S?
+?%?.?7?N?T?j?s?|?
+?%?9???m?t?|?
+?&?=?C?U?^?g?s?y?
+?(?3???N?k?s?
+?(?E?^?f?
+?)?>?
+?*?:?
+?*?B?f?y?
+?*?F?L?_?j?t?
+?*?N?b?
+?,?8?>?R?e?n?w?
+?/=KzdN
+?'?;?
+?'?^?e?j?
+?'?0?<?B?V?\?~?
+?'?O?z?
+?\u^f9G
+?>?[?a?q?}?
+?2?@?M?Z?f?l?
+?5?L?_?f?
+?6?O?h?
+?6?Q?Z?r?
+?9Jdw4r
+?D?V?^?f?p?y?
+?EFI 
+?FVE-
+?gsint
+?N?X?
+?nu0f
+?qu#f
+?R?z?
+?vhd2
+?vhdx
+?wFt=
+?WoCf
+@.data
+@.reloc
+@@@@@
+@_^[Y]
+@_^Y]
+@ABCDEFGHIJKLMNO
+@f9_`t!
+@h<nQ
+@pb{uw
+@PQQQ
+@r_f;
+@SVW3
+@u;j@Zj)
+@v(f;
+@VWf9
+[ !"#
+[%lx - %lx] %lx iterations
+[.:$6g
+[1;1H
+[PQPP
+[T:$6.
+[u"8]
+\$ ut;
+\$$_^
+\$$C;\$ r
+\$,;L$$
+\$@!8
+\$@u j
+\$@VW
+\$8VPQ
+\$H9\$
+\$l;t$hr
+\$UPCASE
+\\UWFSWAP.SYS
+\Boot
+\boot\
+\Boot\BCD
+\Boot\Fonts
+\bootstat.dat
+\chs_boot.ttf
+\cht_boot.ttf
+\ExternalKey.PlainText.TXT
+\jpn_boot.ttf
+\kor_boot.ttf
+\SVW3
+\System Volume Information
+\System Volume Information\WimOverlay.dat
+\System Volume Information\WimOverlay.new
+\wgl4_boot.ttf
+\windows
+\windows\system32\
+][YZ_^_^[
+^,;^$r2w
+^49\$ 
+^dj$Y
+^h;^l
+^h;^l~
+^hh.N
+^QQQQ3
+^QQQQQ
+_@[^]
+_^[Y]
+_7s72888o8
+_9;uD
+_9^4t
+_DMI9
+_DMIu
+_f9|$0
+_f9|$0u/
+_f9<C
+_QQQQQ
+_QQQQQf
+_Xj@Z
+`%s' is not a recognized option. Press any key to continue.
+`.rdata
+```hh`
+`0^0\
+`h````
+{$Wi2kt
+{%08lx-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x}
+{%08x-%08x-%08x-%08x-%08x}
+{(+{@;
+{R))>
+|$ QQP
+|$$9O\t
+|$$9P
+|$$f;
+|$(CS
+|$(SS
+|$(WS
+|$,!r
+|$,0000
+|$,iiiiu]j
+|$,s$
+|$1vt
+|$49t$0w
+|$H;|$
+|$H;x
+|$X3|$43|$0
+|>>Bq
+|SVW3
+}$h8pN
+})){R
+~(9>t
+~,9~0t
+~@#~8
+~@9~Dt
+~`#~X
+~~Gz==
+~<_^[
+~<_^[]
+~=Gz=d
+~0;~,
+~09~(t
+~4[C)v
+~4_^[
+~4_^Y
+~4+|$ ;
+~d;~`
+~D;~<|8
+~D9~Ht
+~H9~,t
++D$ ;D$
++D$`j
++FPPV
++T$Hj
++XpHh
+< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<
+< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
+< </<9<A<G<N<`<r<
+< =$=/=3=G=]>a>
+< =,=9=B=K=T=\=|=
+< t9f
+<!<&</<6<
+<!<1<9<D<J<P<Z<a<e<k<o<
+<!=A=S=\=q=
+<"=L=a=x=
+<#<,<C<I<W<`<i<r<{<
+<#=*=
+<$<*<0<B<p<x<~<
+<$<-<2<;<@<}<
+<$<0<<<H<T<`<
+<$<1<:<C<Z<h<o<{<
+<$>.>
+<%</<8<?<H<O<i<p<y<
+<%<+<?<P<Y<d<n<t<
+<%<+<8<E<M<_<l<
+<%<4<G<f<
+<&<+<=<B<S<X<o<v<{<
+<)<6<E<R<f<s<
+<*<D<t<
+<*=F=N=
+<,<C<J<S<Z<b<k<
+<.<6<><G<P<f<r<
+</_locDefinition>
+</<i<
+</<q<
+</osxml:text-mode-ui>
+</xsl:stylesheet>
+</xsl:template>
+<?xml version="1.0" encoding="unicode"?>
+<?xml version="1.0" href="ntldr.xsl"?>
+<_locDefinition>
+<}t!<~t
+<+<:<G<P<\<b<
+<+<4<=<F<O<h<v<
+<'<2<p<v<
+<'<3<9<M<S<r<
+<-<3<B<
+<'=5=H=
+<0descu
+<5<K<]<
+<8<j<
+<9=@=|=
+<A<L<
+<A<u<W>
+<c=m=
+<C=Q=
+<currentpass-update currentpass='%2d'/>
+<F=}=
+<G=e=
+<H<]<
+<H=t#hXBN
+<k=v=
+<L=S=
+<mt-begin 
+<mt-end/>
+<mt-options definite='true' 
+<mt-options infinite='true' 
+<o<t<
+<osxml:text-mode-ui>
+<P<a<
+<passpercent-update passpercent='%02d'/>
+<progress-update value='%d'/>
+<R=1>.?P?T?X?\?`?d?h?l?
+<status-bad/>
+<testpercent-update testpercent='%02d'/>
+<totalpasses-update totalpasses='%2d'/>
+<tz-d
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:osxml="osxml" version="1.0">
+<xsl:stylesheet>
+<xsl:template
+<xsl:template match="*|@*|text()"/>
+<xsl:template match="currentpass-update">
+<xsl:template match="mt-begin">
+<xsl:template match="mt-end">
+<xsl:template match="mt-options">
+<xsl:template match="passpercent-update">
+<xsl:template match="progress-update">
+<xsl:template match="status-bad">
+<xsl:template match="testpercent-update">
+<xsl:template match="totalpasses-update">
+= =$=(=,=0=4=8=
+= =$=(=,=0=4=8=<=@=D=H=L=P=T=
+= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+= >h>w>
+= >t>
+= >T>|>
+=!=.=7=@=I=b=p=}=
+=!=.=9=B=K=W=]=q=w=
+=!>L>
+="=)=.=`=j=y=
+="=)=0=8=>=D=P=W={=
+="=G=V=_=n=
+=#=-===J=P=`=m=|=
+=$=,=0=6=:=@=J=Q=Z=
+=$>m?
+=$>Q>
+=%=*=J=h=p=
+=%=,=>=b=z=
+=&&jL66Zl??A~
+=&=,=@=Q=b=o=x=
+=&=/=8=O=U=c=m=~=
+=&>->9>F>M>S>o>
+=(?0?8?@?
+=(=4=@=X=d=p=|=
+=(=5=B=N=T=j=s=|=
+=)>1>J>[>b>s>z>
+=*>)?o?
+=,=8=
+=,=F=
+=/>4>N>T>
+=:=E=M=V=_=h=
+=;=B=G=P=m=r=~=
+=]=~=
+=+=8=A=J=h=u=
+=+=G=P=Y=e=k=
+==>B>W>q>w>
+==Gzdd
+=->7>1?
+=0=7=@=
+=1>;>\>b>h>~>
+=2>B>
+=8===S=
+=9>c>j>
+=-9'6
+=APMC
+=b=h=l=p=t=
+=g>n>
+='IBt
+=j?o?v?{?
+=K=Q=c=}=
+=M>Y>
+=NVID
+=O>x>
+=QCOMu
+=R>_>
+=S>~>
+=S>c>n>
+=S>Z>a>f>
+=u=|=
+=zu=-M_D
+> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
+> >'>6>@>\>h>n>t>
+>#?`?
+>#>'>+>/>3>7>;>?>C>G>K>O>S>W>[>
+>#>2><>E>N>]>f>v>
+>#>5>C>P>a>
+>$>8>D>P>\>h>
+>$>B>K>T>`>f>
+>$SDIue
+>%>1>
+>%qxP
+>&>/>8>U>^>g>p>y>
+>)>8>
+>)>N>
+>,>=>C>H>M>Z>h>q>
+>:?V?
+>@?W?
+>^//q
+>_^Y]
+>_SM3u
+>+>2>F>Z>n>
+>+>4><>F>[>i>r>{>
+>'>3>?>H>Q>z>
+>1>:>C>L>U>n>
+>1>V>a>n>w>
+>5><>A>
+>6?=?D?p?
+>8$4,
+>9~,t
+>D?H?
+>data
+>E?Q?p?
+>E?S?[?e?
+>f;:u
+>F?p?
+>H?g?
+>H?Q?
+>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+>j?t?
+>L>S>
+>M>_>n>t>|>
+>NAME
+>NGdx
+>OLRD
+>q>y>
+>RSD u@
+>SPAC
+>t>j"Xf;
+>W>l>
+0 ;$;(;,;0;4;8;<;D;H;L;l;p;t;x;|;
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+0"0'0,010G0M0S0
+0$0*0@0I0Q0Y0b0k0
+0$0*0<0C0J0S0Z0d0t0}0
+0$060C0L0U0^0u0{0
+0%020?0K0Q0c0x0
+0%030{0
+0&0,0@0N0^0j0s0
+0(0<0K0h0w0
+0)2c2
+0*0Q0W0j0p0{0
+0,1K1
+0,1U1
+0.090U0f0q0
+0;0X0y0
+0?1K1\1l1s2
+0]2p2
+0}112
+0+0:0X0m0
+0+020@1]1u1
+0+121
+0=1L1S1
+0=1Q1
+0>3Z3
+0'00090P0V0
+0000f
+0001u\
+001s1x1g2
+0'050B0O0]0c0
+0'0O0T0]0b0s0
+0'1%0#
+010W0`0h0q0z0
+011/0-
+0123456789ABCDEF
+0-1e1,=
+0'262a2R6
+031u192
+040904B0
+050D0
+093B3N3a3t3
+093u3
+0A1\1f1n1
+0C0Q0
+0C1T1}1
+'0D0L0p0~0
+0D0y0
+0f;2u
+0JA"a
+0o5t5
+0P0X0
+0p1+0)
+0p1w1
+0Q0t0
+0Q102r2
+0q2}2
+0r?(Y
+0SVW3
+0SVWj
+0U0`0v0
+0u1+0)
+0V0a0i0r0{0
+0wJt>
+1 1$1(1
+1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+1 1$1(1,10141X1|1
+1!1%1*1=1J1N1T1
+1!1'171D1J1Z1g1
+1"1.141
+1"2)2/252K2y2
+1#161G1g1
+1#2|2
+1$1,1<1D1T1\1l1t1
+1$1+1^1e1
+1$111>1G1P1m1v1
+1%1+1|2
+1%1+141=1I1O1b1h1
+1%1X1i1r1x1
+1&1,1W1o1
+1&1<1C1M1S1^1i1z1
+1(0&0
+1(4?6"7
+1)1@1V1m1
+1*?#0
+1*1@1I1R1^1d1y1
+1*2N2X2x2|2
+1*4_4
+1,0*0
+1,2H2
+1.2D2g2M5T5
+1.3.6.1.4.1.311.10.3.20
+1.3.6.1.4.1.311.10.3.39
+1.3.6.1.4.1.311.10.3.5
+1.3.6.1.4.1.311.10.3.6
+1.3.6.1.4.1.311.61.4.1
+1.3.6.1.4.1.311.61.5.1
+1.3.6.1.5.5.7.3.3
+1.3.6.1.5.5.7.3.8
+1/191?1H1O1W1i1|1
+1:1n1
+1?#1*
+1@1G1m1
+1=2h2
+10.0.22621.741
+10.0.22621.741 (WinBuild.160101.0800)
+102$314
+1080Q0
+111019184142Z
+11191A1J1S1`1m1|1
+111B1y1
+12181U1z1
+123456789
+1-272B2M2W2b2h2r2}2
+142L2R2p2
+-151<1l1=4Q4X4_4
+163q3
+172C2P2
+172Y2
+192`2{2
+1C1H1_1p1
+1D1t2
+1D4l4
+1i1|1
+1i2!6
+1Microsoft Testing Root Certificate Authority 2010
+1S1e1o1u1
+1V2]2h2
+1Z2d2i2
+1Z5a5
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+2!252;2u2
+2#2,282>2c2l2u2
+2#222;2}2
+2#2I2Q2
+2$2+21282E2P2[2g2p2{2
+2$3j3o3
+2%202R2Z2n2
+2%272@2H2Q2Z2c2|2
+2&232<2E2_2f2p2y2
+2(2-252A2X2q2y2
+2)3L3
+2*2>2\2
+2*202>2K2X2a2j2
+2*262T2d2m2v2
+2*2k2
+2*3]3q3}3
+2*333J3
+2*373
+2*3M394
+2.242Y2_2
+2/2F2K2R2X2q2|2
+2/4h5o5
+2:2x2
+2;2j2z2
+2;2r2
+2;KXu
+2\tHlWB
+2}3a4t4
+2~23>
+2+3O3c3w3
+20:1D2J3
+20220927001331.244Z0
+20220927034934Z
+20220928034934Z0t0:
+202T2x2
+210930182225Z
+212v2
+2'2;2F2}2
+220302185116Z
+220505192315Z
+2'222
+2'282K2Z2{2
+229879+4700220
+22Vd::Nt
+230504192315Z0p1
+230511185116Z0
+243d3
+261019185142Z0
+262Q2W2p2w2
+262Y2
+263F3
+27182
+273G3
+282S2Y2_2g2v2
+283>3
+283>3E3
+283Z3,494E4U4
+29335
+293E3M3
+293G3N3
+293v4
+2E2^2
+2E377
+2F2x2
+2G2N2T2^2n2{2
+2k2|2
+2l3t3
+2lKL?
+2Microsoft Corporation Third Party Marketplace Root
+2U3j3w3
+2Vd2:Nt:
+2W2d2
+2Y3n5u5
+3 3$3(3,3034383<3@3D3H3P3T3X3\3`3d3h3l3p3t3x3|3
+3 3&3>3G3P3Y3b3y3
+3 3(303P7
+3!3'363L3Y3b3n3t3
+3"3&3,30363:3?3E3O3Z3
+3"3/3
+3"363N3
+3#3)323<3N3[3d3m3v3
+3#3.363>3P3k3{3
+3#303=3I3O3b3h3s3
+3#343h3w3
+3#3C3K3V3
+3#4)4.43484=4B4G4L4Z4_4d4i4n4s4x4}4
+3$3+3L3R3_3h3q3z3
+3$3O3
+3$4m4y4
+3%3-333_3g3u3
+3%3S3r3
+3&3/3H3V3c3p3y3
+3&3+363C3L3g3
+3&3Q3l3z3
+3&4*4
+3(3\3c3
+3(343<3O3\3i3r3{3
+3)3/3;3@3J3P3Z3`3m3x3
+3*3A3Z3_4p4{4
+3,3P3t3
+3/464;4
+3/4G4X4w4}4
+3?4F4
+3@3S3c3
+3[4_4c4g4k4o4s4w4n5
+3\$H3\$03\$,
+3\$T3\$h
+3\3l3
+3~ 3F$
+3+4a4
+3=3B3
+3>3F3
+3>4F4P4
+300930183225Z0|1
+304>405
+31416
+334<4h4
+334B4h4
+3'3B3M3j3
+3-4S4
+384S5i5
+394}4
+3A3v3
+3a4f4
+3B4O4
+3c4h4m4
+3D$$#
+3D$$3D$h
+3D$,3
+3D$,3D$L
+3D$\3D$@3D$(
+3D$<3D$
+3D$<3D$D3D$ 
+3D$<3D$L3D$
+3D$<3D$T3D$
+3D$03D$$3D$H
+3D$03D$H3D$,
+3D$43D$L
+3D$8#
+3D$83D$,
+3D$D3D$
+3D$D3D$(
+3D$d3D$\3D$D
+3D$d3D$H3D$
+3D$L3D$0
+3D$P3D$H3D$h
+3D$T3D$h
+3D$T3D$h3D$L
+3F3c3v3
+3H3\3o3
+3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+3J497d7
+3j7E8
+3L$$3L$H3L$
+3L$(3L$X3L$@
+3L$\3L$03L$,
+3L$\3L$4
+3L$\3L$d3L$X
+3L$\3L$h3L$8
+3L$<3L$,3L$D
+3L$<3L$03L$L
+3L$03L$
+3L$03L$ 
+3L$d3L$<3L$ 
+3L$d3L$43L$L
+3L$h3L$
+3L$h3L$T3L$0
+3L$P3L$\3L$(
+3L$P3L$H
+3L$P3L$X3L$D
+3L$T3L$@3L$(
+3L$T3L$43L$H
+3L$X3L$,
+3N4m4
+3p8t8x8|8
+3T$P3T$4
+3T7D8
+3U3]3g3o3u3{3
+3V3{3
+4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+4 4&4,4N4V4
+4 4;4D4\4w4
+4 4'4.454<4C4J4Q4X4_4
+4!4'4b4w4
+4!484>4_4q4~4
+4"4&4.444:4S4]4
+4"4)4
+4"4.444G4M4[4h4u4
+4"4V4Z4^4b4f4j4n4r4v4z4~4
+4#43484L4R4X4^4n4
+4#5?5G5
+4$4(4,4U4{4
+4$4*484A4J4V4\4o4u4
+4$404@4s4z4
+4$4Q4z4
+4%4+4D4M4V4b4h4{4
+4%40464;4D4J4S4u4z4
+4%4B4H4Y4^4f4y4
+4%5,5H5l5
+4&4/4G4M4n4
+4&565W5
+4&5P5e6l6
+4(4.474@4I4R4[4r4x4
+4(434:4U4h4
+4)5:5U5\5`5f5j5p5t5z5~5
+4)555 979s<
+4)8M9T9]=g=
+4*535e5
+4,40444H4L4P4d4h4l4
+4,4I4d4
+4,8$9'6-.:$6#1*?hXpHeS~ArNlZ
+4.434F4{4
+4.5=5\5
+4/5>5
+4:6@6v8|8
+4?5v5
+4]5(7
+4`5f5v5
+4=<=D=L=T=\=d=l=t=|=
+4=5J5
+4=5w5
+404>4S4`4i4r4
+405N5
+41595B5Z7
+42;2F2K2P2U2Z2_2d2i2n2s2x2}2
+434B4K4j4
+4'4/464p5~5
+4'4;4B4
+4'43494L4R4
+445U5^5j5
+454H4`4z4
+4-5J5e5
+464Y4s4
+474\4
+475c5}5
+4891s
+4a5[7`7[8-9a<h<o<
+4A5K5Q5W5j5p5|5
+4B5I5
+4b5i5
+4e7u7
+4F5P5
+4F5S5\5e5n5
+4G4e4
+4g5B6J6X6f6l6t6y6
+4j ^V
+4j:q:
+4J4X4f4t4
+4N4R4
+4SVW3
+4SVWP
+4T5p5
+4W5^5
+4y5W7
+4Z4|4
+4Z4g4v4
+5 5$5,5054585@5D5H5P5T5X5\5`5d5h5l5t5x5|5
+5 5,585D5P5\5h5t5
+5 5H5Q5\5j5p5
+5 5L5`5g5
+5 6-6Y6n6
+5!5,565]5
+5!5+52585B5K5Q5Y5s5
+5!5<5C5P5
+5!5j5
+5"525;5G5M5`5f5
+5"5-535>5D5r5D6m8z8
+5#5/5@5G5S5_5t5
+5#565<5]5h5q5}5
+5%525?5H5Q5u5
+5%5d5u5
+5&515
+5&575=5B5G5S5Z5`5f5l5r5|5
+5&6n6
+5(5,54585
+5(5,5D5H5`5d5|5
+5,515I5_5e5m5x5
+5,595>5W5d5l5}5
+5/5|5
+5/545;5M5e5n5s5
+5/878<8C8J8g8x8}8
+5]6e6j6
+5_7e7n7v7
+5+515@5F5U5Z5d5
+515I5\5
+535:5@5i5
+536?6D6P6Y6g6l6x6~6
+55_jWW
+5'50595d5y5
+5'50595P5V5d5p5}5
+555`5t5y5
+586O6I<
+595N5T5{5
+5b6h6v6
+5C5b5y5
+5G5m5u5
+5Microsoft Development Root Certificate Authority 2014
+5Q6i6
+5Y6x6
+6 6$6(6,686@6D6`6d6h6l6p6t6x6|6
+6 6$6064686<6@6L6P6T6X6\6h6l6p6t6x6
+6 6`6f6l6q6w6
+6 7)738C8
+6!6&6+6<6D6U6c6h6s6|6
+6"6(6I6R6[6g6m6
+6"6+646K6Q6_6l6y6
+6"6F6P6
+6#6(6.696N6Z6n6s6
+6#6,656L6b6v6
+6#61666<6A6F6O6U6g6t6z6
+6$6/656>6C6N6c6y6
+6$6>6O6U6o6x6
+6$626?6L6U6^6
+6%6/6<6F6S6]6
+6%6_6n6
+6%696@6
+6(?8?d?
+6(6C6^6v6
+6*6J6
+6*808G8C9z9
+6,646r6
+6.6[6y6
+6.6P6
+6.7m7
+6@6d6
+6[:a:
+6~7X8b:g:n:
+6+616<6L6R6Z6c6l6u6
+63d6o:
+647E7u7
+647p7
+656<6@6D6H6L6P6T6X6
+6-6`6q6z6
+6'6>6e6
+6'60696B6K6d6
+66661
+666E6M6Z6c6i6s6~6
+6-6H6S6p6
+687]7
+'6-9d
+6B6c6
+6C7d798
+6D6j6s6
+6F7h7
+6h6l6r6v6|6
+6h6s6{6
+6I8P8
+6j6q6x6
+6jH_Wj
+6k7u7
+6M7j7
+6O;`;
+6p8y8
+6PWWW
+6T6^6h6m6z6
+6U6t6
+6W7a7
+6Y8]8c8g8m8q8w8{8
+7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+7!7.7:7@7Y7b7k7w7}7
+7!7B7
+7"7&7?7`7t7
+7"767C7W7a7
+7"8`8
+7#7)787C7Z7
+7#707@7J7W7a7n7
+7#717
+7#8(8.8e8
+7$7)727:7G7L7\7d7
+7$9*949>9I9
+7%7.777[7m7z7
+7&7`7e7}7
+7&888R8f8m8
+7(717:7C7L7e7
+7)7;7J7]7x7
+7)7B7U7\7w7
+7,7@7Q7a7q7
+7[7r8
+7_^[]
+7+717G7T7]7i7o7
+7=7D7R7_7h7q7z7
+700PP
+700WP
+707@7\7
+708V8
+717d7
+757D7n7
+768C80<<<I<Z<d<
+77:e:
+77Ynmm
+787B7M7T7Z7w7
+787C7S7i7
+798G8T8\8m8r8
+798U8_8o8
+7G8`8
+7G9M9
+7I9N9
+7l8]9m9x9
+7N7\7f7k7
+7n8u8
+7o93?
+7T8r8
+7V7_7k7
+7Yn7m
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+8 9,9e9{9
+8!8*858?8E8
+8!8.8
+8!888F8b8
+8!9F9a9
+8"8+848R8`8m8v8
+8#?E?_?f?k?
+8#8)8-83878=8A8G8K8Q8U8[8_8e8i8o8s8y8}8
+8#8=8W8q8
+8#888F8k8{8
+8#8B8J8V8i8n8~8
+8#9)9
+8#9)9/959U9
+8#9;9G9_9|9
+8$4,6-9'$6.:*?#1pHhX~AeSlZrNbS
+8$8.888B8O8Y8c8n8x8
+8$818>8G8P8~8
+8%9u9
+8&8.8?8D8O8
+8)868?8H8Q8h8n8|8
+8)8b8}8
+8*8@8
+8*83888[8a8m8r8
+8*878D8P8V8o8|8
+8,8D8\8t8
+8,9I9
+8.959
+8/8K8R8Z8a8g8s8z8
+8/9b9w9
+8?8E8Q8V8p8v8
+8@9L9X9h9t9
+8^}u7
+8^}uJ
+8_$u~
+8_^uGf
+8_rt'
+8_SM_u*
+8>:D:Z:
+80898B8K8b8h8v8
+80R0c0
+81;f;
+819:9@9F9V9`9f9l9r9x9~9
+82:9:
+839L9Y9_9e9z9
+859;9B9H9O9U9\9b9i9o9~9
+859?9r9~9
+859J9U9
+868T8^8k8~8
+878F8P8V8b8o8y8
+878R81:s:
+8'929C9X9
+8a9z9
+8B8r8
+8D8[8g8u8
+8DSIGt
+8DSIGu
+8E tu
+8EXFA
+8f;:u!f
+8G+@fh
+8G9p9
+8h`6N
+8headu 
+8headu8
+8I8l8q8
+8MDBGt
+8N8V8
+8NAMEu4
+8NAMEuD
+8Nqut
+8NTFS
+8p8u8#9?9@;R;
+8r SW
+8R9o9u9N:q;
+8T:y:
+8T;\;
+8v"j@Z
+8v&j@Z
+8v)j@X+
+8VQPW
+8xuOf
+9 :(:U:\:i:
+9 909z9
+9 959B9K9Q9\9d9q9w9
+9!9'9<9I9V9b9h9{9
+9":6:@:U:l:q:w:~:
+9"9/949@9K9X9l9
+9"9+9B9H9`9m9s9|9
+9"929B9P9b9p9
+9"9'9,91969;9@9E9c9i9s9y9
+9#9+9):5:C?L?
+9#979M9^9q9
+9$:<:
+9$9,9\:d:l:t:|:
+9$9r;
+9%9,9D9N9g9;:Q:
+9%9Z9b9v9~9
+9&9/989A9X9^9s9
+9&919:9C9L9e9t9{9
+9(:2:7:=:i:n:
+9(9,90949@9D9H9L9P9T9X9\9`9d9h9x9|9
+9(9B9y9
+9)969M9z9
+9*:0:t:
+9*:u<
+9*929;9D9M9V9n9t9
+9,:r:
+9,9094989<9
+9.:5:
+9.:x:
+9.9:9C9L9U9^9u9{9
+9':[:
+9:v2S
+9;9V9Z9
+9?:@;
+9??U?
+9\$ r%
+9\$ vi
+9\$$t
+9\$Dt
+9\9u9{9
+9^$w%r
+9^|v_W
+9_^[]
+9_SM_u
+9_SM3u
+9{(u#
+9{(u-WW
+9{@t/
+9{4uZ
+9{4v:;{0s5
+9~ v/
+9~`t=
+9~4u$
+9+9E9V9c9m9
+9=XoQ
+90:@:
+909:9f9n9v9
+91979<9A9I9
+929;9E9N9W9c9i9
+929K9o9
+92u$j
+95:=:F:
+95hJR
+95TmQ
+95XoQ
+969]9
+969B9|9
+96uC_^[
+979B9J9P9V9
+-97tEj
+97tr9w
+97uYV
+9-9;9L9
+9'9A9[9r9
+9A r/w
+9A r'w
+9A wbr
+9A<u0
+9a9h9t9
+9AHs,
+9B0u5
+9B4u-
+9C:I:P:^:d:k:r:
+9C<v+
+9C9H9V9_9e9m9w9|9
+9CDtK9C0tF9C@tA9C4u<
+9D$@s
+9D$<u
+9D$8s
+9D$Hsh;T$4w>r
+9D$Lu
+9DSIGuLf
+9E:\:o:
+9F@v3
+9F`t;9F@u6
+9FdtC8Fht>8Fru9f9Vpt3
+9G=u>
+9GDt!
+9GPue
+9GTuP
+9h<=N
+9H9q9
+9head
+9headu,h
+9i9z9
+9J:n:i;p;
+9J`w'9G
+9Kr9J
+9L$ s
+9L$$s
+9L$4wpr
+9L$Pu
+9m:{:
+9N\v&
+9N<v,
+9Ol}f
+9p u9
+9P9W9
+9Q(tIS
+9Q:]:
+9q|ruw
+9Q=X=
+9Q9]9
+9qxvn
+9R9[9a9
+9r9w9
+9R9Z9
+9s$w)
+9S:Z:p:
+9SD|1
+9sLtY
+9t$ s
+9T$ va
+9t$hv
+9T:>;
+9UWFSuT
+9w v"S
+9w0t,
+9x uw
+9x$vA
+9XSDTu
+9y t!
+9y:R<
+9zerou5
+A ;B t
+A ;G u
+A$;F$uU
+A$;G$
+A$_^[f
+A&SVW
+A:SV%
+A@f9Q&t
+A<Au3
+A<f9Q$t
+A4VW%
+a5_j5W
+aa_j55
+About Windows Memory Diagnostic
+action
+active
+Active
+active-color
+Actual
+AD;CDw
+Address
+AddressingCapability %d BwNegotiationCapability %d ContextSize %d PortPowerControl %d
+Advanced options
+AE8FDu3
+and zeroes.
+Applies a 2x2 extended checkerboard pattern.
+Applies a 3x3 checkerboard using data patterns
+Applies a 3x3 extended checkerboard pattern.
+Applies a 4x4 extended checkerboard pattern.
+Applies a 8x8 extended checkerboard pattern.
+Applies a simple checkerboard pattern.
+Applies a stride-6 pattern using data patterns
+Applies random data to all of memory.
+as.,k{n?,
+Assumption Violation
+ATSVW
+AuthenticAMD
+AuthenticodeAlgId
+AuthenticodeFileHash
+Authu
+AuthuJ
+Available Tests
+aw }l
+awKiZ
+Ax#A|
+Ax+Gx
+B ;A u
+b"]/wP|
+B_^[]
+b0f0j0n0r0v0z0~0
+B4;B0u
+B4Pj=^
+B4Pj=_
+background-color
+BACKSPACE
+Bank `%s':
+banks
+basic
+basic='true' 
+BAT failure on page in
+BD: Boot Debugger Initialized
+BdCreateRemoteFile: Bad parameter
+BdCreateRemoteFile: No more empty handles available for this file.
+BdReadRemoteFile: Bad parameters!
+BdUsb3USB3CheckDebugSupport
+BdUsb3USB3GetRxPacket
+BdUsb3USB3GetTxPacket
+BdUsb3USB3HandleExternalReset
+BdUsb3USB3InitializeController
+BdUsb3USB3ProcessEvents
+BdUsb3USB3ReleaseRxPacket
+BdUsb3Usb3ResetController
+BdUsb3USB3SendTxPacket
+BdUsb3USB3SetupDebugSupport
+BdUsb3USB3WaitForConnection
+BdUsb3Usb3WaitForControllerReady
+Bf9<Qu
+BGRTu
+BITLOCKER
+blank-char
+blank-color
+BlInitializeLibrary failed 0x%x
+blksize
+BlResourceFindMessage failed 0x%x
+BlXmiInitialize failed 0x%x
+Boot Application
+Boot Diag Error. Code: 0x%x Status: 0x%x
+Boot Library Free
+BootLib.dll
+border-color
+BpSVW
+BTAPENT
+Build a custom test suite
+BULK/PIPE interface
+BxVPQW
+BXVPSQ
+by memory module is:
+by test is:
+C 3F 
+C f;B,
+C$;F$uv
+C$_9B$t%
+C,f;A
+C;^|r
+C0+C(
+C0a0i0u0
+C0PVW
+c2Y@6
+C4;C0s
+C8t"Pj
+Cache
+cache
+cacheoff='true' 
+cacheon='true' 
+callback returned FALSE
+cAMDuA
+Cannot reset running XHCI controller
+Can't clear the KILL bit.
+Can't initialize SPD interface.
+carat
+Catalog
+cB!!0 
+CBDSf
+CBDSu^f9]
+cbproxy.exe
+CD;ADrc
+CD001
+CDROM
+CentaurHauls
+Cf;>u!f
+Cf;Z,s
+Change cache settings
+Change the memory map
+Change the test suite
+CHCKR2
+CHCKR3
+CHCKR4
+CHCKR8
+Checksum
+Chttp://www.microsoft.com/pkiops/crl/MicWinProPCA2011_2011-10-19.crl0a
+CI\Scenarios\12
+CI\Scenarios\128
+CI\Scenarios\129
+CI\Scenarios\130
+CI\Scenarios\131
+CI\Scenarios\132
+CI\Scenarios\133
+CI\Scenarios\134
+CI\Scenarios\136
+CI\Scenarios\137
+CI\Scenarios\138
+CI\Scenarios\139
+CI\Signers
+CI\Signers\%u
+Clean Cache Failed.
+Clearing the KILL bit.
+Cn77Y
+CodeIntegrityBinarySignatureExpired
+CodeIntegrityImageSignatureVerificationFailed
+CodeIntegritySignCheckTriggeredCatalogFallback
+CodeIntegrityWHQLDriverAuditFailure
+CodeIntegrityWHQLDriverFailure
+color
+comment
+CompanyName
+conectix
+Conflict
+Console video mode set to 0x%x
+control
+ControllerReset Failed %!STATUS!
+Copyright (c) Microsoft Corporation 2003. All rights reserved.
+could not enable log
+Count
+Cr8&fi
+CurrentPolicy
+CurrentSystemTime
+-cxsparse
+CyrixInstead
+D""fT**~;
+D$ #D$0
+D$ ;0r
+D$ ;D$
+D$ @f;
+D$ 3D$<
+D$ 3T$,
+D$ jLP
+D$ PQR
+D$ PR
+D$ PV
+D$ RP
+D$ SP
+D$ SVW
+D$ t;
+D$ WP
+D$$;=
+D$$;C(u$
+D$$;O<r
+D$$~&
+D$$3D$ 3D$8
+D$$3D$(#
+D$$3D$4
+D$$3D$8#
+D$$9D$ tG
+D$$BP
+D$$Ph
+D$$PS
+D$$PV
+D$$QR
+D$$SP
+D$$YY=
+D$(;D$
+D$(3D$
+D$(PQ
+D$(SV
+D$,;G@
+D$,;J
+D$,3D$
+D$,3D$ 
+D$,Pj@
+D$,RQSV
+D$@3D$8
+D$@3D$T3D$
+D$@SVW
+D$\3D$<3D$D3D$,
+D$\3D$D3D$P3D$8
+D$|BP
+D$<3D$,
+D$<3D$H3D$X3D$(
+D$<SP
+D$0!D$
+D$0;D$4u
+D$03D$<3D$L3D$d
+D$03D$L3D$ 3D$,
+D$09U
+D$0PjQZj
+D$0Pu
+D$0PW
+D$0QQPQQ
+D$0SVW
+D$43D$83D$d3D$,
+D$43D$D
+D$43t$
+D$43t$$
+D$43t$(
+D$43t$8
+D$4D{N
+D$4PV
+D$4QQ
+D$4SP
+D$4WP
+D$6Xf
+D$8Pj
+D$8PS
+D$8PV
+D$8s)
+D$D;|$Hu
+D$D;D$8
+D$d3D$
+D$D3D$@3D$\3D$L
+D$d3D$<3D$(3D$H
+D$d3D$X3D$,3D$ 
+D$DXP
+D$H3D$ 
+D$H99u
+D$hOj
+D$HPQ
+D$hQQPQQj>Z
+D$LXj
+D$P3D$83D$D3D$
+D$P3D$T
+D$pKj
+D$T_^[
+D$T3D$\3D$@3D$(
+D$T3D$D3D$43D$L
+D$X3D$
+D$X3D$@3D$(
+D$X3D$P3D$D3D$
+D$XPQ
+D$XPV
+D$XSQ
+D`bq]6
+D0I0_0
+D1L1T1\1d1l1t1|1
+D7q/;M
+DBG2W
+DChecksum
+Debug Capability Control Register 0x%p Contents 0x%X Max Burst Size: %d
+Debug Capability Event Ring Segment Table Max Entries: %d..
+Debug Capability Registers Base Address 0x%p
+Debug Capability Status Register 0x%p ER= 0x%X Port Number = 0x%X
+default
+Default configuration
+defcache='true' 
+definite='true' 
+DEncodedCertBlob
+determine in which memory module this error occurred.
+Df;4[
+Df~4[
+DisableLifetimeSigning
+disable-timer
+Disabling SMBus interrupts.
+Disabling SMI signaling.
+Disabling the SMBus controller.
+DIsEmbeddedSigned
+DIssuerCommonName
+DoorbellRegisters 0x%p DoorbellOffset 0x%x
+double-dash ("--") illegal inside comment
+DOWNARROW
+Downgrade failed.
+DSecureRequiredFlags
+DSVWjD3
+DTD  not supported
+DyR4(
+E PSQ
+E SVW
+E$SVW
+E%oE:FO
+E(9E$t
+E(SVW
+E0!N4
+E1[1%20282M2
+E4SVW3
+E820 (1)
+E820 (2)
+E820 (2). This is the standard E820-based memory map.
+E820 (3)
+E820 (3). This is an extended E820-based map. This map more fully tests
+Ebl\tHeQ
+EbS\tHlQ
+EDO DIMM is too wide.
+EDO DIMMs shouldn't have %S banks.
+EDRTu@
+eF##^
+EFI PART
+EHl\tFeQ
+Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+Ehttp://www.microsoft.com/pkiops/certs/MicWinProPCA2011_2011-10-19.crt0
+EL TORITO SPECIFICATION
+Embedded
+EMD#d<
+Enabling the SMBus controller.
+EncodedCertBlob
+ENTER
+Enter selection
+entiu-3
+entiu83
+en-US
+ERAND
+Error
+Error while accessing EDO DIMM SPD data.
+Error while accessing SDRAM DIMM SPD data.
+ERROR: Invalid BitLocker network unlock response (0x%x)
+ERROR: Unable to create BitLocker network unlock request (0x%x)
+ERROR: Unable to decrypt BitLocker network unlock response (0x%x)
+ERROR: Unable to read BitLocker network unlock metadata(0x%x)
+ERROR: Unable to receive BitLocker network unlock response (0x%x)
+ERROR: Unable to send BitLocker network unlock request (0x%x)
+errors occurred within the same module.
+es-es
+es-mx
+ev~~2
+event
+exfat
+EXFAT   
+Expected
+expected close-quote in attribute
+expected close-tag sequence
+expected closing tag to match opening  tag
+expected closing tag to match opening tag
+expected equals sign in attribute
+expected greater-than symbol in closing tag
+Expected greater-than symbol in opening tag
+expected less-than sign in document root
+Expected less-than symbol in opening tag
+expected open-quote in attribute
+Expected valid first name character in tag name
+expected valid name, then whitespace before parameters in processing instruction
+extended
+extended='true' 
+ExtendedCapabilityRegisters 0x%p
+F #F$
+F ;A u"j
+F ;B u
+F ;G u
+F ^!K
+F _^]
+F I@#
+F PhTDBE
+f!G83
+f#O8f
+F$;G$u
+F$PhCLBE
+F$t0#N$
+F$t4#N$
+F&;G0
+F(;G0v*
+F(G;x
+F(HuA
+F(iRE
+f;B,sv
+f;D$$u
+f;D$,u
+f;D$Hu
+f;F(u8
+f;GDt
+F;s&r
+F@_^[
+F@f9>u
+F@PWWhP+N
+F`Y^+
+F~FbTwKiZ
+F<^Y]
+F0:A0u
+F0:A0u8
+F0;G(r2
+F0|+N
+F0tjjHSW
+F1:A1u
+F1:A1u0
+F2:A2t
+F2:A2u(j
+F4;Ftt5
+F4;G,r<w
+F4;G,u
+F49N0u4
+F4t&j
+F8;FP
+F82C8
+f9~&t
+f9~.t
+f9=.DP
+f91u2B
+f99t@j$
+f9A"r\
+f9A"up
+f9A$uef
+f9C"w
+f9F8t
+f9H"w
+f9W t"
+Failed
+Failed to apply cache node.
+Failed to consume BAT page during full BAT read.
+Failed to find CapabilityRegisters
+Failed to locked down physical test range: 0x%016I64x, %x
+Failed to log cache node
+failure='true' 
+Fast Page DRAM
+fastfat
+fault
+fcttuN
+fD""~T**
+Fd9Fhu
+FeFbT~KiZw
+FeQbT~FiZwK
+fg:SM
+FH_^[
+File Flush failure.
+FileDescription
+FileHash
+FileName
+fileu
+FileVersion
+Firmware Error
+Flush Failure.
+FLvT2
+footer
+Force video mode to 1024x600 via BCD.
+Force video mode to 1024x768 via BCD.
+Force video mode to 800x600 via BCD.
+FORCEHVTONOTSHAREDEBUGDEVICE
+foreground-color
+FP+AP
+fr-ca
+fr-fr
+FT;FDs
+full-char
+full-color
+FVE-EOWBM
+FVE-EOWBR
+-FVE-FS-
+FXQPSW
+G ;B t
+G 3F 
+G"G(G/G6G=GDG
+G$;F$u=
+G$9W(
+G$H#E
+G(;F(u!
+G,;F,u
+G,f;A
+G;{&r
+G;{4r
+G;~$r
+G;~Hr
+G@#L$
+G@;C@w
+G@HuK
+G\;F\t
+G\FVE-
+G`EOW
+g+}V+
+G<;C<w
+G<_^[
+G0|+N
+G8F;u
+G9=`7R
+g99KrJJ
+GenerateTargetIPAddress determined the load options assigned TARGET_IP address is in use.
+GenerateTargetIPAddress failed to acquire an unused IP address.
+GenerateTargetIPAddress failed to validate the DHCP address. Using APIPA.
+Genu_^[u
+GenuineIntel
+GenuineTMx86
+GetTargetIPAddress failed to acquire an IP address using DHCP.
+GetTargetIPAddress failed to get the ethernet address of the DHCP server.
+GetTargetIPAddress failed to get the ethernet address of the router gateway.
+Gf98r
+gg}V++
+Gh;Gd
+GKGRGYG`GgGnGuG|G
+GL;'A
+Gl_^[
+GP;FPu
+GT;FTt
+GtPQR
+GTPQRV
+GX t(
+GX@t&
+Gx_^Y]
+GxN#u
+GXtvQ
+GXz'A
+H|91t
+H0+H4
+h4,8$@_
+Handing off to the next test.
+HashAlgId
+Heap corruption in the links surrounding %p!
+height
+heman
+Hf!]@
+Hf9:t
+HhXpE
+hiberrsm.exe
+HOST_STATUS didn't cleanly reset, %lx.
+HOST_STATUS didn't cleanly reset.
+HOSTIPV6
+hSIDA
+HtPHt3
+HuFSj
+hvloader.efi
+Hygou
+I0G1-0+
+i50oQ
+Identifies most basic faults using walking ones
+identify
+iiii!E
+iiiif
+iiiit
+iiiiu
+iiiiuVf9t$
+indent
+indicates that the system doesn't have enough memory to run this program.
+ineIuM
+infinite='true' 
+initial
+InitializeIPv6Network failed to get global prefix from router.  Using link local address.
+InitializeIPv6Network failed to get the MAC address of the host debugger. Check the dbgsettings hostip!
+InitializeIPv6Network failed to get unique link local address.  There are likely duplicate MAC addresses on the network.
+InitializeIPv6Network failed to send the initial unspecified source address MLDv2 report.
+InitializeIPv6Network failed to send the proper link local source address MLDv2 report.
+InitializeLogTiming
+InitializeNetwork failed to get the ethernet address of the router gateway.
+InitializeNetwork failed to get the MAC address of the host debugger. Check the dbgsettings hostip!
+input
+Intel 82443BX with AGP
+Intel 82443BX without AGP
+Intel 82443GX with AGP
+Intel 82443GX without AGP
+Intel 82801AA ICH
+Intel 82801AB ICH0
+Intel 82801BA ICH2
+Intel 82801CA ICH3
+Intel 82801DB ICH4
+Intel 82801E C-ICH
+Intel 82845
+Intel PIIX4
+Internal error: appended buffers are too large.
+Internal error: bad parameters to DeviceGetOverlapSubranges.
+Internal error: bad parameters to MtScreenFlipAttribute.
+Internal error: bad parameters to PCIConfig.
+Internal error: BufferPos called on a NULL buffer.
+Internal error: can't locate %lx in DeregisterFixup.
+Internal error: GDT and IDT are not contiguous.
+Internal error: GDT and LDT are too large for local storage.
+Internal error: image relocation failed: %s.
+Internal error: invalid SU relocation.
+Internal error: invalid truncation cause code.
+Internal error: malformed memory controller hierarchy.
+Internal error: malformed SPD hierarchy.
+Internal error: meaningless stride value %d.
+Internal error: MtScreenBufferPrintAt called on a scrollable screen.
+Internal error: MtScreenBufferPrintEx called on a non-scrollable screen.
+Internal error: MtScreenBufferPrintRegion called on a scrollable screen.
+Internal error: out of memory.
+Internal error: overflow in MtScreenFlipAttribute.
+Internal error: strchr returned a meaningless value.
+Internal error: test list is empty.
+Internal error: the checkerboard dimension is too large.
+Internal error: the test number subscreen is too wide.
+Internal error: tried to switch to a zero length test list.
+Internal error: unknown PCI access type.
+Internal error: unrecognized memory map.
+INTERNAL: attempted to set mode with an empty parse stack
+InternalName
+Invalid
+Invalid DoorbellOffset 0x%x
+Invalid Extended Capabilites Pointer %d
+invalid first character in attrtibute name
+invalid first character in processing instruction name
+Invalid MaxPSASize (0)
+Invalid number of device slots %d
+Invalid number of interrupters %d
+Invalid number of ports %d
+Invalid RuntimeRegisterSpaceOffset 0x%x
+Invalid U1DeviceExitLatency
+Invalid U2DeviceExitLatency
+Invalid value contained in DCERST Max: %d. Valid values are 0 - 15.
+inverse coupling faults.
+inverse-color
+IP: %s, File: 
+IsochSchedulingThreshold %d EventRingSegmentTableMax %d
+IsPageHashSigned
+IsRuntime
+Issuer
+j [j<
+j [SP
+j Xf9
+j Xjb[+
+j"^QQQQ3
+J%%o\..r8
+j*Xf;
+j.Yf9
+j/Yf9
+j/Zj[f;
+j;^f9q
+j?_f9<C
+j?X_^[
+j-_f9<A
+j_FbT~
+j~FbT
+j<_f9<C
+j<Y9M
+j>[j<
+J>f;O
+j>Yf;
+j>Yf9
+j>Zf9
+j0Yf;
+J9s8sC
+jaXjof9
+jAYf;
+jB^f;
+jc^Vh
+jCjDQQQP
+jcXPh
+jd^;5
+jG^f;
+jH[j(_
+jH[Sj
+jH^Vj
+jHXj(^
+jI_f;
+jiYf;
+jjjj1
+jjjjj
+jL&&Zl66A~??
+jlSh`
+joXf9A
+jp^f9q
+jtXf9A
+jx[9]
+j-Xf9E
+jXYf;
+jxYf;
+jXYf;
+jxYf;
+jXYf;
+j'Yf;
+j-Zf9
+JZJ{.
+K(+K 
+K{D?u
+K0+K4
+K6j +
+kA0(;
+kd_%.2x_%.4x.dll
+kd_%.4x_%.4x.dll
+KdInitializeLibrary
+kdnet_uart16550.dll
+kdstub.dll
+KDUSB USB3 XHCI Debug
+KdUsb3pInitialize
+KdUsb3pReadDebuggerPacket
+KdUsb3pSendBuffers
+KdUsbEhcipInitialize
+KdUsbEhcipReadDebuggerPacket
+KdUsbEhcipSendBuffers
+KdUsbpControlRead
+KdUsbpControlWrite
+KdUsbpHaltController
+KdUsbpInitializeDevice
+KdUsbpInitializeHc
+KdUsbpInitializeHcHw
+KdUsbpLocateDebugPortRegisters
+KdUsbpReadPacketOnce
+KdUsbpReinitializeDevice
+KdUsbpSendPacketOnce
+KdUsbpTryInitializeDevice
+KdUsbpTrySetupDevice
+KdUsbpWait
+KdUsbReceivePacket
+KdUsbSendPacket
+keydata
+KnownRoot
+KXRQPW
+L$ #D$ #
+L$ )D$
+L$ ;L$$r
+L$ 9H
+L$ 9O<
+L$$#L$0
+L$$)D$
+L$$9A
+L$$QS
+L$(!|$(!|$,!|$ 
+L$(;T$D
+L$(9H
+L$(SSS
+L$(WP
+L$,;L$@
+L$,_^[3
+L$\_^[3
+L$\3L$(
+L$\9s&
+L$<_^[3
+L$4_^[3
+L$43L$
+L$8#D$$I#L$
+L$83L$,3L$<3L$@
+L$D_^[3
+L$L_^[3
+L$lj@Z
+L$P;D$<
+L$P9t$<w
+L$T9~
+L$X3D$@
+L&&jl66Z~??A
+LegalCopyright
+Library call to persist log results failed 0x%08x
+Library call to persist WMD results failed 0x%08x
+Library Error
+LoadInformation
+Locked down physical test range: 0x%016I64x, %d
+Log apply failed
+Log write failure
+LRAND
+LSVW3
+m<&8cx
+M0;E4r
+M0K0I
+M3Uf3
+MAC_KEY
+macro
+Makes several passes through memory applying
+match
+MATS+ (cache disabled)
+MATS+ (cache enabled)
+MaximumPrimaryStreamArraySize %d XhciExtendedCapabilitiesPointer 0x%x
+maxlen
+memdiag.exe
+Memory Controller Interface: (%x:%x:%x) (%x:%x) %S
+Memory controller: %s
+Memory Diagnostic
+Memory type %x is unrecognized.
+memtest.dll
+memtest.pdb
+MEMTEST.XSL
+meter
+Microsoft
+Microsoft Corporation
+Microsoft Corporation1
+Microsoft Corporation1!0
+Microsoft Corporation1&0$
+Microsoft Corporation1)0'
+Microsoft Corporation1.0,
+Microsoft Corporation1:08
+Microsoft Corporation1;09
+Microsoft Corporation1>0<
+Microsoft Corporation1200
+Microsoft Partner1*0(
+Microsoft Root Authority
+Microsoft Test Root Authority
+Microsoft Time-Stamp PCA 2010
+Microsoft Time-Stamp PCA 20100
+Microsoft Time-Stamp Service
+Microsoft Time-Stamp Service0
+Microsoft Windows0
+Microsoft.Windows.Kernel.BootEnvironment
+Microsoft.Windows.Security.CodeIntegrity.Driver
+microsoft1-0+
+MicrosoftWindowsCodeIntegrityAuditTraceLoggingProvider
+MicrosoftWindowsCodeIntegrityTraceLoggingProvider
+Micru
+MicruV
+minsize
+MMUf33
+MobileStartup
+MS Protected Media Test Root
+MSFT1200
+msftwindow
+MSSignedWinLoadDriverLoadSuccessAudit
+MT_MSG_FIRST
+MT_MSG_LAST
+mTD4<
+MUI: %s checksum does not match primary file checksum
+multiple attributes with the same name
+N +OP
+N PSS
+N SWR
+N$;~(r
+n)n!!A&
+N*^Y]
+n.^}5!y
+N@;F8}
+N0L0J
+N2;K,
+n3D$(3D$T
+N4+L$ 
+NAME=
+nGenu
+Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+Nhvloader.exe
+Nj*Xj
+No ECC
+No errors have been found. The memory diagnostic will continue running
+No memory controller was found.
+No parity
+No redundant row addressing
+No SPD controller was found.
+nOa-Q
+noedit
+noindent
+normal-color
+not all of the computer memory will be tested.  The specific problem was:
+Not populated
+Nr.p|N
+nteluDj
+NTFS    
+NTFS: Attribute header not contained within file record segment, Header=0x%08p, FRS=0x%08p
+NTFS: Attribute type not contained in file record segment (0x%08p)!
+NTFS: Unaligned file attribute header, Header=0x%08p, FRS=0x%08p
+NTFSu
+NTStatus
+NumberOfDeviceSlots %d NumberOfInterrupters %d NumberOfPorts %d
+numeric
+NVarFileInfo
+Nvmbfs
+O Vj 
+O%lx:
+O&_^[
+O`_^[
+O0_^[
+o0J2S4
+O0M0K
+occurred because of deficiencies within WMD, not the computer. As a result,
+octet
+OEMKEY
+of ones and zeroes.
+Oh44\Q
+Only 64-bit addressing is supported
+OP_^[
+option
+options
+OriginalFilename
+osloader.exe
+osofu
+osofuM
+osxml:newline
+osxml:row
+osxml:text
+osxml:text-mode-ui
+osxml:update
+Out of Memory
+P$_^[
+P$_^[]
+P$9wDt!
+P(+D$
+P,_^[
+P,9wDt
+P~AeS
+P<Dx<
+p>B|>
+P0_^[
+P0_^3
+P09^Ht
+P4+H 
+PackageName
+pad-left
+pad-right
+PAGER32C
+PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADD
+Parity
+ParseCapabilityRegister Failed %!STATUS!
+ParseDebugCapabilityRegister Failed %!STATUS!
+Part number:
+PartA_PrivTags
+PARTP
+Pass %d
+Pass progress
+Pass: %d of %d Test: %d of %d
+Pass: %d Test: %d of %d
+passcount
+passes='%d'/>
+password
+patterns tailored for the memory in this system.
+PBKDF2_HMAC_SHA256
+Performs one and zero fills in order to locate
+Ph /R
+Ph;7A
+ph`3N
+pHl\t
+PhP%O
+Phpamc
+PhSIDA
+Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+PhW4@
+Phz8A
+Pj [S
+Pj XP
+Pl;Pdr
+PL;PDr
+Platform
+pNlZr
+PortIndicators %d LightHCResetCapability %d LatencyToleranceMessagingCapability %d NoSecondarySidSupport %d
+ppB|>>
+PPDx<<
+PPPj"Y
+PPPj#Y
+PPPj&Y
+PPPj'Y
+PPPPP
+PPPPPP
+PPPPPQ
+PPPPQ
+PPPPW
+PPPQ3
+PPPW3
+PPPWPW
+PPSPQ
+PPWPP
+ppxxpp
+PQAeS~
+PQQQQ
+PQRhX
+PQWWWV3
+preserve
+Press (C) to continue. Press any other key to exit WMD.
+Press any key to continue
+Press any key to exit.
+processing-instruction
+ProductionSigners
+ProductName
+ProductVersion
+progress='%d'/>
+PSQR3
+PSVh<
+PTR u7
+PTRVP
+Publisher
+PublisherCommonName
+PWPVP
+PWPVPS
+PWSSV
+q\Q17
+Q3`bS
+Q3EbS
+QhH)C
+Qho\@
+qhT6N
+Qj ^V
+QjdPR
+Qkkbal
+QPSQQQQQQ
+QQj(Y
+QQj@Y
+QQjXY
+QQPQQ
+QQQQQ
+QQSVj
+QQSVW
+QQSVW3
+QQSVWh
+QQSVWj
+QQSVWj(
+QQSVWj<3
+QQSVWjX
+QQVQQ
+QQVW3
+QQVWj
+QSSjt
+QSVj@j
+QSVQj(
+QSVW2
+QSVW3
+QSVWh
+QSVWh<=N
+QSVWj
+QSVWj@j
+QSVWj\Q
+QSVWj4
+QSVWjl
+QSVWjLj
+QSVWjx3
+QSVWQ
+QVhlJN
+QVj Xj
+QVQQ3
+r!f9z(
+R!s4Z
+r$;T$ s
+R$WVQ
+r,;7v
+R,_^[
+R,_^]
+R;Mv;
+r-;t$ 
+r?w,;D$
+R@G;~0r
+r{f9Y&uu
+r+9|$$r%9|$ r
+R+APPQ
+r+jdY3
+R2:6B7
+R3A6H6^6b6f6j6n6@9v;
+r8PQR
+random data patterns.
+Range progress
+Reboot failed.
+Redmond1
+Redundant row addressing
+Region table update failed
+relative_path
+Restore the default memory map.
+Results
+Return to the previous menu
+RF##e
+Richp
+right-justify
+RiseRiseRise
+RootPolicyBits
+RPSVQ
+RQPVQ
+RQPWj
+RQVPQ
+RRMv;;a
+RRPSj
+RRRPSj
+RRRRR
+rRw+;D$ 
+ru;y,wpr
+Run the basic test suite
+Run the extended test suite
+Run the standard test suite
+Runs a normal MATS+ test using data patterns
+Runs an inverse coupling test using data
+Runs an simple checkerboard test using data
+RuntimeRegisters 0x%p RuntimeRegisterSpaceOffset 0x%x
+RVWSj
+rxQQVVVQ
+S 9P 
+S WVR
+S$_^[]
+S$9P$
+s%RQSP
+s4;s0u
+S4jFY
+s89QLw3r
+Sb11?*
+sb11S*
+SCHCKR (cache disabled)
+SCHCKR (cache enabled)
+ScratchpadRestore %d MaxScratchpadBuffers %d
+scroll
+SDRAM DIMM is too wide.
+SDRAM DIMMs shouldn't have %S banks.
+SECURITYVERSIONNUMBER
+select
+selected
+Selected Tests
+separator
+Serial number:
+Setting MaxPSASize to 7 from %d
+SFMfA
+SHIFT_F8
+show-arrows
+Shutting down VHD quickly.
+SigningPolicyCheckFlags
+SigningTime
+sj Yf
+sj+O<j
+SjXSV
+sLjPY
+Slot `%s':
+sLWjP
+-SOCW
+SPACE
+SPD Interface: (%x:%x:%x) (%x:%x) %S
+Spec ID Event02
+Spec ID Event03
+SPSh@B
+SPVQQ
+SRPWQ
+SSPVWj
+SSSSS
+SSSSSj
+SSSSSSSS
+standard
+standard='true' 
+Status
+StatusCode
+Stride38
+Stride6 (cache disabled)
+Stride6 (cache enabled)
+StringFileInfo
+strong
+submit
+Succeeded
+success='true' 
+Supported Number Of Streams %d
+SUSPEND
+SUVWR
+SUVWRQ
+SVPhQ
+SVWh 
+SVWj&Xf9
+SVWj(Y
+SVWj@
+SVWj@3
+SVWj@j
+SVWj\
+SVWj\Xf
+SVWj|Z
+SVWj<
+SVWj0
+SVWjD3
+SVWjH^3
+SVWjH^V3
+SVWjL
+SVWjp3
+SVWjX
+SVWjx3
+SVWPj
+SVWQj(
+SVWQj@
+SVWQjH_
+SVWQQ3
+SVWtB
+SVWu_
+Switching to IRQ9 signaling.
+SWVhS
+SX_^[
+SYNTH_NIC_ID
+t h@%O
+t j _
+t VSuD
+t!WWWj
+t"jPj
+t#WSRP
+T$ )D$ 
+t$ ;t$$
+t$ 9t$
+T$ SV
+t$$PW
+t$$QP
+t$(#L$
+t$(;t$
+T$(9L$Dw
+T$(jDXf
+T$(SR
+T$(VW
+t$,3D$
+t$,PQ
+T$,VW3
+t$`#L$
+t$`3D$
+T$`9D$
+t$<#L$0
+t$0SV
+t$0WV
+t$4Vj
+T$8Rj
+T$8t!
+t$D#L$(
+T$D;T$
+t$H3D$(
+t$h3D$8
+T$H9T$
+t$HVS
+T$L+T$
+t$l3D$$
+t$ThP
+t);F0t
+t)91u%
+t,:FFw'
+t.f97t)j
+t:QjPY
+t;SVW
+t?j@X+
+t?S9p
+t@;|$l|.
+t@9^Lt;9
+t@9=XoQ
+t]f9=X
+t_j@j
+T`00P
+t|j$[
+T~FbZwKi
+t+ht&N
+t<hd&N
+t=9=XoQ
+t=VW3
+t0+|$ ;
+t39N(t.
+t4j\W
+t6j'Xf;
+t8VSW
+ta3~ 3
+TACEQP
+taf;u
+tailored for the memory in this system.
+tB9=XoQ
+tB95XoQ
+tbh(@N
+TBSHash
+TBSHashAlgID
+tC_^[Y]
+tcblaunch.exe
+TcbLaunchRamDiskAllocationRetry
+TCPAu
+tD9=XoQ
+tE95XoQ
+teh,&N
+tEhh?N
+Test description
+Test name
+Test progress
+TESTDISABLEFLIGHT
+testmix
+tests
+tests. Use the LEFT and RIGHT arrows to move a test to the opposite window.
+TestSigners
+TestsigningSigners
+textarea
+text-color
+tFhDJN
+tfhDJN
+TFTP Aborted
+tgj _W
+tGSVW
+Thales TSS ESN:C4BD-E37F-5FFC1%0#
+The colors identify
+The contents of this slot are unknown
+The dimensions of the EDO device don't make sense.
+The dimensions of the SDRAM device don't make sense.
+The EDO device widths don't look right.
+The SDRAM device widths don't look right %lx %lx.
+The SMBus controller says it's busy.
+The TAB key toggles between the windows. Use the UP and DOWN arrows to select
+The test suite has been updated.
+There is no room in memory for this copy of the memory diagnostic. This
+ThirdPartySignedWinLoadDriverLoadSuccessAudit
+This controller does not provide debug capability.
+tHjLR
+thjPj
+tHl\B
+tIjDPh
+TIMEOUT
+timer
+Timestamp
+tiPRj
+tip-target
+title
+tj9E teW
+tKAf;
+tkRRR
+TLLA3
+TlP0X
+tLRRRR
+tMf9\$
+tmjH^V
+tOjL3
+TPM Error
+tPQQj
+tQf;B
+tQh JN
+Translation
+trh|HN
+tRQj@Y
+tsize
+tSVW3
+TSVW3
+TSVWh
+tThX&N
+tuh JN
+Turn off caching for all tests
+Turn on caching for all tests
+tVQj@Y
+twj@Y
+twVjP
+tX,,.4
+Type:
+tzRVWh
+U 9#V
+u jPX
+u jpXf9A
+u PVW
+u QQ3
+u"FA;
+U$j<X
+u$VWS
+u$Wjp
+u%h 'N
+u&;q\r
+u(9u$t
+U(xP(
+u/9F u*
+u:S@3
+u;8_At6j
+u[j0Xf
+u~f;Q
+u+RQWP
+u<;qTr7V
+u<f;A
+u=Qj8Y
+u>f;Q
+u0f;J
+U0S0Q
+u1;>u-W
+U1DeviceExitLatency 0x%x U2DeviceExitLatency 0x%x
+u2hp'N
+u8j [f9]
+u9SPQP
+uB!!c 
+uBf9W
+uBjAXf;
+ud;M 
+ud8^ht
+uEQVP
+uHQj8Y
+uijR^jXY
+uineu
+ujQV3
+uKj _
+uKQj8Y
+unexpected characters in tag contents
+Unexpected XML parse stack underflow
+Unknown
+unknown
+UnsignedWinLoadDriverLoadSuccessAudit
+Unsupported xhciPageSize 0x%x
+Unsupported XSL Command
+until the (X) key is pressed or the machine is powered off.
+UPARROW
+upf9Q
+ur2Wu
+USB Function Debug Client
+USBTARGET
+Use (U) and (D) to move tests up and down within a window. The colors
+Use the default cache settings
+User requested boot debugger break!
+Uses a stride-38 pattern to simulate a checkerboard
+Uses a stride-6 pattern to simulate a checkerboard
+uUj Xf
+UUxP((z
+uWMaQ
+u-WRQ
+uXf9}
+uyF;u r
+uyL7j
+uyQj0Y
+uZj@Y
+uZSQj(Y
+V +N(
+V$_^]
+v%+D$
+v%ja^f97u
+v(jdY
+V,j>h\
+v@j@X3
+V@QQPS
+v\WRQ
+V},z7
+v~Bpd
+v101.0_symcrypt_101_0_2022-04-06T01:31:14-07:00_1b007c8_2022-04-06T10:59:11
+ValidFrom
+ValidTo
+value
+Value of msftwindow option is invalid
+VarFileInfo
+Vd22Nt::
+VerificationFileType
+VerificationStatus
+Vh;7A
+Vh`UR
+Vh<oA
+View errors by memory module
+View errors by test
+View system information
+View the active test suite
+Vj<hH
+VjXSW
+Vl;Fpu
+vLjPY
+VNPVR
+vOh46N
+VPh@/R
+VPWQQ
+VQVVj 3
+VS#1u"
+VS_VERSION_INFO
+VVVVVV
+VW9A$
+VW9X<tG
+VWj@3
+VWj@j
+VWj8_W
+VWj8j
+VWjDj
+VWjpj
+VWjxj
+VWPhL
+VWPhN
+VWPSQ
+VWQj(
+VWRQSU
+VWu=j-
+vX+AP
+vXj\Xf
+vxSSj
+W$_^[
+W(PSV
+w*j;^f;
+W;F u]
+W;F4r
+w\f9Y
+w4_^3
+WaitForDhcpPacket received a DHCP packet that was too large.
+WaitForDhcpPacket received a DHCP packet that was too small.
+WaitForDhcpPacket received a DHCP packet with an invalid DHCP opcode.
+WaitForDhcpPacket received a DHCP reply with a mismatched DHCP message type.
+WaitForDhcpPacket received a DHCP reply with a mismatched DHCP transaction ID.
+WaitForDhcpPacket received a DHCP reply with a mismatched hardware address.
+WaitForDhcpPacket received a DHCP reply with a mismatched server ID.
+WaitForDhcpPacket received a DHCP reply with an invalid hardware address length.
+WaitForDhcpPacket received a DHCP reply with an invalid hardware address type.
+WaitForDhcpPacket received a DHCP reply with an invalid magic cookie.
+WaitForDhcpPacket received a DHCP reply without a valid server identifier.
+WaitForDhcpPacket received a DHCPACK packet with an invalid rebind time option.
+WaitForDhcpPacket received a DHCPACK packet with an invalid renew time option.
+WaitForDhcpPacket received a DHCPACK packet without a valid lease duration.
+WaitForDhcpPacket received a DHCPACK packet without a valid subnet mask.
+WaitForDhcpPacket received an DHCPACK packet with an invalid ROUTER option length.
+WARNING: ACPI reset via PCI config space is NOT supported (email ntcrload alias)!
+Washington1
+WCHCKR3
+WCHCKR3, ERAND, Stride6 (cache disabled), and CHCKR8.">Extended</option>
+Wh xJ
+Wh2DP
+which memory module was associated with these errors. However, all detected
+which memory modules were associated with these errors.
+width
+will not be created until testing resumes.
+WIMH.
+WINDOWS
+Windows Memory Diagnostic
+Windows Memory Diagnostic (WMD) could not process the system memory map. This
+Windows Memory Diagnostic (WMD) detected %d errors. WMD could not determine
+Windows Memory Diagnostic (WMD) detected an error. However, WMD could not
+Windows Memory Diagnostic found %d errors. The error distribution
+Windows Memory Diagnostic found 1 error. The error distribution
+Windows Memory Diagnostic is currently forcing cache off for all tests.
+Windows Memory Diagnostic is currently forcing cache on for all tests.
+Windows Memory Diagnostic is currently using default cache settings.
+Windows Memory Diagnostic is currently using the %s memory map.
+Windows Memory Diagnostic v0.4
+Windows Memory Diagnostic v0.5.
+Windows Memory Diagnostic will now use the %s memory map. The new map
+Windows Memory Diagnostic will turn off the cache for all tests.
+Windows Memory Diagnostic will turn on the cache for all tests.
+Windows Memory Diagnostic will use default cache settings.
+Windows1
+windowsize
+Winload.sys
+WINVC
+WL+OP
+wLjPY
+WMATS+
+wn>Jj
+WofCompressedData
+woj.W
+WPj(Z
+WPVWW
+WSCHCKR
+WSQQQP
+WSQVR
+WStride-6
+WVPhR
+WVWWS3
+WWPQQ
+WWVWW
+WWWQRQ
+WWWWW
+x%oJ%.r\.
+x&C;]
+X,,t4
+x;~0sK
+X_^[]
+X<_^3
+x<<D%
+X0h0x0
+X0V0T
+x1f9]
+x5+~43
+x7j@Q
+x7yp.
+x8f9}
+x8Ph8@N
+Xbnvu
+xF950
+Xf9A tL
+Xf9C(
+Xf9D$
+Xf9D$ 
+Xf9D$0
+xfjH^VSW
+XHCI Version %x.%x  Capability Registers Length %d
+Xj Xf
+Xj Zf
+xKj@Y
+xl9\$$t
+xml:space
+xnSSSh
+xP9|$
+XQj2f
+xsl:apply-templates
+xsl:attribute
+xsl:call-template
+xsl:comment
+xsl:copy
+xsl:copy-of
+xsl:element
+xsl:for-each
+xsl:processing-instruction
+xsl:stylesheet
+xsl:template
+xsl:text
+xsl:transform
+xsl:value-of
+xSu$W
+XSVW3
+Xt!)I
+Xti)I
+Xu(jpXf9A
+xuf9]
+XVRhT
+xvSSSSSj
+xwpwpp
+xxoJ%%r\..$8
+xZQQW
+Y=HP  t
+Y08Zmt
+YCZHOUg%
+Yf9L$
+Yj [3
+yj Xf
+yO;~4w
+YSSSj
+yT9|$
+Zf9T$ 
+zh-CHS
+zh-CHT
+zh-CN
+zh-Hans
+zh-Hant
+zh-HK
+zh-hk
+zh-TW
+zh-tw
+ZX+\$,

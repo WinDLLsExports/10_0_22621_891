@@ -1,0 +1,1246 @@
+        <xs:element name="AppxSipSettings" type="CT_AppxSipSettings" minOccurs="0"/>
+        <xs:element name="Package" type="CT_Package"/>
+        <xs:element name="PackageUriHandler" type="CT_PackageUriHandler" minOccurs="0"/>
+      </xs:all>
+      <xs:all>
+      <xs:element name="LogLevel" type="CT_LogLevelValue" minOccurs="0"/>
+      <xs:element name="NoBackupBeforeSigning" type="CT_BooleanValue" minOccurs="0"/>
+      <xs:element name="SkipPackageContentHash" type="CT_BooleanValue" minOccurs="0"/>
+      <xs:element name="TempPath" type="CT_StringValue" minOccurs="0"/>
+      <xs:element name="ValidateFileBlocks" type="CT_BooleanValue" minOccurs="0"/>
+      <xs:element name="ValidateSignatureOnly" type="CT_BooleanValue" minOccurs="0"/>
+      <xs:enumeration value="appx"/>
+      <xs:enumeration value="appxbundle"/>
+      <xs:enumeration value="eappx"/>
+      <xs:enumeration value="eappxbundle"/>
+      <xs:enumeration value="emsix"/>
+      <xs:enumeration value="emsixbundle"/>
+      <xs:enumeration value="error"/>
+      <xs:enumeration value="info"/>
+      <xs:enumeration value="msix"/>
+      <xs:enumeration value="msixbundle"/>
+      <xs:enumeration value="none"/>
+      <xs:enumeration value="trace"/>
+      <xs:pattern value="\{[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}\}"/>
+    </xs:all>
+    </xs:complexType>
+    </xs:restriction>
+    <xs:all>
+    <xs:attribute name="HandlerClassId" type="ST_IID" use="required"/>
+    <xs:attribute name="HandlerInterfaceId" type="ST_IID" use="required"/>
+    <xs:attribute name="PackageType" type="ST_PackageType" use="required"/>
+    <xs:attribute name="Uri" type="xs:string" use="required"/>
+    <xs:attribute name="Value" type="ST_LogLevel" use="required"/>
+    <xs:attribute name="Value" type="xs:boolean" use="required"/>
+    <xs:attribute name="Value" type="xs:string" use="required"/>
+    <xs:complexType>
+    <xs:restriction base="xs:string">
+  </xs:complexType>
+  </xs:element>
+  </xs:simpleType>
+  <xs:complexType name="CT_AppxSipSettings">
+  <xs:complexType name="CT_BooleanValue">
+  <xs:complexType name="CT_LogLevelValue">
+  <xs:complexType name="CT_Package">
+  <xs:complexType name="CT_PackageUriHandler">
+  <xs:complexType name="CT_StringValue">
+  <xs:element name="PackageSignConfig">
+  <xs:simpleType name="ST_IID">
+  <xs:simpleType name="ST_LogLevel">
+  <xs:simpleType name="ST_PackageType">
+  targetNamespace="http://schemas.microsoft.com/appx/signing/2017"
+  targetNamespace="http://schemas.microsoft.com/msix/signing/2018"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns="http://schemas.microsoft.com/appx/signing/2017">
+  xmlns="http://schemas.microsoft.com/msix/signing/2018">
+' and namespace-uri()='
+ and namespace-uri()="
+ Microsoft Corporation. All rights reserved.
+ Operating System
+ Windows
+!This program cannot be run in DOS mode.
+#0,050C0L0n0u0
+#0R081N1
+$0G0X0d0}0
+$SVWR
+%hs!%p: 
+%hs(%d) tid(%x) %08X %ws
+%hs(%u)\%hs!%p: 
+(caller: %p) 
+)WhP7
+*[local-name()='
+*[local-name()="
+,0004080T0p0
+,DPKCXA
+,SVW3
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVResultException@wil@@
+.?AVtype_info@@
+.00cfg
+.appx
+.appxbundle
+.bss$00
+.bss$dk00
+.bss$pr00
+.bss$zz
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$00
+.data$dk00$brc
+.data$pr00$brc
+.data$r$brc
+.data$rs$brc
+.data$zz
+.data$zz$brc
+.didat$2
+.didat$3
+.didat$4
+.didat$5
+.didat$6
+.didat$7
+.eappx
+.eappxbundle
+.edata
+.emsix
+.emsixbundle
+.gfids
+.giats
+.idata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.msix
+.msixbundle
+.pkgSignConfig
+.rdata
+.rdata$00
+.rdata$00$brc
+.rdata$brc
+.rdata$r$brc
+.rdata$sxdata
+.rdata$voltmd
+.rdata$zETW0
+.rdata$zETW1
+.rdata$zETW2
+.rdata$zETW9
+.rdata$zz
+.rdata$zz$brc
+.rdata$zzzdbg
+.rsrc
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$lp00AppxSip.dll!20_pri7
+.text$mn
+.text$np
+.text$s
+.text$x
+.text$zy
+.text$zz
+.u0j\[Sh
+.u7Sh8b
+.xdata$x
+/AppxMetadata/CodeIntegrity.cat
+/AppxSignature.p7x
+:!;I;
+:":B:z:
+:#:+:3:;:I:
+:$:S:i:
+:(:4:H:n:y:
+:(;9;I;z;
+:,:>:b:y:
+:,:4:D:
+:.:o:
+:;;Z;
+:';H>c>
+:+:5:
+:+:G:
+:2:9:@:G:N:v:
+:2:B:L:Z:l:y:
+:2:W:
+:5:?:j:{:
+:6;I;T;d;u;
+:8:@:L:l:t:|:
+:8:Z:
+:8;S;
+:K;Z;c;p;
+:O;l;
+:p:w:
+:q:~:
+:z:H;P;
+; ;H;P;X;`;|;
+; <@<
+;!;A;P;h;
+;!<'<D<R<
+;"<3<:<p<
+;"<H<^<
+;#<><
+;&<b<
+;)<b<o<v<
+;*;M;p;
+;*;V;r;
+;:<e<w<
+;-;K;
+;];p;
+;+<n<
+;=<h<
+;1;@;
+;6<=<
+;7;Q;j;
+;A;`;r;
+;a;x;
+;e;k;x;~;
+;H;c;k;
+;N;r;
+;S<i<
+;X;a;g;
+? ?+?
+? ?C?b?o?
+?!?w?
+?"?&?*?M?s?
+?"?-?@?|?
+?"?5???i?
+?&?S?
+?(?2?;?e?m?
+?*?I?W?r?x?
+?@?c?
+?>?G?S?`?p?z?
+?2?g?
+?2?Y?x?
+?4?X?l?
+?5?;?U?r?
+?VPQj
+?X?w?
+@.didat
+@.reloc
+@<j-Y
+@09D$
+@9APt
+@H9D$
+[%hs(%hs)]
+[%hs]
+[Aonecore\printscan\appxpackaging\lib\crypto\src\pathhelper.cpp
+[CatalogFiles]
+[CatalogHeader]
+[Content_Types].xml
+[f9\P
+\\?\UNC\
+^L_[^
+_^[Y]
+__CxxFrameHandler3
+__std_terminate
+_CxxThrowException
+_except_handler4_common
+_initterm
+_initterm_e
+_o___std_exception_copy
+_o___std_exception_destroy
+_o___std_type_info_destroy_list
+_o___stdio_common_vsnprintf_s
+_o___stdio_common_vsnwprintf_s
+_o___stdio_common_vswprintf
+_o__callnewh
+_o__cexit
+_o__configure_narrow_argv
+_o__crt_atexit
+_o__errno
+_o__execute_onexit_table
+_o__initialize_narrow_environment
+_o__initialize_onexit_table
+_o__invalid_parameter_noinfo
+_o__register_onexit_function
+_o__seh_filter_dll
+_o__strnicmp
+_o__wcsicmp
+_o_free
+_o_malloc
+_o_qsort
+_o_wcscpy_s
+`.data
+{DE351A42-8E59-11d0-8C47-00C04FC295EE}
+|$$Php'
+|$$w#r
+|$(EXPHu8
+|$(EXSHu
+|$0EXBHu7
+|$8EXSHt
+|$hWQ
+} VPQ
+~$9~ te
+< <o<t<
+<"=5=
+<#<V<j<
+<&=7=E=M=
+<,<M<c<{<
+<,<O<r<
+<.<R<l<
+</xs:schema>
+<;<T<
+<?xml version="1.0" encoding="utf-8"?>
+<^<f<
+<7<M<]<l<{<
+<7=k=
+<8=B=c=
+<G=l=
+<H=&>F>R>\>
+<hash>
+<l<+>
+<N<q<
+<P=f=
+<U=b=u=
+<V=v=
+<W=r=
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+= =G=
+=">U>
+=*=4=S=d=i=|=
+=/=j=x=
+='?p?
+=@>f>
+=<?A?
+=<>S>
+==>R>\>f>x>
+=-=5=
+=1=>=E=R=Y=`=u=
+=1=D=z=
+=3>g>o>
+=5>w>
+=8=o=
+=a={=
+=C=u=
+=D=~=
+=E=e=
+=M>R>
+=o>{>
+=R>Z>
+=X=|=
+=y>k?|?
+> ?m?
+> ?Y?
+>"?3?T?c?l?
+>$>:>Q>z>
+>%?`?
+>%>J?
+>&?e?u?
+>(?{?
+>)>F>{>
+>)>S>X>a>u>
+>*?Y?
+>.>8>C>Q>
+>\?h?
+>`onecore\printscan\appxpackaging\lib\core\src\xpathhelper.cpp
+><>r>
+>0?]?
+>2>I>q>
+>7>=>B>I>`>r>{>
+>EXBHu
+>EXPHu
+>EXSH
+>g?m?
+>J>m>
+>J>R>
+>m?v?~?
+>O>l>
+>p?u?
+>PKCXt#j
+>X>o>
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+0 0$0(0,0004080<0@0D0L0T0X0\0`0d0h0l0p0x0
+0!000?0N0]0u0
+0!171=1B1T1a1s1}1
+0#191q1
+0%090g0
+0(040
+0(070T0g0u0
+0*0p0
+0*121
+0*1f1
+0=0V0`0
+010B0k0
+010X0p0x0~0
+0123456789ABCDEFGetUserTempPath
+040904B0
+0B0o0
+0G1|1
+0J0m0
+0J1]1
+0L0}0
+0L0Z0
+0O1]1v1
+0onecore\printscan\appxpackaging\lib\xmllineinformation\src\xpathparser.cpp
+0S0~0
+0T1\1
+0x%08lx
+0X0}0
+1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1t1x1
+1 1&1*10141:1>1{1
+1 1<1E1T1s1
+1!1*1:1J1O1V1}1
+1$121V1d1
+1$1o1
+1%1Q1}1
+1(2h2
+1.3.6.1.4.1.311.10.3.6
+1.3.6.1.4.1.311.2.1.30
+1.3.6.1.4.1.311.76.3.1
+1/1I1W1`1
+1^2z2i7
+1`1o1
+1+1N1q1
+10.0.22621.1
+10.0.22621.1 (WinBuild.160101.0800)
+10161U1}1
+1'161m1{1
+122o2
+1'252B2U2I3
+161{1
+162W2{2
+171S1_1j1
+182B2T2
+1f;2u
+1L1b1|1
+1X2`2
+2 2(202H2
+2 23282@2J2O2
+2 2L2
+2!3&3O3
+2"313K3c3m3
+2#2B2G2b2g2
+2$2H2O2q2
+2&212S2o2
+2&222>2J2V2b2n2z2
+2,242j2
+2,333^3
+252;3
+272M2f2
+2C2u2
+2K3X3i3}3
+2P3f3
+2P3k3
+3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+3 3>3E3h3o3
+3!4+424B4I4V4e4
+3"3.3R4^4j4v4
+3$3D3U3`3l3|3
+3$4>4
+3%3/3I3
+3(4Y4r4
+3)4O4
+3*383j3r3$4,4L4W4z4
+3*4U4
+3,3>3S3
+3,4?4
+3@4^4
+3^3f3
+3+333C3J3P3
+3>4C4K4~4
+313Y3z3
+3'383C3O3
+3'484F4N4
+355e5
+363;3H3
+384a4
+393H3P3]3
+394X4~4
+397tx
+3c3v3
+3c4s4
+3M4q4{4Z6
+3P4v4~4
+3X4j4|4
+4 4,484D4P4\4h4t4
+4 5n5
+4!5Z5
+4#5E5V5_5e5t5
+4$4)4/464=4J4c4t4}4
+4%414}4
+4%5;5f5
+4&5]5h5
+4&515:5X5c5l5
+4(525D5
+4)5L5
+4*40454>4I4N4W4c4h4q4
+4*464P4q4
+4:4Q4d4
+4@4}4
+4=5r5
+404L4v4
+414Q4v4
+454R4
+484m4
+4b4r4
+4J4p4
+4m4u4}4
+4SVW3
+5 50545D5H5L5T5l5|5
+5 5D5Z5r5
+5#515}5
+5#565R5_5u5|5@6Z6
+5$5/5A5Z5e5p5{5
+5$5\5
+5$5+565?5F5R5[5b5n5w5~5
+5%5E5
+5%6n6
+5&5:5J5\5f5
+5&6A6I6j6
+5)565J5Z5j5z5
+5*555@5f5t5
+5@5F5v5
+5=5^5
+505{5
+50686>6[6
+526e6
+596S6
+5C5t5}5
+5ineI
+5ntel
+5O5p5
+6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+6 7/7i7{7
+6!6(6C6Q6W6]6c6i6o6v6}6
+6#6(61686=6I6v6
+6$707X7`7l7
+6&6=6B6
+6)6;6E6f6
+6.6>6N6[6o6
+6:6W6q6
+6?6I6k6z6
+6+6e6j6
+6>6j6
+60U0v0
+626e6
+666v6
+6'6I6W6
+6'6o6z6d7z7
+6'7,717<7B7m7
+6b6R778Y8q8
+6E6^6j6
+6f8l8~8
+6h6z6
+6J6U6q6
+6P7\7
+6R6`6g6m6
+6S7_7k7
+7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+7!7,7I7p7~7
+7!7.7B7S7^7n7~7
+7%7T7d7
+7%8F8_8n8
+7)7E7M7U7]7
+7,7@7e7
+7/8{8
+7:7&8@8S8o8
+7:7j7
+7=7T7c7v7
+718:8[8{8
+727b7
+747y7
+757{7
+758e8
+7'7]7w7
+7-7K7o7
+7C8x8
+7F7U7r7
+7I7g7
+7I7l7
+7I7O7[7
+7K7~7
+7L7s7z7
+7M8u8
+7P8k8
+7P8X8X9]9f9
+8!9F9
+8"8:8L8h8z8
+8#808Q8c8l8u8
+8#868R8
+8#9U9
+8*898`8r8.9D9
+8.8>8N8^8n8~8
+8@9P9e9w9
+8] t(j8
+8<8Z8x8
+819l9
+858G8
+8'8?8U8d8
+8-8`8
+888X8d8|8
+8'8h:z:
+8'8q8
+8-9<9T9[9
+8D8\8v8
+8EXBHt
+8EXPHt
+8EXSH
+8EXSHt
+8EXSHt'
+8EXSHu
+8g9t9m:
+8o93:
+8PKCX
+9(9h9~9
+9*93999>9C9J9R9d9
+9,9D9d9
+9:9E9O9
+9;9Z9~9
+9^$t8
+9^<t 
+9~`t>
+9<:}:
+9=:S:
+90;I;T;
+90989@9H9L9P9X9l9t9
+909I9z9
+95:g:
+95:U;
+97:i:
+9ALt&Q
+9APPXu
+9D$<w
+9D$8v
+9E9]9|9
+9EAPX
+9EXBH
+9EXBHt"
+9EXPHuC
+9EXSHt
+9J9l9x9
+9j9u9
+9O:q:
+9p(te
+9p@te
+9Q tU9Q$tP
+9S9g9
+9t$$tZ
+9W:v:
+9yhv1
+AcquireSRWLockExclusive
+AcquireSRWLockShared
+AllowExecution
+ALTSIPID
+api-ms-win-appmodel-unlock-l1-1-0.dll
+api-ms-win-core-com-l1-1-0.dll
+api-ms-win-core-debug-l1-1-0.dll
+api-ms-win-core-delayload-l1-1-0.dll
+api-ms-win-core-delayload-l1-1-1.dll
+api-ms-win-core-errorhandling-l1-1-0.dll
+api-ms-win-core-file-l1-1-0.dll
+api-ms-win-core-file-l1-2-0.dll
+api-ms-win-core-file-l2-1-0.dll
+api-ms-win-core-handle-l1-1-0.dll
+api-ms-win-core-heap-l1-1-0.dll
+api-ms-win-core-heap-obsolete-l1-1-0.dll
+api-ms-win-core-interlocked-l1-1-0.dll
+api-ms-win-core-kernel32-legacy-l1-1-0.dll
+api-ms-win-core-libraryloader-l1-1-0.dll
+api-ms-win-core-localization-l1-2-0.dll
+api-ms-win-core-localization-obsolete-l1-2-0.dll
+api-ms-win-core-processenvironment-l1-1-0.dll
+api-ms-win-core-processthreads-l1-1-0.dll
+api-ms-win-core-processthreads-l1-1-1.dll
+api-ms-win-core-profile-l1-1-0.dll
+api-ms-win-core-registry-l1-1-0.dll
+api-ms-win-core-string-l1-1-0.dll
+api-ms-win-core-synch-l1-1-0.dll
+api-ms-win-core-synch-l1-2-0.dll
+api-ms-win-core-sysinfo-l1-1-0.dll
+api-ms-win-core-timezone-l1-1-0.dll
+api-ms-win-core-url-l1-1-0.dll
+api-ms-win-core-util-l1-1-0.dll
+api-ms-win-core-winrt-error-l1-1-0.dll
+api-ms-win-crt-private-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-eventing-provider-l1-1-0.dll
+api-ms-win-eventing-tdh-l1-1-0.dll
+api-ms-win-security-base-l1-1-0.dll
+api-ms-win-shcore-stream-l1-1-0.dll
+application/vnd.ms-appx.signature
+application/vnd.ms-pkiseccat
+Appx Subject Interface Package
+appxbundle
+AppxBundleSip
+AppxBundleSipCreateIndirectData
+AppxBundleSipGetSignedDataMsg
+AppxBundleSipIsFileSupportedName
+AppxBundleSipPutSignedDataMsg
+AppxBundleSipRemoveSignedDataMsg
+AppxBundleSipVerifyIndirectData
+AppXDeploymentServer
+AppxMetadata/CodeIntegrity.cat
+AppxPackaging.dll
+AppxSignature.p7x
+AppxSip
+AppxSip.dll
+AppxSip.pdb
+APPXSIP_LOG
+APPXSIP_TEMP
+AppxSipCreateIndirectData
+AppxSipGetSignedDataMsg
+AppxSipIsFileSupportedName
+AppxSipPutSignedDataMsg
+AppxSipRemoveSignedDataMsg
+AppxSipSettings
+AppxSipVerifyIndirectData
+AXEHAXEFAXEBAXPCAXBMAXCI
+AXPCAXCDAXCTAXBMAXCI
+bad allocation
+bad array new length
+bcrypt.dll
+BCryptCloseAlgorithmProvider
+BCryptCreateHash
+BCryptDestroyHash
+BCryptFinishHash
+BCryptGetProperty
+BCryptHashData
+BCryptOpenAlgorithmProvider
+buffer error
+callContext
+CallContext:[%hs] 
+CallingContext
+Catalog definition file was invalid: 
+CatalogVersion=2
+CATATTR1=0x10010001:OSAttr:2:6.2
+CertCloseStore
+CertCreateCertificateChainEngine
+CertFreeCertificateChain
+CertFreeCertificateChainEngine
+CertFreeCertificateContext
+CertGetCertificateChain
+CertGetEnhancedKeyUsage
+CertGetSubjectCertificateFromStore
+CertNameToStrW
+CertOpenStore
+CertVerifyCertificateChainPolicy
+CloseHandle
+CoCreateInstance
+CoInitializeEx
+CompanyName
+CompareStringA
+CompareStringEx
+CompareStringOrdinal
+CompareStringW
+ContentType
+CopyFileW
+CoTaskMemAlloc
+CoTaskMemFree
+CoUninitialize
+CreateFileW
+CreateStreamOnHGlobal
+CreateXmlReader
+CRYPT32.dll
+CRYPTCAT_E_AREA_ATTRIBUTE
+CRYPTCAT_E_AREA_HEADER
+CRYPTCAT_E_AREA_MEMBER
+CRYPTCAT_E_CDF_ATTR_TOOFEWVALUES
+CRYPTCAT_E_CDF_ATTR_TYPECOMBO
+CRYPTCAT_E_CDF_BAD_GUID_CONV
+CRYPTCAT_E_CDF_DUPLICATE
+CRYPTCAT_E_CDF_MEMBER_FILE_PATH
+CRYPTCAT_E_CDF_MEMBER_FILENOTFOUND
+CRYPTCAT_E_CDF_MEMBER_INDIRECTDATA
+CRYPTCAT_E_CDF_TAGNOTFOUND
+CRYPTCAT_E_CDF_UNSUPPORTED
+CryptCATCDFClose
+CryptCATCDFEnumAttributesWithCDFTag
+CryptCATCDFEnumCatAttributes
+CryptCATCDFEnumMembersByCDFTagEx
+CryptCATCDFOpen
+CryptEncodeObject
+CryptFindOIDInfo
+CryptMsgClose
+CryptMsgGetParam
+CryptQueryObject
+CryptSIPAddProvider
+CryptSIPRemoveProvider
+CRYPTXML.dll
+CryptXmlGetAlgorithmInfo
+currentContextId
+currentContextMessage
+currentContextName
+D$ @U
+D$$pU
+D$(;N4r^wR;F0wM;N4w
+D$(@4
+D$,+D$
+D$,H4
+D$@PVj
+D$@PW
+D$`@W
+D$<u<
+D$4@V
+D$8+D$(
+D$8+D$0
+D$8SP
+D$dtW
+D$pp\
+D$PxV
+data error
+DebugBreak
+DecodePointer
+DelayLoadFailureHook
+DeleteFileA
+DeleteFileW
+DllCanUnloadNow
+DllRegisterServer
+DllUnregisterServer
+DosDateTimeToFileTime
+eappx
+eappxbundle
+EappxBundleSip
+EappxBundleSipCreateIndirectData
+EappxBundleSipGetSignedDataMsg
+EappxBundleSipIsFileSupportedName
+EappxBundleSipPutSignedDataMsg
+EappxBundleSipRemoveSignedDataMsg
+EappxBundleSipVerifyIndirectData
+EappxSip
+EappxSipCreateIndirectData
+EappxSipGetSignedDataMsg
+EappxSipIsFileSupportedName
+EappxSipPutSignedDataMsg
+EappxSipRemoveSignedDataMsg
+EappxSipVerifyIndirectData
+empty distance tree with lengths
+emsix
+emsixbundle
+EncodingType=0x00010001
+EnterCriticalSection
+error
+EventRegister
+EventSetInformation
+EventUnregister
+EventWriteTransfer
+EvtClose
+EvtGetChannelConfigProperty
+EvtOpenChannelConfig
+EXBHt
+Exception
+EXPHt
+EXSHt
+EXSHu
+ext-ms-win-appmodel-deployment-l1-1-0
+ext-ms-win-appmodel-opc-l1-1-0.dll
+ext-ms-win-wevtapi-eventlog-l1-1-0
+F(;F u>
+F(SRQP
+F,;F$u6
+f;O*seSV
+f+N\fI
+F<)~h);)~T
+F0C;X
+f9C`u
+FailFast
+Failure
+Failure to process PE file for code integrity catalog: 
+failureCount
+failureId
+failureType
+FallbackError
+false
+ffffv
+FH9D$
+file error
+File has malformed certificate: 
+FileDescription
+fileName
+FileTimeToDosDateTime
+FileVersion
+FindResourceW
+FindStringOrdinal
+FormatMessageW
+FreeLibrary
+FT9D$$
+Function
+function
+G;~$~
+G@#w,
+G<#WL
+G<)_h)_d)_T
+Gdf+Gh
+GetAppXLogMessageFromDataFailure
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetDeploymentError
+GetEnvironmentVariableW
+GetFileAttributesW
+GetFullPathNameW
+GetLastError
+GetLocalTime
+GetModuleFileNameA
+GetModuleHandleExW
+GetModuleHandleW
+GetProcAddress
+GetProcessHeap
+GetSystemTimeAsFileTime
+GetTempPathW
+GetVersionExW
+Gl;OxwY
+Gl< t
+HandlerClassId
+HandlerInterfaceId
+HashAlgorithms=SHA256
+HashDigestLength
+HeapAlloc
+HeapFree
+hresult
+HResult
+http://
+http://schemas.microsoft.com/appx/manifest/preview/windows10/msixappcompatsupport
+http://schemas.microsoft.com/appx/manifest/preview/windows10/msixappcompatsupport/2
+http://schemas.microsoft.com/appx/manifest/preview/windows10/msixappcompatsupport/3
+http://schemas.microsoft.com/appx/manifest/preview/windows10/packagecom
+http://schemas.microsoft.com/appx/manifest/preview/windows10/security
+http://schemas.microsoft.com/appx/signing/2017
+http://schemas.microsoft.com/msix/signing/2018
+http://schemas.openxmlformats.org/package/2006/content-types
+https://
+IIDFromString
+ImpersonateLoggedOnUser
+incompatible version
+incomplete distance tree
+incomplete dynamic bit lengths tree
+incomplete literal/length tree
+incorrect data check
+incorrect header check
+InitializeCriticalSectionEx
+InitializeSListHead
+InitOnceBeginInitialize
+InitOnceComplete
+insufficient memory
+InternalName
+invalid bit length repeat
+invalid block type
+invalid distance code
+invalid literal/length code
+invalid stored block lengths
+invalid window size
+IsDebuggerPresent
+IsDeveloperModeEnabled
+IsProcessorFeaturePresent
+IsSideloadingEnabled
+j hhk
+j(XPW
+jjjjj
+jW!8_
+jW_Sh
+KERNEL32.DLL
+kernelbase.dll
+L$ hHa
+L$ QP
+L$$Sj
+L$(QP
+L$<_^[3
+L$0QP
+L$4QP
+L$D_^[3
+L$T_^3
+LeaveCriticalSection
+LegalCopyright
+lineNumber
+LineNumber
+lineNumber
+LoadLibraryExA
+LoadLibraryExW
+LoadResource
+LocalFree
+LockResource
+LogHr
+LogLevel
+LogNt
+memcmp
+memcpy
+memmove
+memset
+message
+Message
+Microsoft
+Microsoft Corporation
+Microsoft.Windows.AppxDeploymentFallback
+Microsoft.Windows.AppxPackaging
+minATL$__a
+minATL$__m
+minATL$__z
+Module
+module
+MoveFileExW
+Msg:[%ws] 
+msixbundle
+MSSign32.dll
+Name=
+need dictionary
+NewParser
+NoBackupBeforeSigning
+ntdll.dll
+NtQuerySystemInformation
+O;9s*
+O4_^]
+OLEAUT32.dll
+onecore\admin\appmodel\packagemanager\logging\appxlog.cpp
+onecore\base\appmodel\common\autocotaskmemstring.cpp
+onecore\base\appmodel\common\impersonationcontext.cpp
+onecore\base\appmodel\common\stringbuilder.cpp
+onecore\base\appmodel\common\widestring.cpp
+onecore\printscan\appxpackaging\lib\core\src\appxpackagingtracing.cpp
+onecore\printscan\appxpackaging\lib\core\src\bytebufferreader.cpp
+onecore\printscan\appxpackaging\lib\core\src\downlevelportability.cpp
+onecore\printscan\appxpackaging\lib\core\src\errorinfo.cpp
+onecore\printscan\appxpackaging\lib\core\src\filenamehelper.cpp
+onecore\printscan\appxpackaging\lib\core\src\readonlystreambase.cpp
+onecore\printscan\appxpackaging\lib\core\src\resourcestream.cpp
+onecore\printscan\appxpackaging\lib\core\src\streamhelper.cpp
+onecore\printscan\AppxPackaging\lib\Core\src\StreamHelper.hpp
+onecore\printscan\appxpackaging\lib\core\src\stringhelper.cpp
+onecore\printscan\appxpackaging\lib\core\src\substream.cpp
+onecore\printscan\appxpackaging\lib\core\src\valuehelper.cpp
+onecore\printscan\appxpackaging\lib\core\src\xmlvalidationhelper.cpp
+onecore\printscan\appxpackaging\lib\crypto\src\appxdigitalsignatureeditor.cpp
+onecore\printscan\appxpackaging\lib\crypto\src\appxindirectdatawriter.cpp
+onecore\printscan\appxpackaging\lib\crypto\src\appxsignatureorigininternal.cpp
+onecore\printscan\appxpackaging\lib\crypto\src\cataloghelper.cpp
+onecore\printscan\appxpackaging\lib\crypto\src\contenttypesxmleditor.cpp
+onecore\printscan\appxpackaging\lib\crypto\src\eappxdigitalsignatureeditor.cpp
+onecore\printscan\appxpackaging\lib\crypto\src\hashengine.cpp
+onecore\printscan\appxpackaging\lib\crypto\src\hashprovider.cpp
+onecore\printscan\appxpackaging\lib\crypto\src\packagesignconfiginfo.cpp
+onecore\printscan\appxpackaging\lib\crypto\src\signaturecheckhelper.cpp
+onecore\printscan\appxpackaging\lib\crypto\src\tempfilehelper.cpp
+onecore\printscan\appxpackaging\lib\encryptioninfo\src\appxencryptedpackageeditor.cpp
+onecore\printscan\appxpackaging\lib\encryptioninfo\src\encryptedappxfooter.cpp
+onecore\printscan\appxpackaging\lib\encryptioninfo\src\encryptedappxfootersreader.cpp
+onecore\printscan\appxpackaging\lib\encryptioninfo\src\encryptedappxheader.cpp
+onecore\printscan\appxpackaging\lib\encryptioninfo\src\encryptedappxsigningfooter.cpp
+onecore\printscan\appxpackaging\lib\filevalidator\src\filevalidator.cpp
+onecore\printscan\appxpackaging\lib\xml\src\saxxmleditor.cpp
+onecore\printscan\appxpackaging\lib\xmllineinformation\src\xmllineinformationhelper.cpp
+onecore\printscan\appxpackaging\lib\zip\src\zipdeflator.cpp
+onecore\printscan\appxpackaging\lib\zip\src\ZipDeflator.hpp
+onecore\printscan\appxpackaging\lib\zip\src\zipeditor.cpp
+onecore\printscan\appxpackaging\lib\zip\src\zipfilecontentstream.cpp
+onecore\printscan\appxpackaging\lib\zip\src\zipfileitem.cpp
+onecore\printscan\appxpackaging\lib\zip\src\ZipFileItem.hpp
+onecore\printscan\appxpackaging\lib\zip\src\zipfileitemenumerator.cpp
+onecore\printscan\appxpackaging\lib\zip\src\zipinflator.cpp
+onecore\printscan\appxpackaging\lib\zip\src\zipmodelwriters.cpp
+onecore\printscan\appxpackaging\signing\dll\appxsipdll.cpp
+onecore\printscan\appxpackaging\signing\src\appxbundlesip.cpp
+onecore\printscan\appxpackaging\signing\src\appxsip.cpp
+onecore\printscan\appxpackaging\signing\src\eappxbundlesip.cpp
+onecore\printscan\appxpackaging\signing\src\eappxsip.cpp
+onecore\printscan\appxpackaging\signing\src\packagesignconfigreader.cpp
+onecore\printscan\appxpackaging\signing\src\packagesignconfigschemaprovider.cpp
+onecore\printscan\appxpackaging\signing\src\sipfunctionhelper.cpp
+onecore\printscan\appxpackaging\signing\src\SipNoOpStream.hpp
+OpenThreadToken
+OriginalFilename
+originatingContextId
+originatingContextMessage
+originatingContextName
+OutputDebugStringW
+Override
+oversubscribed distance tree
+oversubscribed dynamic bit lengths tree
+oversubscribed literal/length tree
+P7xSipCreateIndirectData
+P7xSipGetSignedDataMsg
+P7xSipIsFileSupportedName
+P7xSipPutSignedDataMsg
+P7xSipRemoveSignedDataMsg
+P7xSipVerifyIndirectData
+PacakgeType
+Package
+PackageSignConfig
+PackageType
+PackageUriHandler
+PageHashes=true
+PartA_PrivTags
+PartName
+PathIsURLW
+Pj j Z
+PQjzZ
+PQSVW
+ProductName
+ProductVersion
+PSh4n
+PSVQj
+PublicVersion=0x00000001
+PWh  
+QAXEHAXEFAXEBAXPCAXBMAXCI
+Qkkbal
+Qonecore\printscan\appxpackaging\lib\crypto\src\appxindirectdatareader.cpp
+QPSSW
+QQQQQS
+QQSV3
+QQSVW
+QQSVW3
+QRPh0l
+QRPhpl
+QRPhPl
+QSVW3
+QSVWj
+QueryPerformanceCounter
+r ;O(r
+RaiseException
+RaiseFailFastException
+RegGetValueW
+ReleaseSRWLockExclusive
+ReleaseSRWLockShared
+ReplaceFileW
+ResolveDelayLoadedAPI
+ResolveDelayLoadsFromDll
+result
+ReturnHr
+ReturnNt
+RevertToSelf
+RoOriginateError
+RoOriginateErrorW
+rP;F0rK
+rPSWRQ
+RSDSb
+RtlAcquireSRWLockExclusive
+RtlCompareUnicodeString
+RtlDeleteCriticalSection
+RtlDeleteElementGenericTableAvl
+RtlEnterCriticalSection
+RtlEnumerateGenericTableWithoutSplayingAvl
+RtlInitializeCriticalSection
+RtlInitializeGenericTableAvl
+RtlInitUnicodeString
+RtlInsertElementGenericTableAvl
+RtlLeaveCriticalSection
+RtlLookupElementGenericTableAvl
+RtlNtStatusToDosError
+RtlNumberGenericTableElementsAvl
+RtlReleaseSRWLockExclusive
+RtlReportException
+RtlSetLastWin32Error
+s\\?\
+SelectionNamespaces
+SetDefaultDllDirectories
+SetDeploymentError
+SetLastError
+SetUnhandledExceptionFilter
+SHCreateStreamOnFileEx
+SignerSignEx2
+SignerSignEx3
+SipType
+SizeofResource
+SkipPackageContentHash
+SOFTWARE\Microsoft\Windows\CurrentVersion\AppxSIP
+SSh\2
+SSh0k
+SShxk
+stream end
+stream error
+StringFileInfo
+SVWPhp'
+SVWPj
+SystemTimeToFileTime
+t$ 9u
+T$"Vf
+t$$QQj
+t$,VQ
+t$0SQ
+t$4j0Y
+t$LSW
+t)9~ u
+t)j.V
+tASQh\2
+tdh.dll
+TdhEnumerateProviderFieldInformation
+TdhFormatProperty
+TdhGetEventInformation
+TdhGetEventMapInformation
+TempPath
+TerminateProcess
+tGh$`
+t'h4*
+threadId
+TlsAlloc
+TlsGetValue
+TlsSetValue
+too many length or distance symbols
+trace
+Translation
+TrustedAppRoot
+Types
+tz9V$u
+u!j2Y
+u#RQS
+u$WSQ
+u&h0`
+u&QWS
+u?j"hx2
+u=QSW
+u'9F\v
+udj-Zf;
+uiVVW
+uJf9F"uDf9F$u>f9F&u89F(u3f9V u-
+ujf9G
+uKVj$
+UnhandledExceptionFilter
+unknown compression method
+Unknown error area
+Unknown exception
+Unknown local error
+Unknown temp file: 
+uPf9F
+v0hh-
+ValidateFileBlocks
+ValidateSignatureOnly
+Value
+VarFileInfo
+VS_VERSION_INFO
+VWj(_
+VWPPh
+wcschr
+wcsncmp
+wcsrchr
+wcsstr
+WideCharToMultiByte
+WilFailureNotifyWatchers
+wilResult
+wintrust.dll
+WINTRUST.dll
+Wintrust.dll
+WinVerifyTrust
+wn>Jj
+WVj9Z
+WWSVj
+WWWWj
+X[_^]
+x=j83
+xH8\$
+xmldecl-encoding
+xmldecl-standalone
+xmldecl-version
+XmlLite.dll
+xmlns
+y;Whxc
+Y__^[
+y+ShP6
+y2ShP6
+Y49Y0
+YSh8_
+yXj2^
+YY9^<t
+YYj4W

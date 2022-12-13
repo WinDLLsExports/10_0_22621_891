@@ -1,0 +1,406 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\tcbloader.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    winload.sys
+
+  Section contains the following exports for tcbloader.dll
+
+    00000000 characteristics
+    8B28F2DA time date stamp
+        0.00 version
+           1 ordinal base
+           9 number of functions
+           9 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0001BB28 OslGenRandomBytes
+          2    1 00017278 OslGetControlSubkeyCell
+          3    2 0001E240 OslGetExportRoutineInModule
+          4    3 0001794C OslGetStringValue
+          5    4 00017A54 OslGetSubkey
+          6    5 00017CE8 OslGetValue
+          7    6 0001D9B0 OslIsRunningInSecureKernel
+          8    7 0001DEF4 TcbLoadEntry
+          9    8 0001E0C0 TcbResumeEntry
+
+  Section contains the following imports:
+
+    winload.sys
+             18002E790 Import Address Table
+             180035930 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          25 BlBdStop
+                         11E RtlAnsiStringToUnicodeString
+                           A BlAppendUnicodeToString
+                           B BlArchCpuId
+                          EE BlUtlGetAcpiTable
+                         131 RtlFreeUnicodeString
+                         137 RtlInitUnicodeString
+                          10 BlArchIsFiveLevelPagingActive
+                         135 RtlInitAnsiString
+                         1BA strcat_s
+                          A0 BlMmMapPhysicalAddress
+                           2 ArchBuildKernelGdt
+                          20 BlBdPatchIdt
+                          88 BlMmAllocatePages
+                          12 BlArchKernelSetup
+                          8B BlMmAllocatePhysicalPages
+                          99 BlMmFreePhysicalPages
+                          97 BlMmFreePages
+                          B5 BlMmWriteZeroPte
+                         143 RtlRbInsertNodeEx
+                          B4 BlMmWalkPageTable
+                         144 RtlRbRemoveNode
+                          15 BlBdDebugTransitionsEnabled
+                          19 BlBdGetHvDebugDevice
+                           E BlArchGetPerformanceCounter
+                          76 BlIpmiLogCheckPoint
+                         1C6 wcsnlen
+                          5A BlImgGetSigningPolicy
+                          5E BlImgIsUpgradedPlatform
+                          62 BlImgIsWinPE
+                          5B BlImgGetWhqlEnforcementDateTime
+                         165 SbGetSizeOfKernelPolicyPackage
+                         15E SIPolicyIsSignedPolicyRequired
+                         161 SbArePolicyOptionsSet
+                         112 MinCrypL_HashMemory
+                         12C RtlFindExportedRoutineByName
+                          DD BlStatusPrint
+                         132 RtlGUIDFromString
+                          4D BlGetBootDevice
+                          6D BlImgSetSysDevWhqlPolicy
+                          69 BlImgRegisterCodeIntegrityCatalogs
+                          31 BlDeviceClose
+                         12A RtlEqualUnicodeString
+                         15B SIPolicyInvalidateEAsOnRebootEnabled
+                         167 SbIsEnabled
+                          3B BlFileClose
+                         1A9 _wcsicmp
+                         113 MincryptSetWeakCryptoPolicy
+                          68 BlImgRegisterCodeIntegrityCatalogDirectory
+                          4B BlGetApplicationEntry
+                          6B BlImgSetRestrictedSigning
+                          87 BlMmAllocateHeap
+                         16C SbLoadFile
+                          41 BlFileReadAtOffsetEx
+                         108 BlpPdReleaseData
+                          40 BlFileOpen
+                         1C4 wcscpy_s
+                         1C2 wcscat_s
+                          78 BlLdrFreeDataTableEntry
+                         107 BlpPdQueryData
+                         1B2 qsort
+                         159 SIPolicyGetSerializedPoliciesSize
+                          C6 BlSIPolicyCheckPolicyOnDevice
+                          77 BlLdrBuildImagePath
+                          EA BlTpmStatus
+                          6C BlImgSetSigningPolicy
+                         15A SIPolicyHashActiveCodeExecutionPolicies
+                          70 BlImgTrustCustomSignersForDrivers
+                         153 SIPolicyClearAllActivePolicy
+                          35 BlDeviceOpen
+                         138 RtlInitUnicodeStringEx
+                          4F BlGetBootOptionDevice
+                         163 SbFreeFileData
+                          7B BlLdrPreloadFile
+                         15C SIPolicyIsPolicyActive
+                         1C1 swprintf_s
+                         155 SIPolicyGetOptions
+                         16A SbIsTestRootTrusted
+                          C8 BlSIPolicyLoadAndActivateTemporalPolicy
+                          67 BlImgQueryCodeIntegrityBootOptions
+                          61 BlImgIsWhqlEnabledBySetting
+                          96 BlMmFreeHeap
+                          32 BlDeviceCompare
+                          4E BlGetBootOptionBoolean
+                          CA BlSecureBootGetNonVolatilePrivateVariable
+                          5F BlImgIsWhqlDeveloperTestModeEnabled
+                          71 BlImgUnLoadImage
+                         156 SIPolicyGetPolicyHandle
+                          51 BlGetBootOptionString
+                         16D SbValidateSkuUnlockToken
+                         15F SIPolicySetTrialMode
+                          5C BlImgIsBootUpgradedPlatform
+                         160 SIPolicyUmciEnabled
+                          FC BlVsmGetSystemPolicy
+                         158 SIPolicyGetSerializedPolicies
+                          50 BlGetBootOptionInteger
+                          5D BlImgIsUpgradeInProgress
+                          16 BlBdDebuggerConnected
+                         154 SIPolicyDeletePersistentVariable
+                          60 BlImgIsWhqlDisabledBySetting
+                         15D SIPolicyIsSamePolicyID
+                          3E BlFileGetInformation
+                         164 SbGetKernelPolicyPackage
+                         166 SbIsDebugPolicyActive
+                         157 SIPolicyGetPolicyInfoFromType
+                           D BlArchGetCpuVendor
+                          85 BlMmAddEnclavePageRange
+                           F BlArchIsCpuIdFunctionSupported
+                         1A7 _strupr
+                          7E BlLogDestroy
+                          27 BlBootOptionExists
+                          33 BlDeviceGetInformation
+                         111 McGenEventWriteBoot
+                          A1 BlMmMapPhysicalAddressEx
+                          A5 BlMmQueryLargePageSize
+                           9 BlAppendBootOptionString
+                          93 BlMmEnableUpdates
+                          7F BlLogDiagWrite
+                          DB BlSlGetSmmIsolationLevel
+                          E9 BlTpmShutdown
+                          54 BlGetExecutionEnvironment
+                          9C BlMmGetMemoryMap
+                         1AC _wcsupr
+                          28 BlBsdCloseLog
+                          C2 BlRemoveBootOption
+                         136 RtlInitFunctionOverrideCapabilities
+                          82 BlLogEtwWriteTransfer
+                          63 BlImgLoadImageWithProgress2
+                          A8 BlMmReleaseMemoryMap
+                          90 BlMmDisableStaticDescriptors
+                          B3 BlMmUpdatesDisabled
+                         1C8 wcsstr
+                          AD BlMmUnmapVirtualAddress
+                          2A BlCopyBootOptions
+                          4C BlGetApplicationIdentifier
+                          8E BlMmAllocateVirtualPages
+                          83 BlLogInitialize
+                          57 BlImgFindSection
+                         1C0 strstr
+                          53 BlGetDeviceIdentifier
+                          9D BlMmInitMemoryMapHandle
+                          8D BlMmAllocatePhysicalPagesInRangeNuma
+                          DE BlStatusRegisterErrorHandler
+                         169 SbIsPolicyActive
+                          B9 BlPdDestroyData
+                          59 BlImgGetPEImageSize
+                          58 BlImgGetNtHeader
+                          C7 BlSIPolicyDoesActivePolicyGrantPermission
+                          91 BlMmDisableUpdates
+                          B6 BlNumaGetNumaMemoryRanges
+                          13 BlArchQueryIoPortAccessSupported
+                          EC BlUpdateBootOptions
+                          45 BlFveCheckPermission
+                          74 BlIpmiGetHwConfig
+                          2E BlCopyWcharStringToString
+                          94 BlMmEnumerateAllocations
+                          AC BlMmTranslateVirtualAddress
+                          EF BlUtlGetAcpiTableOverrides
+                          84 BlLogIsVerboseSELEnabled
+                         162 SbDoesActivePolicyGrantPermission
+                          E7 BlTimeQueryPerformanceCounter
+                           0 AhCreateLoadOptionsString
+                          CB BlSecureBootIgnoreSingleBootOption
+                         133 RtlImageDirectoryEntryToData
+                          2B BlCopyStringToUnicodeString
+                         121 RtlApplyFunctionOverrideFixupsToImage
+                          7C BlLdrPreloadImage
+                         140 RtlPrefixUnicodeString
+                          7A BlLdrLoadImage
+                          2D BlCopyUnicodeStringToUnicodeString
+                         110 LdrInitSecurityCookie
+                          92 BlMmEnableStaticDescriptors
+                          52 BlGetDevice
+                          FB BlVsmCheckSystemPolicy
+                          BD BlPdQueryDataAll
+                         16B SbIsTestSigningBlocked
+                         120 RtlAppendUnicodeToString
+                          B7 BlObtainUnusedSlabPages
+                          46 BlFwGetAcpiMemoryMap
+                          42 BlFileReadEx
+                           4 BlAllocateSlabPages
+                          23 BlBdSetupDebuggingDevice
+                          F4 BlValidateAmeCertChain
+                         10A DbgLoadImageSymbols
+                          F0 BlUtlPopulateAcpiTableCache
+                          9A BlMmFreeVirtualPages
+                          47 BlFwGetSystemTable
+                         168 SbIsEnabled2
+                         10E KdNetGetNetDataSize
+                         101 BlVsmKeysGetCurrentLKeyRefFromArray
+                         1AB _wcstoui64
+                          DF BlSvnGetApplicationSvn
+                          E0 BlSvnGetChainStatus
+                          E5 BlTcgFwSetAndLockMemoryOverwriteRequestControl
+                         178 SymCryptGcmEncryptPart
+                         16F SipaQueueConfigEntry
+                         1B6 rsa_encryption
+                         177 SymCryptGcmEncryptFinal
+                         175 SymCryptGcmDecryptFinal
+                         1B3 rsa_construction_fips186_3
+                         195 TpmApiCheckSecureNVIndex20
+                         18D SymCryptSha256Append
+                         17A SymCryptGcmInit
+                         1B8 rsa_export_sizes
+                         179 SymCryptGcmExpandKey
+                         1B4 rsa_decryption
+                         1A1 TpmApiUnsealEx
+                          BE BlPdSaveData
+                          C9 BlSealSecretToCurrentPcrValues
+                         174 SymCryptGcmAuthPart
+                         196 TpmApiCreateSecureNVIndex20
+                          81 BlLogEtwWrite
+                          E1 BlSymCryptGetAesBlockCipher
+                         18F SymCryptSha256Result
+                         176 SymCryptGcmDecryptPart
+                         1B7 rsa_export
+                         18C SymCryptSha256
+                         18E SymCryptSha256Init
+                          D3 BlSiFlushCurrentMeasurements
+                         1B5 rsa_destruction
+                         19A TpmApiGetTpmVersion
+                          FD BlVsmKeysAddNewKeyToArray
+                         19E TpmApiSealPolicyAuthorized20
+                         197 TpmApiCreateSrk20
+                          D8 BlSiPaRecordDrtmConfigEvent
+                          D0 BlSiDrtmEnvironmentUnsafe
+                          3F BlFileLoad
+                         198 TpmApiDrtmGetSigningKeys
+                          2F BlCreateTpmSealedBlob
+                          F7 BlValidateMemoryRange
+                         19B TpmApiIsCurrentStatePolicyAuthorized20
+                         106 BlVsmKeysValidateKeyPkgBuffer
+                          FE BlVsmKeysCreateKeyPkg
+                         100 BlVsmKeysFindKeyMapByType
+                         1A2 TpmApiUnsealPolicyAuthorized20
+                         1A0 TpmApiTestRsa3kCapability20
+                          30 BlDecryptSealedData
+                          FF BlVsmKeysExplodePkg
+                         116 OslGetDrtmSvn
+                         19F TpmApiTestAes256Capability20
+                         1C5 wcsncmp
+                         199 TpmApiGetKeyPublicProperty20
+                         19C TpmApiReadPublic20
+                          DA BlSiSetDrtmEnvironmentUnsafe
+                          79 BlLdrLoadDll
+                          D4 BlSiHandleHypervisorLaunchEvent
+                          18 BlBdGetExtensionName
+                          1D BlBdInitializeDeviceDescriptorEx
+                          1F BlBdLoadImageSymbols
+                          26 BlBdUpdateSharedHypervisorDebugDevice
+                          1E BlBdInitializeTransportExtension
+                          7D BlLdrUnloadImage
+                          21 BlBdReleaseDebuggingDevice
+                         1C7 wcsrchr
+                           C BlArchDetectSmt
+                          D2 BlSiEnvironmentReady
+                          3A BlEnNotifyEvent
+                          D7 BlSiPaRecordConfigEvent
+                         16E SipaGetDataPointers
+                         172 SipapAppendEntry
+                         18B SymCryptSha1
+                         170 SipaQueueConfigEntryToQueue
+                         173 SipapCreateQueue
+                          D1 BlSiEnterInsecureStateEx
+                          D5 BlSiLeaveEnvironment
+                          F2 BlUtlSetAcpiTableOverrides
+                          ED BlUtlCheckSum
+                         1BD strcpy_s
+                         1A6 _stricmp
+                         1AA _wcsnicmp
+                         127 RtlCompareUnicodeString
+                          E3 BlTblSetEntry
+                         14C RtlUnicodeStringToInteger
+                         1AD bsearch
+                         126 RtlCompareMemory
+                         14B RtlUnicodeStringToAnsiString
+                          BA BlPdFreeData
+                          3D BlFileExists
+                          29 BlBsdLogEntry
+                          C4 BlResourceFindMessage
+                          DC BlStatusError
+                         18A SymCryptRngAesReseedSelftest
+                          E8 BlTpmGetRandom
+                         184 SymCryptRdseedStatus
+                         189 SymCryptRngAesInstantiateSelftest
+                         181 SymCryptRdrandGet
+                         193 SymCryptSha512Result
+                         191 SymCryptSha512Append
+                         182 SymCryptRdrandStatus
+                         192 SymCryptSha512Init
+                         17D SymCryptHmacSha512Selftest
+                         185 SymCryptRngAesFips140_2Generate
+                         187 SymCryptRngAesFips140_2Uninstantiate
+                         183 SymCryptRdseedGet
+                         190 SymCryptSha512
+                         188 SymCryptRngAesGenerateSelftest
+                         186 SymCryptRngAesFips140_2Instantiate
+                         151 RtlValidateFeatureUsageSubscriptionBuffer
+                         13A RtlInitializeBootFeatureConfigurations
+                         14F RtlValidateDelayedFeatureUsageReportBuffer
+                         150 RtlValidateFeatureConfigurationBuffer
+                         122 RtlApplyHotPatch
+                          9E BlMmIsLargePageMapping
+                         152 RtlValidateHotPatchBase
+                         129 RtlCountRequiredHotPatchAddressTableEntries
+                         12E RtlFindHotPatchInformation
+                         12D RtlFindHotPatchBase
+                         139 RtlInitializeBitMap
+                         125 RtlClearAllBits
+                          BF BlPltReadPciConfig
+                          48 BlFwQueryEfiRuntimeVaRange
+                         10C EfiGetMemoryAttributesTable
+                          80 BlLogEtwRegister
+                          FA BlValidateWideStringMemory
+                          AB BlMmTranslateEfiMemoryType
+                          F6 BlValidateListMemory
+                          F9 BlValidateUnicodeStringMemory
+                          39 BlDrtmSetError
+                          F8 BlValidatePhysicalMemoryRange
+                          F5 BlValidateAnsiStringMemory
+                          14 BlArchSetSecrets
+                          72 BlImgVerifyFontIntegrity
+                          C5 BlResourceGetLanguageMapping
+                          43 BlFileSetInformation
+                          C3 BlResourceFindDataFromImage
+                          65 BlImgLoadPEImageWithPolicyValidatedHash
+                          C1 BlRdUnmap
+                          64 BlImgLoadPEImageEx
+                          36 BlDisplayFreeOemBitmap
+                          37 BlDisplayGetOemBitmap
+                          38 BlDisplayInvalidateOemBitmap
+                         11F RtlAppendUnicodeStringToString
+                         14A RtlStringFromGUID
+                         1B9 sprintf_s
+                         17E SymCryptInit
+                         180 SymCryptMarvin32ExpandSeed
+                         148 RtlSetBits
+                         14E RtlUpcaseUnicodeChar
+                          F3 BlUtlValidateMemoryRange
+                          AE BlMmUnmapVirtualAddressEx
+                          A9 BlMmRemapVirtualAddress
+                          95 BlMmFlushTlb
+                           3 ArchGetGdtRegister
+                         102 BlVsmKeysGetCurrentLKeyRefFromPkg
+                         105 BlVsmKeysSupportedByPlatform
+                         194 SymCryptSp800_108
+                         104 BlVsmKeysReadAndUnsealLKeyPkg
+                          E2 BlSymCryptGetHmacSha256Algorithm
+                         128 RtlCompareUnicodeStrings
+                         1B1 memset
+                         1A3 __GSHandlerCheck
+                         1AE memcmp
+                         1AF memcpy
+                         1B0 memmove
+                         1C3 wcscmp
+
+  Summary
+
+        2000 .data
+        2000 .pdata
+        B000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       2C000 .text
+        1000 PAGECMRC

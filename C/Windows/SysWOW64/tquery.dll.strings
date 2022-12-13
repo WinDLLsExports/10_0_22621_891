@@ -1,0 +1,7474 @@
+           
+    "#$
+    Contains: %s
+    Prefix: %s
+    Suffix: %s
+ !"#$%&'()*+,-./012345678
+ !"#$%&'()*+,-./0123456789:;<=>?@ABC?DEFGHHIJKLMN?OPQ?LRSKK@?LTU@K?QLRV?LWXYZ[[[[['*\<]]^_?VL_[[[[[\`ab]]^?VLcK?_dV?Le?Lfg@KK?LhiK@?eLfV?LjklK@?mLnV?L
+ (CatalogName TEXT_TEXT(127) DEFAULT NULL, CatalogID INTEGER PRIMARY KEY, IsDeleted LONG_INTEGER DEFAULT 0, UNIQUE (CatalogName COLLATE "UNICODE_en-US" ASC, CatalogID ASC));
+ (CatalogName) VALUES(?);
+ (Id INTEGER PRIMARY KEY, UniqueKey TEXT NOT NULL UNIQUE, Name TEXT NOT NULL, PropertyId INTEGER NOT NULL, VariantType INTEGER NOT NULL, StorageType INTEGER NOT NULL, MaxSize INTEGER, Flags INTEGER NOT NULL);
+ (IndexDescription) VALUES(?);
+ (IndexID INTEGER PRIMARY KEY, IndexDescription LONGBINARY_BLOB(5104) DEFAULT NULL);
+ (IndexID LONG_INTEGER DEFAULT NULL, PropertyID LONG_INTEGER DEFAULT NULL, Property LONGBINARY_BLOB(2147483647) DEFAULT NULL, PRIMARY KEY (IndexID ASC, PropertyID ASC)) WITHOUT ROWID;
+ (IndexID, PropertyID, Property) VALUES(?, ?, ?) ON CONFLICT(IndexID, PropertyID) DO UPDATE SET Property = excluded.Property;
+ (OccID UNSIGNEDLONG_INTEGER DEFAULT NULL, OccPage LONGBINARY_BLOB(
+ (OccID, OccPage) VALUES(?, ?) ON CONFLICT(OccID) DO UPDATE SET OccPage = excluded.OccPage;
+ (Partition UNSIGNEDLONG_INTEGER DEFAULT NULL, szKey LONGBINARY_BLOB(
+ (Partition, szKey, PID, WidStart, Data) VALUES(?, ?, ?, ?, ?) ON CONFLICT(Partition, szKey, PID, WidStart) DO UPDATE SET Data = excluded.Data;
+ (UniqueKey, Name, PropertyId, VariantType, StorageType, MaxSize, Flags) VALUES (?, ?, ?, ?, ?, ?, ?);
+ (WorkId INTEGER NOT NULL, ColumnId INTEGER NOT NULL, Value BLOB NOT NULL, PRIMARY KEY (WorkId, ColumnId)) WITHOUT ROWID;
+ (WorkId, ColumnId, Value) VALUES (?, ?, ?) ON CONFLICT(WorkId, ColumnId) DO UPDATE SET Value = excluded.Value;
+ [INTERVALS(
+ [MINVALUE/'
+ 0(00080@0P0\0|0
+ 0.0_0j0
+ 1stRws
+ 9s|v
+ abs='
+ add='
+ AGGREGATE 
+ AND 
+ Async
+ AVG(
+ BYFREQUENCY(
+ BYFREQUENCY(System.ThumbnailCacheID,3
+ ChildCount(
+ Chptrd
+ DATERANGE(
+ Deep='true'
+ DefrCatVer
+ DefrTrm
+ DESC
+ Distrb
+ Exact='
+ ExactString='
+ ExtdTyp
+ FIRST(
+ FROM 
+ GenerateParseTree
+ GenOp
+ HitCnt
+ HoldRw
+ IgNoiseOnly
+ IgnoreSBRI
+ intervals='
+ MAX(
+ Microsoft Corporation. All rights reserved.
+ MIN(
+ multiply='
+ --noimpl--
+ op='
+ OR WORKID=
+ ORDER BY 
+ ORDER BY Partition ASC, szKey ASC, PID ASC, WidStart ASC LIMIT 1;
+ OVER (
+ PhraseAll='
+ PhraseExactAll='
+ PhraseExactPIDs='
+ PhrasePIDs='
+ PhrasePrefixAll='
+ PhrasePrefixPIDs='
+' PID='
+ REPRESENTATIVEOF(System.Music.AlbumID,System.ThumbnailCacheID,3
+ reusewhere(
+ Scrll
+ Search
+ SET IndexDescription=? WHERE IndexID=?;
+ SET IsDeleted = ? WHERE CatalogName COLLATE "UNICODE_en-US" = ? AND CatalogID = ?;
+ SUM(
+ System.Shell.OmitFromView != 'true'
+ TermAll='
+ TermExactAll='
+ TermExactPIDs='
+ TermPIDs='
+ TERMS='
+' TERMS='
+ Type='
+ Type="
+ u(Qj#
+ UseCI
+' value='
+ w(tC
+ Watch
+ WHERE 
+ WHERE (Partition, szKey, PID, WidStart) < (:Partition, :Key, :PID, :WidStart) ORDER BY Partition DESC, szKey DESC, PID DESC, WidStart DESC LIMIT 1;
+ WHERE (Partition, szKey, PID, WidStart) <= (:Partition, :Key, :PID, :WidStart) ORDER BY Partition DESC, szKey DESC, PID DESC, WidStart DESC LIMIT 1;
+ WHERE (Partition, szKey, PID, WidStart) > (:BeforeFirstPartition, :BeforeFirstKey, :BeforeFirstPID, :BeforeFirstWidStart) AND (Partition, szKey, PID, WidStart) < (:AfterLastPartition, :AfterLastKey, :AfterLastPID, :AfterLastWidStart) ORDER BY Partition ASC, szKey ASC, PID ASC, WidStart ASC LIMIT 1;
+ WHERE CatalogName COLLATE "UNICODE_en-US" = ? AND CatalogID = ?;
+ WHERE ColumnId = ?;
+ WHERE IndexID=? AND PropertyID=?;
+ WHERE IndexID=?;
+ WHERE OccID=?;
+ WHERE Partition = :Partition AND szKey = :Key AND PID = :PID AND WidStart = :WidStart;
+ WHERE UniqueKey = ?;
+ WHERE WorkId = ? AND ColumnId = ?;
+ WHERE WorkId = ? LIMIT 1;
+ WHERE WorkId = ?;
+!0:0l0
+!D$$9\$
+!D$<!D$@!D$D
+!F !V$
+!This program cannot be run in DOS mode.
+!w(^_
+" dsc="
+" len="
+" RankMeth="
+"></Rst>
+"0,0J0X0n0
+"0]0b0t0z0
+"0+0_0
+"0h0o0
+"onecoreuap\base\appmodel\search\tquery\cidso\session.cxx
+"tRj(
+"u%Qh\}
+#\'G7
+#020?0s0
+#0Y0b0l0
+#text
+$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%))
+$;~ r
+$j|Xj[f
+%;x$r
+%050F0a0
+%08lX-%04X-%04X-%02X%02X%02X%02X%02X%02X%02X%02X\
+%2d-%02d-%04d %2d:%02d%wc
+%4d %s
+%4hd-%2hd-%2hd %2hd:%2hd:%2hd:%3hd
+%4hd/%2hd/%2hd %2hd:%2hd:%2hd:%3hd
+%d-%d
+%d%s-%s
+%hs!%p: 
+%hs(%d) tid(%x) %08X %ws
+%hs(%u)\%hs!%p: 
+%hs: %hs
+%I64d
+%I64u
+%onecoreuap\base\appmodel\search\tquery\restrict\restrict.cxx
+%s'%s'%s
+%s(%u) %s : %s
+%s,%d
+%s: %5s
+%s: %s
+%s\%s
+%s\%s.mui
+%s\%s\%s.mui
+%u - %S (%Id)
+%UUUU+
+%ws\CLSID
+%ws\PersistentHandler
+&000b0
+&u0Qh4}
+(([^\?\*\[\]\^\|])|(\|\[.\]))+
+()$^.*+?[]|\-{},:=!
+'()*+,-./01234
+(~`S@
+(~VV@W
+(03070;0?0C0G0K0O0S0W0[0_0
+(caller: %p) 
+(HRESULT : 0x
+(MMMMMq
+(VWhp|
+(WORKID=
+) DEFAULT NULL, PID UNSIGNEDSHORT_INTEGER DEFAULT NULL, WidStart UNSIGNEDLONG_INTEGER DEFAULT NULL, Data LONGBINARY_BLOB(
+) DEFAULT NULL, PRIMARY KEY (OccID ASC)) WITHOUT ROWID;
+) DEFAULT NULL, PRIMARY KEY (Partition ASC, szKey ASC, PID ASC, WidStart ASC)) WITHOUT ROWID;
+)0.0a0v0
+)M,MMMMMM6M9:MMM>a
+''**++++++,,55-::::886669999993;;;77??<<AACCEEGGGGGBBDDFFHIJNNOMMPPPKQRRLTTSSVVWWWW@@>>4..XX[[]/^0YYaabcc__________________```Z\ddgeeff112hhhiiijklmmnooop((qqrs))ttvvuwyxxxxxzz{||}}}}
+*+++++++++++++++++++++++++++++++++++++++++++++++---
+*<=>@A(:
+*0;0^0t1
+*040\0
+*u Qh
+, Asc
+, Des
+, IncomingWids: %d
+, Path, System.FileAttributes, System.DateModified, System.DateCreated, System.DateAccessed, System.Size
+,)))((
+,,)(|
+,:;<=>]
+,<=>;'
+,0;0T0l0u0
+,272;2?2C2G2
+,6Vyr
+,PPPP
+,SVWhHz
+,Vh8y
+,VhHx
+.*[0-9].*
+.?AU?$default_delete@UICatalogTable@inverted@@@std@@
+.?AU?$default_delete@UIDatabaseConnectionFactory@inverted@@@std@@
+.?AU?$default_delete@UIDatabaseIdentifierValidator@inverted@@@std@@
+.?AU?$default_delete@UIIndexDataTableFactory@inverted@@@std@@
+.?AU?$default_delete@UIIndexOccurrenceTableFactory@inverted@@@std@@
+.?AU?$default_delete@UIPropertyBagTable@inverted@@@std@@
+.?AU?$default_delete@VCIndexInfo@CGlobalFreshTest@inverted@@@std@@
+.?AUhresult_access_denied@winrt@@
+.?AUhresult_canceled@winrt@@
+.?AUhresult_changed_state@winrt@@
+.?AUhresult_class_not_available@winrt@@
+.?AUhresult_class_not_registered@winrt@@
+.?AUhresult_error@winrt@@
+.?AUhresult_illegal_delegate_assignment@winrt@@
+.?AUhresult_illegal_method_call@winrt@@
+.?AUhresult_illegal_state_change@winrt@@
+.?AUhresult_invalid_argument@winrt@@
+.?AUhresult_no_interface@winrt@@
+.?AUhresult_not_implemented@winrt@@
+.?AUhresult_out_of_bounds@winrt@@
+.?AUhresult_wrong_thread@winrt@@
+.?AUsqlite3_error@@
+.?AV_System_error@std@@
+.?AV<lambda_01407b80699f6c9b60a059b0286f4530>@@
+.?AV<lambda_08c4cfcb07ed91ebe543cb263113c852>@@
+.?AV<lambda_0a60d3bbdfb91ef7734b14cd05a72534>@@
+.?AV<lambda_0b92520c22bba6db1637bff877314522>@@
+.?AV<lambda_0fec4153d9eda91ef41bfd83c2c37c3e>@@
+.?AV<lambda_10827c910984e2a1e305fb824fab1165>@@
+.?AV<lambda_11df72f819b791999ccd4090c5a5eeec>@@
+.?AV<lambda_14ac56162542155d3c67f9ded7cbb907>@@
+.?AV<lambda_16ef8c46f170801ad2b477810eb835da>@@
+.?AV<lambda_18bd15cffbf7f1090754f74ef4215374>@@
+.?AV<lambda_1ca29a4b628905c1b4c4af35509a0eb1>@@
+.?AV<lambda_1d639deb54813d6b69a9f96676f3f5f8>@@
+.?AV<lambda_20827d49c46d43d2a7d4ee207b1519e7>@@
+.?AV<lambda_21f02697901998254080b4a92d3547e7>@@
+.?AV<lambda_224760fc98e0934612926e04be9a3979>@@
+.?AV<lambda_225ccbc7e9b0fd1542bde4b730e38c16>@@
+.?AV<lambda_22a88a87925608a20ebc2234361fab0e>@@
+.?AV<lambda_23b66d70c792ef43edff9d63c9e38903>@@
+.?AV<lambda_265be6099b3f155c51f8170a97de65f1>@@
+.?AV<lambda_28a98b93040074d688a22e8191285c89>@@
+.?AV<lambda_2eb26d98855f92613a889d01d423cb19>@@
+.?AV<lambda_36b75c3c35fa3564822568425d7d9ac0>@@
+.?AV<lambda_4038bdf1fdd3047ff194023621e79786>@@
+.?AV<lambda_403d124dcb1c19b0ff3445484c0c6d77>@@
+.?AV<lambda_41a24ff11718ea273ad73a5ab7301733>@@
+.?AV<lambda_496a200fae03d63b940c934a99d33e72>@@
+.?AV<lambda_49732d85c37f6478f117588c227061af>@@
+.?AV<lambda_4992f38b96bdbe1b11fe1a72d407466d>@@
+.?AV<lambda_49e68f7d7762e4d8b2a723c6dce8e24f>@@
+.?AV<lambda_4a358cba7c16fefca2e09cb3dc6d3830>@@
+.?AV<lambda_4aa59a89554dab90fc166eb7ba2d96cc>@@
+.?AV<lambda_5448521bb8f8902582c2cbf3ed14abc6>@@
+.?AV<lambda_5858513f1c2be55817134f57a4441372>@@
+.?AV<lambda_59511271d5bae9b4d553bc1f078eefe1>@@
+.?AV<lambda_59951e2f3886ea70955cc81b25cc1f92>@@
+.?AV<lambda_5a47b5532a2eeaa471fb53c6a0fdf2e0>@@
+.?AV<lambda_5a8894988d21822e8264548a156bec1e>@@
+.?AV<lambda_5bc706c608d49d48f1219a49dc8facc7>@@
+.?AV<lambda_5d00747c92b34f29b163b833d4bc7a73>@@
+.?AV<lambda_5d75be3db665fead3a499369f7598024>@@
+.?AV<lambda_64822f46965e187ece7041b06816343b>@@
+.?AV<lambda_64bbb0ae39b86bf12cfa615b199a388f>@@
+.?AV<lambda_6679a48d97b955a0c2603c7c09f32e00>@@
+.?AV<lambda_67f52b09ce15b187cc60b6768044d1f0>@@
+.?AV<lambda_6afd783b8f65eddcf325664d4c60adfd>@@
+.?AV<lambda_75e1fee2040cabff859996f05dcc33eb>@@
+.?AV<lambda_76b349cbf9036699c1add1ba94701b88>@@
+.?AV<lambda_7a08a4d4b955dad8b0ed49b11f91398a>@@
+.?AV<lambda_7da09b03a84b5422902dbf11c19bd852>@@
+.?AV<lambda_7f3ba0dfd48612a2fb077258e6f0c8b1>@@
+.?AV<lambda_7fdce923ed990c4c4c430759f37d02f0>@@
+.?AV<lambda_897eccc3cf81088702889660f747de35>@@
+.?AV<lambda_8d427ee6389fd92ca90fd26f6effa7ae>@@
+.?AV<lambda_93a62369eeb8517157d017ca9a7abc54>@@
+.?AV<lambda_98b0b4680ea061000ad8c740b73bd4bb>@@
+.?AV<lambda_a463f71747bfa3328c3c500b6922cdae>@@
+.?AV<lambda_a82391a8349b5632a05cdf8a391cf6de>@@
+.?AV<lambda_a906ebaba025e51f2c2556801e3f69f8>@@
+.?AV<lambda_a9071dd361d4f698baffdee76a740290>@@
+.?AV<lambda_aabfaf093d646ea0491e5e4f8aec234a>@@
+.?AV<lambda_b0f88accec028e9adbfd46c13d11774b>@@
+.?AV<lambda_bad21e81f7ae4e664bed4c6996d2efae>@@
+.?AV<lambda_bbf270053a1bd42f76f790b4afd6d27f>@@
+.?AV<lambda_bd11cf25004955b999167c0c862d3a9f>@@
+.?AV<lambda_bdd65ad5c097589ddd2831a7d2108a6d>@@
+.?AV<lambda_c758d3de4b87d1b9052b2dbda244ced9>@@
+.?AV<lambda_cc315e2eff8fc2448b4041d5bd651838>@@
+.?AV<lambda_cc5a3f7ee155948935336009f7c6906f>@@
+.?AV<lambda_cd4c068f0d0f6613407b41743f6fbb24>@@
+.?AV<lambda_d0de59f856670d7c340eeef966c896ad>@@
+.?AV<lambda_d62a2419cbebe9f22d1187434c394271>@@
+.?AV<lambda_db6ea14e34aef64a51de7135eedc64ef>@@
+.?AV<lambda_dbce56ef7d6095e6c93435f29a436337>@@
+.?AV<lambda_e000d677c56455608d7c06b05ec0d0fc>@@
+.?AV<lambda_e0603db0c1ce5301ac034fe3ade79107>@@
+.?AV<lambda_e11096b5dff8503e23f5b803217d7e00>@@
+.?AV<lambda_e260aa2310d6fd99558ed3b2e3a28de3>@@
+.?AV<lambda_e29adab1acfcc8aea7f8870e4e07c1c4>@@
+.?AV<lambda_e42c9601f88360bff496dab1233c0bbb>@@
+.?AV<lambda_ea0e94acd1c2e9a605733c34bb79787f>@@
+.?AV<lambda_ebd31eb41e695bf52cffd5d0ab1ed522>@@
+.?AV<lambda_f5b36f8120be515160cf806ed51d0b49>@@
+.?AVAllNoiseException@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVbad_optional_access@std@@
+.?AVbad_typeid@std@@
+.?AVbad_weak_ptr@std@@
+.?AVCAtlException@ATL@@
+.?AVCPListException@@
+.?AVdomain_error@std@@
+.?AVexception@std@@
+.?AVfilesystem_error@filesystem@std@@
+.?AVinvalid_argument@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVoverflow_error@std@@
+.?AVrange_error@std@@
+.?AVResultException@wil@@
+.?AVruntime_error@std@@
+.?AVSafeIntException@@
+.?AVsystem_error@std@@
+.?AVTPResultException@@
+.?AVtype_info@@
+.?AVunderflow_error@std@@
+.\%s.mui
+.\%s\%s.mui
+.00cfg
+.02<>@I^s
+.050I0b0
+.070=0B0\0|0
+.bss$00
+.bss$09
+.bss$dk00
+.bss$dk01
+.bss$pr00
+.bss$zz
+.contact
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$00
+.data$00$brc
+.data$09
+.data$dk00
+.data$dk00$brc
+.data$dk01$brc
+.data$pr00
+.data$r$brc
+.data$rs$brc
+.data$zz
+.didat$2
+.didat$3
+.didat$4
+.didat$5
+.didat$6
+.didat$7
+.edata
+.gfids
+.giats
+.idata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.library-ms
+.P6G?AUCAllocatorState@?$sparse_bit_allocator@K@@XZ
+.P6G?AV?$CComPtr@VCPropRetriever@@@ATL@@XZ
+.P6G?AVCIndexScanStats@inverted@@XZ
+.P6G?AVCLocaleNameCache@inverted@@XZ
+.rdata
+.rdata$00
+.rdata$00$brc
+.rdata$01
+.rdata$03
+.rdata$brc
+.rdata$r$brc
+.rdata$sxdata
+.rdata$T$brc
+.rdata$voltmd
+.rdata$zETW0
+.rdata$zETW1
+.rdata$zETW2
+.rdata$zETW9
+.rdata$zz
+.rdata$zz$brc
+.rdata$zzzdbg
+.rsrc
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.searchconnector-ms
+.settingcontent-ms
+.text
+.text$di
+.text$lp00tquery.dll!20_pri7
+.text$lp01tquery.dll!20_pri7
+.text$lp03tquery.dll!30_clientonly
+.text$lp04tquery.dll!30_clientonly
+.text$lp08tquery.dll!50_coldboot
+.text$lp09tquery.dll!50_coldboot
+.text$mn
+.text$mn$00
+.text$np
+.text$x
+.text$yd
+.text$zs
+.text$zy
+.text$zz
+.TIFF
+.tls$
+.tls$ZZZ
+.xdata$x
+/1%4@5
+/w.t'
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+: :$:(:,:0:4:8:<:@:D:H:L:T:p:
+: :(:0:8:@:L:l:t:
+: :,:4:h:x:
+: :,:L:X:x:
+: :.:S:h:
+: :@:\:l:x:
+: :@:L:l:t:|:
+: :0:4:8:<:@:D:H:L:\:`:d:h:l:p:
+: :1:Y:e:
+: :2:U:j:}:
+: :6:z:
+: :c:
+: :T:d:p:x:
+: ;-;A;c;
+: ;@;U;
+: ;K;
+:!:,:<:M:X:h:x:
+:!:>:H:n:
+:!;};
+:!;=;j;
+:!;a;
+:!;l;
+:":&:*:.:2:?:Y:|:*;L;
+:":&:*:>:B:F:J:
+:":::
+:":0:;:I:[:o:
+:":6:M:l:
+:";';9;?;Z;
+:#:\:
+:#:7:=:
+:#:a:
+:#:p;
+:#:t:
+:#;n;
+:#;x;
+:$:,:4:@:`:p:
+:$:,:4:<:D:L:T:\:d:l:t:|:
+:$:,:4:<:D:L:T:`:
+:$:/:B:k:
+:$:0:8:X:t:
+:$:0:P:`:
+:$:D:L:X:x:
+:$:D:P:X:
+:$:I:P:W:^:x:
+:$:X:i:
+:$;(;X;\;
+:$;\;
+:%;c;
+:&:*:.:2:6:::>:B:F:J:N:R:V:Z:^:b:
+:&:-:4:
+:&:7:<:X:i:n:
+:(:/:n:#;
+:(:0:8:@:L:l:t:|:
+:(:8:\:d:l:t:|:
+:(:H:P:X:`:h:t:|:
+:(:H:T:t:|:
+:(:L:\:h:p:
+:(:L:T:\:d:l:t:|:
+:(;@;X;
+:(;7;R;h;
+:(;8;m;t;
+:(;9;>;|;
+:(;h;
+:):E:
+:):J:
+:);s;
+:*:T:c:
+:,:8:X:d:
+:,:D:l:|:
+:,:D:T:\:|:
+:,:P:`:p:x:
+:,:Q:z:
+:,;D;q;
+:.;5;s;
+:.;d;i;
+:/:5:S:
+:/:B:V:
+:::I:Z:~:
+::;z<M>
+::_noindex_::
+:':7:j:
+:':H:z:
+:':R:q:
+:;:{:
+:;:C:O:V:[:f:v:
+:;;L;c;
+:;<E<]=
+:';8;[<
+:;y$s4
+:';z;
+:?:(<
+:?;o;
+:@:x:
+:@;D;H;L;P;T;X;\;
+:[;{;
+:\:l:
+:]:j:
+:|;Z>
+:+:0:F:Z:_:u:
+:+:8:
+:+:9:}:
+:+;{;
+:+;=;L;p;~;
+:+;c;
+:+;y;
+:<:C:`:
+:<:P:d:l:t:
+:<;c;r;
+:>:e:
+:>:O:g:
+:0:?:w:
+:0:@:d:l:t:|:
+:0:`:
+:0:>:Y:m:
+:0:4:T:|:
+:0:8:@:L:l:x:
+:0:8:H:P:t:
+:0:k:
+:0;`;
+:0;q;
+:0;R;s;
+:1:;:H:
+:1:a:
+:1;a;
+:1;g;l;
+:1;R;X;
+:2:<:b:
+:3:@:V:g:t:
+:3:@:Y:f:|:
+:3:J:P:s:
+:3:s:
+:3;s;
+:3<=<U=_=|=
+:4:@:`:h:t:
+:4:[:p:
+:4:8:<:@:D:H:L:P:T:X:\:`:
+:4:V:
+:4;:<3?
+:4;J;j<t<
+:4;l;
+:5:{:
+:5;w;
+:6:::o:
+:6:`:
+:6:|:
+:6;C;I;c;
+:6;O;
+:6;u;
+:6;U;l;
+:6<R<q<
+:7:=:D:T:`:
+:7;H;M;R;W;e;j;o;t;
+:8;b;q;
+:9:?:Y:
+:9;e;
+:A:u:
+:A:W:
+:A;c;
+:a;h;z;
+:A={=e?
+:AfterLastKey
+:AfterLastPartition
+:AfterLastPID
+:AfterLastWidStart
+:B;i;t;
+:BeforeFirstKey
+:BeforeFirstPartition
+:BeforeFirstPID
+:BeforeFirstWidStart
+:C:_:m:
+:C;_;
+:c;~;
+:C;j;z;
+:C;n;y;
+:D:T:`:h:
+:D;J;Q;a;j;{;
+:D;K;h;x;
+:d;u;
+:D<Z<
+:E;O;z;
+:f:o:
+:G:A?
+:G:O:p:
+:G:p:
+:G:t:
+:G:T:
+:G;};
+:G;b;
+:G;d;
+:h;y;
+:I:`:j:p:z:
+:I:a:
+:i;6<
+:I;t;
+:J:z:
+:K:{:
+:K:n:
+:M;V;m;v;
+:N:U:\:c:j:
+:o:~:
+:O;f;q;
+:O=Y=}=
+:Partition
+:Q;3<
+:R:\:
+:R:f:y:
+:R:p:
+:s:}:
+:S:y:
+:S;b;
+:S;p;L<{<
+:V:]:
+:V;f;n=
+:W;m;
+:W=d>
+:WidStart
+:X;v;
+; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+; ;&;-;4;K;l;|;
+; ;(;0;\;p;
+; ;(;0;8;@;H;P;X;`;h;p;x;
+; ;(;0;8;D;d;p;x;
+; ;(;4;T;\;h;
+; ;,;L;T;\;h;
+; ;,;L;X;x;
+; ;@;L;l;t;
+; ;0;T;\;d;l;t;|;
+; ;9;F;\;u;
+; ;k;
+; <<<U<
+; <P<
+; =Q=h=
+;!;=;f;
+;!;2;F;U;p;
+;!;5;:;L;`;e;w;
+;!;C;t;
+;!;R;[;j;{;
+;!;W;e;
+;!;Y;g;
+;!<.<B<r<
+;!<8<H<b<u<
+;";C;W;~;
+;"<(<w<}<
+;"<}<
+;#;);0;@;I;T;s;
+;#;=;C;
+;#;Q;[;
+;#<)<=<
+;#<A<Q<a<q<
+;#<F<
+;$;(;4;D;P;T;
+;$;,;4;<;D;L;d;p;
+;$;,;4;<;D;L;T;\;|;
+;$;,;4;<;D;L;T;\;d;l;t;|;
+;$;,;4;<;D;L;T;`;h;
+;$;,;4;<;D;L;X;|;
+;$;,;T;d;t;
+;$;.;h;H<X<y<
+;$;D;L;T;\;x;
+;$;K;
+;$<;<
+;$<0<L<
+;$<Q<
+;%;A;V;
+;%;v;z;~;
+;%</<R<\<
+;%<O<l<
+;&;5;h;
+;&<5<
+;&<E<
+;&<j<s<
+;(;<;M;X;e;y;
+;(;>;I;R;`;
+;(;4;T;`;h;
+;(;H;P;\;|;
+;(;H;T;\;|;
+;(<,<\<`<
+;(<5<Z<
+;(<b<
+;(<W<
+;);r;
+;*>@>Q>e>q>
+;,;4;<;D;L;T;\;d;l;t;|;
+;,;4;<;D;L;T;\;d;p;x;
+;,;9;o;
+;,;K;V;
+;,;X;e;
+;,<\<
+;.;I;
+;.;J;
+;.<G<
+;.<S<Z<
+;/;[;
+;:;h;u;
+;;);;,);;;;)
+;;;;<<<<<<<
+;;;I;
+;;<{<
+;;<E<R<
+;;7u%
+;';9;T;p;
+;';J;z;
+;-;t;
+;?;e;
+;?;I;m;
+;?<p<
+;@;O;
+;@;p;
+;[<j<
+;\<q<
+;\<r<
+;] t9
+;^;l;w;
+;^;m;
+;^Ts?
+;_8t0S
+;`<d<h<l<p<t<x<|<
+;{\u83
+;{`u13
+;{4u03
+;{8u[3
+;{du=3
+;{Hus3
+;{lu93
+;{puCf
+;{tu?3
+;~8tBW
+;~Ts7W
+;+;5;J;
+;+;F;
+;+;W;c;z;
+;+;X;i;
+;+<9<
+;<;H;h;t;
+;<;H;l;t;|;
+;<<t<
+;<<Y<]<b<t<
+;'<7<E<\<u<?=X=c=r=
+;'<H<^<
+;-<l<
+;-<x<
+;=;j;~<
+;=;M;
+;><\<A=
+;0;@;L;l;x;
+;0;^;e;l;s;z;
+;0;<;\;d;l;x;
+;0;D;T;d;t;
+;0;S;z;
+;0}G;p
+;0<f<
+;0B0t1{1
+;0f0z0
+;1;^;e;t;{;
+;1;8;\;
+;2;F;
+;2;H;
+;2;i;
+;2;V;
+;2<?<U<d<u<
+;3;:;a;h;
+;3;H;Q;`;
+;3;N;Z;p;|;
+;3<J<q<
+;3<t<
+;3u-3
+;4;\;|;
+;4;<;D;L;T;`;
+;4;Z;a;
+;5;H;w;};
+;5;t;
+;5<?<V<`<
+;5=E=]=~=
+;6;Z;
+;6<M<
+;7;w;
+;8;@;H;P;X;d;
+;8;@;H;T;t;|;
+;8;D;L;
+;8;H;T;\;
+;8;H;T;t;
+;8;m;
+;8;X;
+;8<I<N<
+;8<O<[<
+;8t F
+;9;F;t;
+;A@v 
+;A<j<-=o=
+;A<j<E=
+;A<sDS
+;ADw+
+;ADw0
+;ADwh
+;B$s&
+;B<ur
+;C$tA
+;C$uM
+;C;X;|;
+;C\v|
+;C<j<
+;c<t<
+;E u+
+;E=|=
+;F t"
+;F vrS
+;F$t*
+;F,s{
+;F;9<
+;F;v;
+;FHt798u3
+;FPt?
+;G t5
+;G t9
+;G$s&
+;G,_^s
+;G;b;.<N<X<w<
+;G;w;
+;G`t0
+;G8tjP
+;GPt=
+;H$sU
+;H,sB
+;H;t;
+;I;m;
+;j;t;
+;j=t=
+;K;{;
+;k;};R<t=
+;k;p;
+;L;S;p;
+;M tQ
+;m;^<J=e=r=
+;M;v;
+;M<]<
+;m<q<u<y<}<
+;N;~;
+;N;g;
+;N<[<c<k<q<
+;O>[>
+;p t~
+;pTt+V
+;QLu!;QPu
+;QLu$;QPu
+;R;w;(<:<S>u>
+;R<b<o<*?
+;S;o;
+;S;z;
+;S@r/;SDs*+S@
+;S<_<h<n<s<x<
+;sDt}
+;sTt=V
+;t$ t*
+;t$0r
+;T;w;
+;V;s;
+;V@r7;VDs2+V@
+;V=`=
+;VdrN;VhsI+Vd
+;W;m;
+;W<m<
+;w0tA
+;W4t,
+;wXt&
+;x,sG
+;X;b;
+;X;c;~;
+;Z<x<
+? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+? ?$?(?D?H?s?
+? ?(?<?D?L?T?h?p?x?
+? ?(?0?<?\?d?p?
+? ?(?0?8?@?H?P?X?`?h?p?x?
+? ?(?0?8?@?L?l?t?|?
+? ?(?4?T?`?h?
+? ?,?4?T?\?x?
+? ?@?H?P?X?t?
+? ?0?<?\?d?p?
+? ?0?T?\?d?l?t?|?
+?!?*?P?o?x?
+?!???M?
+?!?0???Z?p?
+?!?0?^?
+?!?1?A?O?
+?!?1?t?
+?!?D?N?
+?"?)?;?`?|?
+?"?,?k?
+?"?/?z?
+?#?\?
+?$?,?4?@?`?l?
+?$?,?4?<?D?L?T?\?d?l?t?|?
+?$?,?4?<?D?L?T?\?t?
+?$?,?8?X?d?
+?$?,?P?d?t?
+?$?0?<?H?T?`?l?x?
+?$?0?8?l?|?
+?$?2?R?X?b?
+?$?4?<?D?L?T?\?d?|?
+?$?D?L?X?x?
+?%?G?
+?%?J?o?
+?&?.?B?V?b?k?q?v?{?
+?&?-?4?;?B?e?l?s?z?
+?&?3?
+?&?6???c?
+?(?8?H?X?\?`?d?h?l?p?x?|?
+?(?e?l?|?
+?*?9???F?V?b?
+?*?n?
+?*?q?
+?*?W?h?
+?,?<?L?\?l?|?
+?,?4?@?`?h?p?x?
+?,?P?
+?.?\?
+?.?4?K?b?
+?.?D?t?
+?/?<?g?}?
+?/?V?e?
+?;?A?[?b?i?q?x?~?
+?;?d?
+?;?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+?;?p?
+?;{ t5
+?;s t*
+?;x t
+??0?$basic_ios@_WU?$char_traits@_W@std@@@std@@IAE@XZ
+??0?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAE@PAV?$basic_streambuf@_WU?$char_traits@_W@std@@@1@_N@Z
+??0?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IAE@XZ
+??0_Locinfo@std@@QAE@PBD@Z
+??0_Lockit@std@@QAE@H@Z
+??0CDriveInfo@@QAE@PBGK@Z
+??0CFullPath@@QAE@PBG@Z
+??0CFullPropSpec@@QAE@ABV0@@Z
+??0CMemSerStream@@QAE@PAEK@Z
+??0CUnNormalizer@@QAE@XZ
+??0facet@locale@std@@IAE@I@Z
+??1?$basic_ios@_WU?$char_traits@_W@std@@@std@@UAE@XZ
+??1?$basic_ostream@_WU?$char_traits@_W@std@@@std@@UAE@XZ
+??1?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UAE@XZ
+??1_Locinfo@std@@QAE@XZ
+??1_Lockit@std@@QAE@XZ
+??1CMemSerStream@@UAE@XZ
+??1facet@locale@std@@MAE@XZ
+?'?4?
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV01@_J@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV01@_K@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV01@F@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV01@G@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV01@H@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV01@I@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV01@J@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV01@K@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV01@M@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV01@N@Z
+??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z
+??Bid@locale@std@@QAEIXZ
+?'?M?
+?@?P?\?|?
+?@?r?
+?@?Y?
+?@@@@@@@@@@@
+?@s-f
+?^?o?
+?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
+?_Getcat@?$ctype@_W@std@@SAIPAPBVfacet@locale@2@PBV42@@Z
+?_Getcat@?$ctype@D@std@@SAIPAPBVfacet@locale@2@PBV42@@Z
+?_Getcoll@_Locinfo@std@@QBE?AU_Collvec@@XZ
+?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ
+?_Incref@facet@locale@std@@UAEXXZ
+?_Init@locale@std@@CAPAV_Locimp@12@_N@Z
+?_Lock@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UAEXXZ
+?_Mtx_delete@threads@stdext@@YAXPAX@Z
+?_Mtx_lock@threads@stdext@@YAXPAX@Z
+?_Mtx_new@threads@stdext@@YAXAAPAX@Z
+?_Mtx_unlock@threads@stdext@@YAXPAX@Z
+?_Osfx@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEXXZ
+?_Pninc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IAEPA_WXZ
+?_Syserror_map@std@@YAPBDH@Z
+?_Throw_C_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UAEXXZ
+?_Winerror_map@std@@YAHH@Z
+?_Xbad_alloc@std@@YAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPBD@Z
+?_Xout_of_range@std@@YAXPBD@Z
+?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
+?{|~A9
+?+?=?
+?+?>?W?
+?+?8?J?_?
+?+?f?
+?<?_?
+?<?D?P?p?|?
+?<?u$
+?=u/W
+?>?e?
+?>?J?i?
+?0?8?D?L?l?
+?0?s?
+?1?=?M?f?
+?1?a?
+?1?H?_?
+?1?Q?v?
+?2?;?P?[?e?r?
+?233333
+?3?b?n?{?
+?4?@?`?l?t?
+?4?8?h?l?
+?4?D?P?X?
+?4?D?P?X?x?
+?4?E?
+?4?N?
+?4?t?
+?5???X?b?s?}?
+?5?V?s?
+?6?@?f?
+?6?@?R?a?
+?8???T?d?p?|?
+?8?@?\?l?x?
+?8?@?L?l?t?
+?8?B?L?[?p?
+?8?D?L?
+?8?W?w?
+?9?c?p?|?
+?A?g?
+?A?N?h?
+?B?{?
+?B?K?\?g?m?
+?B?V?p?
+?B?X?
+?c?~?
+?C?r?v?
+?C?s?
+?C?z?
+?c_str@?$_Yarn@D@std@@QBEPBDXZ
+?ContainsDrive@CDriveInfo@@SGHPBG@Z
+?CoTaskAllocator@@3VCCoTaskAllocator@@A
+?D?r?
+?D?t?
+?D?T?`?
+?eback@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IBEPA_WXZ
+?egptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IBEPA_WXZ
+?epptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IBEPA_WXZ
+?F?[?o?{?
+?ffffff
+?fill@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QBE_WXZ
+?flags@ios_base@std@@QBEHXZ
+?flush@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV12@XZ
+?G?S?x?
+?gbump@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IAEXH@Z
+?GetBlob@CMemDeSerStream@@UAEXPAEK@Z
+?GetByte@CMemDeSerStream@@UAEEXZ
+?GetChar@CMemDeSerStream@@UAEXPADK@Z
+?GetDiskSpace@CDriveInfo@@QAEXAA_J0@Z
+?GetDouble@CMemDeSerStream@@UAENXZ
+?GetDrive@CDriveInfo@@SGXPBGPAG@Z
+?GetFloat@CMemDeSerStream@@UAEMXZ
+?GetGUID@CMemDeSerStream@@UAEXAAU_GUID@@@Z
+?getloc@ios_base@std@@QBE?AVlocale@2@XZ
+?GetLong@CMemDeSerStream@@UAEJXZ
+?GetSectorSize@CDriveInfo@@QAEKXZ
+?GetString@CMemDeSerStream@@UAEPADXZ
+?GetULong@CMemDeSerStream@@UAEKXZ
+?GetUShort@CMemDeSerStream@@UAEGXZ
+?GetWChar@CMemDeSerStream@@UAEXPAGK@Z
+?GetWString@CMemDeSerStream@@UAEPAGXZ
+?good@ios_base@std@@QBE_NXZ
+?gptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IBEPA_WXZ
+?H?|?
+?H?x?
+?I?\?
+?I?r?}?
+?id@?$collate@_W@std@@2V0locale@2@A
+?id@?$collate@D@std@@2V0locale@2@A
+?id@?$ctype@_W@std@@2V0locale@2@A
+?id@?$ctype@D@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MAEXABVlocale@2@@Z
+?is@?$ctype@_W@std@@QBE_NF_W@Z
+?is@?$ctype@D@std@@QBE_NFD@Z
+?IsSameDrive@CDriveInfo@@QAEHPBG@Z
+?IsWriteProtected@CDriveInfo@@QAEHXZ
+?J?q?
+?M?]?o?
+?MakePath@CFullPath@@QAEXPBG@Z
+?N?~?
+?n?u?
+?OLo_LLpq?rLstV?_uvwCLL?_
+?pbase@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IBEPA_WXZ
+?PeekULong@CMemDeSerStream@@UAEKXZ
+?pptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IBEPA_WXZ
+?PutBlob@CMemSerStream@@UAEXPBEK@Z
+?PutByte@CMemSerStream@@UAEXE@Z
+?PutChar@CMemSerStream@@UAEXPBDK@Z
+?PutDouble@CMemSerStream@@UAEXN@Z
+?PutFloat@CMemSerStream@@UAEXM@Z
+?PutGUID@CMemSerStream@@UAEXABU_GUID@@@Z
+?PutLong@CMemSerStream@@UAEXJ@Z
+?PutString@CMemSerStream@@UAEXPBD@Z
+?PutULong@CMemSerStream@@UAEXK@Z
+?PutUShort@CMemSerStream@@UAEXG@Z
+?PutWChar@CMemSerStream@@UAEXPBGK@Z
+?PutWString@CMemSerStream@@UAEXPBG@Z
+?Q?_?q?
+?rdbuf@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QBEPAV?$basic_streambuf@_WU?$char_traits@_W@std@@@2@XZ
+?ResetType@CAllocStorageVariant@@IAEXAAVPMemoryAllocator@@@Z
+?S?Y?
+?setbuf@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MAEPAV12@PA_W_J@Z
+?setf@ios_base@std@@QAEHHH@Z
+?setg@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IAEXPA_W00@Z
+?SetLPWSTR@CStorageVariant@@QAEXPBGI@Z
+?setp@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IAEXPA_W0@Z
+?setp@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IAEXPA_W00@Z
+?SetProperty@CFullPropSpec@@QAEHPBG@Z
+?SetProperty@CFullPropSpec@@QAEXK@Z
+?setstate@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QAEXH_N@Z
+?showmanyc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MAE_JXZ
+?SkipBlob@CMemDeSerStream@@UAEXK@Z
+?SkipByte@CMemDeSerStream@@UAEXXZ
+?SkipChar@CMemDeSerStream@@UAEXK@Z
+?SkipDouble@CMemDeSerStream@@UAEXXZ
+?SkipFloat@CMemDeSerStream@@UAEXXZ
+?SkipGUID@CMemDeSerStream@@UAEXXZ
+?SkipLong@CMemDeSerStream@@UAEXXZ
+?SkipULong@CMemDeSerStream@@UAEXXZ
+?SkipUShort@CMemDeSerStream@@UAEXXZ
+?SkipWChar@CMemDeSerStream@@UAEXK@Z
+?sputc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QAEG_W@Z
+?sputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QAE_JPB_W_J@Z
+?sync@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MAEHXZ
+?T?w?
+?tie@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QBEPAV?$basic_ostream@_WU?$char_traits@_W@std@@@2@XZ
+?tolower@?$ctype@_W@std@@QBE_W_W@Z
+?tolower@?$ctype@_W@std@@QBEPB_WPA_WPB_W@Z
+?tolower@?$ctype@D@std@@QBEDD@Z
+?tolower@?$ctype@D@std@@QBEPBDPADPBD@Z
+?U?_?
+?uflow@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MAEGXZ
+?uncaught_exception@std@@YA_NXZ
+?UnNormalizeKey@CUnNormalizer@@QAEXABVCKeyBuf@@AAUtagPROPVARIANT@@PAGK@Z
+?w}t$j
+?widen@?$ctype@_W@std@@QBE_WD@Z
+?width@ios_base@std@@QAE_J_J@Z
+?width@ios_base@std@@QBE_JXZ
+?xsgetn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MAE_JPA_W_J@Z
+?xsputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MAE_JPB_W_J@Z
+?Y?s?
+@.didat
+@.reloc
+@;w$r
+@_^[]
+@<9C<u
+@4ZZZZ
+@AAAAAAAAAAA
+@Clsid
+@H;F,s
+@j:^;
+@Path
+@ProcessorArchitecture
+@SSPS
+@T9F,u
+@VWhhy
+@wKt7
+@wQt>
+[%hs(%hs)]
+[%hs]
+[))&))ee))))WXY)[)
+[[pDno\\
+[^\^\?]*
+[^\|\*\?].*
+[^\|\[\]]*
+[B[m\
+[BigTable] _GetIDataConvert - Can't set OLEDB ver to 2.0. Error: 0x%x
+[BigTable] _GetIDataConvert - Couldn't get IDataConvert interface %x
+[BigTable] _StoreDate - Unexpected dest storage type %4x
+[BigTable] accessor can be byref: %d
+[BigTable] adding '%ws'
+[BigTable] App bug: Deleting an accessor that wasn't freed
+[BigTable] byref column status IsNull
+[BigTable] CAccessor: construction failed, bindstatus=%x, binding %d
+[BigTable] CAccessor: construction failed, sc=%x
+[BigTable] calling free on array type %x, # %x, pb %x
+[BigTable] calling free on vector type %x, # %x, pb %x
+[BigTable] CanConvertType: conversion from invalid type
+[BigTable] CanConvertType: conversion to array
+[BigTable] CanConvertType: conversion to byref type for short type
+[BigTable] CanConvertType: conversion to empty or null type
+[BigTable] CanConvertType: conversion to invalid type
+[BigTable] CanConvertType: conversion to vector
+[BigTable] COLEDBVaraint::OLEDBConvert - Using OLEDB library for conversion
+[BigTable] COLEDBVariant::CopyToOAVariant - bad variant type %d 
+[BigTable] colinfo::set, adding rowid column
+[BigTable] colinfo::set, adding WID column
+[BigTable] colinfo::set, after loop, cBoundColumns: %d
+[BigTable] colinfo::set, old # cols %d, new # cols %d
+[BigTable] colinfo::set, top of loop, cBoundColumns: %d
+[BigTable] column %d status IsNull -> VT_EMPTY
+[BigTable] Column unavailable: prop = 0x%x
+[BigTable] conpt: unknown advise cookie %x
+[BigTable] CRowBufferSet::~CRowBufferSet, unreleased row buffer %x
+[BigTable] CRowBufferSet::CheckAllHrowsReleased, unreleased row buffer(s)
+[BigTable] CRowSeekNext::GetRows - non-zero skip count %d
+[BigTable] CRowSeekNext::GetRows failed, sc=%x
+[BigTable] CRowset::_FetchRows - error %x thrown
+[BigTable] CRowset::_FetchRows, 0 rows, sc 0x%x
+[BigTable] CRowset::AddRefChapter called!
+[BigTable] CRowset::ReleaseChapter called!
+[BigTable] CTableCursor::_CheckBinding - bad data offset
+[BigTable] CTableCursor::_CheckBinding - bad length offset
+[BigTable] CTableCursor::_CheckBinding - bad status offset
+[BigTable] CTableCursor::_CheckBinding - direct vector
+[BigTable] CTableCursor::_CheckBinding - incorrect field width
+[BigTable] CTableCursor::_CheckBinding - length data overlap
+[BigTable] CTableCursor::_CheckBinding - status data overlap
+[BigTable] CTableCursor::_CheckBinding - value data overlap
+[BigTable] CTableVariant does not handle date conversions.
+[BigTable] CTableVariant::FixDataPointers [this:0x%I64x] (Bias: 0x%I64x) pThis32->vt:0x%x
+[BigTable] CTableVariant::FixDataPointers recursively setting variant vector!
+[BigTable] CTableVariant::FixDataPointers SafeArray32
+[BigTable] CTableVariant::FixDataPointers setting safearray BSTRs to 0x%I64x
+[BigTable] CTableVariant::FixDataPointers setting safearray to 0x%I64x with array at 0x%I64x
+[BigTable] CTableVariant::FixDataPointers setting vector to 0x%I64x
+[BigTable] CTableVariant::Init from vt_variant
+[BigTable] Current fixed size = %x, var size = %x, new %s data = %x
+[BigTable] CVIQuery unreferenced.  Deleting.
+[BigTable] Empty pool segment to be freed %x
+[BigTable] First variable allocation segment, new segment = %08x, size = %06x
+[BigTable] GetData column %d, status 0x%x
+[BigTable] Grow var allocation segment %x, new size %06x
+[BigTable] Growing fixed data for allocation at %x, new size = %x, new data = %x
+[BigTable] MapPhaseAndReason - reason: %d phase: %d
+[BigTable] Need to grow available data for var allocation
+[BigTable] New variable allocation segment linked to %x, new segment = %08x, size = %06x
+[BigTable] OLEDBConvert - _GetDataPointer returned NULL
+[BigTable] OLEDBConvert - _GetOLEDBType returned error 0x%x for type %x
+[BigTable] OLEDBConvert - DataConvert returned error 0x%x
+[BigTable] OLEDBConvert - GetConversionSize returned error 0x%x
+[BigTable] original column count: %d
+[BigTable] pid: 0x%x, _cColumns: %d
+[BigTable] Pool page(s) can be deallocated, loc = %x, size = %x
+[BigTable] save away type %x, val %x
+[BigTable] ScodeToRowStatus: missing conversion for %x
+[BigTable] skipping bookmark column
+[BigTable] Splitting fixed data for window from variable data
+[BigTable] SrcVar.vt = 0x%x
+[BigTable] tblvarnt free of unknown type %x
+[BigTable] Unexpected dest storage type %4x
+[BigTable] Unsupported variant type %4x
+[BigTable|Accessor] byref copy, vtDst 0x%x varnt.vt 0x%x
+[BigTable|Accessor] byref non-vector copy, vtDst 0x%x, varnt.vt 0x%x
+[BigTable|Accessor] copying column %d, vtsrc 0x%x, vtdst 0x%x
+[BigTable|Accessor] loading deferred value
+[BigTable|Accessor] successfully loaded deferred value
+[BigTable|Notify] conpt: addref
+[BigTable|Notify] conpt: release, new crefs: %lx
+[BigTable|Notify] conptcontainer: addref
+[BigTable|Notify] conptcontainer: release
+[BigTable|Notify] enumconpt: release, new crefs: %lx
+[BigTable|Notify] rownotfy: notify client veto'ed
+[BigTable|Notify] rownotfy: pinging asynch client %x
+[BigTable|Notify] rownotfy: pinging notify client %x
+[BigTable|Notify] rownotfy: pinging notify client %x for FAIL
+[BigTable|Notify] rownotfy: pinging watch client %x
+[BigTable|Notify] rownotfy: watch type %d
+[BigTable|Notify] rownotfy:(end) pinging asynch client
+[BigTable|Notify] rownotfy:(end) pinging notify client
+[BigTable|Notify] rownotfy:(end) pinging notify client for FAIL
+[BigTable|Notify] rownotfy:(end) pinging watch client
+[BigTable|Notify] set notify thread die event %lx
+[BigTable|Notify] starting rowset notify thread
+[BigTable|Proxy]  Calling ShrinkWatchRegion
+[BigTable|Proxy] ~CSvcQueryProxy
+[BigTable|Proxy] Calling GetWatchInfo
+[BigTable|Proxy] Calling SetWatchMode
+[BigTable|Proxy] Compare
+[BigTable|Proxy] CSvcQueryProxy
+[BigTable|Proxy] CSvcQueryProxy unreferenced.  Deleting.
+[BigTable|Proxy] FetchValue
+[BigTable|Proxy] FindIndicesForWID
+[BigTable|Proxy] FreeCursor
+[BigTable|Proxy] GAP
+[BigTable|Proxy] GetNotifications
+[BigTable|Proxy] GetNotifications %d, sc %lx
+[BigTable|Proxy] GetQueryStatus
+[BigTable|Proxy] GetQueryStatusEx
+[BigTable|Proxy] GetRows 0x%x
+[BigTable|Proxy] RatioFinished
+[BigTable|Proxy] ReExecuteSequentialOrPseudoQuery
+[BigTable|Proxy] Refresh
+[BigTable|Proxy] Refresh (end)
+[BigTable|Proxy] RestartPosition
+[BigTable|Proxy] SetBindings
+[BigTable|Proxy] StartWatching
+[BigTable|Proxy] Stop
+[BigTable|Proxy] StopWatching
+[BigTable|RegTrans]   widstart 0x%x, offset %d
+[BigTable|RegTrans]  =============== Entering GetRowsAt ========= 
+[BigTable|RowBuf] CRowBufferSet::Add - duplicate row: %x
+[BigTable|RowBuf] CRowBufferSet::Add - new row buffer = %x
+[CIWrapper] CCiCDeferredPropRetriever::RetrieveDeferredValueByPropSpec - Exception caught %s
+[CIWrapper] CPropRetriever::RetrieveValueByPid - Exception caught 0x%x
+[CIWrapper] CQuerySession::AddScope() exception caught: 0x%X
+[CIWrapper] CQuerySession::AddScopeList() exception caught: 0x%X
+[CIWrapper] CQuerySession::CreateEnumerator: QI failed for reason 0x%X
+[CIWrapper] CQuerySession::CreatePropRetriever failed to create CCiCDeferredPropRetriever
+[CIWrapper] CQuerySession::Init() exception caught: 0x%X
+[CIWrapper] CSecurityCache: failed to get token handle. Error (%d) 
+[EventLog] CEventLog::Report() called; Severity 0x%04x, Category %d, Args %d
+[EventLog] EventLog could not be registered! Error 0x%08x
+[EventLog] ReportEvent() Failed. 0x%08x
+[Exceptions] GetOleError - mapping %08x to E_FAIL
+[Exceptions] mr mid for error %#x
+[Filter Registration] Indexing Services model for  path: %ws 0x%x 
+[Filter Registration] Indexing Services model for extension %ws 0x%x 
+[Filter Registration] Indexing Services model for mime type %ws via extension %ws 0x%x 
+[Filter Registration] Indexing Services model for mime type %ws; no extension/clsid found so use path: %ws 0x%x 
+[IDXPIDestruction] CRequestServer, _cRefs is %d
+[IDXPIDestruction] CRequestServer::CRequestServer constructor is called
+[IDXPIDestruction] CRequestServer::Release, _cRefs is %d before decrement
+[IDXPIGlobalObjectManager] The First RequestServer Named Pipe is created!!!!!!
+[IDXPIPerfCntr] Attempt to load PerfCounters failed; 64 must already loaded!
+[IDXPIPerfCntr] Attempt to load PerfCounters succeeded!
+[IDXPIPerfCntr] Attempting to load PerfCounters...
+[IDXPIPerfCntr] CreateInstance() was called with an invalid index
+[IDXPIPlugin] CPipeServer::Connect
+[IDXPIPlugin] CRequestServer::DeferredAPC for _pWorkThread 0x%x
+[IDXPIPlugin] CRequestServer::DoIt for pThread 0x%x is being removed!
+[IDXPIPlugin] CRequestServer::DoIt for pThread 0x%x is not being removed!
+[IDXPIPlugin] CRequestServer::Release, _pevtDone
+[IDXPIPlugin] CRequestServer::Release, about to delete this
+[IDXPIPlugin] Exception caught in CRequestQueue::LookupDocStore(). hr=%08X
+[IDXPIPropMapper] AddEntry %u for %ws
+[IDXPIPropMapper] CPidLookupTable::AddEntry: Adding PropertyName %ws (NormalizedName %ws) to the %dth entry
+[IDXPIPropMapper] CPidLookupTable::AddEntry: Adding propid 0x%x to the %dth entry
+[IDXPIPropMapper] CPidLookupTable::AddEntry: GrowAndRehash
+[IDXPIPropMapper] CPidLookupTable::AddEntry: Pid added is 0x%x
+[IDXPIPropMapper] CPidLookupTable::Lookup: pwcNormName is %ws
+[IDXPIPropMapper] CPidLookupTable::StoreInTable, Hash value is %d
+[IDXPIPropMapper] FindPropid propid found: iEntry is %d
+[IDXPIPropMapper] FindPropid propid found: rPid is 0x%x
+[IDXPIPropMapper] FindPropid propid not found
+[IDXPIPropMapper] FindPropid, length of the Normalized name %ws is %d
+[IDXPIPropMapper] HashString: %ws
+[IDXPIPropMapper] PropertyToPropid: calls FindPropid on pidTable
+[IDXPIPropMapper] PropertyToPropid: resulted pid is 0x%x
+[IDXPIPropMapper] PropidToProperty: resulted propid is 0x%x
+[Index] ~CAllocStorageVariant -- Memory Leak: vt=%x
+[Index] before %#x, after %#x
+[Index] can't SFF, %d mappings are open
+[Index] CComparators::GetComparator Unknown property type %d in comparison.
+[Index] CComparators::GetPointerComparator Unknown property type %d in comparison.
+[Index] CDbProperties::Marshall, emit %d of %d properties
+[Index] CDriveInfo::IsWriteProtected[%wc]: dwError is %d
+[Index] CFunnyPath::SetPath - The path (%ws) is not valid.
+[Index] closing a stream with %d open views
+[Index] CLowerFunnyPath::SetPath - path (%ws) is not valid.
+[Index] CLSIDFromString for language resource clsid %ws failed 0x%x 
+[Index] CMmStream::ExtendFile - SetEndOfFile returned %#x
+[Index] CMmStream::ExtendFile - SetFilePointer returned %d
+[Index] CMmStream::Map -- MapViewOfFile returned %#x
+[Index] CMmStream::Map -- reducing map to 0x%x bytes
+[Index] CMmStream::Open -- Not enogh disk space, need %I64d have %I64d
+[Index] CMmStream::SetSize -- Map handle close failed %#x
+[Index] CMmStream::SetSize -- Not enogh disk space, need %I64d have %I64d
+[Index] CMmStream::ShrinkFromFront: can't re-establish the map: Error %#x
+[Index] CMmStream::ShrinkFromFront: set zero data failed %#x
+[Index] CMmStream::Write -- Not enogh disk space, need %I64d have %I64d
+[Index] Create instance for language resource in dll %ws failed 0x%x 
+[Index] CreateFile(%ws) failed: hr = 0x%x
+[Index] CreateFile(%ws) returned %#x
+[Index] Creating default wordbreaker
+[Index] DocStore Is not providing property mapper. Error 0x%X
+[Index] DoSetCatState sc is %d or %#x
+[Index] Error 0x%x lowercasing path
+[Index] Exception 0x%x caught during cimanager internal shutdown
+[Index] Exception 0x%X caught in CSecurityStoreWrapper::Init
+[Index] Exception 0x%x caught:  GetOverrideProperties failed
+[Index] Exception 0x%x caught:  LoadStemmer for locale 0x%x failed 
+[Index] Exception 0x%x caught:  LoadWordBreaker for locale 0x%x failed 
+[Index] Exception 0x%x caught: LoadLanguageParameter for locale 0x%x failed 
+[Index] Exception 0x%x caught: LoadNeutralWordBreaker
+[Index] Exception 0x%x caught: LoadNoiseWordList for locale 0x%x failed 
+[Index] Exception 0x%x caught: LoadTsaurusFile for locale 0x%x failed 
+[Index] Exception 0x%X in LookupEnterpriseSDID
+[Index] Flush
+[Index] FlushFileBuffers failed, error %#x, throwing: %d
+[Index] FlushViewOfFile failed, error %#x, throwing: %d
+[Index] Get volume handle succeeded for volume %wc
+[Index] GetFileSize %ws failed
+[Index] GetProcAddress of DllGetClassObject for language resource dll %ws failed 0x%x 
+[Index] GetSettings - caught exception 0x%x
+[Index] Invalid argument(s) passed.
+[Index] IsDBCSCodePage failed, 0x%x
+[Index] LoadLibrary for language resource dll %ws failed 0x%x 
+[Index] Map
+[Index] Must have had allocation error.
+[Index] QueryServerThreadProc exception error 0x%x
+[Index] Read
+[Index] ReadFile %#x, into %#p, offset %#I64x cb, %d
+[Index] RegQueryValueEx (%ws) returned 0x%x
+[Index] SecurityStoreWrapper::Empty exception 0x%X
+[Index] SetSize
+[Index] SFF attempt start 4k page 0x%x, 0x%x pages
+[Index] SFF succeeded
+[Index] ShrinkFromFront
+[Index] ShutdownActiveServers is called
+[Index] Unexpected SafeArray type: vt=%x
+[Index] Unhandled child (%d) of class CRestriction
+[Index] Unhandled child (%d) of class CRestriction during unmarshaling
+[Index] Unknown property type %d (%x) used in comparison.
+[Index] Unmap
+[Index] UnmapViewOfFile returned %#x
+[Index] UnmarshallRowSeekDescription, invalid eMethod: %d
+[Index] Write
+[Index] WriteFile %#x, from %#p, offset %#I64x cb, %d
+[OTHER]
+[Parse] Absolute Coercion node with value of %f
+[Parse] Addition Coercion node with value of %f
+[Parse] Content node with weight %d
+[Parse] Freetext node with weight %d
+[Parse] Multiplication Coercion node with value of %f
+[Parse] NOT node with weight of %d
+[Parse] Parse: %s node, %d restrictions, %d weight
+[Parse] Parse: VECTOR node, %d restrictions, RankMethod %lu, Weight %d
+[Parse] ParseContentExpression: Proximity node, %d restrictions, weight %d
+[Parse] Reg Expr node with weight of %d
+[Parse] Relational "maybe" Property node with weight %d
+[Parse] Relational Property node with weight %d
+[PerfCounter] BAD: AddTo not initialized counter
+[PerfCounter] BAD: Decrement not initialized counter
+[PerfCounter] BAD: Increment not initialized counter
+[PerfCounter] BAD: Set not initialized counter
+[PerfCounter] BAD: Unable to add to(+=) counter, it has never been set correctly
+[PerfCounter] BAD: Unable to decrement counter, it has never been set correctly
+[PerfCounter] BAD: Unable to increment counter, it has never been set correctly
+[PerfCounter] BAD: Unable to set counter, it has never been set correctly
+[PerfCounter] MSFTESQL:  Writing out data for %ls instance %ls.
+[PerfCounter] MSFTESQL:  Writing out data for %ls with no instances.
+[PerfCounter] MSFTESQL: cannot create share "%ls" it already exists.
+[PerfCounter] MSFTESQL: cannot create share "%ls" it already exists. 0x%08x
+[PerfCounter] MSFTESQL: Cannot get perf statistics on library %ls.
+[PerfCounter] MSFTESQL: Cannot open Reg Key "%ls".  Error 0x%08x in RegOpenKeyEx.
+[PerfCounter] MSFTESQL: Cannot open shared memory "%ls".  Error 0x%08x in MapViewOfFile.
+[PerfCounter] MSFTESQL: Cannot open shared memory "%ls".  Error 0x%08x in OpenFileMappingW.
+[PerfCounter] MSFTESQL: Cannot query value First Counter in reg key "%ls".  Error 0x%08x in RegQueryValueEx.
+[PerfCounter] MSFTESQL: Close() performing final termination.
+[PerfCounter] MSFTESQL: CreateFileMapping() failed: share "%ls" 0x%08x
+[PerfCounter] MSFTESQL: did not open correctly.
+[PerfCounter] MSFTESQL: failed to load perfmon info from registry
+[PerfCounter] MSFTESQL: Foreign request not supported.
+[PerfCounter] MSFTESQL: found object %ls with %d instances.
+[PerfCounter] MSFTESQL: found object %ls with no instances.
+[PerfCounter] MSFTESQL: In Close(): opencount = %u.
+[PerfCounter] MSFTESQL: In Collect().  Query='%ls'.
+[PerfCounter] MSFTESQL: In Open() function.
+[PerfCounter] MSFTESQL: In PerfmonIDXClose(): opencount = %u.
+[PerfCounter] MSFTESQL: In PerfmonIDXCollect().  Query='%ls'.
+[PerfCounter] MSFTESQL: In PerfmonIDXOpen() function.
+[PerfCounter] MSFTESQL: Initialization succeeded.
+[PerfCounter] MSFTESQL: Insufficient buffer. Size=%u, Needed=%u.
+[PerfCounter] MSFTESQL: MapViewOfFile( ) failed: share "%ls" 0x%08x
+[PerfCounter] MSFTESQL: Object %ls requested.
+[PerfCounter] MSFTESQL: Object %ls requesting %u bytes.
+[PerfCounter] MSFTESQL: Open count is now %d.
+[PerfCounter] MSFTESQL: PerfmonIdxClose() performing final termination.
+[PerfCounter] MSFTESQL: Saving performance data for %ls.
+[PerfCounter] MSFTESQL: space needed = %u.
+[PerfCounter] PerformanceLibraryDefinition::Init() Failed
+[PerfCounter] pmo::Load() failed because library did not init OK
+[PerfCounter] pmo::Load() failed because object is already loaded
+[PerfCounter] spo::Load() failed because CreateInstance() failed
+[PerfCounter] spo::Unload() failed because object was not loaded
+[PidTable] Named property: ID = 0x%x, Name = %ws
+[PidTable] Numbered property: ID = 0x%x, Property System ID = %u
+[PropTime] Failed to fetch value (pid = 0x%x)
+[PropTime] Not enough space to fetch value (pid = 0x%x)
+[PropTime] Sharing violation fetching value (pid = 0x%x)
+[Proxy] ~CPipeClient: 0x%x
+[Proxy] apc %s t 0x%x p %#x msg %d cb %d err %d
+[Proxy] cached/busy items: %d / %d
+[Proxy] CancelAPC caught 0x%x
+[Proxy] Canceling server %p io pipe %p
+[Proxy] cb old props %d, cb new props: %d
+[Proxy] closing pipe: %#x
+[Proxy] connect clientver %d, remote %d, machine '%ws', user '%ws'
+[Proxy] connecting from pipe 0x%x
+[Proxy] converting from vt: %#x
+[Proxy] Converting new props to old props, catalog '%ws'
+[Proxy] CPipeServer::Connect.. GetLastError() == %d
+[Proxy] created pipe %#x
+[Proxy] created pipe 0x%x
+[Proxy] DataWriteRead msg %d, cb %d
+[Proxy] deleting server pipe 0x%x
+[Proxy] disable notify
+[Proxy] disabled notify
+[Proxy] Disconnect of server %p failed %d
+[Proxy] disconnecting from pipe 0x%x
+[Proxy] doit CRequestServer %p
+[Proxy] DoWork exception error 0x%x
+[Proxy] dwr done, msg %d cb: %d
+[Proxy] dwr done, other, cb: %d
+[Proxy] dwr done, this, cb: %d
+[Proxy] dwr eventdata triggered, _pvDataTemp: %p
+[Proxy] dwr tossing spurious notify msg %d cb: %d
+[Proxy] enable notify
+[Proxy] enabled notify
+[Proxy] exception in APC error %#x, this %#x, pipe %#x
+[Proxy] failed initial read error 0x%x, pipe %p
+[Proxy] finish msg %d, cb %d, sc 0x%x, to pipe %#x
+[Proxy] freecursor failed 0x%x, rudely terminating connection
+[Proxy] GetRows returned 0x%x
+[Proxy] HandleRequestNoThrow rs %p msg %d caught 0x%x
+[Proxy] more data available
+[Proxy] NotifyWriteRead complete cb %d, msg %d
+[Proxy] Out of CRequestQueue::DoWork reason=%d
+[Proxy] peek says no more to read
+[Proxy] ReadFileEx cb %d this 0x%x, pipe 0x%x
+[Proxy] Releasing request server %p
+[Proxy] Rowset props cmdtimeout: %d
+[Proxy] Rowset props flags: 0x%x
+[Proxy] Rowset props maxresults: %d
+[Proxy] Status at end of getrows: 0x%x
+[Proxy] status at end of getrows: 0x%x
+[Proxy] Successfully disconnected an idle client.
+[Proxy] this=%p destructing pipe 0x%x
+[Proxy] total msg cb: %d
+[Proxy] type %d, %d scopes, %d depths
+[Proxy] wait for RequestServer
+[Proxy] waiting for connect of pipe %#x
+[Proxy] wfsoex wakeup: %d
+[Proxy] WriteFileEx cb %d this 0x%x pipe 0x%x
+[Query] _hashCanonicalName already contains same entry for element %d
+[Query] Add worker thread %d of %d
+[Query] caching sdid %x, granted: %x
+[Query] Catastrophic error 0x%x in EvalQuery
+[Query] cbPickleBuf %d, cbInput %d
+[Query] CCanonicalNameEntry: GetCanonicalName failed hr %0xd
+[Query] CCanonicalNameEntry: GetSearchInfoFlags failed hr %0xd
+[Query] CCanonicalNameEntry: QI failed hr %0xd
+[Query] CCanonicalNameEntry: skipping element flags %0xd
+[Query] CGetCmdProps::SetCardinalityValue -- Cardinality mismatch
+[Query] CopyDbProp: index value out of range: %x
+[Query] CopyDbProp: Invalid VARIANT type: %x
+[Query] Could not allocate DBPROPSET array for GetProperties
+[Query] CParseCommandTree - child list in multi-nested command tree ignored
+[Query] CPidRemapper:PropertyToPropid - Exception caught 0x%x
+[Query] CPidRemapper:PropidToProperty - Exception caught 0x%x
+[Query] CQueryOptimizer::FetchDeferredValue failed, 0x%x
+[Query] Creating ScopeEnumerator
+[Query] CRequestServer::DoCreateQuery, GetPropertyMapper failed
+[Query] CSdidLookupTable::AccessCheck failed, GetLastError is %d
+[Query] CSvcQuery: Query already active.
+[Query] CValueIndex constructor CreateValueIndexRetriever failed: 0x%x
+[Query] DBOP_content_feedback: cres is %d
+[Query] DBOP_content_probabilistic: cres is %d
+[Query] DbProp.dwPropertyID: %x has dwStatus= %x
+[Query] DBPROP_CI_QUERY_TYPE: invalid variant type: %x
+[Query] Deleting extra idle thread
+[Query] disconnect failed: error 0x%x
+[Query] DoCreateQuery - GetPropertyDatabase failed 0x%x
+[Query] DoCreateQuery - QI for property mapper failed 0x%x
+[Query] DupImpersonationToken failed to get token, %x
+[Query] ERROR: regex string value of 0 
+[Query] Exception %08x while creating query
+[Query] Exception %08x while doing QueryInterface 
+[Query] Exception 0x%x caught creating query worker threads. Running with %d threads.
+[Query] Exception 0x%x caught in CQSeqExecute::GetRows
+[Query] Failed to do GetProperties (0x%X)
+[Query] GetDiskFreeSpace( %ws ) returned %d
+[Query] GetDiskFreeSpaceEx( %ws ) returned %d
+[Query] GetWeight: Unknown DBOP: %d
+[Query] Got an Invalid PropertySet
+[Query] Got an Invalid Variant
+[Query] Growing DFA state array.
+[Query] Growing NFA State transition array.
+[Query] Hit an Invalid variant type
+[Query] Inavlid Machine Count: %x
+[Query] Initialization must occur before IDBInfo can be called
+[Query] Insufficient Resource.
+[Query] Integer Overflow.
+[Query] Invalid CI_QUERY_TYPE values: %x
+[Query] Invalid ClientGuid, cGuids = %x
+[Query] Invalid DBPROP_COMMANDTIMEOUT values: %x
+[Query] Invalid regex (%wc at end of string
+[Query] Invalid regex.
+[Query] Invalid regex.  Missing %wc
+[Query] Invalid regex.  Nothing to repeat.
+[Query] Invalid regex. Nothing to repeat
+[Query] Invalid regex. Nothing to repeat.
+[Query] Invalid regex: End repeat count %d < start %d
+[Query] Invalid regex: Nested repeats?
+[Query] Invalid regex: No end to repeat specification.
+[Query] Invalid regex: Repeat count %d out of bounds.
+[Query] Invalid regex: Repeat count %d too big.
+[Query] Invalid value for PropertyID(%x)
+[Query] InvalidPropertyID(%x)
+[Query] isidle? %d
+[Query] lokCreatePropnameTable: GetAt failed at %d element hr %0xd
+[Query] lokCreatePropnameTable: GetAt skipped %d element
+[Query] lokCreatePropnameTable: GetPropertyDescriptionByName(System.Null) failed hr %0xd
+[Query] Marshalled size = %d bytes
+[Query] Marshalling invalid restriction!
+[Query] No class factory is available for CLSID_EXTENDEDERROR.
+[Query] non-Native PropID(%x)
+[Query] ParseTree - null tree
+[Query] ParseTree - unexpected operator %d
+[Query] PropID: %x, dwStatus: %x
+[Query] PropStatus (0x%X) for (%d) th property
+[Query] pWorker->DoIt() failed with error 0x%x
+[Query] ResumeThread result 0xffffffff and error %d waiting for thread %d to die
+[Query] SetError - node %x error %x
+[Query] SetProperties dwOptions Invalid: %u
+[Query] skipped PropID(%x)
+[Query] Svc IInternalQuery unreferenced.  Deleting.
+[Query] Unexpected pProp[j].dwStatus: j=%x, dwStatus=%x 
+[Query] Unhandled expression type %d
+[Query] Value index fetch of property for row (wid = 0x%x) failed %d
+[Query] Value index query column 0x%x copy failed srcvt 0x%x, offset 0x%x, dbstat 0x%x
+[Query] Value index query column 0x%x copy failed srcvt 0x%x, workid 0x%x, dbstat 0x%x
+[Query] Wait result %d and error %d waiting for thread %d to die
+[Query] Waited 1 second for thread %d to die
+[Query] Work queue shutdown: exiting
+[Query] Work queue shutdown: woke up threads
+[Query] work queue, shutdown, so not adding item
+[Query] Work queue: %d pending
+[Query] Work queue: abort worker thread.
+[Query] Work queue: add 0x%x
+[Query] Work queue: delete 0x%x
+[Query] Work queue: remove 0x%x
+[Query] Worker 0x%x: done waiting for death
+[Query] Worker 0x%x: SET completion
+[Query] Worker 0x%x: WAIT for death
+[Query] Worker: SET available
+[Query] WorkerThread 0x%x: exiting
+[QUtil] GetLCIDFromString is %ws; lcid=0x%x
+[QUtil] GetStringFromLCID: browser locale is %ws; lcid=0x%x
+[QUtil] GetStringFromLCID: browser locale not found, lcid=0x%x
+[Regex] "%c" --> 
+[Regex] Adding transition from %u on %u to %u
+[Regex] DFA move[ %u, %u ] = %u
+[Regex] First range = 
+[Regex] RANGE
+[Regex] Range %u to %u
+[Regex] REPEAT: At least %u times
+[Regex] REPEAT: Exactly %u times
+[Regex] Secondary range = 
+[Regex] Singleton = %u
+[Regex] Undefined transition from %u on %u
+[Results] Worker 0x%x: WAIT for work
+[Results] Worker: RESET available
+[SrchCommon] Exception caught in CCICommonPathString::CCICommonPathString(). hr=%08X
+[SrchCommon] Exception caught in CSearchBinPathString::CSearchBinPathString(). hr=%08X
+[SrchCommon] Registry does not seem to be configured correctly
+[UtilCommon] Error %d in CEventSem
+[UtilCommon] Integer overflow occurred while computing the size of buffer to be allocated.
+[UtilCommon] InternalStringHash is returning fixed value, 0, as hash value.Possibly caused by empty string.
+[UtilCommon] LCMapString() converted %ld out of %ld characters
+[UtilCommon] TComPointer<T>::InitializeByQI: QI failed! 0x%08x
+[UtilCommon] TPointer::operator&: Possible resource leak - m_pT not zero
+[UtilFileSystem] CreateDirectory %ls failed. 0x%08x
+[UtilFileSystem] Error delnoding '%ls'. 0x%08x
+[UtilFileSystem] SetFileSecurity %ls failed. 0x%08x
+[UtilSecurity] ImpersonateLoggedOnUser failed. 0x%08x
+[UtilSecurity] OpenThreadToken() failed with error 0x%08x.
+[UtilSecurity] RevertToSelf() failed. 0x%08x
+[UtilSecurity] SetSecurityDescriptorDacl failed. 0x%08x
+[Words] %ws
+[XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX]
+\$$;\$
+\$$;\$ 
+\$$;\$8
+\$$9_
+\$$f;E
+\$(9_
+\$@f;
+\$<f;
+\*\.[^\.]*
+\\.\a:
+\\.\pipe\
+\\?\UN
+\|\[(.)\]
+\|\[(..+)\]
+\|\[.[^\[\]]+\]
+\EFFkkF
+\Implemented Categories
+\InprocServer32
+\onecoreuap\base\appmodel\Search\tquery\internal\include\tgrow.hxx
+\pipe\
+\Projects\
+\Required Categories
+\SOFTWARE\Microsoft\Windows Search
+];7sY
+^(?:ABORT|ACTION|ADD|AFTER|ALL|ALTER|ALWAYS|ANALYZE|AND|AS|ASC|ATTACH|AUTOINCREMENT|BEFORE|BEGIN|BETWEEN|BY|CASCADE|CASE|CAST|CHECK|COLLATE|COLUMN|COMMIT|CONFLICT|CONSTRAINT|CREATE|CROSS|CURRENT|CURRENT_DATE|CURRENT_TIME|CURRENT_TIMESTAMP|DATABASE|DEFAULT|DEFERRABLE|DEFERRED|DELETE|DESC|DETACH|DISTINCT|DO|DROP|EACH|ELSE|END|ESCAPE|EXCEPT|EXCLUDE|EXCLUSIVE|EXISTS|EXPLAIN|FAIL|FILTER|FIRST|FOLLOWING|FOR|FOREIGN|FROM|FULL|GENERATED|GLOB|GROUP|GROUPS|HAVING|IF|IGNORE|IMMEDIATE|IN|INDEX|INDEXED|INITIALLY|INNER|INSERT|INSTEAD|INTERSECT|INTO|IS|ISNULL|JOIN|KEY|LAST|LEFT|LIKE|LIMIT|MATCH|NATURAL|NO|NOT|NOTHING|NOTNULL|NULL|NULLS|OF|OFFSET|ON|OR|ORDER|OTHERS|OUTER|OVER|PARTITION|PLAN|PRAGMA|PRECEDING|PRIMARY|QUERY|RAISE|RANGE|RECURSIVE|REFERENCES|REGEXP|REINDEX|RELEASE|RENAME|REPLACE|RESTRICT|RIGHT|ROLLBACK|ROW|ROWS|SAVEPOINT|SELECT|SET|TABLE|TEMP|TEMPORARY|THEN|TIES|TO|TRANSACTION|TRIGGER|UNBOUNDED|UNION|UNIQUE|UPDATE|USING|VACUUM|VALUES|VIEW|VIRTUAL|WHEN|WHERE|WINDOW|WITH|WITHOUT)$
+^[a-zA-Z_][a-zA-Z0-9_]*$
+_ Ku?
+_\_^[]
+_^[Y]
+__current_exception
+__current_exception_context
+__CxxFrameHandler3
+__isascii
+__std_terminate
+__std_type_info_compare
+__TYPE
+_0_^[]
+_6iB*
+_ABSOLUTE
+_AFTER
+_AGGREGATE
+_ALLVERSION_TRAVERSAL
+_AROUND
+_ARRAY
+_BEFORE
+_BETWEEN
+_BITWISE
+_BYFREQUENCY
+_CAST
+_CheckWordList: Queue Flush (%d docs, %d bytes)
+_CHILDCOUNT
+_COALESCE_TABLE
+_COERCE
+_COERCION
+_CONST
+_CONTAINS
+_CONTENTS
+_COUNT
+_CxxThrowException
+_DATA_
+_DATE
+_DATEADD
+_DATERANGE
+_DATEUNIT
+_DAY_PLUS
+_DEEP_ALLVERSION_TRAVERSAL
+_DEEP_LATESTVERSION_TRAVERSAL
+_DEEP_TRAVERSAL
+_DEFAULT
+_DELIMITED_ID
+_DESC
+_DOTDOT_SCOPE
+_except_handler4_common
+_EXCLUDE_SEARCH_TRAVERSAL
+_f;|$ 
+_FALSE
+_FIRST
+_ForceMasterMerge@16
+_FORMSOF
+_FREETEXT
+_FROM
+_GETGMTDATE
+_GROUP_ON
+_HOUR
+_IN_GROUP
+_initterm
+_initterm_e
+_INTERVALS
+_INTNUM
+_IS_NOT
+_ISABOUT
+_LATESTVERSION_TRAVERSAL
+_LIKE
+_MATCHES
+_MAX_TOKEN
+_MIN_TOKEN
+_MINUTE
+_MINVALUE
+_MONTH
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_MULTIPLY
+_NEAR
+_NOT_LIKE
+_NtQuerySystemInformation@16
+_NULL
+_o____lc_codepage_func
+_o___std_exception_copy
+_o___std_exception_destroy
+_o___std_type_info_destroy_list
+_o___stdio_common_vsnprintf_s
+_o___stdio_common_vsnwprintf_s
+_o___stdio_common_vsprintf
+_o___stdio_common_vswprintf
+_o___stdio_common_vswscanf
+_o__aligned_free
+_o__aligned_malloc
+_o__callnewh
+_o__cexit
+_o__CIlog
+_o__configure_narrow_argv
+_o__crt_atexit
+_o__errno
+_o__execute_onexit_table
+_o__initialize_narrow_environment
+_o__initialize_onexit_table
+_o__invalid_parameter_noinfo
+_o__invalid_parameter_noinfo_noreturn
+_o__itow_s
+_o__recalloc
+_o__register_onexit_function
+_o__seh_filter_dll
+_o__stricmp
+_o__ultow
+_o__ultow_s
+_o__wcsicmp
+_o__wcsnicmp
+_o__wcsupr
+_o__wtol
+_o_abort
+_o_ceil
+_o_floor
+_o_free
+_o_iswalpha
+_o_iswdigit
+_o_iswspace
+_o_iswxdigit
+_o_log2
+_o_malloc
+_o_qsort
+_o_realloc
+_o_strerror
+_o_terminate
+_o_tolower
+_o_towlower
+_o_towupper
+_o_wcscat_s
+_o_wcscpy_s
+_o_wcsncpy_s
+_o_wcstol
+_o_wcstoul
+_o_wmemcpy_s
+_OCC_
+_ORDER
+_OVER
+_PASSTHROUGH
+_PREFIX_STRING
+_Properties
+_PROPERTYNAME
+_PropertyStore
+_PropertyStore_Metadata
+_PROPID
+_QUARTER
+_Query_perf_counter
+_Query_perf_frequency
+_RANGE_BOUNDARY_AFTER
+_RANGE_BOUNDARY_BEFORE
+_RANK_BY
+_RANKMETHOD
+_REALNUM
+_REPRESENTATIVEOF
+_REUSEWHERE
+_SCALAR_FUNCTION_REF
+_SECOND
+_SELECT
+_SHALLOW_ALLVERSION_TRAVERSAL
+_SHALLOW_LATESTVERSION_TRAVERSAL
+_SHALLOW_TRAVERSAL
+_SOME
+_Strcoll
+_STRING
+_Strxfrm
+_t6j|Xf9
+_TABLE
+_Thrd_sleep
+_TRUE
+_UMINUS
+_UNION
+_UNKNOWN
+_USING
+_Wcscoll
+_Wcsxfrm
+_WEEK
+_WEIGHT
+_WEIGHTFACTOR
+_WHERE
+_WITH
+_Xtime_get_ticks
+_YEAR
+`.data
+`syLS
+{{{{{{
+{|}?_~J
+{00000000-0000-0000-0000-000000000000}
+{1D49F57D-47D2-4AEE-A69B-593EC558773F}
+{4D144E38-5812-4F6D-A82A-C60A8F7E68D6}
+{549a76d6-172f-432e-99fe-cdeb36a4aa02}
+{78FE669A-186E-4108-96E9-77B586C1332F}
+{HtA+
+{X;{Xt)
+{zz|{y{{{{
+|$ WQ
+|$$#P
+|$$f9
+|$$Yj
+|$\;w
+|$<;_
+|$<;w
+|$D;w
+|$H;w
+|$hWQ
+|$L;w
+|$pWQ
+|$T#P
+|(:*;))
+||&|V
+~ [_^
+~ 9_ 
+~H9~Dt
+~L|u\
+~L}uI
+~LY9~Ht
+~p_^]
++;Y$r
++](VW
++0A0`0
++2k5$8l9
++F,;C\vq
++F4j4
++GL+OL
++GL+OL;
+< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
+< <,<L<T<\<h<
+< <@<L<l<x<
+< <N<~<s=
+< =R=
+<!<1<<<
+<!<1<A<Q<a<q<
+<!=>=D=b=
+<!=J=
+<"<2<B<R<b<r<
+<"<6<E<o<{<
+<"=R=
+<#<;<Y<z<
+<#<+<;<@<i<
+<#<5<9<=<A<E<I<M<Q<U<Y<]<
+<#<Q<
+<#=?=i=
+<#=@=S=
+<$<,<4<<<D<L<d<p<x<
+<$<,<4<<<D<L<T<\<d<l<t<|<
+<$<,<4<<<D<L<T<\<d<l<x<
+<$<,<4<<<D<L<T<\<h<
+<$<,<4<L<X<x<
+<$<@<P<\<|<
+<$<L<W<d<
+<%<,<H<{<
+<%<E<\<
+<%=R=g=
+<&<_<
+<&<8<
+<&<h<
+<&<U<p<
+<&=E=
+<(<@<[<|<
+<(<4<T<\<d<l<t<
+<(<H<P<\<|<
+<(<L<T<\<d<l<t<|<
+<(=A=
+<)</<=<B<
+<)<\<
+<)<9<c<
+<)=3>
+<)=r=
+<)=z=
+<*<^<o<
+<*<~<
+<*<A<
+<*<c<l<
+<*<J<
+<*=7=_=y=
+<,<<<H<P<h<x<
+<,<4<<<D<L<T<\<d<p<
+<,<4<<<H<h<p<x<
+<,<8<@<t<
+<,<m=z=
+<,=0=`=d=
+<,=t=
+<,=w=
+<,=Y=}=
+</<A<Y<
+</=5=
+</>6>
+</cWids></Rst>
+</FakePid>
+</FPS>
+</FPS></PidDef>
+</GenerateMethod>
+</Groups>
+</Key>
+</Keys></Rst>
+</Loc></SortKey>
+</Locale>
+</MaxReslt><QTmOut>
+</Occ>
+</Occ><Wt>
+</op>
+</OpAnd>
+</OpBitwise>
+</OpExpression>
+</OpFreeText>
+</OpNear>
+</OpNot>
+</OpOr>
+</OpPhrase>
+</OpProperty>
+</OpRank>
+</OpScope>
+</OpVectorProperty>
+</Ord><Loc>0x
+</Phase>
+</Phrase><Locale>
+</Pid>
+</Pid><Ord>
+</Pid><Properties Count=
+</Pid><Wt>
+</PidMap>
+</Properties></ColGroup
+</PropFlags><MaxReslt>
+</QTmOut>
+</QueryCols>
+</QueryID>
+</RealPid>
+</Rst>
+</RstCollection>
+</RstTree>
+</SortCols>
+</var>
+</Wt></ColProp>
+</Wt></Rst>
+<:<v<
+<:=]=
+<:=B={=
+<;<L<v<
+<;<p<
+<?=3>b>
+<?u&3
+<@<O<p<
+<@<P<\<|<
+<[<b<s<
+<\<j<
+<^<g<
+<^<x<
+<^=}=
+<^=f=q=
+<+<8<c<
+<+=_=
+<+=|=
+<'<_<r<
+<<<\<|<
+<<<<===============================================???????????
+<'<-<2<<<A<K<P<
+<<<l<
+<<<L<T<\<d<l<t<
+<<<X<h<t<|<
+<<=`=
+<'<c<k<
+<'<C<W<
+<-<K<~<
+<'=]=v=}=
+<'=-=
+<'=E=
+<'=T=t=
+<'=x=
+<-=X=e=
+<><$=H=d=N>e>o>
+<><X<d<
+<0<?<Z<p<
+<0<<<\<d<l<t<
+<0<<<\<h<p<
+<0<6<Y<e<
+<0<7<J<
+<0<H<T<`<l<x<
+<0<H<U<b<
+<0<J<
+<0<O<_<
+<0F0|0
+<0H1_1e1
+<1<E<Y<m<
+<1=o>
+<2<?<T<[<k<
+<2<k<
+<2<U<x<
+<2=?=f=
+<2=r=x=
+<3<[<h<
+<3<><f<
+<3<B<m<r<
+<3<B<Q<
+<3<g<
+<3<Q<
+<3=K=
+<4<@<`<h<t<
+<4<@<`<l<
+<4<@<H<`<x<
+<4<8<X<h<
+<4<D<P<p<x<
+<4<n<
+<4<P<`<l<t<
+<4<Y<f<
+<4=:=
+<4=d=
+<5?g?
+<5<?<X<f<
+<5=K=q=
+<6<<<
+<6<C<Y<r<
+<6<H<
+<6=P=
+<7<o<
+<7=w=
+<7>a>
+<8=F=l=
+<8=R=i=
+<9<H<
+<9=a=i=
+<9=q=
+<A<N<Z<`<h<w<
+<A<y<
+<Aj]_f
+<B<_<
+<B<H<R<_<}<
+<B=\=}=
+<base Indexing Service dbtype>
+<bitwise comparison operator>
+<boolean comparison operator>
+<c<p<z<
+<C=f=f>
+<C=R=a=k=q={=
+<C=v=
+<ColGroup><Pid>0x
+<ColProp><Pid>0x
+<contentHelper>
+<D<V<`<j<v<
+<d=m=w=
+<D=S=n=
+<d=v=
+<d=w=
+<E<*=J=j=
+<E<p<}<
+<E<T<
+<E=&>o>
+<end of input>
+<f<o<)=h=
+<F<t<
+<f=+>>>
+<FPS>
+<G<U<
+<g=o=z=
+<GenerateMethod>
+<Groups Count="
+<H<`<m<
+<H<c<i>{>
+<H<k<
+<H=k=
+<I=N=X=
+<I=u=
+<J<h<
+<J<v<
+<Key PID="0x
+<Keys Count="
+<L<]<w<
+<L<x<
+<l>H?
+<literal>
+<m<~<
+<n=x=
+<none>
+<O<i<|<
+<Occ>
+<OpAll
+<OpAnd
+<OpBitwise 
+<OpCombinedRank PIDRanks='
+<OpDocSet CustomWidSet='
+<OpDocSet WIDS='
+<OpExpression
+<OpFreeText
+<OpNear
+<OpNone
+<OpNot
+<OpOr
+<OpPhrase
+<OpProperty 
+<OpRange
+<OpRank type='
+<OpReuseWhere ID='
+<OpScope
+<OpVectorProperty 
+<OpWord PIDs='
+<pF;u
+<Phase>
+<Pid>0x
+<PidDef><FakePid>0x
+<PidMap>
+<PropFlags>0x
+<Q<'=
+<Q<c<
+<QueryCols Count="
+<QueryID>%#x</QueryID><catalog>%ls</catalog><cver>0x%x</cver><LCID>%d</LCID>%ls
+<QueryID>%#x</QueryID><ErrMsg>Exception creating query retail trace 0x%08x</ErrMsg>
+<QueryID>%#x</QueryID><msgtype>CreateQuery</msgtype><ErrMsg>%ls</ErrMsg><HR>0x%08x</HR>
+<QueryID>%#x</QueryID><msgtype>HandleRequest</msgtype><ErrMsg>%ls</ErrMsg><HR>0x%08x</HR>
+<QueryID>%#x</QueryID><RowsReq>%d</RowsReq><RowsRcvd>%d</RowsRcvd><HR>0x%08x</HR>
+<QueryID>0x
+<RealPid>0x
+<Rst Type="
+<RstCollection Count="
+<RstTree>
+<S<x<
+<S=j=
+<SortCols Count="
+<SortKey><Pid>0x
+<SVWh
+<SVWQ
+<T<r<
+<t=z=
+<U=_=i=
+<Vhhy
+<X=m=
+= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+= =(=0=8=@=L=l=x=
+= =(=0=8=D=d=p=
+= =,=L=T=\=
+= ='=D=M=a=
+= =0=@=M=a=q=~=
+= =0=<=D=d=
+= =8=D=P=h=
+'= all', '= some'
+=!=*=F=
+=!=+=
+=!=-=4=9=>=D=M=R=X=_=i=m=w=
+=!>&>0>Q>V>`>
+=!>W>h>y>
+=!>z>
+="=(=C=
+="=)=0=v=
+="=+=I=X=e=y=
+="=P=
+=">(?>?
+=">R>
+=#>->Q>
+=#>3>@>
+=#>3>C>m>
+=$=,=`=p=|=
+=$=,=4=@=`=l=
+=$=,=4=@=d=l=t=|=
+=$=,=4=<=D=L=T=\=d=l=t=
+=$=,=4=<=D=L=T=\=d=l=t=|=
+=$=,=4=<=D=L=T=\=d=l=x=
+=$=,=4=8=H=X=h=x=
+=$=?=U=
+=$=@=P=\=|=
+=$=0=8=P=`=h=
+=$=0=P=\=|=
+=$=0=P=l=
+=$=D=`=
+=$>4>@>H>h>
+=$>Q>i>
+=%=;=_=
+=%=>=K=
+=%=c=j=|=
+=%>]>
+=&=;=C=P=X=k=
+=&=0=p=
+=&=5=Z=w=
+=&>5>
+=&>K>s>}>
+=&>Z>
+=(=0=T=d=p=x=
+=(=8=\=d=l=t=|=
+=(=8=B=h>l>p>t>x>|>
+=(=H=P=X=d=
+=(=L=T=\=d=l=t=|=
+=(>[>4?X?z?
+=(>p>
+=(>s>
+=)=;=b=
+=)=K=T=[=`=~=
+=)>/>@>\>o>v>|>
+=)>Y>
+=*=?=N=d=
+=*>b>
+=*>Z>}>
+=,=2=Y=k=~=
+=,=8=X=d=
+=,=J=
+=,=m=y=
+=,>?>g?
+=.?[?a?
+=.=;=U=7>N>U>
+=.=H=R=j=
+=.><>T>`>
+=.>G>T>
+=/=:=^=
+=/=9=V=f=p=
+=:=t=
+=:>Q>c>
+=;=k=
+=?=N=]=n=c>
+=?>i>
+=@=J=t=
+=@>L>X>d>p>|>
+=@>O>V>{>
+=[>h>o>
+=[>t>
+=\>q>
+=`={=
+=+=_=
+=+=>=I=
+=+=8=S=]=k=
+=+>M>w>
+=+>N>
+=<=d=
+=<=D=P=p=x=
+=<=f=
+=<=H=h=p=|=
+=<=H=h=p=x=
+=<=i=x=
+=<>F>P>]>
+=<>v>
+='=@=h=
+=-=]=
+='=-=
+===m=
+===M=q=
+===U=p=y=
+='=2=9=W=i=
+='=k=
+='=V=b=k=
+='>1>I>t>
+=0=@=D=`=t=
+=0=[=e=
+=0=|=
+=0=6=k=p=
+=0=8=@=H=\=d=l=t=
+=0=8=H=P=t=
+=0=L=\=h=p=
+=0>c>
+=0>y>
+=1=6=<=B=|=
+=1=8=b>
+=1=A=Q=a=q=
+=1=D=N=u=
+=1=l=
+=1>C>
+=2=b=
+=2>I>e>
+=3>c>
+=4=@=`=h=p=x=
+=4=@=`=h=t=
+=4=]=l=
+=4=D=N=`=t=
+=4>a>
+=5=[=
+=5=E=W=
+=5=V=p=
+=5>?>
+=5>m>
+=5>y>
+=6=i=
+=6>S>
+=7=D=f=
+=7>@>H>
+=8=|=
+=8=c=
+=8=D=
+=8>b>
+=8>g>s>
+=9=H=j=s=
+=9=U=o=
+=A>T>`>
+=A>y>
+=Bonecoreuap\base\appmodel\search\tquery\mssci\scopelist.cxx
+=C>{>
+=D=d=w=
+=D=K=R=Y=`=x=
+=d=w=
+=d>u>y>}>
+=E=i=
+=E>l>
+=G=V=
+=H=o=
+=H=s=
+=H=U=}=
+=I=q={=
+=j>t>
+=L=\=h=p=
+=L>c>n>
+=L9o<
+=N=~=
+=O>z>
+=P=]=
+=P=s=y>
+=P=X=`=h=p=t=x=|=
+=P>l>
+=Q>_>d>r>|>
+=R>n>
+=S>Y>{?
+=T=w=
+=T>w>
+=X=p=
+=Y={=
+> ?)?3?P?
+> ?6?d?l?
+> ?e?
+> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
+> >$>0>4>@>D>P>T>`>d>p>t>
+> >(>\>l>x>
+> >(>0><>\>h>
+> >(>0>8>@>H>P>X>`>h>p>x>
+> >(>4>T>\>d>l>x>
+> >,>L>T>\>d>l>x>
+> >,>L>X>x>
+> >@>H>P>X>`>l>
+> >@>L>
+> >1>O>
+> >D>L>T>\>d>l>t>|>
+>!?.???
+>!>&><>_>}>
+>!>*>A>Q>a>
+>!>o>
+>!>p>
+>!>s>
+>"?,?C?I?M?V?Z?
+>"?=?I?b?
+>">,>0>)?2?
+>">>>{>
+>">3>B>O>Z>d>
+>">3>Q>[>{>
+>">a>
+>#???
+>#?]?r?
+>#?3?Y?
+>#?H?s?
+>#?k?
+>#>/>8>D>
+>#>3>?>v>
+>#>6>v>
+>#>N>Y>c>s>
+>#>s>
+>$?\?
+>$?1?<?K?U?m?
+>$?1?>?D?N?
+>$?T?x?
+>$>,>4><>D>L>X>x>
+>$>,>4>D>L>\>|>
+>$>4>@>H>h>p>x>
+>$>8>@>T>\>p>x>
+>$>D>P>p>x>
+>$>P>d>t>
+>%?/?E?I?M?Q?
+>%><>i>
+>%>=>f>
+>%>0>=>X>:?u?
+>&?3?x?~?
+>&?5?
+>&>?>Z>i>y>
+>&>5>V>e>
+>(?]?
+>(?n?
+>(>@>I>
+>(>=>_>t>
+>(>>>
+>(>4>T>`>
+>(>8>H>X>h>x>
+>(>E>S>k>
+>(>H>P>\>|>
+>(>L>T>\>d>l>t>|>
+>(>N>e>
+>(>T>
+>)?5?
+>*>?>O>d>r>
+>*>J>j>
+>*>K>l>
+>*>V>p>
+>,?c?
+>,?C?
+>,>?>W>
+>,><>H>h>t>|>
+>,>4><>D>L>T>\>d>l>t>|>
+>,>5>
+>,>9>B>O>
+>.?^?
+>.>E>W>
+>.>K>g>
+>.>O>o>
+>/>k>
+>:?A?
+>:?R?
+>:>\>i>
+>:>u>z>
+>;>B>\>
+>;>s>
+>??b?
+>?@AB
+>-?}?
+>'?1?G?Q?
+>'?a?
+>@>b>
+>@>F>[>
+>@s5f
+>[?j?t?
+>[?s?
+>]?g?
+>^>g>q>
+>_^[]
+>+?8?S?m?
+>+>9>>>V>1?S?
+>+>N>q>
+><?a?
+><>D>P>p>|>
+><>D>P>X>
+><>l>
+>=?N?u?
+>=?P?o?
+>=>_>
+>>?R?[?h?
+>>?x?
+>>>6?=?i?
+>>>K>\>
+>>>n>a?w?
+>>>S>
+>->E>b>
+>0?:?i?q?
+>0?@?L?l?x?
+>0>4>L>d>h>
+>0>6>H>Y>a>
+>0>8>@>H>P>X>d>
+>0>S>b>
+>0>T>d>p>
+>1?q?
+>1>@>
+>1>a>t>
+>1>c>p>
+>2?C?
+>2?F?P?
+>2>6>
+>2>e>
+>3?8?b?
+>3>a>p>
+>3>W>
+>4?P?
+>4>@>
+>4>@>`>h>p>x>
+>4>@>H>|>
+>4><>D>L>X>x>
+>4>P>`>l>t>
+>5?I?]?q?
+>5>=>R>
+>5>E>\>
+>6?@?Y?c?s?}?
+>6?E?`?
+>6?I?i?
+>6>T>s>
+>7>=>D>T>^>p>
+>7>=>L>
+>7>B>b>j>p>v>|>
+>7>n>~>
+>7>Q>m>~>
+>8???Y?
+>8>@>H>T>t>|>
+>8>L>
+>9?K?_?l?
+>9>c>
+>9>y>
+>A?T?
+>B?\?
+>b?i?
+>B?X?e?n?y?
+>C>P>
+>D?n?s?
+>D>|>
+>E>s>
+>G?Z?
+>G>w>
+>H?T?h?
+>h?w?
+>H?z?
+>H>h>t>
+>I>]>
+>i>m>q>u>y>}>
+>L>\>h>p>
+>M?U?`?
+>M?W?
+>m?w?
+>M>r>
+>N>\>i>
+>O>_>
+>P> ?[?
+>Q>d>
+>R?s?
+>R>W>i>o>
+>s>{>
+>T>c>
+>W>^>}>
+>X?m?
+>Z>r>
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0x0|0
+0 0(00080@0H0P0\0d0
+0 0(00080@0H0X0|0
+0 0(040T0\0d0p0
+0 0,040L0p0
+0 0,080D0P0\0h0t0
+0 0@0H0P0X0`0h0t0
+0 000H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+0 030D0q0{0
+0 030F0i0|0
+0 0d0h0p0x0
+0 0g0
+0 0j0
+0 1k1
+0 262J2^2r2
+0!0%0M0[0w0
+0!0?0
+0!010D0U0
+0!111A1Q1a1
+0!1Y1
+0"0/0
+0"070
+0"080_0
+0"090H0^0
+0"1/1F1`1
+0"2P2
+0#0U0p0
+0#141p1y1
+0#2j2
+0$0(0B0F0f0
+0$0*0/040;0C0]0
+0$0,040@0d0l0t0|0
+0$0,040<0D0X0`0t0|0
+0$0<0H0h0p0|0
+0$000<0H0T0`0l0x0
+0$000P0\0|0
+0$000P0\0d0
+0$0-090P0h0
+0$090a0
+0$0o0
+0$0q0
+0$1_1
+0%0^0k0v0
+0%020
+0%020d0|0
+0%080V0`0i0
+0%090[0l0}0
+0%090K0R0b0
+0&0?0
+0&0L0
+0&1-1\1p1
+0&161j1t1
+0&1F1
+0&1k1
+0&1Z1
+0&4F4L4
+0(000<0\0h0
+0(000P0X0`0|0
+0(000T0h0|0
+0(040<0T0x0
+0(040T0`0
+0(0H0P0\0|0
+0(0H0P0\0d0
+0(0H0P0X0d0l0
+0(0H0T0\0t0|0
+0(151U1
+0(1P1
+0(1Q1g1|1
+0)0/050;0A0G0N0U0\0c0j0q0x0
+0)0^0v0
+0)050m0
+0)060X0g0
+0)1@4
+0)161
+0,0<0L0\0l0|0
+0,080X0`0h0t0
+0,0x0
+0,1<1H1h1p1|1
+0,1t1
+0.0;0v0
+0.090Y0
+0.0N0
+0.1f1
+0/0;0B0S0m0
+0/1d1s1
+0:0~0
+0:0G0O1T1b1
+0:0w0
+0?0P0
+0?0T0z0
+0@0z0
+0@1M1h1
+0@1x1
+0[0z0
+0\0e0
+0\0r0
+0\1m1
+0]0o3
+0]1g1
+0_1i1
+0|0/161
+0+040F0[0e0
+0+0I0-1F1S1
+0+1X2
+0<0E0k0
+0<0t0
+0<1L1e1s1
+0<1V1a1
+0=0F0U0u0
+0=1P1q1
+0>1w1
+0'0>0
+000@0d0l0t0|0
+0000000000000000000
+00080T0d0p0x0
+00g0n0
+0'0n0
+0-0Q0
+0-0Q0p0
+0-0S0w0|0
+0'1]1
+01070A0
+010q0
+011?1E1K1Q1W1]1d1k1r1y1
+011111111111
+0'1I1
+0-1u1
+02.00
+020{0
+021<1[3
+02152Z2
+021N1\1u1
+-030:0A0H0O0V0]0d0k0r0y0
+030C0
+030U0
+031a1
+031c1&2/252A2_2d2o2
+031i1
+04.00.0000
+040<0H0h0p0x0
+04080D0L0
+040904B0
+040D0P0X0
+041;1O1
+041E2x2
+041h1u1z1
+051?1
+061f1
+061n1
+071i1
+071N1
+080<0l0p0
+080D0d0l0x0
+080l0
+080L0`0p0
+080y0
+090\0
+090l0
+090Z0h0u0
+091\1
+091a1g1
+0A0b0
+0A0I0Q0e0k0~0
+0A0Q0c0
+0A1X1]2
+0B0G0
+0C0X0
+0C1o1|1
+0C1s1
+0D0a0
+0e1o1
+0E1V1]1m1s1z1
+0f;2u
+0F0_0w0
+0F0v0
+0F1}1
+0F1T1k1r1y1
+0H0k0
+0H2m2
+0I0`0
+0J0[0u0
+0J0W1
+0J1Z1j1z1
+0K1^1
+0k1y1
+-0L0$1y102Y2
+0L0[0
+0m0z0
+0N1]1
+0N1d1
+0N1v1
+0Q0q0E1U1
+0R1c1
+0s1^2
+0S1~1
+0S1b1r1
+0T031I1
+0U0h0y0.1
+0u1f3u3
+0U1j1
+0U2_2p2{2
+0W0^0t0~0
+0x%08x
+0X0m0
+0Z1h1~1
+0Z1z113
+1 1$1(1,1014181<1
+1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+1 1$1(1,1014181<1D1H1L1P1T1X1\1`1h1l1p1t1x1|1
+1 1(10181@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+1 1(10181<1@1H1L1P1X1`1d1h1p1x1|1
+1 1(1D1T1`1
+1 1,1
+1 1,141h1x1
+1 1,141L1T1\1
+1 1,1L1X1|1
+1 181H1P1X1t1
+1 2^2
+1 285)6
+1 2X2|2
+1 2Z4
+1!1(1/1>1Y1p172D2[2
+1!1+181
+1!131B1H1a1q1
+1!171J1
+1!1C1L1]1
+1!2a2o2
+1!2O2
+1!2t2
+1"1&1*1.12161:1>1B1F1J1N1R1{1
+1"1,1D1_1
+1"2-242F2S2
+1#1,161H1I2
+1#2*2B2X2
+1#2C2a2f2l2r2
+1$1,1@1H1P1X1l1t1|1
+1$1,141<1D1L1T1\1d1l1t1|1
+1$1,141<1D1L1T1`1
+1$1,141<1H1l1t1|1
+1$1,181X1`1h1p1x1
+1$1,181X1`1l1
+1$1,181X1d1
+1$1,1L1T1\1d1l1
+1$10181l1|1
+1$1D1L1T1\1x1
+1$1D1P1p1|1
+1$2T2
+1%1,131:1G1=2b2p2
+1%1[1m1
+1%1H1V1f1
+1&1-1B1I1P1
+1&1X1"2N2p2
+1&2^2
+1&2=2H2T2
+1&242S2]2
+1&292k2
+1(1<1P1b1t1
+1(10181H1l1t1|1
+1(141T1`1
+1(151U1
+1(1A1W1s1
+1(1B1_1i1
+1(1H1T1t1|1
+1(1K1i1v1
+1(2g2y2
+1)1^1i1z1
+1)181
+1)1A1a1
+1)1B1
+1)1M1j1w1
+1)1M1Z1`1m1}1
+1)1t1~1
+1)2a2
+1)2B2f5
+1)2B2G2
+1)2g2l2u2
+1*1;1R1W1^1e1l1s1z1
+1*1>1D1O1
+1*101
+1*171<1F1
+1*212
+1*2E2
+1,1:1Q1v1|1
+1,1@1
+1,1<1L1\1l1|1
+1,141<1D1L1T1\1d1l1t1|1
+1,141<1H1h1p1|1
+1,181X1`1l1
+1,1D1g1
+1,1O1_1
+1,1Y1x1
+1,2l2
+1.1H1h1u1
+1.1P1
+1.2:2k2
+1.2c2
+1.2N2{2
+1/151U1\1v1
+1/1g1
+1/2G2n2
+1/2L2
+1/2o2
+1/2s2
+1:1A1H1T1n1s1
+1:1J1g1
+1:1M1V1n1
+1:2K2X2j2w2
+1;1H1\1g1
+1;qPu
+1?2Z2y2
+1@2^2
+1@2h2
+1[2+3
+1[2d2
+1[2o2x2
+1\2d2
+1^2"3
+1^2h2r2
+1<1@1p1t1
+1<1B1L1a1
+1<1D1L1T1\1d1l1t1|1
+1<1H1P1
+1<1H1P1h1
+1<2c2
+1<2M2h2
+1=2v3
+1>1j1
+1>2|2
+10.0.10240
+101T1d1p1x1
+102h2
+111_1
+111122222222222
+1'111G1a1
+11171
+111m1z1
+112@2[2q2
+1'1c1l1x1
+1'2$3?3x3
+1'212
+1'212R2
+121h1|1
+1'272g2v2
+1'2d2j2w2
+131e1y1
+132@2d2
+132L2p2
+141h1
+141u1
+142_2
+142d2
+142l2
+142X2Y5y5
+152<2^2
+152H2d2
+161<1C1W1
+162[3}3
+171w1
+172b2y2
+181H1T1\1
+181j1
+191F1
+191L1
+191u1
+192a2w2
+1A1s1
+1A2c3}3
+1A2K2
+1B1c1m1|1
+1B2X2
+1D1J1W1x1
+1D1r1
+1d2{2G3^3
+1D3c3
+1E1o1
+1f;0u
+1F1c1
+1F1f1p1|1
+1G1p1v1}1
+1G2^2u2
+1G2L2o2
+1H1k1
+1h2v2
+1I1q1
+1J1`1
+1J1p1
+1J1z1
+1K1}1
+1K1n1
+1M1}1
+1m4r7q:
+1N1e1}1
+1N1h1
+1N1X1d1n1}1
+1O1r1
+1O1z1
+1o2J3
+1o2s2w2
+1P1Z1
+1P2a2
+1R1c1
+1W2V4`4
+1X1p1
+1Y1h1
+1Y4i7g:
+1Z1_1q1w1
+1Z2}2
+2 2$2(2,2<2@2D2H2L2P2`2d2h2l2p2t2x2|2
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+2 2$2(2@2D2H2L2p2t2
+2 2(20282@2H2T2t2|2
+2 2,242h2x2
+2 2,242T2p2
+2 2,2L2T2`2
+2 2@2H2P2\2d2
+2 2@2H2P2X2`2h2t2
+2 202<2\2h2
+2 282y2
+2 2E2]2
+2 2H2c2
+2 3\3
+2!2?2N2u2
+2!2'2,222Q2W2\2b2
+2!222>2C2I2\2
+2!303U3p3
+2"2:2R2f2z2
+2"2;2T2m2
+2"3=3Q3a3
+2"3b3
+2#2*2
+2#2*20282>2D2J2r2
+2#2C2
+2#2T2
+2#3I3~3
+2#3P3]3
+2#3S3
+2#3V3r3
+2#3X3l3{3
+2#598b;Q<
+2$2,242@2H2h2p2
+2$2,242<2D2L2T2\2d2l2t2|2
+2$2,242<2D2P2p2|2
+2$2,282X2`2l2
+2$2,2L2T2p2
+2$2:2z2
+2$2D2L2X2x2
+2$2Q2m2<3k3
+2$2U2
+2$3}3
+2$343@3`3l3
+2$3K3W3O4[4
+2%2;2U2
+2%2G2`2m2
+2%3p3
+2&20272G2b2}2
+2(2<2L2\2h2
+2(2C2]2t2
+2(2H2T2t2
+2(2K2n2
+2(3`3
+2(3D3
+2(3M3
+2)2:2T2a2
+2)232N2T2[2k2v2
+2*2a2t2
+2*2F2y2
+2*363@3{3
+2*3J3j3
+2,2<2L2\2l2|2
+2,212V2^2f2
+2,24282<2D2H2P2t2|2
+2,282@2X2|2
+2,282X2`2h2p2
+2,292O2h2u2
+2,2H2X2d2l2
+2,2O2,3\3
+2,3>3c3}3
+2,3l3
+2,3P3g3
+2,3S3b3q3
+2.2B2K2j2y2
+2.3>3T3j3
+2.3Q3
+2/5a5
+2;3E3]3i3s3
+2;3Z3s3
+2?2S2
+2?3o3
+2@2c2
+2@2D2t2x2
+2@2P2\2d2
+2@2T2d2p2x2
+2@2X2^2p2z2
+2]3!4l6
+2_3v3
+2+3=3B3
+2+353X3b3z3
+2<2H2h2p2
+2<3W3
+2=2`2
+2=2G2
+2=3'406
+2=3W3
+2>2n2
+2>2V2
+2>3`3
+202@2d2l2t2|2
+202<2\2d2p2
+202<2\2h2
+20282@2H2T2t2|2
+20282@2P2X2t2
+202D2b2r2
+203[3
+203b3
+2080=0B0G0L0Q0V0[0`0e0j0o0t0
+213]3}3
+213l3t3
+2'2;2b2
+222255
+22262R2V2r2v2
+222F2P2q2
+2-2B2d2
+2-2N2l2
+2'2O2
+2-3]3
+232B2U2q2{2
+232g2z2!3
+2-3c5
+2'3N3~3
+2'3T3Y3_3e3
+242g2
+242l2
+242L2Y2q2
+253B3S3
+253f3y3
+253u3
+262i2
+262X253w3
+263G3a3t3{3
+272c2
+272M2T2
+272X2}3
+282T2d2p2x2
+283N3
+283O3
+292>2D2M2z2F3
+292z2
+292Z2f2
+2A2N2h2
+2B3L3R3\3p3
+2C2Z2
+2C5W7
+2D2_2C415
+2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+2D3T3
+2D4`4|4
+2E2j2
+2E2V2
+2E3m3
+2f2x2
+2F9u9
+2g3q3
+2H2]2
+2H2U2u2
+2H3[3
+2I2Z2
+2L2~2
+2L2Y2w2
+2M2[2
+2M2T2q2
+2N3[3a3k3z3
+2N3c5>6%7
+2N3j4G6
+2N3w3
+2O2r2
+2p2{2
+2P2w2
+2P3u3
+2p3z3)434s5
+2Q2c2
+2Q5[5_5c5g5k5
+2S2_2m2
+2s2}2
+2U2_2j2
+2U4T5c5\<}<
+2W4c4
+2Z2s2~2
+3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+3 3$3(3,3034383<3@3M3h3
+3 3(3@3P3l3|3
+3 3(303<3\3d3p3
+3 3(303<3D3x3
+3 3(30383D3d3p3
+3 3@3H3P3X3d3
+3 3@3H3T3t3
+3 3@3L3l3x3
+3 303L3\3h3p3
+3 303N3e3r3
+3 343@3G3^3
+3 4)4U4s4
+3 4*4A4G4K4x4
+3 4d5B8_;d>
+3 4X4
+3!3*30393Y3~3
+3!3+383s3y3
+3!353L3+4
+3!4S4j4
+3"3(3.3\3
+3"3<3M3}3
+3"3R3
+3"4/4E4^4k4
+3"4/4S4
+3"4]5j5y5
+3"4_4e4l4s4z4
+3"4-424
+3#4I4
+3#4S4q4
+3#626
+3$3,343<3D3L3d3p3
+3$3,343<3D3L3T3\3d3l3t3x3|3
+3$3,343<3D3L3T3\3h3
+3$3,343<3D3L3T3`3
+3$3,3H3X3`3d3l3p3x3|3
+3$303P3\3|3
+3$303P3X3`3l3
+3$3D3`3p3|3
+3$3D3L3T3`3
+3$3D3P3p3|3
+3$3E3V3n3
+3$3t3
+3$4??z?
+3$4>4h4
+3$4n4
+3$4w4
+3%3,393[3e3|3
+3%3]3
+3%3J3p3
+3%4C4a4
+3&3,383>3
+3&32383?3M3i3y3
+3&344;4B4I4k4
+3&4C4
+3&4K5v5
+3(303T3h3|3
+3(3j3t3
+3(434<4C4S4m4
+3(4d4
+3)3?3X3e3{3
+3)3O3\3q3
+3)4/4Q4
+3)4v4
+3)4Y4
+3*474>4b4i4
+3*4D4k4
+3*4u4
+3,3\3
+3,3<3L3\3l3p3
+3,3>4C5
+3,3034383<3@3
+3,3J3
+3,4\4
+3,4<4H4P4p4
+3,4d4
+3,4S4c4p4
+3.3E3
+3.4N4R4V4Z4^4b4f4j4n4r4v4z4~4
+3.546P6_6
+3/3c3j3
+3/3F3r3
+3:3e3x3
+3:3j3
+3:4v4
+3;3D3X3
+3;3J3T3d3
+3;4m4
+3?3]4s4A8
+3@3I3i3g4}4
+3@3p3
+3[3j3
+3]3m3
+3]3m3w3
+3]5e7x7
+3^:i:w:
+3_3f3
+3_4h4
+3`4f4
+3`4q4
+3+3=3C3
+3+313
+3+383
+3+3H3N3U3e3n3y3
+3+3N3c3u3
+3+3T3
+3+4B4I4P4W4^4i4
+3+4C4
+3<3A3S3Y3t3
+3<3D3L3T3\3d3l3t3|3
+3<3D3P3p3|3
+3<3D3P3p3x3
+3<3s3
+3<4@4D4H4L4
+3<4K4
+3>3~3
+3>3n3
+3>3S3t3
+303@3L3l3x3
+303<3D3x3
+303L3\3h3p3
+303W3f3s3z3
+304Z5k6
+30a0p0
+30G0n0
+30I0_0
+313a3
+313O3
+3'3,363;3U3Z3v3|3
+3-3?3
+3-3@3^3k3
+3-3\3e3
+3'30393?3D3I3P3X3h3
+333j3
+333L3
+334T4V5
+3'353}3
+3-3k3
+343@3`3l3
+343<3D3P3p3x3
+343H3W3a3q3
+343s3
+344?4N4u4
+3'444>4X4
+344B4
+353e3
+353h3u3
+353K3`3
+354D4Z4
+363>3I3n3
+363L3
+364S4
+364U4
+383[3h3
+383Q4a4}4
+384L4
+393h3z3
+393i3
+393O3r3}3
+3A3m3
+3B3R3
+3B3U3^3k3w3
+3b4_5
+3b4o4
+3b4r4
+3B4Y4
+3C3t3
+3D$ %
+3D3H3x3|3
+3d4p4
+3F4i4
+3H3M3h3
+3h3o3
+3H3X3d3l3
+3H4R4
+3h4z4>5
+3I3d3
+3I4a4
+3i4s4
+3L3z3
+3M3`3s3
+3M4[4
+3N4~4
+3n4S5o5
+3O4|4
+3O4Y4
+3p5z5
+3Q4f4l4^5
+3T4a4h4u4
+3T4b4
+3U3q3
+3V3m3
+3W4|4
+3Wh8W
+3WhpT
+3X3s3
+3y4?5
+4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+4 4$4,40444<4@4D4L4P4T4X4\4h4p4
+4 4(404<4\4h4
+4 4(444<4\4d4l4
+4 4(4L4T4d4l4t4|4
+4 4,444h4x4
+4 4,4L4X4x4
+4 4@4H4T4t4|4
+4 5H5h5
+4 5S5
+4"4+434W4_4n4w4
+4"4O4t4
+4"5,555
+4"575D5m5
+4"5U5}5
+4#5>5
+4#535=5S5s5
+4#5F5L5
+4$4(4.44484>4D4H4N4T4X4^4d4h4n4t4x4~4
+4$4,4`4p4|4
+4$4,444<4D4L4T4`4
+4$4,444<4D4P4p4x4
+4$4,444L4t4
+4$40484\4l4t4|4
+4$444@4`4h4p4|4
+4$4d4
+4$4D4`4p4|4
+4$4D4P4p4x4
+4$4S5e5~5
+4$5H5W5u5
+4%4I4i4
+4%4L4U4
+4&4:4N4b4
+4(4[4j4v4
+4(404T4\4l4t4|4
+4(4h4r4
+4(5l5
+4)4@4_4
+4)454b4
+4)4A4Y4q4
+4)4b4x4
+4)4C4]4g4
+4*4J4j4
+4*4J4W4
+4*545F5Z5{5
+4*5r5
+4*7R:
+4,4<4D4L4`4
+4,4<4H4P4
+4,404@4D4H4L4P4T4X4\4l4p4t4x4|4
+4,404@4D4H4P4h4x4|4
+4,484X4`4l4
+4,4T4
+4,5`5#6
+4,5M536?6D6
+4,5S5n5u5
+4.4;4H4|4
+4.4^4
+4.4R4Y4n4
+4.5^5
+4/5#6R6
+4/5?5
+4:4`4
+4:4l4t4X5j5
+4:5A5H5O5z5
+4:5o5
+4;4T4b4r4
+4;5v5
+4;J$s\
+4?4t4
+4?5p5
+4[4h4
+4\4}4
+4]4k4
+4]5d5t5
+4_5y5
+4`5:6
+4+4>4M4h4~4
+4+414`4o4
+4+434=4I4O4U4w4
+4+4U4s4
+4+5B5I5d5
+4+5N5
+4<4@4p4t4
+4<4D4L4T4\4h4
+4<4D4L4T4`4
+4<4W4x4
+4<5W5q5
+4=4G4
+4=4L4
+4=5S5
+4>5v5
+404@4c4
+40484@4H4T4t4|4
+404D4T4d4t4
+404S4
+405`5
+405l5
+405p5
+424:4T4\4v4~4
+425=5c5}5
+434=4A4E4I4M4Q4U4Y4w7
+434B4O4s4
+4'4@4N4
+4'434?4J4[4g4s4~4
+444@4`4h4p4x4
+444@4`4l4
+444D4P4p4x4
+444D4P4X4p4
+444D4P4X4x4
+444P4
+444u4
+445A5X5g5
+4'4W4}4
+4'555
+455D5
+455D5c5}5
+4'5J6e9e<2?
+465}5
+474A4]4w4
+475M5b5k5
+485I5u5
+4A4b4{4
+4A5H5j5n5r5v5z5~5
+4A5X5]5
+4A7Q7a7q7
+4Af9:u
+4b5s5
+4c4z4
+4c5l5
+4C5P5q5
+4D4b4
+4D4U4
+4D4x4
+4E4L4u4|4
+4E4O4e4
+4E4z4
+4E5X5t5
+4F4v4
+4F5[5
+4F5W5|5
+4H4}4
+4H4L4|4
+4H5^5k5p5
+4H5{5
+4I4g4{4
+4I4T4i4|4
+4I4y4
+4I5c5c6
+4i5x5}5
+4J4v4
+4J5b5
+4K5f5u5
+4l4w4
+4l8z8
+4M4f4
+4M4Z4q4{4
+4M6c6u6
+4N5~5
+4N5q5
+4O4[4v6
+4P4`4l4t4
+4p4}4
+4Q4h4
+4R5[5
+4S4b4r4
+4V5p5
+4w5i6
+4W8N9
+4X4i4w4
+4X4o4
+4Y4m4
+5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
+5 5(545T5\5d5p5
+5 5(5H5d5t5
+5 5)5/54595@5H5W5
+5 5,545L5T5x5
+5 5,5W5e5n5z5
+5 5@5H5T5t5|5
+5 505<5\5d5p5
+5 505=5Q5a5q5
+5 5D5U5
+5 5g5
+5!5&5,52565<5B5F5L5R5V5\5b5f5l5r5v5|5
+5!515A5Q5a5q5
+5!5Z5
+5!676A6P6n6s6}6
+5!6Q6
+5"5)595A5T5c5i5p5
+5"5)595B5_5e5l5|5
+5"5A5T5c5~5
+5"5d5s5
+5"6C6T6h6
+5#5)5G5
+5#5=5
+5#5>5
+5#5F5i5
+5#5T5e5
+5#6%7B7g7
+5#6:6q6
+5#6<6A6G6M6l6z6
+5#636@6t6
+5#6B6N6d6p6
+5#6S6
+5$5,545@5`5h5p5x5
+5$5,545@5`5h5t5
+5$5,545<5D5L5T5\5d5l5t5|5
+5$5,545<5D5L5T5\5d5p5
+5$5,5L5T5p5
+5$505P5X5`5h5t5
+5$505T5\5d5l5t5|5
+5$5N5{5
+5$5X5h5t5|5
+5$6C6|6
+5%656
+5%676H6N6p6
+5&5+5Q5
+5&5y5
+5&6V6
+5(545<5p5
+5(545T5\5h5
+5(5H5P5\5d5
+5(6,6T6p6
+5(686D6L6
+5(6X6
+5)5/5<5[5e5r5
+5)5;5W5
+5)545C5]5
+5)5D5K5f5
+5)636W6^6h6
+5)6G7
+5*505Q5
+5*555F5l6
+5*6M6}6
+5*6M6p6
+5,5=5X5~5
+5,545<5D5L5T5\5d5l5
+5,585\5d5l5t5|5
+5,585X5d5
+5,5L5r5
+5,5S5g5
+5,6&:P:_:
+5,6l6
+5.6^6
+5.6d6
+5.6p6
+5.6y6
+5/5Z5f5{5
+5:5B5S5d5k5y5
+5:5S5
+5;5d5y5
+5;5J5a5g5m5s5y5
+5;6W7
+5?6~6
+5@5D5t5x5
+5@5r5b6
+5@5x5
+5\5u5
+5+5Z5
+5+686S6^6~6
+5+6q6
+5<5D5L5T5`5
+5<5D5Q5^5u5
+5=5F5U5
+5=5x5}5
+5031f1
+505_5p5
+505`5
+505<5\5h5p5
+50585@5H5P5\5|5
+505e5
+506U6
+515`5e5x5
+515N6
+515U5p5
+525s5
+535B5[5n5}5
+535W5j5w5
+536X6
+545<5D5L5X5x5
+5'5?5
+5-5=5o5x5
+5'5>5-6
+5-5>5W5
+5'515N5
+555<5e5l5
+555555
+555B5[5h5~5
+555l5
+556J6
+556M6[6
+5-5C5
+5'6=6
+565a5
+565B5
+566B6
+5-676
+5-6b6
+5-6C6
+5'6S6e6z6A7
+5-7<7O7
+575c5w5
+576>6g6x6
+58;A=
+585D5L5
+585h5
+585H5T5\5t5|5
+585R5
+585T5d5p5
+585T5d5p5x5
+586D6M6S6X6}6
+595M5
+596i6
+5a6i7v7
+5B5f5
+5C5N5W5g5{5
+5c62:
+5C6H6
+5C6N6[6
+5D5I5d5
+5D6|6
+5D6~6A7|7
+5E6r6
+5e6z6
+5f>l>
+5g6y6
+5H5i5
+5h5u5
+5H5V5i5
+5H5x5
+5H6j6p6
+5i5w5
+5I6w6
+5ineI
+5K5{5
+5L5P5
+5L607S7
+5L6O7F:F=
+5L8V8
+5M5^5
+5M5f5
+5N5~5-6
+5N6c6
+5n6x6
+5ntel
+5O6q6
+5P6u<
+5Q7a7q7
+5R6i6
+5s6~6
+5S6f6
+5T6^6
+5u6[8q8N:
+5V6y6
+5w6@7
+5X6_6
+5Y9SY
+5Y9SY+
+6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6
+6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+6 6$6(6,6064686<6D6H6L6P6T6X6\6`6h6l6p6t6x6|6
+6 6(6H6d6t6
+6 6,646T6p6
+6 6@6L6l6t6
+6 6[6
+6 6+6:6\6j6~6
+6 6H6_6o6
+6 747^7
+6 7v7
+6!6%6)6-61656B6j6
+6!6T6s6
+6!7\7}7
+6!7Z7q7
+6"6<6
+6"616M6\6
+6"6d6
+6"6l6
+6#6,6n6
+6#626B6
+6#646=6D6O6y6
+6#676j6
+6#7(7/7X7q7
+6#737F7W7y7
+6#7S7
+6$6,6`6p6|6
+6$6,646@6`6h6t6
+6$6,646@6d6l6t6|6
+6$6,646<6D6L6T6\6d6l6
+6$6,646<6D6L6T6\6d6l6t6|6
+6$6,646<6D6L6T6\6d6p6
+6$6,646<6D6L6T6\6h6
+6$6,646<6D6L6X6`6
+6$6,6D6P6t6|6
+6$606P6\6|6
+6$6-6<6f6u6
+6$6a6
+6$6D6L6T6p6
+6$7\7
+6$747@7H7|7
+6$8?8
+6%6)6
+6%6,6E6L6o6v6
+6%6@6u6~6
+6%6L6
+6%6s6x6~6
+6%7`7
+6%7=7J7p7
+6&;o;
+6&656M6`6f6y6
+6&6A6|6
+6&737f7
+6(6;6J6e6{6
+6(60686@6H6T6t6
+6(646T6`6
+6(6I6
+6(747
+6(787D7d7l7t7|7
+6(7N7T7[7k7s7
+6(7P7
+6)6/666F6S6
+6)6/6a6
+6)6|6
+6)6=6}6
+6)636F6s6
+6)6N6q6
+6)7:7K7\7
+6)7i7
+6*6.62666:6g6~6
+6*696V6e6Q7s7
+6*6W6e6n6z6
+6,646<6H6h6p6|6
+6,656
+6,686@6t6
+6,686X6`6h6p6|6
+6,6H6a6q6
+6,767I7g7q7y7
+6,7T7]7{7
+6.7@7K7e7}7
+6.7A7F7L7R7
+6.7l7
+6/6>6u6~6
+6/666=6
+6/6M6k6w6
+6/7_7
+6:6W6`6
+6:7Q7]7
+6:7S7i7
+6;3t!
+6;3t*
+6;3t]
+6;3tP
+6;6^6
+6;6l6
+6;7t+
+6;7thQQ
+6;7tw
+6;p t}
+6;p t6
+6;r t_
+6;s t
+6;s t ;
+6;s t3
+6;s t6
+6;sHt
+6;w t
+6;w t+
+6;w t2
+6;w tNQQ
+6?617A7Q7a7o7
+6?6l6
+6]6o6t6
+6~718?8]8z8
+6+6?6a6
+6+7[7
+6+7c7
+6+9c9
+6<6D6L6T6\6d6l6t6
+6<6D6P6X6
+6<7a7
+6=6u6
+6>6T6s6
+6>7E7
+6>7M7v7
+6>8|=
+606<6\6h6
+60646
+60676K6t6
+606A6L6V6v6
+606d6
+607@7L7T7
+607N8r9
+608B8F8J8N8R8V8
+616;6I6i6
+616Q6q6
+617c7
+626e6
+627F8
+627l7~7
+627Y7i7
+636J6k6
+637=7]7m7w7
+637A7a7w7
+646;6
+646<6D6L6T6\6d6l6t6|6
+646D6P6X6p6
+646L6T6x6
+646m6y6
+647;7
+647I7
+656b6k6
+666666
+666I6n6
+6'686J6[6z6
+6-6G6
+6'6G6Z6p6
+6'707Z7v7
+676g6
+6-777
+686C6M6m6w6
+686D6d6l6t6|6
+686H6l6t6|6
+686m6
+687E7]7l7
+687g7
+687Z7
+693t'
+696J6V6_6~6
+696V6
+697G7X7{7
+6A6N6h6
+6A7c7w7
+6C7S7p7
+6c8r8
+6D6H6x6|6
+6D6q6
+6D6x6
+6D7y7
+6e6o6
+6e6y6
+6E7~7
+6e7w7
+6F6|6
+6G6]6$7W7
+6G6c6y6
+6g7w7}7
+6G8K9
+6H6d6{6
+6H6x6
+6H6X6d6
+6I7p7
+6K6w6
+6k7u7
+6M9B:U:|<o=
+6P6_6
+6P6Z6e6u6
+6Q6l6
+6Q7x7
+6T6Z6
+6V7n7
+6X7F8^8m8
+6X7g;7<
+6y9y<7?
+7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+7 7$7(7,74787<7@7D7H7L7P7X7\7`7d7h7l7p7t7x7|7
+7 7$7074787<7@7D7H7T7X7\7`7d7h7l7x7|7
+7 7(707<7\7d7l7t7
+7 7(70787H7l7t7|7
+7 7,747h7x7
+7 7;7D7S7
+7 7@7L7l7x7
+7 717
+7 7T7d7p7x7
+7 8>8h8x8
+7 868
+7!7/7J7X7a7h7
+7!7\7e7
+7!717;7R7e7s7
+7!8b8
+7!8q8
+7!8u8
+7"7=7W7h7u7
+7#7*7R7_7
+7#7H7R7[7k7v7
+7#7K7
+7#7L7U7f7y7
+7#8J8
+7$7,7`7p7|7
+7$7,7<7X7h7t7
+7$7,747<7D7L7T7\7d7p7
+7$7,747<7D7P7p7|7
+7$7,7D7h7p7x7
+7$7.7J7x7
+7$707
+7$70787X7`7h7p7x7
+7$707P7\7d7
+7$707P7X7`7h7t7
+7$777>7K7
+7$7B7
+7$8\8
+7$8^8
+7%7;7
+7%7@7K7Y7^7l7|7
+7%7<7C7N7g7m7
+7%7=7L7|7
+7%777I7[7n7
+7%7b7s7
+7%7e7
+7&7>7R7f7{7
+7&747]7
+7&7d7
+7&7h7o7
+7&7Z7d7
+7(7?7R7
+7(747<7p7
+7(767<7C7P7]7j7r7a8
+7(7H7T7t7|7
+7(7L7T7\7d7l7t7|7
+7)7`7
+7)8Z8o8
+7*737]7
+7*777M7f7s7
+7*8>9K9f9
+7*8Z8
+7,7W7
+7,8:8
+7,8\8
+7,8<8H8P8
+7.0.22621.746
+7.0.22621.746 (WinBuild.160101.0800)
+7.7:7Y7
+7.7\7
+7.8f8
+7/777Q7Y7s7{7
+7/7c7z7
+7/7Q7z7
+7/7U7
+7/8>8S8[8a8g8m8
+7/858H8f8w8
+7/8M8
+7/8q8
+7:7D7q7
+7;8L8[8p8z8
+7;8U8g8
+7;9f:
+7?8_8r8
+7@8O8[8
+7@8S8
+7@PVW
+7[8j8
+7\7m7{7
+7]7j7
+7+7:7
+7+717E7}7
+7+8[8
+7+858K8U8
+7+8U9
+7<:n:
+7<7`7
+7<7D7L7T7\7d7l7t7|7
+7<7H7
+7<7t7
+7>7f7
+70%3W3
+707@7L7l7t7
+707@7R7`7h7n7t7z7
+707<7D7d7
+70787D7d7l7t7|7
+707C7b7n7
+717Q7u7z7
+718[8
+72878I8O8m8
+737B7
+737B7]7s7
+738~8
+738W8
+738W8n8
+739:9
+747?7I7b7
+747@7H7h7
+747E7V7g7x7
+747Z7`7
+748C8
+748W8
+757k7
+758b8
+758u8
+767^7k7
+767N7S7
+767Z7
+768F8]8
+768t8
+7'757
+778H8P8]8h8t8
+778Z8
+7-7A7n7
+7'7W7
+787@7H7P7\7|7
+787@7H7P7X7d7
+787>7
+787D7d7l7t7|7
+787D7d7p7
+787H7T7\7
+787T7d7p7x7
+788d8o8
+788E8]8t8
+788i8x8
+788O8]8
+7-8H8v8
+7'8O8
+7-8Q8c8s8
+7-8R8
+797I7[7
+797T7x7
+798`8k8
+798i8
+7'9e9
+7A7k7
+7A8H8
+7a8Q9
+7B7_7
+7B7C8[8
+7C8c8y8
+7C8m8{8
+7d7n7
+7D8c8
+7D9o9
+7F8R8b8
+7G7a7k7}7
+7G8Q8
+7H7L7|7
+7H7x7
+7H7Y7m7
+7h8l<
+7I8Z8k8|8
+7J7n7
+7L:~:
+7L7d7
+7M7p7
+7M7R7
+7M8G9v9
+7O7b7}7
+7O7t7
+7P8]8|8
+7P8T8X8\8`8d8h8l8t8x8|8
+7P8x8
+7Q7^7
+7r8.9h9
+7s7b8
+7s8{8
+7S8i8o8
+7T7]7y7
+7V7j7
+7X7n7
+7x9*<
+7Y7~7
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+8 8(80888@8H8X8|8
+8 8(808L8\8h8p8
+8 8(848T8`8
+8 8(8H8d8t8
+8 8*828A8N8j8{8
+8 8,80848\8l8
+8 8@8\8l8x8
+8 8@8H8T8t8
+8 8@8H8T8t8|8
+8 8@8L8l8x8
+8 838D8W8i8|8
+8 848V8\8p8
+8 8'8|8
+8 8A8F8P8q8v8
+8 9,9T9|9
+8 909<9D9d9l9
+8 9-9C9\9i9
+8!8(8/868=8D8K8R8Y8`8
+8!8)808:8E8L8S8d8
+8!8+888Y8_8s8
+8!8-868B8Z8
+8!8A8G8L8W8i8p8}8
+8!8N8o8v8
+8!999m9
+8"8/8S8
+8"868V8a8}8
+8"919i9y9
+8"9C9U9
+8"9R9
+8#828d8
+8#848A8
+8#858R8
+8#888M8b8
+8#8G8N8X8|8
+8#9*919@9M9W9t9
+8#929H9[9j9
+8$8,848<8D8L8T8\8d8l8t8|8
+8$8,848<8D8L8T8\8d8l8x8
+8$8+828G8m8
+8$80888l8|8
+8$808P8\8|8
+8$808T8\8d8l8t8|8
+8$848@8H8h8p8
+8$8D8L8T8\8d8l8x8
+8$8D8P8p8x8
+8$8P9":N:e:
+8$9)9~9
+8$9*9
+8$959f9t9
+8$9f9
+8$9u9
+8%82888E8b8l8
+8%8A8e8l8w8
+8%8Q8m8z8
+8%959F9
+8&8:8N8b8v8
+8&81878>8N8Z8s8
+8&8I8
+8&8V8h8w8
+8&9^9
+8(8m8
+8(959L9Y9
+8(989D9d9p9
+8(9m9
+8(9X9
+8)8/8M8b8
+8)9>9a:
+8)969V9
+8)9S9
+8,848<8D8L8T8\8d8l8t8
+8,848<8D8L8X8x8
+8,858B8J8P8W8g8t8~8
+8,868
+8,9^9
+8,9d9
+8.848i8x809\9{9
+8.8B8g8
+8.8W8i8u8
+8.9;9I9v9
+8.9^9
+8/8H8[8v8
+8/8I8Z8
+8/959
+8:8u8
+8;;;;;;;
+8?8m8
+8[9k9u9
+8[9y:t;
+8]8k8x8
+8^(t*
+8_8n8
+8`9i9
+8|9-:
+8+8>8
+8+8R8
+8+8X8
+8+9+:
+8<8A8
+8<8D8L8T8\8d8l8t8|8
+8<8D8L8T8\8d8l8x8
+8<8D8P8p8x8
+8<9P9Z9
+8=9h9
+8>9x9
+808<8\8d8p8x8
+808<8\8h8
+808>8C8
+80888@8L8T8t8
+80888D8d8p8
+808N8
+808z8
+809@9L9T9
+809W9k9
+81:`:
+818;8H8o8u8
+818C8P8
+818s8
+818u8
+828A8X8g8~8
+828Z8r8_9
+8294:);q;
+838M8
+838V8i8
+839a:
+848@8`8l8
+848@8d8
+848@8X8p8
+848E8L8d8
+848M8
+849]9s9
+849r9~9
+858O8`8m8
+858S8j8
+859F9
+859m9
+868|8
+8-8^8
+8'8=8V8c8y8
+8'858:8H8X8h8t8
+888@8H8P8X8`8l8
+888E8W8`8i8o8t8y8
+888h8
+889_9
+8-8E8X8f8
+8-8X8^8
+8-9;9a9
+89;t0
+8-9_9
+8-979F9k9
+899O9m9r9
+8A:Q:a:q:
+8a9k9c:p;
+8B8Q8j8}8
+8C9c9
+8c9p9m:
+8C9s9
+8D8I8l8
+8D8t8
+8E8X;
+8E9X9
+8F8c8|8
+8F8v8
+8F9s:
+8f9y9
+8G9k9
+8G9q9
+8H8T8U9
+8H8X8d8
+8I8j8
+8I9X9
+8J8O8a8g8
+8k9*:=:z:
+8L;f;
+8L8P8
+8M8`8
+8M8g8
+8M8j8
+8M9W9
+8N>_>p>
+8N8}8
+8N8q8
+8n9B:S:a:
+8N9W9i9
+8o:O;
+8O8~8u9
+8o9}9
+8O9i:@;
+8p8|8
+8P9Z9v9
+8S;i<
+8s8}8
+8T8Z8j8
+8U8w8
+8u98;
+8U9Y;
+8V9c9
+8X8v8
+8Y9|9
+8Y9C:J:
+9 :$:T:X:
+9 :&:::X:^:r:
+9 :&:V:l:
+9 :.:W:g:
+9 :0:<:D:\:
+9 :L:
+9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+9 9(90989@9\9l9x9
+9 9(909L9\9h9p9
+9 9,9L9X9x9
+9 9.9B9u9
+9 9<9L9X9`9
+9 9P9T9
+9!:.:
+9!9&9,9I9a9
+9"9&9*9.9F9J9N9R9V9Z9^9
+9"9,9;9o9{9
+9"9<9I9g9
+9"929:9D9n9
+9"9'979?9
+9"9a9
+9#:3:Z:`:u:
+9#:c:
+9#:M:Z:p:x:
+9#9/;3;7;;;?;C;G;K;q;
+9#9C9i9|9
+9#9L9d9|9
+9#9U9
+9$:=:H:W:k:z:
+9$:D:
+9$:E:o:
+9$9)959=9I9`9k9s9
+9$9,949@9`9l9
+9$9,949@9H9h9p9
+9$9,989\9d9l9t9|9
+9$9,989X9`9l9
+9$9.9=9W9a9k9z9
+9$9<9`9p9|9
+9$909@9S9f9):F:
+9$909P9\9|9
+9$949@9`9h9t9|9
+9$9D9L9T9`9
+9$9D9L9X9|9
+9%:b:u:;;B;N;
+9%:H:R:g:
+9%9<9K9[9k9
+9%9-9o9
+9%9H9S<
+9%9H9x9
+9%9Z9k9
+9&9.949T9^9q9
+9&939>9J9\9x9
+9&989]9m9
+9(909<9\9h9
+9(949P9m9
+9(9H9T9t9
+9):.:4:::
+9):a:
+9)9E9c9
+9*9C9P9f9
+9,:[:w:
+9,:<:H:P:
+9,:6;^;
+9,:a:
+9,:M:
+9,9?9H9P9Z9`9f9l9
+9,9\9
+9,9<9H9P9h9
+9,949<9D9L9T9\9d9l9t9|9
+9,949K9Z9p9
+9,989@9t9
+9,989X9`9h9t9
+9,989X9d9
+9,9O9e9
+9.9<9B9I9Y9g9
+9.9>9N9^9n9~9
+9.939:9A9H9O9V9]9d9k9r9
+9.9P9
+9/:n;
+9/999^9k9
+9::@:M:
+9::J:_:
+9:;<=@ABCDE>?
+9-:]:
+9-:_:
+9:9P9
+9:9q9
+9-:d:
+9':W:
+9?9[9
+9?9\9
+9?9y9
+9@9F9S9m9
+9[9o9
+9\9G:w:
+9^ tq
+9^HvN
+9_:p:9;C;m;w;
+9_Du1
+9_DuN
+9_dv8
+9_Hu!
+9_xt+h
+9`:n:x:
+9{$uh
+9{Dt#h
+9{dv;
+9~Hv?
+9~ltM9}
+9+9>9T9m9
+9+9m9z9
+9+9Z9
+9<:q:
+9<:Z:
+9<;I;
+9<9}9
+9<9c9
+9<9O9t9
+9<9t9
+9<9T9e9s9
+9=;G;R<
+9>9~9
+9>v(S
+9>v)S
+9>v+S
+9>v2S
+9>v5S
+9>vGS
+9>vLS
+9>vyW
+90989@9H9P9\9|9
+90989@9H9P9X9`9h9p9x9
+909u9I;
+90u:h
+91:6:H:N:i:
+91:c:
+919f9
+919N9{9
+91H1 2N2T2
+93:B:Y:f:
+93:J:W:y:
+93:K:\:
+939i9
+939W9
+939x9
+94:H:[:h:~:
+94:J:b;
+94;Y;
+949@9`9h9p9|9
+949<9D9P9p9|9
+949<9H9h9x9
+94989L9P9T9X9h9l9
+95:::@:F:b:
+95:e:
+959K9l9
+959S9^9x9
+959X9t9
+96:p:
+96:Y:e:z:
+969C9L9P9e9t9x9
+969E9I9M9Q9U9Y9]9a9e9i9m9q9u9y9
+97;;<[<f<
+979C9M9e9
+97s/j
+989C9S9e:;<
+989D9d9p9
+9'9.9;9R9X9l9
+9-9\9
+999Y9w9U:
+9-9D9U9
+9-9H9c9~9
+9-9q9
+9A:K:{:
+9A:Q:
+9a9{9
+9B9j9s9
+9C:]:c:
+9C:R:
+9CTw!
+9D$0u
+9D<J?
+9D93:
+9D9t9
+9E:_;
+9E9\9
+9E9T9c9~9
+9E9u9
+9F:s:6<
+9F:z:
+9G,v`
+9G:]:x:
+9g:~:
+9G\vHV
+9G4r;V
+9g9{9
+9GPtW
+9H9\9g9q9
+9J:x;
+9j;w;
+9K:W:d:o:
+9K9t9
+9K9X9]9
+9L:{:
+9L9|9
+9L9W9r9|9
+9m9z9
+9N:~:
+9N9~9
+9n9j:
+9p$u"
+9p$u=
+9P,|b
+9P9h9
+9P9P:
+9r tR
+9R;g;
+9S:`:
+9s<u,
+9sLux9sHus
+9T9c9
+9T9X9l9
+9U:v:
+9U:Z:`:f:
+9V:e:
+9Vhvc
+9w vT
+9w$ueSV
+9w$v 3
+9whv\
+9wHv'S
+9X vP
+9X9p9
+9XDt+
+9Xpt,
+9y,tO
+9Z:|:
+9Z:a:
+9Z9u9
+A ;B u
+A named entry in the property map table must have a non-empty name.
+A SQLite identifier may not contain a null character.
+A$;B$u
+A$+A j
+A$SWf
+A,SVW
+A.HREF
+A_HREF
+A_Href
+A<+A8t
+A<+A8t;
+A<+A8tQ
+ABBBBBBBBBBB
+ABBDMMCCMMHIGMMMMM
+AbortMerge
+Absolute
+Access
+ACCESS
+AccessCheck
+AcquireSRWLockExclusive
+AcquireSRWLockShared
+Active Sessions
+ActivityError
+ActivityIntermediateStop
+ActivityStoppedAutomatically
+AddAccessAllowedAce
+AddAce
+AddScope
+AddVirtualScope
+AdminPropertyDatabase
+advapi32.dll
+AFTER(
+aggregate
+All bits
+AllArray
+AllocSize
+ALLOCSIZE
+AllowFindMyFiles
+AllowIndexingEncryptedStoresOrItems
+AllowOCR
+AllowUsingDiacritics
+AllowWindowsIndexer
+alnum
+ALocaleNameToLCID
+alpha
+Already assigned.
+Always use content index
+AlwaysUseAutoLangDetection
+And" Count="
+Another VFS with the same name is already registered.
+Aonecoreuap\base\appmodel\search\tquery\icommand\propbase.cxx
+api-ms-win-containers-cmclient-l1-1-0.dll
+api-ms-win-containers-cmclient-l1-2-0.dll
+api-ms-win-containers-cmclient-l1-5-0.dll
+api-ms-win-core-apiquery-l1-1-0.dll
+api-ms-win-core-com-l1-1-0.dll
+api-ms-win-core-datetime-l1-1-0.dll
+api-ms-win-core-debug-l1-1-0.dll
+api-ms-win-core-delayload-l1-1-0.dll
+api-ms-win-core-delayload-l1-1-1.dll
+api-ms-win-core-errorhandling-l1-1-0.dll
+api-ms-win-core-file-l1-1-0.dll
+api-ms-win-core-file-l1-2-0.dll
+api-ms-win-core-file-l1-2-1.dll
+api-ms-win-core-file-l2-1-0.dll
+api-ms-win-core-handle-l1-1-0.dll
+api-ms-win-core-heap-l1-1-0.dll
+api-ms-win-core-heap-l2-1-0.dll
+api-ms-win-core-heap-obsolete-l1-1-0.dll
+api-ms-win-core-interlocked-l1-1-0.dll
+api-ms-win-core-io-l1-1-0.dll
+api-ms-win-core-io-l1-1-1.dll
+api-ms-win-core-job-l2-1-0.dll
+api-ms-win-core-kernel32-legacy-l1-1-0.dll
+api-ms-win-core-kernel32-legacy-l1-1-1.dll
+api-ms-win-core-libraryloader-l1-2-0.dll
+api-ms-win-core-libraryloader-l1-2-1.dll
+api-ms-win-core-localization-l1-2-0.dll
+api-ms-win-core-localization-l1-2-2.dll
+api-ms-win-core-localization-obsolete-l1-2-0.dll
+API-MS-Win-Core-LocalRegistry-L1-1-0.dll
+api-ms-win-core-memory-l1-1-0.dll
+api-ms-win-core-namedpipe-l1-1-0.dll
+api-ms-win-core-processenvironment-l1-1-0.dll
+api-ms-win-core-processthreads-l1-1-0.dll
+api-ms-win-core-processthreads-l1-1-1.dll
+api-ms-win-core-processthreads-l1-1-3.dll
+api-ms-win-core-processtopology-obsolete-l1-1-0.dll
+api-ms-win-core-profile-l1-1-0.dll
+api-ms-win-core-psapi-l1-1-0.dll
+api-ms-win-core-realtime-l1-1-0.dll
+api-ms-win-core-registry-l1-1-0.dll
+api-ms-win-core-shlwapi-legacy-l1-1-0.dll
+api-ms-win-core-shlwapi-obsolete-l1-1-0.dll
+api-ms-win-core-string-l1-1-0.dll
+api-ms-win-core-string-l2-1-0.dll
+api-ms-win-core-string-obsolete-l1-1-0.dll
+api-ms-win-core-synch-l1-1-0.dll
+api-ms-win-core-synch-l1-2-0.dll
+api-ms-win-core-synch-l1-2-1.dll
+api-ms-win-core-sysinfo-l1-1-0.dll
+api-ms-win-core-threadpool-l1-2-0.dll
+api-ms-win-core-timezone-l1-1-0.dll
+api-ms-win-core-winrt-l1-1-0.dll
+api-ms-win-core-winrt-string-l1-1-0.dll
+api-ms-win-crt-private-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-eventing-provider-l1-1-0.dll
+api-ms-win-security-base-l1-1-0.dll
+api-ms-win-security-sddl-l1-1-0.dll
+api-ms-win-service-core-l1-1-1.dll
+api-ms-win-service-management-l1-1-0.dll
+api-ms-win-service-winsvc-l1-1-0.dll
+api-ms-win-shcore-registry-l1-1-0.dll
+api-ms-win-shell-namespace-l1-1-0.dll
+api-ms-win-winrt-search-folder-l1-1-0.dll
+ApiSetQueryApiSetPresence
+AppID
+APPID
+Application
+APPLICATION=
+arm64
+AROUND(
+Array
+ARRAY
+ARRAY, BITWISE
+ARRAY,COERCE,CONTAINS,DEEP,DERIVATIONAL,EXCLUDE,FORMSOF,FREETEXT,INFLECTIONAL,ISABOUT,MATCHES,NEAR,PARAGRAPH,PASSTHROUGH,PROPERTYNAME,PROPID,RANKMETHOD,SENTENCE,SCOPE,SEARCH,SHALLOW,SOUNDEX,THESAURUS,TRAVERSAL,TYPE,WEIGHT,WORD
+AssignProcessToJobObject
+Asynchronous Rowset Processing
+ATL$__a
+ATL$__z
+ATTRIB
+Attrib
+Autocommit Isolation Levels
+Aw?tv
+awJtd
+Ax;A|v
+B ;B<r
+B ;B<r0
+B f;F uPf
+B"f;F"uFf
+B$;A$w
+B$f;F$u<f
+B&f;F&u2f
+B(;A(w
+B(;B,u
+B(;B,uD
+B(f;F(u(f
+B(PVS
+B(PWS
+B*f;F*u
+B,;A,w
+B,f;F,u
+B.f;F.u
+B0+B,
+B0f;F0t
+BackOffTime
+bad array new length
+bad cast
+Bad optional access
+bad_weak_ptr
+Bd;B\
+BDSVW9B<r?v
+BEFORE(
+BEGIN TRANSACTION;
+BeginCacheTransaction
+BETWEEN(
+BIN.BASE64
+BIN.HEX
+Binary
+Bitwise
+BL?_L
+blank
+blob cb
+blob cb 
+Blob column too long.
+Blocking Storage Objects
+Bookmark
+Bookmark Type
+Bookmarks Ordered
+BOOL, 
+BOOLEAN
+bs-BA-Cyrl
+bs-BA-Latn
+bs-Cyrl-BA
+bs-Latn-BA
+BSTR, 
+Busy timeout too small or too large.
+BYFREQ_
+BYREF
+C ;0u&
+C$;C t
+C$^_[]
+C$9s vF
+C(+C$
+C,;F,w
+C,_^[]
+C;\$$r
+C;^ r
+C;_0r
+C++/WinRT version:2.0.220110.5
+C<$"<
+C0+C,j
+C0+C4
+C09HTs
+C0i0!2
+C4;CP
+C4;CPv
+C8f9K
+callContext
+CallContext
+callContext
+CallContext:[%hs] 
+CancelIo
+catalog
+Catalog
+Catalog Location
+Catalog Term
+Catalog Usage
+CatalogStorageManager
+CContentParserWordSink::PutBreak -- Bad break type %d
+CD@Pj
+CDEFGHIJKL
+cDims:%d fFeatures:0x%x cbElements:%d cLocks:%d pvData:0x%I64x
+CdplIsSupported
+CdplProtectFileToLevel
+CDuCj$
+CGc2`
+CH;CLt
+CH+CD
+Chapter
+CHARACTERIZATION
+Characterization
+CharNextW
+CharUpperW
+ChildCount
+CI Query Server Thread
+CI_E_MULTIPLE_PROTECTED_USERS_UNSUPPORTED
+CI_E_PROTECTED_CATALOG_SID_MISMATCH
+CInvertedDocument::AddProperty, SyncTransferStatus CP_EMPTYFOLDERASPLACEHOLDER for wid: %d
+CInvertedDocument::AddProperty, SyncTransferStatus CP_EXCLUDEDFROMSYNC for wid: %d
+CInvertedDocument::AddProperty, SyncTransferStatus CP_HASLASTSYNCERROR for wid: %d
+CInvertedDocument::AddProperty, SyncTransferStatus CP_HASLASTSYNCWARNING for wid: %d
+CInvertedDocument::AddProperty, SyncTransferStatus CP_TRANSFERSTATUS_DOWNLOADING for wid: %d
+CInvertedDocument::AddProperty, SyncTransferStatus CP_TRANSFERSTATUS_UPLOADING for wid: %d
+CiState
+CIState
+ClassID
+CLASSID
+ClassId
+ClientPipeName
+Client-side property cache has updated, found %ls
+Client-side property cache has updated, still can not find %ls
+CloseHandle
+CloseServiceHandle
+CloseThreadpool
+CloseThreadpoolTimer
+CloseThreadpoolWork
+CLSID
+CLSID\
+CLSID\%ws\InProcServer32
+CLSID\%ws\PersistentAddinsRegistered\%ws
+CLSID\%ws\PersistentHandler
+CLSIDFromProgID
+CLSIDFromString
+CmsCloseActivity
+CmsCloseContainer
+CmsCreateActivity
+CmsMapNamedPipeToContainer
+CmsOpenContainer
+CmsRegisterForContainerNotifications
+CmsStartActivityAsync
+cntrl
+CoCreateFreeThreadedMarshaler
+CoCreateGuid
+CoCreateInstance
+CoCreateInstanceEx
+coefficient
+Coerce (absolute)">
+Coerce (add)">
+Coerce (multiply)">
+CoGetClassObject
+CoGetMalloc
+CoImpersonateClient
+CoIncrementMTAUsage
+CoInitializeEx
+Column '%s' already exists but has type '%u' instead of type '%u'.
+Column Definition
+Column Privileges
+combase.dll
+CombinedRank
+Command Time Out
+COMMIT TRANSACTION;
+CompanyName
+CompareBmk
+CompareFileTime
+CompareStringA
+CompareStringOrdinal
+CompareStringW
+Component Categories
+CompressedFileSizeAfterBytes
+CompressedFileSizeBeforeBytes
+computer
+Connect
+ConnectNamedPipe
+Container
+ContainerId
+Content"><Phrase>
+CONTENTS
+Contents
+ContentTypes
+ControlService
+ConvertSecurityDescriptorToStringSecurityDescriptorW
+ConvertSidToStringSidW
+ConvertStringSecurityDescriptorToSecurityDescriptorW
+ConvertStringSidToSidW
+CopySid
+CoreCount
+CoRevertToSelf
+Costly
+CoTaskMemAlloc
+CoTaskMemFree
+CoTaskMemRealloc
+CoUninitialize
+Count
+CPhpu
+CpmcGetContainerIdForUser
+CREATE
+Create
+CREATE TABLE 
+CREATE TABLE IF NOT EXISTS 
+CREATE TABLE IF NOT EXISTS PropertyMap(FormatId BLOB NOT NULL, FormatIdQualifier VARIANT_BLOB NOT NULL, Id INTEGER NOT NULL UNIQUE, StandardId INTEGER NULL UNIQUE, Size INTEGER NULL, UNIQUE(FormatId, FormatIdQualifier));
+CREATE TABLE IF NOT EXISTS SecurityDescriptor(Id INTEGER PRIMARY KEY, Value TEXT NOT NULL, EnterpriseIds MULTI_TEXT NULL);
+CREATE UNIQUE INDEX IF NOT EXISTS SecurityDescriptorValue ON SecurityDescriptor(Value, EnterpriseIds);
+create_sqlite3_impersonation_vfs
+CreateDirectoryW
+CreateEventW
+CreateFileMappingW
+CreateFileW
+CreateJobObjectW
+CreateMutexExW
+CreateNamedPipeW
+CreatePropMapperStorage
+CreatePseudoQuery
+CreateQuery
+CreateSecurityStoreStorage
+CreateSemaphoreExW
+CreateStreamOnHGlobal
+CreateThread
+CreateThreadpool
+CreateThreadpoolTimer
+CreateThreadpoolWork
+CreateWaitableTimerExW
+cryptdll.dll
+Ct;s|r
+Current Catalog
+currentContextId
+currentContextMessage
+currentContextName
+CURSOR: <begin> %s - Decoders: %d, WidFilter: %s
+CURSOR: <end>   %s - ResultWids: %s
+CVW9Y
+Cxj0_W
+D$ ;H
+D$ Pj
+D$ PQQ
+D$ PQQQ
+D$ PV
+D$ PWh
+D$ QP
+D$ SVW
+D$ u0<
+D$ VP
+D$ VPW
+D$ WP
+D$ WW
+D$#_^
+D$$#L$
+D$$#L$4
+D$$;H
+D$$f9D$8sz3
+D$$Pj
+D$$PV
+D$$PWh
+D$$VP
+D$$WP
+D$(;H
+D$(9t$8u
+D$(C;_
+D$(f9G
+D$(Pf
+D$(Pj
+D$(QP
+D$(SVW
+D$(WVP
+D$(Xf
+D$,f;
+D$,PQQ
+D$,PSSSV
+D$,RAQ
+D$,VW
+D$@;H
+D$@f;
+D$@j{P
+D$@SVW
+D$<f;
+D$<Pf;L$
+D$<PQ
+D$0#L$D
+D$0;D$\
+D$0;H
+D$0_^[
+D$0f9A
+D$0SV
+D$4f;
+D$4PQ
+D$4PQQ
+D$8;H
+D$8f;
+D$8PPh 
+D$8PQQ
+D$8QP
+D$8SV
+D$8Vj0
+D$D;H
+D$Df;
+D$H;H
+D$Hf;
+D$Hj{P
+D$HPQ
+D$HPQQ
+D$L;H
+D$Lf;
+D$LQP
+D$P;H
+D$Pf;
+D$PSV
+D$T;H
+D+D$4t9
+D1(;D1
+Data Layer Provider Configs
+Data Source
+Data Source Object Threading Model
+DatabaseMemoryPeak
+DatabaseMemoryUsage
+DataTypeCount
+DataTypeString
+DATERANGE_
+DATETIME
+DATETIME.TZ
+DAY_PLUS
+DBInitFailureCount
+DBInitFailureStamp
+DBMS Name
+DBMS Version
+DBTYPE_
+DBTYPE_BOOL
+DBTYPE_BSTR
+DBTYPE_BYREF, DBTYPE_VECTOR
+DBTYPE_CY
+DBTYPE_DATE
+DBTYPE_DECIMAL
+DBTYPE_FILETIME
+DBTYPE_GUID
+DBTYPE_I1
+DBTYPE_I2
+DBTYPE_I2, DBTYPE_I4, DBTYPE_R4, DBTYPE_R8, DBTYPE_CY, DBTYPE_DATE, DBTYPE_BSTR, DBTYPE_BOOL, DBTYPE_STR, DBTYPE_WSTR
+DBTYPE_I4
+DBTYPE_I8
+DBTYPE_NULL
+DBTYPE_R4
+DBTYPE_R8
+DBTYPE_STR
+DBTYPE_STR | DBTYPE_BYREF
+DBTYPE_UI1
+DBTYPE_UI2
+DBTYPE_UI4
+DBTYPE_UI8
+DBTYPE_WSTR
+DBTYPE_WSTR | DBTYPE_BYREF
+dcZ]c
+DDMMCMCBMM
+DebugBreak
+DECIMAL
+Default behavior of equals parsing
+Default Highest Priority
+Defer catalog verification
+Defer scope and security testing
+DelayLoadFailureHook
+Delete
+DELETE FROM 
+DELETE FROM SecurityDescriptor;
+delete_sqlite3_impersonation_vfs
+DeleteCriticalSection
+DeleteFileW
+deque<T> too long
+DeregisterEventSource
+Description
+DeviceIoControl
+Dice Coeff.">
+digit
+Directory
+DIRECTORY
+DisableBackoff
+DisableRemovableDriveIndexing
+DisableSoftReset
+DisableThreadLibraryCalls
+Disconnect
+DisconnectNamedPipe
+DllCanUnloadNow
+DllGetActivationFactory
+DllGetClassObject
+DllRegisterServer
+DllUnregisterServer
+DocAppName
+DOCAPPNAME
+DOCAUTHOR
+DocAuthor
+DocByteCount
+DOCBYTECOUNT
+DocCategory
+DOCCATEGORY
+DOCCHARCOUNT
+DocCharCount
+DocComments
+DOCCOMMENTS
+DOCCOMPANY
+DocCompany
+DocCreatedTm
+DOCCREATEDTM
+DocEditTime
+DOCEDITTIME
+DocHiddenCount
+DOCHIDDENCOUNT
+DocKeywords
+DOCKEYWORDS
+DocLastAuthor
+DOCLASTAUTHOR
+DocLastPrinted
+DOCLASTPRINTED
+DocLastSavedTm
+DOCLASTSAVEDTM
+DOCLINECOUNT
+DocLineCount
+DocManager
+DOCMANAGER
+DOCNOTECOUNT
+DocNoteCount
+DocPageCount
+DOCPAGECOUNT
+DocParaCount
+DOCPARACOUNT
+DocPartTitles
+DOCPARTTITLES
+DOCPRESENTATIONTARGET
+DocPresentationTarget
+DocRevNumber
+DOCREVNUMBER
+DOCSECURITY
+DocSecurity
+DocSet
+DocSet>"><cWids>
+DocSlideCount
+DOCSLIDECOUNT
+DocSubject
+DOCSUBJECT
+DocTemplate
+DOCTEMPLATE
+DOCTHUMBNAIL
+DocThumbnail
+DocTitle
+DOCTITLE
+document
+Documents
+DOCWORDCOUNT
+DocWordCount
+DoNotComputeExpensiveProperties
+Don't compute expensive properties like max rank and total results
+DROP TABLE IF EXISTS 
+DuplicateHandle
+Dw=&:s
+Dw=':s
+Dw=]:s
+Dw=|:s
+Dw=}:s
+Dw=~:s
+Dw=1"
+Dw=2"
+Dw=bad allocation
+Dw=c:s
+Dw=D:s
+Dw=E:s
+Dw=g:s
+Dw=i:s
+Dw=onecoreuap\base\appmodel\search\common\utils\crchash.cxx
+Dw=onecoreuap\base\appmodel\search\tquery\bigtable\hraccess.cxx
+Dw=onecoreuap\base\appmodel\search\tquery\icommand\colgrp.cxx
+Dw=s:s
+Dw=U:s
+Dw=u:s
+Dw=y:s
+E QSSj
+E SVW
+E VWj
+E$SV3
+E$SVW
+E$VW3
+E(VW3
+E,SVW
+E,VW3
+E@VW3
+E<SVWQQ
+E4VW3
+EDP://EnterpriseIds
+EDP://EvaluationFlags
+EDP://ExemptEnterpriseIds
+EDP://PolicyFlags
+EdpGetPrimaryIdentities
+EDPStatus
+EFGHI
+efswrt.dll
+EGBDq
+Ej|Xj[f
+EMPTY
+empty 
+EMPTY, 
+Enable the rowset events connection point for this query
+EnableCDPL
+EnablePerUserCatalog
+EndCacheTransaction
+end-of-file
+EN-GB
+EnterCriticalSection
+EnterpriseDataProtect
+EnumDependentServicesW
+en-US
+EN-US
+EqualSid
+ERROR
+Error
+Error formatting string.
+ErrorLoadingWordBreaker
+ES-ES
+ES-MX
+ETWBufferSize
+ETWLogging
+EventActivityIdControl
+EventEnabled
+EventRegister
+EventSetInformation
+EventThrottleBlockPeriodMs
+EventThrottleFlushPeriodMs
+EventThrottleMaxControlPeriodMs
+EventThrottleMaxEvents
+EventUnregister
+EventWriteTransfer
+Exact Word Prefix">
+Exact Word">
+Exception
+ExpandEnvironmentStringsW
+Expression
+Extended Properties
+Extension
+ExternPropagateEventToOpenQueries
+ext-ms-onecore-appmodel-staterepository-internal-l1-1-3.dll
+ext-ms-win32-subsystem-query-l1-1-0
+ext-ms-win32-subsystem-query-l1-1-0.dll
+ext-ms-win-advapi32-eventlog-l1-1-0
+ext-ms-win-advapi32-eventlog-l1-1-0.dll
+ext-ms-win-advapi32-eventlog-l1-1-1
+ext-ms-win-advapi32-eventlog-l1-1-2
+ext-ms-win-containers-policymanagercli-l1-1-0.dll
+ext-ms-win-devmgmt-policy-l1-1-0.dll
+ext-ms-win-edputil-policy-l1-1-0.dll
+ext-ms-win-els-elscore-l1-1-0.dll
+ext-ms-win-session-usertoken-l1-1-0
+ext-ms-win-session-usertoken-l1-1-0.dll
+ext-ms-win-shell32-shellfolders-l1-1-0.dll
+F [_^]
+F _^]
+F H^]
+F PhH
+F"f;G"
+F$;F,
+F$;F,s*
+F$;F,t`3
+F$;G$u
+F$+F 
+F$+F W
+F$+F(h
+F(;G(
+F(+F 
+F(+F P
+F,9F$
+F,SSP
+f;A,uf3
+f;D$0tx
+f;D$0uF
+f;G u
+f;H,u+
+f;O$u5
+f;pXt
+f;PXt
+F;sHr
+F;sPr
+f;t$L
+f;t$Lu>
+F;w$r
+F;wPr
+f;xXu
+F@;G@
+F@;G@u
+F\;F`ub
+F_^[]
+F<;FDs
+F<;G<
+F<;G<u
+F<f9G
+F0X0]0v0
+f2j578
+F2P2[2
+F49~$
+F8+F0
+f93t;
+f93tW9
+f9A u
+f9A$u
+f9A&u
+f9A(u
+f9A,u
+f9A0u
+f9D$ r
+f9D$(r
+f9D$,r
+f9D$@
+f9D$@r
+f9D$<r
+f9D$4r
+f9D$Hr
+f9O(t
+f9O(u
+f9T$,
+f9w`tG
+f9wbt%
+f9wdt%
+f9wht%
+f9wjt%
+f9wnt%
+f9wpt%
+f9wrt%
+f9wtt%
+Failed to insert or update the value in the index data table.
+Failed to insert or update the value in the index occurrence table.
+Failed to insert or update the value in the property bag.
+Failed to insert or update the value in the property store.
+FailFast
+failureCount
+failureId
+FailureId
+failureType
+FallbackError
+FALSE
+FD;GD
+FDPQW
+FdYef
+Fetch Backwards
+FetchValue
+ffii{{
+FG;t$
+FG;t$ r
+FG;t$$r
+FH<bu
+File size is too large.
+file:
+file://
+file:///
+file_size
+FileAccessTime
+fileanc
+FileAttributes
+FileCreateTime
+FileDescription
+FileDirectoryName
+FileIndex
+FILEINDEX
+fileName
+FILENAME
+FileName
+Filename
+FilePathName
+FileShortName
+FileSize
+FileSizeAfterBytes
+FileSizeBeforeBytes
+FileStorageType
+FILETIME
+FileTimeToLocalFileTime
+FileTimeToSystemTime
+FileType
+FileUSN
+FileVersion
+FileWriteTime
+FilterExtension
+Final OpTree
+FindClose
+FindFirstFileW
+FindIndices
+FindNextFileW
+FindResourceExW
+First Counter
+First Help
+First Rows
+FIRST_
+fixed
+FIXED.14.4
+FLOAT
+FLUSH
+FLUSH COMPLETE: (Index: %d) Documents: %d, Wordlist Size: %d, Index Pages: %d
+Flush Threshold Values are cFlushDocuments = %d, cIdleFlushDocuments = %d, cbFlushMaxSize = %d, cbIdleFlushMaxSize = %d
+FlushDocuments
+FlushDocumentsCount
+FlushFileBuffers
+FlushMaxSize
+FlushViewOfFile
+folder
+FoldStringW
+ForceMerge
+ForceRemove
+Foreign
+FormatMessageA
+FormatMessageW
+FP t:
+FP9FXtu
+FR-CA
+FreeCursor
+FreeLibrary
+FreeLibraryWhenCallbackReturns
+FreeSid
+FreeText
+Fresh Test Reload required merging Flushing Wordlist
+Fresh Test Reloaded (changes were made since this merge was started)
+FRESH TEST:  WIDs in the new, but not in the old:
+FRESH TEST:  WIDs in the old, but not in the new:
+FRESH TEST: Update (%s)
+FR-FR
+function
+fXXTTTXfXnn
+FYY;7r
+G f9M
+G t)j
+G#D$@
+G#D$D
+G$;C$u9
+G$_^]
+G(;G$r
+G(;G$s(
+G(;G,u#
+G(_^]
+G,_^]
+G;{$|
+G;{0r
+G;~<r
+G;~Hr
+G;~Xr
+G@_[]
+G^WVhP
+G0@Ph
+g0m0{0
+G4;GPv
+G4+G0
+g8^lu
+G8+G0
+G9~ r
+G9stu|V
+-gather
+GB;>r
+Generate parse tree
+generic
+Generic options string
+GetAce
+GetAclInformation
+GetActiveProcessorCount
+GetApproximatePosition
+GetCalendarInfoW
+GetCompressedFileSizeW
+GetComputerNameW
+GetCPInfo
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetDiskFreeSpaceExW
+GetDiskFreeSpaceW
+GetDriveTypeW
+GetFileAttributesExW
+GetFileAttributesW
+GetFileInformationByHandleEx
+GetFileSize
+GetFileSizeEx
+GetFileTime
+GetLastError
+GetLengthSid
+GetLocaleInfoEx
+GetLocaleInfoW
+GetLocalTime
+GetLogicalDrives
+GetLogicalProcessorInformationEx
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleExA
+GetModuleHandleExW
+GetModuleHandleW
+GetNamedPipeClientComputerNameW
+GetNamedPipeClientProcessId
+GetNLSVersion
+GetNLSVersionEx
+GetNotify
+GetOverlappedResult
+GetParseTree
+GetPriorityClass
+GetProcAddress
+GetProcessHeap
+GetProcessId
+GetProcessInformation
+GetQueryMetadata
+GetRowCount
+GetRows
+GetRowsetNotify
+GetRowsStatistics
+GetScopeStatistics
+GetSecurityDescriptorLength
+GetSidLengthRequired
+GetSidSubAuthority
+GetSystemDefaultLangID
+GetSystemDefaultLCID
+GetSystemDefaultUILanguage
+GetSystemDirectoryW
+GetSystemInfo
+GetSystemPowerStatus
+GetSystemPreferredUILanguages
+GetSystemTimeAsFileTime
+GetThreadTimes
+GetTickCount
+GetTickCount64
+GetTimeFormatW
+GetTokenInformation
+GetUserDefaultLangID
+GetUserDefaultLCID
+GetUserDefaultUILanguage
+GetUserNameExW
+GetVersionExW
+GetVolumeNameForVolumeMountPointW
+GetVolumePathNameW
+GetWatchInfo
+Gff;Gbt%
+GH;G|
+GH_^]
+GH+G|
+GH+GDj
+Glf;Ght%
+GLOBAL
+Global
+Global\
+Global\MsWds-Notify-Event
+GlobalAlloc
+GlobalFree
+GlobalLock
+GlobalUnlock
+gponecore\internal\sdk\inc\wil\opensource/wil/result.h
+graph
+Group
+GROUP BY Support
+GROUP ON 
+Gt+Gp
+Gt+Gpj
+GwDt/
+Gwwtn
+H;GTs
+H_[^]
+H0;H8u#
+H0U0i0n0|0
+H89H0u
+h9GDu/
+Hardware
+hBTEJRj
+HeapAlloc
+HeapDestroy
+HeapFree
+HeapReAlloc
+HeapSize
+Heterogeneous Table Support
+hidden
+HitCount
+HITCOUNT
+HKEY_CLASSES_ROOT
+HKEY_CURRENT_CONFIG
+HKEY_CURRENT_USER
+HKEY_DYN_DATA
+HKEY_LOCAL_MACHINE
+HKEY_PERFORMANCE_DATA
+HKEY_USERS
+Hold Rows
+hoohhssttww
+HQQPR
+HResult
+hresult
+HResult
+hresult
+HResult
+hresult
+hTbF2<
+htblR
+htblV
+HtmlHeading1
+HTMLHEADING1
+HtmlHeading2
+HTMLHEADING2
+HtmlHeading3
+HTMLHEADING3
+HtmlHeading4
+HTMLHEADING4
+HTMLHEADING5
+HtmlHeading5
+HTMLHEADING6
+HtmlHeading6
+HtmlHref
+HTMLHREF
+https
+Hw[t$
+Hw-tE
+HwZti
+hXDNISj
+i1U3c4i4
+IAccessor
+IChapteredRowset
+IColumnsInfo
+IConnectionPointContainer
+IConvertType
+IDBAsynchStatus
+Identifier
+IdleFlushDocuments
+IdleFlushDocumentsCount
+IdleFlushMaxSize
+IdleMergeIndicesPerLevel
+IdleWatermark
+IFilterUsage
+Ignore noise only clauses
+Ignore sort by rank index
+iiiiiiimmmmmmmrrrrrrrvvvvvvv~~~~~~~
+ijklm
+IMG.ALT
+IMG_ALT
+Img_Alt
+ImpersonateLoggedOnUser
+ImpersonateLoggedOnUser failed with error code %d
+ImpersonateNamedPipeClient
+Inconsistent state data size in wnf_query
+Index data page key too long.
+IndexerCorruption
+IndexerDatabaseSize
+IndexerFlushFailure
+IndexerMemoryUsage
+IndexerMergeFailure
+IndexerMergeInformation
+IndexerQueryExecutionClient
+IndexerQueryExecutionClient_Aggregate
+IndexerQueryExecutionService
+IndexerQueryExecutionService_Aggregate
+IndexerWorkAttributionActivity_Aggregate
+IndexID
+IndexingFileAggregationDataMetric
+IndexMasterMergeCount
+IndiceCount
+Indices
+INFLECTIONAL
+INFLECTIONAL, THESAURUS
+Information
+Initial OpTree
+InitializeAcl
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSecurityDescriptor
+InitializeSid
+InitializeSListHead
+InitializeSRWLock
+InitOnceBeginInitialize
+InitOnceComplete
+InitOnceExecuteOnce
+InitPropVariantFromFileTime
+InitPropVariantFromFileTimeVector
+inner
+Inner Prod.">
+INSERT INTO 
+INSERT INTO PropertyMap(FormatId, FormatIdQualifier, Id, StandardId, Size) VALUES (?, ?, ?, ?, ?);
+INSERT INTO SecurityDescriptor(Value, EnterpriseIds) VALUES (?, ?);
+InstallDirectory
+INTEGER
+Integrated Security
+Interface
+InterlockedFlushSList
+InterlockedPopEntrySList
+InterlockedPushEntrySList
+InternalName
+InternalProperty"><Pid>0x
+Invalid format ID qualifier type.
+invalid hash bucket count
+Invalid integer %i for boolean value.
+Invalid property map property ID.
+Invalid size for double.
+Invalid size for float.
+Invalid size for GUID column.
+Invalid size for GUID.
+Invalid size for int16_t.
+Invalid size for int32_t.
+Invalid size for int64_t.
+Invalid size for uint16_t.
+Invalid size for uint32_t.
+Invalid size for uint8_t.
+Invalid size for Unicode text.
+Invalid SQLite BLOB size for GUID.
+Invalid SQLite database connection.
+Invalid SQLite value type for MULTI_TEXT column.
+invalid string position
+Invalid Unicode string.
+invalid unordered_map<K, T> key
+invalid vector subscript
+InvertedOnlyMD5
+InvertedOnlyPids
+IRowset
+IRowsetAsynch
+IRowsetIdentity
+IRowsetInfo
+IRowsetLocate
+IRowsetScroll
+IRowsetWatchAll
+IRowsetWatchRegion
+IsDBCSLeadByteEx
+IsDebuggerPresent
+IsFreshMerge: wid %d believed originated in index: %d (pid: %d)
+IsMasterMerge
+IsMSSearchEnabled
+Isolation Levels
+Isolation Retention
+IsProcessorFeaturePresent
+ISupportErrorInfo
+IsValidLocaleName
+IsValidSid
+ItemCount
+itemsIndexed
+iu-CA-Latn
+iu-Latn-CA
+IWordBreaker::GetLicenseToUse returned 0x%x
+IWordBreaker::Init returned 0x%x
+J _^[]
+j X9E
+j XQQ
+j Y+M
+j Z_^
+j"Zf;
+j$^;]
+j$X;u
+j%Xf;
+j%Xt6
+j(h@M
+j)h0P
+j*Zj"
+j.Yf;
+j.Yf9
+j/_f9|H
+j/Zf;
+j:^f;
+j:Zf;W
+j:Zt&f;W
+j?^f;
+j@^f;
+j@j@S
+j@j@V
+j@Yf;
+j[^f;
+j\Xf9FHu
+j\XP3
+j\Zf;TH
+j\Zf9TH
+j]hh`
+j]Xf9
+j]Yf;
+j-^f;s
+j^Xf;
+j{Xf;
+j{Xf9
+j|Xj[f
+j|Yj]
+j}Xf9
+j=Xf9
+j0hh`
+j0Xf;
+j0Xj<
+j0YjX
+j0Zt4f;
+Jaccard
+Jaccard Coeff.">
+jAhh9
+jahPE
+ja-JP_radstr
+jaXf;
+jAXf;
+jAXf9E
+jAYf;
+jCZf;
+jcZf;
+jD_j|
+jEXf;
+jFYf;
+jGXf;
+jHXf;
+jHYf;
+jJXf;
+JKLMNO
+JKLMNOOOPOOOQORSTUOVOWJXYZ[J\]J^J_`abcJdefgJhJJjkjkno
+JL;HTs
+jmZf;
+jNZf;
+jnZf;
+jP_h\}
+jPXf;
+jpXf;
+jThHW
+juZf;
+jUZf;
+jVYf;
+jxYf;
+jxZf;
+jZXjAYf;
+K$91t
+K@x?Lyz
+K`dF4
+K32GetProcessMemoryInfo
+kernel32.dll
+kernelbase.dll
+kG (P
+ko-KR
+KX;K\t
+L$ ;F$v
+L$ +L$
+L$ +L$(
+L$ QP
+L$$;B$v
+L$$;C
+L$$;F
+L$$;F$v
+L$$_^[3
+L$$_^3
+L$$QP
+L$(;F
+L$(;F$v
+L$(+L$,;
+L$(j]Xf;
+L$(Ph
+L$,;_
+L$,;F$v
+L$,^3
+L$,_^[3
+L$@;F$v
+L$\_^[3
+L$|_^[3
+L$<;F
+L$<;F$v
+L$<^3
+L$<_^
+L$0;B$v
+L$0;F$v
+L$0Ph
+L$4;B$v
+L$4;F$v
+L$4^3
+L$4_^[3
+L$4_^3
+L$8;F
+L$8;F$v
+L$8f;
+L$8Qj
+L$8QP
+L$d;F
+L$H;F$v
+L$L;F$v
+L$L_^[3
+L$l_^[3
+L$Lu?
+L$P;B$v
+L$P;F$v
+L$PQh(Y
+L$T;F
+L$X;F
+LCIDToLocaleName
+LCMapStringEx
+LCMapStringW
+LeaveCriticalSection
+LegalCopyright
+length
+Like: %s
+lineNumber
+LineNumber
+lineNumber
+list too long
+Literal Bookmarks
+Literal Row Identity
+LoadLibraryExW
+LoadLibraryW
+LoadResource
+LoadStringW
+Local\SM0:%lu:%lu:%hs
+Locale
+Locale Identifier
+LocaleNameToLCID
+LocalFree
+Location
+LockResource
+LogHr
+LogNt
+LogonEventSessionEndWithThreshold
+LogStagedFeatureUsage
+lower
+LPSTR, 
+LPWSTR
+LPWSTR, 
+lstrcmpiW
+lstrcmpW
+lstrlenA
+Lu'R0
+LWWWj
+M$QWV
+M,5Y9SY+
+M??NNNNMMKBBNNMMMMMMMMMMMMMMMMM
+MachineName
+map/set too long
+MappingFreePropertyBag
+MappingGetServices
+MappingRecognizeText
+MapViewOfFile
+Max">
+MaxCursorsUsed
+MaxDocuments
+MaxEntriesFlushed
+MaxEntriesStored
+MaxEvents
+maximum
+Maximum Open Chapters
+Maximum Open Rows
+Maximum Rank
+Maximum Row Size
+Maximum Rows
+Maximum Tables in SELECT
+MaxKeyCount
+MaxWordList
+MBK@?L
+MD5 Unchanged - Not commiting the following properties:
+MD5Final
+MD5Init
+MD5Update
+MEDIAEDITOR
+MediaEditor
+MedianKeyCount
+MediaOwner
+MEDIAOWNER
+MediaProduction
+MEDIAPRODUCTION
+MediaProject
+MEDIAPROJECT
+MEDIARATING
+MediaRating
+MediaSequence_No
+MEDIASEQUENCE_NO
+MediaSource
+MEDIASOURCE
+MediaStatus
+MEDIASTATUS
+MediaSupplier
+MEDIASUPPLIER
+memchr
+memcmp
+memcpy
+memmove
+Memory Usage
+memset
+MERGE
+MERGE BACKOUT: (Indexes: %d - %d  size: %d into: %d, level: %d)
+MERGE COMPLETE: (Indexes: %d - %d  size: %d into: %d, level: %d)
+MERGE STARTING: (Indexes: %d - %d  size: %d into: %d, level: %d) 
+MergedKey
+MergeIndicesPerLevel
+MergeLevel
+MergeLevelAfterMax
+MergeTime
+message
+Message
+message
+Message
+message
+Message
+message
+Message
+mHighest
+Microsoft Corporation
+Microsoft OLE DB Provider for Microsoft Indexing Service
+Microsoft Tripoli Query
+Microsoft.Windows.Search.Indexer
+Microsoft.Windows.Search.Indexer.Aggregated.High
+Microsoft.Windows.Search.Indexer.Aggregated.Low
+Microsoft.Windows.Search.Indexer.Aggregated.Medium
+Microsoft.Windows.Search.Indexer.Aggregated.Normal
+Microsoft.Windows.Search.Indexer.Diagnostics
+Microsoft.Windows.Search.Indexer.Trace
+Microsoft.Windows.Search.Indexer.WorkAttribution
+Microsoft.Windows.TlgAggregateInternal
+MicrosoftTelemetryAssertTriggeredUM
+Min">
+MinEntriesFlushed
+minimum
+MINIMUM, MAXIMUM, JACCARD COEFFICIENT, DICE COEFFICIENT, INNER PRODUCT
+MinKeyCount
+MINUTE
+MM$%'MMMMMMMMM5M7MMMMMMM
+MM0MMM
+MM1M3
+MMCMMMMMM
+MMM4<^m
+MMMM8;M=aj
+MMMMM
+MMMMMMM
+MMMMMMMMMMM
+MMMMMMMMMMM MMMMM*MMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMM
+module
+Module
+module
+Module_Raw
+MONTH
+movie
+MsFteWds
+MsFteWds_Container_%ws
+Msg:[%ws] 
+MSGARTICLEID
+MsgArticleID
+MsgDate
+MSGDATE
+MSGFROM
+MsgFrom
+MSGMESSAGEID
+MsgMessageID
+MSGNEWSGROUP
+MsgNewsgroup
+MSGNEWSGROUPS
+MsgNewsgroups
+MSGRECEIVEDDATE
+MsgReceivedDate
+MSGREFERENCES
+MsgReferences
+MsgSubject
+MSGSUBJECT
+msvcp_win.dll
+MultiByteToWideChar
+Multiple Parameter Sets
+Multiple Results
+Multiple Storage Objects
+Multiply
+music
+MusicStackThumbnailCacheIds
+N$;Vhr
+N0e0|0
+Natural Lang"><Phrase>
+NetApiBufferFree
+NetShareGetInfo
+netutils.dll
+network
+Neutral
+NEUTRAL
+neutral
+NewsArticleId
+NEWSARTICLEID
+NEWSDATE
+NewsDate
+NewsFrom
+NEWSFROM
+NewsGroup
+NEWSGROUP
+NewsGroups
+NEWSGROUPS
+NEWSMSGID
+NewsMsgId
+NEWSRECEIVEDDATE
+NewsReceivedDate
+NEWSREFERENCES
+NewsReferences
+NEWSSUBJECT
+NewsSubject
+NLIRRANK
+NLIRRank
+NLS Version
+NLS Version (Defined)
+No content op tree created.
+No freetext op tree created.
+NoiseFile
+None"></Rst>
+NoRemove
+Normalization failed to process the expected number of characters.
+Not enough bytes are left to read the entire varint.
+Not enough bytes are left to store the varint.
+Not">
+not_supported_alpha
+not_supported_alpha64
+not_supported_arm32on64
+not_supported_ia32on64
+not_supported_ia64
+not_supported_mips
+not_supported_msil
+not_supported_ppc
+not_supported_shx
+Notification Phases
+NtClose
+ntdll.dll
+NtQuerySecurityAttributesToken
+NtQuerySystemInformation
+NtQueryWnfStateData
+NtUpdateWnfStateData
+NULL 
+NULL Collation Order
+NULL, 
+NumAllocationFailures
+NUMBER
+NumBucketLimitReached
+NumFlushes
+NumLargeEventFailures
+NwGt5
+o*~e3onecoreuap\base\appmodel\search\common\screenonsession\screenoneventmanager.cpp
+O:%sD:(A;;0xC0100000;;;%s)(A;;0xC0100000;;;SY)(A;;0xC0100000;;;BA)(A;;0xC0100000;;;BG)(A;;0xC0100000;;;S-1-15-3-1024-724741592-1210917904-489960769-637019204-3345707629-3097053430-1727148295-85063603)(A;;0xC0100000;;;S-1-15-2-128907917-1049808183-3772720920-2589851895-2273257875-2082631859-2896883434)(A;;0xC0100000;;;S-1-15-2-1861897761-1695161497-2927542615-642690995-327840285-2659745135-2630312742)
+O:SYD:(A;;0xC0100000;;;SY)(A;;0x0012019B;;;AU)(A;;0x0012019B;;;BA)(A;;0x0012019B;;;BG)(A;;0x0012019B;;;S-1-15-3-1024-724741592-1210917904-489960769-637019204-3345707629-3097053430-1727148295-85063603)(A;;0x0012019B;;;S-1-15-3-128907917-1049808183-3772720920-2589851895-2273257875-2082631859-2896883434)(A;;0x0012019B;;;S-1-15-3-1861897761-1695161497-2927542615-642690995-327840285-2659745135-2630312742)
+O?4##
+O`QQVPP
+O0X0e0|0
+O8;AXt0
+o8^lu
+O8+O0
+OD+G0
+OL___
+OLE DB Services
+OLE DB Version
+OLE Object Support
+OLEAUT32.dll
+ON, OFF
+onecore\internal\sdk\inc\wil\opensource\wil\resource.h
+onecore\internal\sdk\inc\wil\opensource\wil\result_macros.h
+onecore\internal\sdk\inc\wil\opensource\wil\token_helpers.h
+onecore\internal\sdk\inc\wil\Resource.h
+onecore\internal\sdk\inc\wil\Staging.h
+onecoreuap\base\appmodel\search\common\containerhelper\containerhelper.cpp
+onecoreuap\base\appmodel\search\common\edphelper\edphelper.cpp
+onecoreuap\base\appmodel\Search\common\include\access_token_provider.h
+onecoreuap\base\appmodel\Search\common\include\darray.hxx
+onecoreuap\base\appmodel\Search\common\include\errormsg.hxx
+onecoreuap\base\appmodel\Search\common\include\lmstr.hxx
+onecoreuap\base\appmodel\Search\common\include\OleError.h
+onecoreuap\base\appmodel\Search\common\include\PerUserCatalogResetHelper.h
+onecoreuap\base\appmodel\Search\common\include\PrivateComActivationHelper.h
+onecoreuap\base\appmodel\Search\common\include\recovery.h
+onecoreuap\base\appmodel\Search\common\include\SearchTraceAggregatedProvider.h
+onecoreuap\base\appmodel\Search\common\include\SearchTraceWorkAttribution.h
+onecoreuap\base\appmodel\Search\common\include\secutil_common.hxx
+onecoreuap\base\appmodel\Search\common\include\sparse_bit.h
+onecoreuap\base\appmodel\Search\common\include\strsafeex.hxx
+onecoreuap\base\appmodel\Search\common\include\thread_impersonation_token.h
+onecoreuap\base\appmodel\Search\common\include\TPUtils.h
+onecoreuap\base\appmodel\Search\common\include\usersidhelper.h
+onecoreuap\base\appmodel\Search\common\include\utf8.h
+onecoreuap\base\appmodel\Search\common\include\WinRAIIThrowing.h
+onecoreuap\base\appmodel\search\common\jobmanager\jobmanager.cpp
+onecoreuap\base\appmodel\search\common\pkmutild\cregistry.cxx
+onecoreuap\base\appmodel\search\common\pkmutild\eventlog.cxx
+onecoreuap\base\appmodel\search\common\pkmutild\fsutil.cxx
+onecoreuap\base\appmodel\search\common\pkmutild\lmstr.cxx
+onecoreuap\base\appmodel\search\common\pkmutild\namestr.cxx
+onecoreuap\base\appmodel\search\common\pkmutild\ss4.cxx
+onecoreuap\base\appmodel\search\common\pkmutill\ssfsutil.cxx
+onecoreuap\base\appmodel\search\common\staterepositoryhelper\staterepositoryhelper.cpp
+onecoreuap\base\appmodel\search\common\stgvar\dbcmdbas.cxx
+onecoreuap\base\appmodel\search\common\stgvar\stgvara.cxx
+onecoreuap\base\appmodel\search\common\stgvar\stgvarb.cxx
+onecoreuap\base\appmodel\search\common\sysimprs\sysimprs.cxx
+onecoreuap\base\appmodel\search\common\telemetry\telemetry.cpp
+onecoreuap\base\appmodel\search\common\utils\multicatutil.cxx
+onecoreuap\base\appmodel\search\common\utils\regredirect.cxx
+onecoreuap\base\appmodel\search\common\volumeidurl\volumeid.cxx
+onecoreuap\base\appmodel\Search\sqlite\include\sqlite3_impersonation_vfs.h
+onecoreuap\base\appmodel\search\tquery\bigtable\colinfo.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\conpt.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\dberror.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\hraccess.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\odbvarnt.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\rowbuf.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\rownotfy.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\rowseek.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\rowset.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\svcproxy.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\tablecol.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\tablecur.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\tblalloc.cxx
+onecoreuap\base\appmodel\search\tquery\bigtable\tblvarnt.cxx
+onecoreuap\base\appmodel\search\tquery\cicommon\ciexcpt.cxx
+onecoreuap\base\appmodel\search\tquery\cicommon\crequest.cxx
+onecoreuap\base\appmodel\search\tquery\cicommon\idxpmlib.cxx
+onecoreuap\base\appmodel\search\tquery\cicommon\istrmfil.cxx
+onecoreuap\base\appmodel\search\tquery\cidso\datasrc.cxx
+onecoreuap\base\appmodel\search\tquery\cidso\dsocf.cxx
+onecoreuap\base\appmodel\search\tquery\cidso\parsver.cxx
+onecoreuap\base\appmodel\search\tquery\cifrmwrk\cimanger.cxx
+onecoreuap\base\appmodel\search\tquery\cifrmwrk\qoptimiz.cxx
+onecoreuap\base\appmodel\search\tquery\cifrmwrk\queryserver.cxx
+onecoreuap\base\appmodel\search\tquery\cifrmwrk\restparser.cpp
+onecoreuap\base\appmodel\search\tquery\cifrmwrk\restvolumeparser.cpp
+onecoreuap\base\appmodel\search\tquery\cifrmwrk\srequest.cxx
+onecoreuap\base\appmodel\search\tquery\cifrmwrk\srequest.hxx
+onecoreuap\base\appmodel\search\tquery\deflang\defbreak.cxx
+onecoreuap\base\appmodel\search\tquery\dll\pkmcntrs.cxx
+onecoreuap\base\appmodel\search\tquery\dll\tquery.cxx
+onecoreuap\base\appmodel\search\tquery\filtereg\filterregistration.cxx
+onecoreuap\base\appmodel\search\tquery\filtereg\languageregistry.cxx
+onecoreuap\base\appmodel\search\tquery\filtereg\languageresources.cxx
+onecoreuap\base\appmodel\Search\tquery\fteinclude\tripoliLangRes.hxx
+onecoreuap\base\appmodel\search\tquery\fteutil\eventsem.cxx
+onecoreuap\base\appmodel\Search\tquery\fteutil\include\serover.hxx
+onecoreuap\base\appmodel\search\tquery\fteutil\normalizer.cxx
+onecoreuap\base\appmodel\search\tquery\fteutil\perflib.cxx
+onecoreuap\base\appmodel\search\tquery\fteutil\pmlib.cxx
+onecoreuap\base\appmodel\search\tquery\fteutil\pmswap.cxx
+onecoreuap\base\appmodel\search\tquery\fteutil\secutil.cxx
+onecoreuap\base\appmodel\search\tquery\fteutil\url.cxx
+onecoreuap\base\appmodel\search\tquery\ftsqlpar\colname.cxx
+onecoreuap\base\appmodel\search\tquery\ftsqlpar\colname.hxx
+onecoreuap\base\appmodel\search\tquery\ftsqlpar\iparser.cxx
+onecoreuap\base\appmodel\search\tquery\ftsqlpar\iparsess.cxx
+onecoreuap\base\appmodel\search\tquery\ftsqlpar\objfre\i386\mssqltab.cxx
+onecoreuap\base\appmodel\search\tquery\ftsqlpar\parsercf.cxx
+onecoreuap\base\appmodel\search\tquery\ftsqlpar\ptprops.cxx
+onecoreuap\base\appmodel\search\tquery\icommand\cmdcreat.cxx
+onecoreuap\base\appmodel\search\tquery\icommand\cmdprutl.cxx
+onecoreuap\base\appmodel\search\tquery\icommand\fakerowset.cxx
+onecoreuap\base\appmodel\search\tquery\icommand\parsexpr.cxx
+onecoreuap\base\appmodel\search\tquery\icommand\parstree.cxx
+onecoreuap\base\appmodel\search\tquery\icommand\parstree.hxx
+onecoreuap\base\appmodel\search\tquery\icommand\propbase.cxx
+onecoreuap\base\appmodel\search\tquery\icommand\proprst.cxx
+onecoreuap\base\appmodel\search\tquery\icommand\qryspec.cxx
+onecoreuap\base\appmodel\search\tquery\icommand\searchquery.cpp
+onecoreuap\base\appmodel\search\tquery\icommand\stdqspec.cxx
+onecoreuap\base\appmodel\search\tquery\icommand\svccatpx.hxx
+onecoreuap\base\appmodel\search\tquery\icommand\svcquery.cxx
+onecoreuap\base\appmodel\search\tquery\icommand\vquery.cxx
+onecoreuap\base\appmodel\Search\tquery\include\atlext.hxx
+onecoreuap\base\appmodel\Search\tquery\include\dynarray.hxx
+onecoreuap\base\appmodel\Search\tquery\include\eventsem_tripoli.hxx
+onecoreuap\base\appmodel\Search\tquery\include\IncrementalCompressor.h
+onecoreuap\base\appmodel\Search\tquery\include\IndexDefinition.h
+onecoreuap\base\appmodel\Search\tquery\include\indexdefinition.h
+onecoreuap\base\appmodel\Search\tquery\include\Intervals.h
+onecoreuap\base\appmodel\Search\tquery\include\smartcls_tripoli.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\accbase.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\catalog.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\crequest.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\dbgproxy.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\funypath.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\hraccess.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\lcase.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\proxymsg.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\rowseek.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\rstprop.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\tablecur.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\tblalloc.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\thrd32.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\VIQuery.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\WIDToOffset.hxx
+onecoreuap\base\appmodel\Search\tquery\internal\include\worker.hxx
+onecoreuap\base\appmodel\search\tquery\inverted\cursorallarray.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\cursorandornot.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\cursorarray.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\cursorbitwise.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\cursorlike.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\cursorreusewhere.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\cursorscope.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\CursorUtils.h
+onecoreuap\base\appmodel\search\tquery\inverted\decodinglayer.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\decodinglayeroccurrences.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\decodinglayerpages.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\DecodingLayerPages.h
+onecoreuap\base\appmodel\search\tquery\inverted\encodinglayer.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\freshtest.cpp
+onecoreuap\base\appmodel\Search\tquery\inverted\include\Operators.h
+onecoreuap\base\appmodel\search\tquery\inverted\invertedindex.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\invertedutils.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\operators.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\optimizer.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\query.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\simple256decompressor.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\sortcursor.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\sqlitecatalogtable.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\storagelayer.cpp
+onecoreuap\base\appmodel\search\tquery\inverted\wordlist.cpp
+onecoreuap\base\appmodel\search\tquery\mssci\defprp.cxx
+onecoreuap\base\appmodel\search\tquery\mssci\prpret.cxx
+onecoreuap\base\appmodel\search\tquery\mssci\qrysess.cxx
+onecoreuap\base\appmodel\search\tquery\mssci\seccache.cxx
+onecoreuap\base\appmodel\search\tquery\ntciutil\pidtable.cxx
+onecoreuap\base\appmodel\search\tquery\ntciutil\propmap.cxx
+onecoreuap\base\appmodel\search\tquery\ntciutil\secstore.cxx
+onecoreuap\base\appmodel\search\tquery\ntciutil\worker.cxx
+onecoreuap\base\appmodel\search\tquery\ntciutil\wsecstor.cxx
+onecoreuap\base\appmodel\search\tquery\nullfilt\nullfilt.cxx
+onecoreuap\base\appmodel\search\tquery\qlib2\cidbprop.cxx
+onecoreuap\base\appmodel\search\tquery\qlib2\dbprputl.cxx
+onecoreuap\base\appmodel\search\tquery\qlib2\driveinf.cxx
+onecoreuap\base\appmodel\search\tquery\qlib2\mmstrm.cxx
+onecoreuap\base\appmodel\search\tquery\qlib2\regacc.cxx
+onecoreuap\base\appmodel\search\tquery\qlib2\shtole.cxx
+onecoreuap\base\appmodel\search\tquery\querylib\doquery.cxx
+onecoreuap\base\appmodel\search\tquery\querylib\lgplist.cxx
+onecoreuap\base\appmodel\search\tquery\querylib\plist.cxx
+onecoreuap\base\appmodel\search\tquery\querylib\weblcid.cxx
+onecoreuap\base\appmodel\search\tquery\restrict\coldesc.cxx
+onecoreuap\base\appmodel\search\tquery\restrict\irest.cxx
+onecoreuap\base\appmodel\search\tquery\restrict\pickle.cxx
+onecoreuap\base\appmodel\search\tquery\restrict\pidmap.cxx
+onecoreuap\base\appmodel\search\tquery\restrict\pidremap.cxx
+onecoreuap\base\appmodel\search\tquery\restrict\restrict.cxx
+onecoreuap\base\appmodel\Search\tquery\tripoli\include\smart_tripoli.hxx
+onecoreuap\base\appmodel\Search\tquery\tripoli\include\smart2.hxx
+onecoreuap\base\appmodel\Search\tquery\tripoli\include\xolemem.hxx
+onecoreuap\base\appmodel\search\tquery\tripolipi\invertedapplication.cpp
+onecoreuap\base\appmodel\search\tquery\tripolipi\inverteddocument.cpp
+onecoreuap\base\appmodel\search\tquery\tripolipi\invertedproject.cpp
+onecoreuap\base\appmodel\search\tquery\tripolipi\invertedquery.cpp
+onecoreuap\base\appmodel\search\tquery\tripolipi\propstorereader.cxx
+onecoreuap\base\appmodel\search\tquery\tripolipi\proputils.cxx
+onecoreuap\base\appmodel\search\tquery\tripolipi\sqlitedatabase.cpp
+onecoreuap\base\appmodel\search\tquery\tripolipi\sqlitedatabaseenginebuilder.cpp
+onecoreuap\base\appmodel\search\tquery\tripolipi\vityperet.cxx
+onecoreuap\base\appmodel\search\tquery\txtfilt\mmistrm.cxx
+onecoreuap\base\appmodel\search\tquery\txtfilt\tfilt.cxx
+onecoreuap\base\appmodel\search\tquery\txtfilt\txtifilt.cxx
+onecoreuap\base\appmodel\search\tquery\valueindex\aggregate.cxx
+onecoreuap\base\appmodel\search\tquery\valueindex\aggregatesorter.cxx
+onecoreuap\base\appmodel\search\tquery\valueindex\group.cxx
+onecoreuap\base\appmodel\search\tquery\valueindex\groupcursor.cxx
+onecoreuap\base\appmodel\search\tquery\valueindex\grouper.cxx
+onecoreuap\base\appmodel\search\tquery\valueindex\offsettovalue.cxx
+onecoreuap\base\appmodel\search\tquery\valueindex\scopeinfo.cxx
+onecoreuap\base\appmodel\search\tquery\valueindex\valueindex.cxx
+onecoreuap\base\appmodel\search\tquery\valueindex\vicursor.cxx
+onecoreuap\base\appmodel\search\tquery\valueindex\vimanager.cxx
+onecoreuap\base\appmodel\search\tquery\valueindex\viquery.cxx
+onecoreuap\base\appmodel\search\tquery\valueindex\widtooffset.cxx
+onecoreuap\base\appmodel\search\tquery\xpr\compare.cxx
+onecoreuap\base\appmodel\search\tquery\xpr\fa.cxx
+onecoreuap\base\appmodel\search\tquery\xpr\state.cxx
+onecoreuap\base\appmodel\search\tquery\xpr\xlatchar.cxx
+OpenEventW
+OpenFileMappingW
+OpenProcess
+OpenProcessToken
+OpenSCManagerW
+OpenSemaphoreW
+OpenServiceW
+OpenThreadToken
+OpenThreadToken() failed with error %#x
+OpPRV
+Or" Count="
+ORDER BY Columns in Select List
+Original
+OriginalFilename
+OriginalPersistentHandler
+originatingContextId
+originatingContextMessage
+originatingContextName
+Others' Changes Visible
+Others' Inserts Visible
+OTu.;OP|
+Output Parameter Availability
+OutputDebugStringW
+OverrideProperties
+OWhPd
+Owner
+OX_^[
+p`;pd
+P0l0y0
+PackageFamilyNames
+PagefileUsage
+PageSize
+parent
+ParseContentRestriction: GenerateMethod 0x%x > GENERATE_METHOD_MAX_USER
+ParseNearRestriction: Invalid child operator %d
+ParsePropertyRestriction: Invalid comparison operator %d
+ParsePropertyRestriction: Invalid property
+ParsePropertyRestriction: pidAll property value query
+ParseRestriction: Invalid restriction type %d
+ParseRestriction: Max restriction tree depth exceeded.
+PartA_PrivTags
+Partial Item Update Commited - Updated PIDs:
+Pass By Ref Accessors
+path:
+PathFileExistsW
+PathFindExtensionW
+PathIsRootW
+PathIsSameRootW
+PathStripPathW
+PeakWorkingSet
+PEDP://IntentEnterpriseId
+PeekNamedPipe
+Percentage
+PerfmonClose
+PerfmonCollect
+PerfmonIDXClose
+PerfmonIDXCollect
+PerfmonIDXOpen
+PerfmonOpen
+Perform OR freetext query by default
+Perform stemming on freetext query
+Period
+Persistent ID Type
+PersistentIndices
+PerVolumeCatalogs
+Phrase
+Phrase" Count="
+-Phxt
+picture
+PID deleted by omission: %d
+Pj+VVRhx
+PolicyManager_GetPolicyInt
+PolicyManager_IsPolicySetByMobileDeviceManager
+poS8 
+PostMergeIndiceCount
+PostMergeLevel
+PostMergeMaxId
+PostMergeMinId
+PPh`q
+PPPPPj
+PPPPW
+PPTP00
+PPTP00"
+PPTP00/
+PPTP00{
+PPTP004
+PPTP005
+PPTP00C
+PPTP00uD
+PPTP00ut
+PPTP00vT$
+PPVPQPh
+PQQSVW
+PQSVW
+PRAGMA cache_size=-512;
+PRAGMA freelist_count;
+PRAGMA journal_mode=WAL;
+PRAGMA page_count;
+PRAGMA synchronous=NORMAL;
+PreMergeIndiceCount
+PreMergeLevel
+PreMergeMaxId
+PreMergeMinId
+PreventIndexingEmailAttachments
+PreventIndexingLowDiskSpaceMB
+PreventIndexingOfflineFiles
+PreventIndexingOutlook
+PreventIndexingPublicFolders
+PreventIndexingUncachedExchangeFolders
+PreventRemoteQueries
+print
+Private
+Prob" Count="
+Process
+product
+ProductName
+ProductVersion
+Prompt
+Property">
+PropertyCompare
+PropertyMapper
+PropMap.db
+PROPSYS.dll
+PropVariantChangeType
+PropVariantClear
+PropVariantCompareEx
+PropVariantCopy
+PropVariantToUInt32WithDefault
+PropVariantToUInt64
+ProtectStatus
+Protocol
+ProtocolCount
+Protocols
+ProtocolString
+Provider
+Provider capabilities
+Provider Friendly Name
+Provider Name
+Provider Version
+Proximity
+Proximity" Count="
+PRVhdn
+PRVWj
+PSCreateMemoryPropertyStore
+PSFormatForDisplay
+PSFormatForDisplayAlloc
+PSGetNameFromPropertyKey
+PSGetPropertyDescription
+PSGetPropertyDescriptionByName
+PSGetPropertySystem
+PSQRu
+PSRSh
+PT-BR
+Public
+punct
+PVhDi
+PVj$Z
+PVj9Z
+PVjUZ
+PVVhP
+PVVVV
+PVWWRQ
+PWj;Z
+PWjHZ
+PWPQRh
+PWPVRh
+PWWh0
+q ;q$tg
+Q 9V$s'
+Q$SVWj
+q(9>u
+q497s
+qDuration
+qerror
+qExtension
+qFileName
+QhhR#
+QhLS#
+QISearch
+qnostst
+QPPW3
+QQj,h
+QQj@3
+QQj@j
+QQj@Q
+QQj@S
+QQQPP
+QQQQj
+QQQQQj
+QQQQQQQPQQQ
+QQSV3
+QQSVW
+QQSVWQQ
+qQueryDuration_ms
+QQVWj
+QQVWQQ
+QRPh(n$
+QRPh(o$
+QRPh(p$
+QRPhhm$
+QRPhhn$
+QRPhHn$
+QRPhho$
+QRPhHo$
+QRPhHp$
+QRPhhp$
+QSVW3
+QSVWh
+QSVWj
+QSVWj$
+QSVWj(
+QSVWj,
+QSVWjL
+Query Parse Tree
+Query Restriction
+QUERY: Filter Executed - Results: %d  (before trimming)
+QUERY: Filter Executed - Results: %d, Decoders: %d  (after trimming)
+QUERY: Starting - Decoders: %d
+QueryFullProcessImageNameW
+QueryHitCount
+QueryHitPKEYs
+QueryParserRecursionLimitReach
+QueryPerformanceCounter
+QueryRank
+QueryRankvector
+QueryServiceStatus
+QueryStatus
+QueryStatusEx
+QueryUnbiasedInterruptTime
+QueryUnfiltered
+QueryUserToken
+QueryVirtualPath
+QueryWin32SubsystemHost
+QueueUserAPC
+Quick Restart
+QVWQQ
+QWh&'
+r(9~ v#W
+r*;D$
+r{{{{
+r|;2sx
+r-+K\
+r>;t$
+RaiseException
+RaiseFailFastException
+Range
+Range">
+RANKVECTOR
+RankVector
+RatioFinished
+ReadFile
+ReadFileEx
+Read-Only Data Source
+reason
+RebuildIndex
+recordedtv
+Reentrant Events
+Refresh
+RegCloseKey
+RegCreateKeyExW
+RegDeleteKeyExW
+RegDeleteKeyW
+RegDeleteValueW
+RegEnumKeyExW
+RegEnumValueW
+RegGetValueW
+RegisterEventSourceW
+REGISTRY
+RegNotifyChangeKeyValue
+RegOpenKeyExW
+RegQueryInfoKeyW
+RegQueryValueExW
+RegSetValueExW
+ReleaseMutex
+ReleaseSemaphore
+ReleaseSRWLockExclusive
+ReleaseSRWLockShared
+Remote sort order consistent with client machine
+Remove Deleted Rows
+RemoveDirectoryW
+RemoveScope
+RemoveVirtualScope
+ReportEventW
+REPRESENTATIVE_
+RequestedResults
+Reset Datasource
+ResetEvent
+ResolveDelayLoadedAPI
+ResolveLocaleName
+RestartPosition
+Results Found
+ResumePseudoQuery
+ResumeThread
+Return PROPVARIANTs in variant binding
+ReturnHr
+ReturnNt
+ReuseWhere
+RevertToSelf
+RevertToSelf() failed with error %d
+RoGetActivationFactory
+ROLLBACK TRANSACTION;
+RoOriginateLanguageException
+Row Privileges
+Row Threading Model
+RowCount
+RowCountAccurate
+RowID
+Rowset Async Notification Thread
+Rowset Conversions on Command
+Rowset Fetch Position Change Notification
+Rowset Query Status
+Rowset Release Notification
+RPVQWS
+RPWQWV
+RQSPW
+RQWPV
+RRRR@P
+RRSPW
+RRWPV
+RSDSc
+RSTUVW-XY.Z[/\]0^_`ab
+RtlAllocateHeap
+RtlCompareMemory
+RtlCompareUnicodeString
+RtlDisownModuleHeapAllocation
+RtlDllShutdownInProgress
+RtlFreeHeap
+RtlGetPersistedStateLocation
+RtlInitUnicodeString
+RtlIsStateSeparationEnabled
+RtlNotifyFeatureUsage
+RtlNtStatusToDosError
+RtlNtStatusToDosErrorNoTeb
+RtlQueryFeatureConfiguration
+RtlRegisterFeatureConfigurationChangeNotification
+RtlSubscribeWnfStateChangeNotification
+RtlUnregisterFeatureConfigurationChangeNotification
+RtlUnsubscribeWnfStateChangeNotification
+RtlUpcaseUnicodeChar
+Rw=t)
+s ;s$t!
+s(j,Z;s,
+s)VPh
+s.PWf
+S:(ML;;NW;;;LW)
+s`;sdt
+s051]2
+S09BTvY
+s0PVW
+S9A,t
+Schema
+SCOPE
+Scope
+ScopeManager
+ScreenOnEnteringIdleEvent
+ScreenOnFlushEvent
+ScreenOnIndexingFileEvent
+ScreenOnMergeEvent
+ScreenOnProcessFileSystemChangeEvent
+ScreenOnQueryEvent
+ScreenOnQueryResultsEvent
+ScreenOnSessionGuid
+Scroll Backwards
+SDj:W
+sDtA+
+Search
+Search Service
+SearchFilterHandler
+SearchIndexerCore.dll
+SearchIndexerFallbackError_Aggregate
+SearchPathW
+SECOND
+SecStore
+SecStore.db
+SECURITY
+SecurityStore
+SELECT 
+SELECT "System.ItemUrl", "System.Document.CharacterCount", "System.Photo.Flash", "System.Image.Compression", "System.Rating", "System.Size", "System.Image.HorizontalResolution", "System.DateCreated", "System.DRM.IsProtected", "System.Author", "System.Comment" FROM %s
+SELECT CatalogID, CatalogName, IsDeleted FROM 
+SELECT ColumnId, Value FROM 
+SELECT count(*) FROM 
+SELECT COUNT(*) FROM sqlite_schema WHERE type='table' and name=?;
+SELECT Data FROM 
+SELECT FormatId, FormatIdQualifier, Id, StandardId, Size FROM PropertyMap;
+SELECT Id from SecurityDescriptor WHERE Value = ? AND EnterpriseIds IS ?;
+SELECT Id, StorageType FROM 
+SELECT IndexDescription FROM 
+SELECT IndexID FROM 
+SELECT IndexID, IndexDescription FROM 
+SELECT OccPage FROM 
+SELECT Partition, szKey, PID, WidStart FROM 
+SELECT Property FROM 
+SELECT UniqueKey, Id FROM 
+SELECT Value FROM 
+SELECT Value, EnterpriseIds from SecurityDescriptor WHERE Id = ?;
+SELECT WorkId, Value FROM 
+SendNotify
+Server Cursor
+ServerId
+ServerPipeName
+SessionType
+SetBindings
+SetCatState
+SetEndOfFile
+SetErrorMode
+SetEvent
+SetFileAttributesW
+SetFilePointer
+SetFileSecurityW
+SetInformationJobObject
+SetLastError
+SetNamedPipeHandleState
+SetPartition
+SetScopePrioritization
+SetSecurityDescriptorDacl
+SetSecurityDescriptorGroup
+SetSecurityDescriptorOwner
+SetThreadDescription
+SetThreadpoolTimer
+SetThreadToken
+SetUnhandledExceptionFilter
+SetupCache
+SetupCompletedSuccessfully
+SetWaitableTimerEx
+SetWatchMode
+SH+SD
+Shared
+SHCreateItemFromParsingName
+SHGetFolderPathW
+SHGetKnownFolderPath
+shjDY
+SHORTFILENAME
+ShortFilename
+Shrink
+ShrinkWatchRegion
+SHSetValueW
+Single Data Layer Provider Config
+Size: %d (Min: %d, Max: %d)
+SizeofResource
+SjtZf9
+Skip Deleted Bookmarks
+SkipInternalReuse
+sl9Cdt
+Sleep
+SleepConditionVariableCS
+SleepEx
+Software
+Software\Classes\CLSID\
+Software\Classes\MIME\Database\Content Type\
+Software\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11CF-8B85-00AA005B4383}
+Software\Microsoft\Windows Search
+SOFTWARE\Microsoft\Windows Search
+Software\Microsoft\Windows Search\ContentIndexCommon\LanguageResources\NeutralOverrideProperties
+Software\Microsoft\Windows Search\ContentIndexCommon\LanguageResources\Override
+SOFTWARE\Microsoft\Windows Search\Databases
+SOFTWARE\Microsoft\Windows Search\Databases\Windows
+SOFTWARE\Microsoft\Windows Search\Gather\Windows\SystemIndex\Extensions
+SOFTWARE\Microsoft\Windows Search\Gathering Manager\Applications
+Software\Microsoft\Windows Search\Tracing
+Software\Microsoft\Windows Search\Tracing\EventThrottleLastReported
+Software\Microsoft\Windows Search\Tracing\EventThrottleState
+Software\Microsoft\Windows\CurrentVersion\Explorer\Search\Preferences
+Software\Microsoft\Windows\CurrentVersion\StructuredQuery
+SOFTWARE\Policies\Microsoft\Windows\Windows Search
+Some bits
+SortChoices
+SORTCHOICES
+source storage type %4x
+sP_^[
+space
+SPPRR
+SQL Content Query Locale String
+SQL query built: 
+SQL query: 
+SQL statement not entirely processed.
+SQL statement unexpectedly returned multiple rows.
+SQL statement unexpectedly returned no rows.
+SQL statement unexpectedly returned row results.
+SQL Support
+sqlite_schema
+sqlite3_bind_blob
+sqlite3_bind_blob64
+sqlite3_bind_double
+sqlite3_bind_int
+sqlite3_bind_int64
+sqlite3_bind_null
+sqlite3_bind_parameter_index
+sqlite3_bind_text
+sqlite3_bind_text64
+sqlite3_busy_timeout
+sqlite3_changes
+sqlite3_clear_bindings
+sqlite3_close
+sqlite3_column_blob
+sqlite3_column_bytes
+sqlite3_column_double
+sqlite3_column_int
+sqlite3_column_int64
+sqlite3_column_text
+sqlite3_column_type
+sqlite3_db_handle
+sqlite3_errmsg
+sqlite3_error
+sqlite3_errstr
+sqlite3_extended_errcode
+sqlite3_file_control
+sqlite3_finalize
+sqlite3_free
+sqlite3_get_autocommit
+sqlite3_indexer_extensions_init
+sqlite3_last_insert_rowid
+sqlite3_memory_highwater
+sqlite3_memory_used
+sqlite3_open_v2
+sqlite3_prepare_v2
+sqlite3_reset
+sqlite3_step
+sqlite3_system_errno
+sqlite3_table_column_metadata
+sqlite3_vfs_find
+sqlite3_vfs_register
+sqlite3_vfs_unregister
+sqlite3_wal_checkpoint_v2
+sqlite3GetVarint
+sqlite3PutVarint
+sqlite3VarintLen
+sr-BA-Cyrl
+sr-BA-Latn
+sr-Cyrl-BA
+sr-Cyrl-CS
+SRDictionaryToPropertySet
+sr-Latn-BA
+sr-Latn-CS
+sr-SP-Cyrl
+sr-SP-Latn
+srvcli.dll
+SspiCli.dll
+SSSShL
+SSSSSSPSSSV
+SSSVQ
+SSVh,
+SSVhH
+SSWPV
+StackThumbnailCacheIds
+Start
+StartRow
+STARTUP
+StartWatching
+StatDeletedDocuments
+StatFlushes
+StatIndexes
+StatMasterMergeRunning
+StatMasterMerges
+StatMerges
+StatModifiedDocuments
+StatModifiedDocumentsUnchanged
+StatNewDocuments
+StatProperties
+StatPropertiesInvertedIndex
+StatPropertiesPropertyStore
+StatRunningMerges
+StatValueIndexes
+StatWordLists
+std::bad_array_new_length
+std::bad_cast
+std::bad_exception
+std::bad_typeid
+std::bad_weak_ptr
+std::domain_error
+std::exception
+std::invalid_argument
+std::length_error
+std::logic_error
+std::out_of_range
+std::overflow_error
+std::range_error
+std::runtime_error
+std::system_error
+std::underflow_error
+StemmerClass
+StemmerDLLPathOverride
+StgDeserializePropVariant
+StgSerializePropVariant
+StopAsynch
+StopWatching
+storageanc
+StoreAppRevisionDataCorruption
+strchr
+StrCmpIW
+stream
+STRING
+string too long
+StringFileInfo
+StringFromCLSID
+StringFromGUID2
+Strong Row Identity
+StrStrIW
+Structured Storage
+StructuredQuery
+SubmitThreadpoolWork
+Subquery Support
+SummaryCount
+Supports multiple configs
+SVWj 
+SVWj(
+SVWj\
+SVWjp
+SVWQQ
+sw{tl
+SWhP0
+SWj2Z
+sXh U
+Synonym">
+syntax error
+System
+system
+SYSTEM
+system
+System.Message.ConversationIndex
+System.Null
+System.Search.ReverseFileName
+SYSTEM\ControlSet001\Control
+System\CurrentControlSet\Control\ContentIndex\Language
+SYSTEM\CurrentControlSet\Services\%s\Performance
+SystemIndex
+SystemIndexNormalization
+SystemTimeToFileTime
+SystemTimeToTzSpecificLocalTime
+t ;q u
+t QP3
+t!;S s
+t"f9]
+t#QPj
+T$ ;E
+T$ ;F
+T$ ;F$v
+T$ ;T$,r
+T$ 9]
+T$ 9W uR
+T$ RP
+T$$;F
+T$$;F$v
+t$$;t$
+t$$;t$H
+t$$;t$P
+t$$;t$T
+t$$;w
+T$$RP
+T$(;_
+T$(;C
+T$(;F
+T$(;F$v
+t$(;t$$
+t$(;t$H
+t$(;t$T
+t$(;w
+T$(9|0
+T$(Cj
+T$(j*^f;
+t$(Qj
+T$(RP
+t$(WS
+T$,;F
+T$,;F$v
+t$,;t$(
+t$,;t$L
+T$`;F
+T$`RP
+T$|RP
+T$<;C
+T$<;F
+t$<;t$(
+t$<;t$@
+T$09P
+T$4;C
+T$4;F$v
+t$4Pj
+t$4PQ
+T$8;C
+T$8;F$v
+t$8;t$L
+t$8;t$P
+T$8RP
+t$8VP
+t$97v
+t$D;^
+t$d;t$p
+T$dRP
+t$H;^
+t$H;F
+T$hRP
+t$j._
+t$L;^
+T$lRP
+T$pRP
+T$pRPQj(W
+T$pRQ
+t$T;t$l
+t$T;t$t
+T$tRP
+t$X;t$x
+T$xRP
+t%Jf;
+t&jvYf;
+t(h N
+t(VWQ
+t(WPR
+t*9;w&
+t/jAXf;
+t;VWj
+t@j|X
+t{9wXt
+t+f;u
+t+j)X
+t+RQQQ
+t+VWP
+t<Sh`
+t=9{$~
+t>VWQ
+T0c0w0
+t1f9u
+t1QSh
+t2f98t
+t398u
+t3SVW
+t4SSSj
+t6;0t
+t7j.Zf;
+Table
+Tailored Query (Search Results Files) Optimized OpTree
+Tailored Query (Search Results Music) Optimized OpTree
+Tailored Query (Search Results Pictures / Video / TV) Optimized OpTree
+Tailored Query (Search Results Settings) Optimized OpTree
+Tailored Query (Search Suggestions Browser Favorites / History) Optimized OpTree
+Tailored Query (Search Suggestions Files (Everywhere)) Optimized OpTree
+Tailored Query (Search Suggestions Files (Files scope)) Optimized OpTree
+Tailored Query (Search Suggestions History) Optimized OpTree
+Tailored Query (Search Suggestions Music) Optimized OpTree
+Tailored Query (Search Suggestions Settings) Optimized OpTree
+Tailored Query (WinRT Data Model) Optimized OpTree
+taj}X
+taShx7
+tBf9^
+tblVP
+TelemetryAssert
+TerminateJobObject
+TerminateProcess
+Text column too long.
+tH9^Dt
+The catalog entry to delete was not found.
+The catalog entry to update was not found.
+The catalog is corrupt
+The column is not of type INTEGER or NULL.
+The database does not have an associated journal file.
+The destination size must match the source.
+The header size is too long.
+The index data table entry was not found.
+The index entry to delete was not found.
+The index entry to update was not found.
+The journal file does not have a valid set of methods.
+The journal file does not provide a Sync() method.
+The multi-blob is invalid (does not have enough body data for a header serial type code).
+The multi-blob is invalid (has a header size that is too small).
+The multi-blob is invalid (has a reserved serial type code).
+The multi-blob is invalid (has more body data than the header indicates should be present).
+The multi-blob is invalid (is shorter than the header size indicates).
+The source must be null-terminated.
+The SQL string is too large.
+The type of the SQLite value is %s, not TEXT.
+The value is too long for property name normalization.
+The value size is too long.
+The VFS must not be null.
+The VFS name must not be null.
+THESAURUS
+t'Hf;
+thQQh
+threadId
+TIME.TZ
+t-j|Xj[f
+tJQWR
+TlgAggregateSummary
+TlsGetValue
+TlsSetValue
+tm_^[
+tnj\^f;1uff;q
+tNSSSj
+toj'[f;
+tOSh(
+TotalBytesToIndex
+TotalChunksRead
+TotalDurationInSeconds
+TotalEntriesFlushed
+TotalFATItemsProcessed
+TotalNTFSItemsProcessed
+TotalNumberOfEvents
+TotalResultsRequested
+TotalResultsReturned
+t'PhH>
+tQQRP
+TQUERY.DLL
+tquery.dll
+TQUERY.dll
+tquery.pdb
+Transaction DDL
+TransactionErrors
+TransactionTypes
+TransactNamedPipe
+Translation
+t-RVQj
+TryAcquireSRWLockExclusive
+TsaurusFile
+tUjdYf;
+tuVWQ
+tVh(&
+tvj|X
+t-VWj
+tw t(
+TypeLib
+u#RRh
+u$WSQ
+u%F;w
+u%h0M
+u%j|Y
+u%PPh
+u%RRW
+u&QWS
+u&VW3
+u(8D$"u"8D$#u
+u)9^d
+u)RRh
+u,9Fxu'
+u,RRW
+u/RRh
+u/ShpH
+u;VVVVVVV
+u;Wj:
+u?j*Xf9F
+u_}/H
+u`j?Xf;A
+U|;&'
+u+RRW
+u0:1L1n1~1
+u03D$ %
+u0QQVWS
+u0QQVWSPQ
+u1Wh,
+u5RRh
+u8f;t$
+u99_8r
+u9f9GHu
+uaQQh0
+uGSSSSSSS
+UI4, 
+UI8, 
+uJ9M u%f;
+uJkGl
+Unable to convert strings longer than int chars.
+Unable to convert Win32 error message to UTF-8.
+Unable to retrieve Win32 error message.
+uNB;U
+UnhandledExceptionFilter
+Unknown
+unknown
+UNKNOWN
+Unknown column type %i.
+unknown error
+Unknown exception
+Unknown Op 
+Unknown SQLite value type %i.
+Unknown0x
+UnmapViewOfFile
+unordered_map/set too long
+unsupported
+Updatability
+UPDATE 
+UPDATEAFTERMERGE:  WIDs originated in the merge range
+UpdateDocuments
+upper
+uQj$^
+urn:schemas-microsoft-com:office:office#
+Use Bookmarks
+UseFormsOf
+ut9_(u2
+UtcAggParams
+UtcAggVal
+uVQQQh
+uWf;q
+uwxyz{yy|}yy
+uY9Y4uT9Y
+uYjdY
+v";7r
+v#;8r
+v';;s*
+V@;~,shS
+v{{{{
+v>SW;
+v199t-3
+v3WPh
+VACUUM;
+Value
+Value too long for UNICODE_STRING.
+VarFileInfo
+VECTOR
+vector too long
+Vector" Count="
+vector<bool> too long
+VERBOSE
+Verbose
+VerifyVersionInfoW
+VerSetConditionMask
+VhXDNIj
+video
+VirtualAlloc
+VirtualFree
+Vj?^#
+Vj@^f9p(
+Vj@^f9p(u
+vlhX%
+vo)] 
+VPATH
+VPath
+VPhT$
+VPVWS
+VQh0s
+VQQPP
+VRAQP
+VS_VERSION_INFO
+VSh`/
+VSVSh
+VT_VECTOR | 
+VUUTY\\]]]XWabbddc_afgghhei
+vV;w r
+VVhh;
+VVVPh
+VVVVj
+VVVVV
+VVVWV
+VWhPS
+VWj.Q
+VWj'_
+VWPh(9
+VWQP3
+vww{{{{
+W _^[
+w QQj@j
+w$_^]
+w(_^[]
+w(+w 
+w(+w _
+w,t j
+w;t.+
+w1VWP
+w4;w8t
+w6t.+
+w7t"H
+w8t1H
+W9F(u*
+WaitForMultipleObjects
+WaitForMultipleObjectsEx
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
+WaitForThreadpoolWorkCallbacks
+WaitNamedPipeW
+WaitOnAddress
+WakeAllConditionVariable
+WakeByAddressAll
+Warning
+WBDLLPathOverride
+WBreakerClass
+wcschr
+wcscspn
+wcsncmp
+wcsrchr
+wcsspn
+wcsstr
+wCt=j
+wd;wh
+weight specification
+wet[H
+WEVT_TEMPLATE
+WH+WD
+Where ID
+wHjHf
+wHt$-
+WideCharToMultiByte
+WidExistsInMultipleIndexes(%d) - can be reused
+WidToPath
+wilActivity
+WilError_03
+WilFailureNotifyWatchers
+wilResult
+WilStaging_02
+Window Handle
+Windows
+Windows OS Major Version
+Windows OS Minor Version
+Windows Search Server Version
+Windows Search Service
+Windows.Internal.StateRepository.ApplicationExtension
+Windows.Internal.StateRepository.PackageLocation
+Windows.Internal.StateRepository.PackageUser
+windows.searchFilterHandler
+Windows.System.Internal.UserManager
+Windows\SystemIndex
+WindowsCreateStringReference
+WindowsDeleteString
+WindowsGetStringRawBuffer
+winhttp.dll
+WinRTDataModel
+Word Prefix">
+Word">
+WordBreakerHistory
+WordListMemoryConsumptionWithoutFlush
+Work Queue Worker Thread
+WorkId
+WORKID
+WorkID
+WorkIdToPath
+WorkingSet
+wOSVW
+WPh@j
+wpSSSSV
+WPWVj 
+WPWWV
+WPWWWWh$
+write
+Write
+WRITE
+WriteFile
+WriteFileEx
+WS2_32.dll
+WSearch
+wsearch
+WSearchIdxPi
+WseIdxPm
+WShP^
+WSRQj
+WVQj>
+WVRQh
+WVRQSP
+-wWtJ
+WWWVQ
+WWWWW
+WWWWWWh
+X[_^]
+X9C4u
+xdigit
+xPj@h
+XPu#;
+Xs f9
+Xt[f;
+Y ;;w
+y!PhX
+y/Php?
+y/Vh`F
+y/VhH2
+Y;^ r
+y;Phx
+Y__^[
+Y+D$ 
+Y9~dv 
+Y9~pt
+Y9SY+
+YC;\$$r
+YcY^Yf
+Yf9HH
+YjpPj
+yw5tO
+yXj?f
+yXj^Zf
+YY^[_
+YY_^[
+YY_^]
+YYF;wHr
+YYG;~
+YYG;>r
+YYj4P
+YYj4S
+YYj4V
+YYj4W
+yyyywxyz{yy|}yy
+'Z(33::aZ4433aZ3]44:
+Zf9D$
+zh-CHS
+zh-CHT
+ZH-CN
+zh-Hans
+zh-Hant
+ZH-HK
+ZH-MO
+ZH-SG
+ZH-TW
+zpg_WPNMI
+Zt09H
+zu|Whd

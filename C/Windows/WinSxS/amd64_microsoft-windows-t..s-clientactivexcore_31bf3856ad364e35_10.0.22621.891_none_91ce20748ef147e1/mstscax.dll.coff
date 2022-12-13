@@ -1,0 +1,1752 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\WinSxS\amd64_microsoft-windows-t..s-clientactivexcore_31bf3856ad364e35_10.0.22621.891_none_91ce20748ef147e1\mstscax.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    msvcrt.dll
+    ntdll.dll
+    KERNEL32.dll
+    GDI32.dll
+    USER32.dll
+    SHLWAPI.dll
+    setupapi.dll
+    VERSION.dll
+    IMM32.dll
+    ncrypt.dll
+    UIAutomationCore.DLL
+    DEVOBJ.dll
+    pdh.dll
+    SHCORE.dll
+
+  Image has the following delay load dependencies:
+
+    OLEAUT32.dll
+    ADVAPI32.dll
+    OLE32.dll
+    SHELL32.dll
+    WTSAPI32.dll
+    COMCTL32.dll
+    WINMM.dll
+    IPHLPAPI.DLL
+    CRYPT32.dll
+    api-ms-win-core-winrt-string-l1-1-0.dll
+    api-ms-win-core-winrt-l1-1-0.dll
+    api-ms-win-mm-mme-l1-1-0.dll
+    d2d1.dll
+    DWrite.dll
+    Normaliz.dll
+    RPCRT4.dll
+    AVRT.dll
+    MSACM32.dll
+    credui.dll
+    SECUR32.dll
+    WINSPOOL.DRV
+    UXTHEME.dll
+    cryptui.dll
+    dxgi.dll
+    MSIMG32.dll
+    NETAPI32.dll
+    api-ms-win-core-winrt-error-l1-1-0.dll
+    api-ms-win-core-winrt-error-l1-1-1.dll
+    WINHTTP.dll
+    WININET.dll
+    api-ms-win-mm-misc-l2-1-0.dll
+    WS2_32.dll
+    d3d11.dll
+    dwmapi.dll
+    CFGMGR32.dll
+    GDIPLUS.dll
+    bcrypt.dll
+    ext-ms-win-printer-winspool-l1-1-4.dll
+    api-ms-win-core-path-l1-1-0.dll
+
+  Section contains the following exports for mstscax.dll
+
+    00000000 characteristics
+    B43D95F6 time date stamp
+        0.00 version
+           1 ordinal base
+           5 number of functions
+           5 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0011CDA0 DllCanUnloadNow
+          2    1 0011CDB0 DllGetClassObject
+          3    2 0011CDC0 DllGetTscCtlVer
+          4    3 0011CDE0 DllRegisterServer
+          5    4 0011CE40 DllUnregisterServer
+
+  Section contains the following imports:
+
+    msvcrt.dll
+             16ACBB620 Import Address Table
+             16AE57AD0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         428 atan2
+                         438 cos
+                         440 exp
+                         434 ceilf
+                          50 _CxxThrowException
+                         471 isalpha
+                         433 ceil
+                         44C floor
+                         44D floorf
+                         48E log
+                         48F log10
+                          70 __RTDynamicCast
+                         507 vswprintf_s
+                         4EB swscanf_s
+                         2DB _snprintf_s
+                         310 _strnicmp
+                         30C _strlwr_s
+                         4C9 srand
+                         4F1 time
+                         4B4 rand
+                         4AA printf
+                         4F9 towupper
+                         4F6 tolower
+                         46E gmtime
+                         514 wcsftime
+                         528 wcstoul
+                         517 wcsncat_s
+                         346 _ultow
+                         1FE _ltow
+                         1E6 _itow_s
+                         473 isdigit
+                         443 fclose
+                         36D _vscwprintf
+                         3D1 _wfopen_s
+                         464 fwrite
+                         452 fprintf
+                         389 _waccess_s
+                         3D0 _wfopen
+                         4A0 memcpy_s
+                         370 _vsnprintf
+                         432 calloc
+                         50E wcschr
+                         525 wcstol
+                         480 iswdigit
+                         485 iswspace
+                         4F7 toupper
+                         527 wcstombs_s
+                         51A wcsncpy_s
+                         39D _wcslwr_s
+                          62 __CxxFrameHandler3
+                         4A2 memmove_s
+                         524 wcstok_s
+                         51D wcsrchr
+                          11 ??1exception@@UEAA@XZ
+                           D ??0exception@@QEAA@XZ
+                           C ??0exception@@QEAA@AEBV0@@Z
+                         374 _vsnprintf_s
+                         4B6 realloc
+                         51B wcsnlen
+                         50D wcscat_s
+                         3A1 _wcsnicmp
+                         518 wcsncmp
+                         505 vsprintf_s
+                         521 wcsstr
+                         4F8 towlower
+                         4E9 swprintf_s
+                          AD _aligned_free
+                          AF _aligned_malloc
+                         10E _errno
+                         336 _time64
+                         17E _gmtime64_s
+                         412 _wtoi
+                         1E4 _itoa_s
+                         512 wcscpy_s
+                         513 wcscspn
+                         4C6 sprintf_s
+                         1FF _ltow_s
+                         306 _stricmp
+                         2B4 _resetstkoflw
+                         4E4 strtok_s
+                         416 _wtol
+                         4DA strncmp
+                         47B iswalnum
+                         4A1 memmove
+                         4A3 memset
+                         4A8 pow
+                         4C1 sin
+                         4C7 sqrt
+                         29C _onexit
+                          84 __dllonexit
+                         34E _unlock
+                         51C wcspbrk
+                         1F2 _lock
+                          5E __C_specific_handler
+                         189 _initterm
+                          B7 _amsg_exit
+                         39B _wcslwr
+                         2E3 _snwprintf_s
+                          34 ?terminate@@YAXXZ
+                          12 ??1type_info@@UEAA@XZ
+                         49F memcpy
+                          5A _XcptFilter
+                         49E memcmp
+                         459 free
+                          C8 _callnewh
+                         49D memchr
+                         493 malloc
+                         397 _wcsicmp
+                         4DD strnlen
+                         376 _vsnwprintf
+                         490 log10f
+                         2AA _purecall
+                         50F wcscmp
+
+    ntdll.dll
+             16ACBB9F0 Import Address Table
+             16AE57EA0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         2F8 RtlAreBitsSet
+                         305 RtlCaptureContext
+                         509 RtlLookupFunctionEntry
+                         64E RtlVirtualUnwind
+                         43E RtlGetLastNtStatus
+                         414 RtlFreeUnicodeString
+                         101 NtClose
+                         5F3 RtlStringFromGUID
+                         253 NtSetInformationFile
+                         497 RtlInitializeGenericTable
+                         2EF RtlAppendUnicodeToString
+                         3EC RtlFindClearBitsAndSet
+                         214 NtReadFile
+                         2A2 NtWriteFile
+                         48D RtlInitializeBitMap
+                         3CA RtlEnumerateGenericTableWithoutSplaying
+                         503 RtlLookupElementGenericTable
+                         386 RtlDeleteElementGenericTable
+                         4A1 RtlInsertElementGenericTable
+                         3C7 RtlEnumerateGenericTable
+                         153 NtDeviceIoControlFile
+                         317 RtlClearBits
+                         51E RtlNtStatusToDosError
+                         484 RtlInitString
+                         1BB NtOpenSection
+
+    KERNEL32.dll
+             16ACBA640 Import Address Table
+             16AE56AF0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         28C GetVersionExW
+                         1EE GetCommState
+                         176 EscapeCommFunction
+                         5E7 UnlockFile
+                         3FC LockFile
+                         3FD LockFileEx
+                         40E MoveFileW
+                         558 SetFileTime
+                         25E GetFileAttributesExW
+                         263 GetFileInformationByHandle
+                         345 GetVolumeInformationW
+                         1A3 FindNextChangeNotification
+                         192 FindFirstChangeNotificationW
+                         321 LoadLibraryW
+                         467 QueryDosDeviceW
+                         4A5 VerSetConditionMask
+                         4A8 VerifyVersionInfoW
+                         190 FindCloseChangeNotification
+                         133 DeviceIoControl
+                         1B9 FlushFileBuffers
+                         24B GetDriveTypeW
+                         38A InitializeSListHead
+                         5DC TransmitCommChar
+                         445 PostQueuedCompletionStatus
+                         48C TlsSetValue
+                         1F0 GetModuleHandleExW
+                         29F GlobalDeleteAtom
+                         1EF GetCommTimeouts
+                         2DB IsDBCSLeadByte
+                         29D GlobalAddAtomW
+                         5B0 SetupComm
+                         1EB GetCommMask
+                         511 SetCommMask
+                         460 PurgeComm
+                         1EC GetCommModemStatus
+                          92 ClearCommError
+                         1ED GetCommProperties
+                         1EA GetCommConfig
+                         48B TlsGetValue
+                         240 GetDefaultCommConfigW
+                         1A0 FindFirstVolumeW
+                         48A TlsFree
+                         489 TlsAlloc
+                         24A GetSystemDefaultLangID
+                         157 GetCPInfo
+                          70 BindIoCompletionCallback
+                         512 SetCommState
+                         60B WaitCommEvent
+                         38E InterlockedFlushSList
+                         486 TerminateThread
+                         48F TryAcquireSRWLockExclusive
+                         2A6 GlobalHandle
+                          9D CreateTimerQueueTimer
+                          BA DeleteTimerQueueTimer
+                         320 LoadLibraryExW
+                         166 GetCommandLineW
+                         31E LoadLibraryA
+                         149 GetACP
+                          FF ExpandEnvironmentStringsW
+                         324 LocalAlloc
+                          4B CompareStringOrdinal
+                         27D GetTimeFormatW
+                         1A4 GetDateFormatW
+                         206 GetNumberFormatW
+                         26D GetThreadId
+                         28B GetVersionExA
+                          32 ChangeTimerQueueTimer
+                          B8 DeleteTimerQueue
+                         328 LocalFree
+                          64 CreateDirectoryW
+                          9C CreateTimerQueue
+                         266 GetTempPathW
+                         2C2 InitOnceExecuteOnce
+                          75 CreateFileW
+                         4EF WriteFile
+                         509 lstrcmpA
+                         28A GetVersion
+                         1EE GetModuleHandleA
+                         1ED GetModuleFileNameW
+                          C9 DuplicateHandle
+                          B5 DeleteFileW
+                         1C1 GetFileAttributesW
+                         420 SetFileAttributesW
+                         424 SetFilePointer
+                         3A8 ReadFile
+                          82 CreateMutexW
+                         1A9 GetDiskFreeSpaceW
+                         250 GetSystemFirmwareTable
+                         16A GetComputerNameA
+                         323 LoadResource
+                         333 LockResource
+                         13E FormatMessageW
+                         419 SetErrorMode
+                         1AB FindNextVolumeW
+                          72 CreateFileMappingW
+                          3B CloseHandle
+                         34B GetVolumePathNamesForVolumeNameW
+                         1B2 FindVolumeClose
+                         1F1 GetModuleHandleW
+                         2B1 HeapAlloc
+                         224 GetProcessHeap
+                           0 AcquireSRWLockExclusive
+                         3C1 ReleaseSRWLockExclusive
+                           1 AcquireSRWLockShared
+                         3C2 ReleaseSRWLockShared
+                         2B5 HeapFree
+                         465 SetThreadpoolTimer
+                         360 OutputDebugStringW
+                         2DD IsDebuggerPresent
+                          99 CreateThreadpoolTimer
+                         31A LeaveCriticalSection
+                          CF EnterCriticalSection
+                          B1 DeleteCriticalSection
+                         2C9 InitializeCriticalSectionEx
+                         430 SetLastError
+                          8F CreateSemaphoreExW
+                         4BA WaitForSingleObject
+                         3C3 ReleaseSemaphore
+                         35A OpenSemaphoreW
+                         3BF ReleaseMutex
+                         4BB WaitForSingleObjectEx
+                          81 CreateMutexExW
+                         4BD WaitForThreadpoolTimerCallbacks
+                          44 CloseThreadpoolTimer
+                         1EC GetModuleFileNameA
+                          A8 DebugBreak
+                         1DA GetLastError
+                         29B GetNamedPipeClientProcessId
+                          EC CreateNamedPipeW
+                          AB ConnectNamedPipe
+                         56D SetNamedPipeHandleState
+                         1EF GetModuleHandleExA
+                         21E GetProcAddress
+                         29E GlobalAlloc
+                         2A7 GlobalLock
+                         2AC GlobalUnlock
+                         142 FreeLibrary
+                         513 SetCommTimeouts
+                          7F CancelIo
+                         5C4 TerminateProcess
+                         2A3 GlobalFree
+                         232 GetCurrentProcess
+                         5A4 SetUnhandledExceptionFilter
+                         5E6 UnhandledExceptionFilter
+                          69 CreateEventW
+                         41A SetEvent
+                         3CF ResetEvent
+                          95 CreateThread
+                         32C GetTickCount
+                         30A GetSystemTimeAsFileTime
+                          A4 CreateWaitableTimerW
+                         472 SetWaitableTimer
+                         38F QueryPerformanceFrequency
+                         4B9 WaitForMultipleObjectsEx
+                          30 CancelWaitableTimer
+                         24E GetSystemDirectoryW
+                         16C GetComputerNameExW
+                         237 GetCurrentThreadId
+                         358 OpenProcess
+                         233 GetCurrentProcessId
+                         470 QueryPerformanceCounter
+                         5B4 Sleep
+                         375 HeapSize
+                         373 HeapReAlloc
+                         36F HeapDestroy
+                         34D GetWindowsDirectoryW
+                          DF CreateIoCompletionPort
+                         2EB GetQueuedCompletionStatus
+                         315 GetTempFileNameW
+                          F6 CreateProcessW
+                         2AB GlobalSize
+                         3C6 K32GetModuleFileNameExW
+                         5BA StartThreadpoolIo
+                         5B6 SleepConditionVariableSRW
+                         618 WakeAllConditionVariable
+                         38F InterlockedPopEntrySList
+                         390 InterlockedPushEntrySList
+                         1BA FlushInstructionCache
+                         11C DecodePointer
+                         145 EncodePointer
+                         5FF VirtualAlloc
+                         602 VirtualFree
+                         3E5 LoadLibraryExA
+                         605 VirtualProtect
+                         382 InitializeConditionVariable
+                         619 WakeConditionVariable
+                         5B5 SleepConditionVariableCS
+                         451 ProcessIdToSessionId
+                         593 SetThreadPriority
+                          AA CompareStringW
+                         134 DisableThreadLibraryCalls
+                         5B3 SizeofResource
+                         670 lstrcmpiW
+                         333 GetTimeZoneInformation
+                         27E GetLocalTime
+                         435 OpenThread
+                         5BF SwitchToThread
+                         1F9 GetComputerNameW
+                          6D Beep
+                         24E GetDynamicTimeZoneInformation
+                         385 InitializeCriticalSection
+                         5E0 TrySubmitThreadpoolCallback
+                          9B CloseThreadpool
+                          9C CloseThreadpoolCleanupGroup
+                          9D CloseThreadpoolCleanupGroupMembers
+                         105 CreateThreadpoolCleanupGroup
+                         59C SetThreadpoolThreadMinimum
+                         59B SetThreadpoolThreadMaximum
+                         104 CreateThreadpool
+                         386 InitializeCriticalSectionAndSpinCount
+                         2B7 GetOverlappedResult
+                         32D GetTickCount64
+                         138 DisconnectNamedPipe
+                         106 CreateThreadpoolIo
+                         50A SearchPathW
+                         2FF GetSystemDefaultUILanguage
+                         280 GetLocaleInfoEx
+                         33C GetUserDefaultUILanguage
+                         281 GetLocaleInfoW
+                         5E9 UnmapViewOfFile
+                         3D1 LCIDToLocaleName
+                         412 MultiByteToWideChar
+                         1AF FindResourceExW
+                         401 MapViewOfFile
+                         19A FindFirstFileW
+                         1A6 FindNextFileW
+                         18F FindClose
+                         637 WideCharToMultiByte
+                         308 GetSystemTime
+                         5C0 SystemTimeToFileTime
+                         114 DeactivateActCtx
+                           2 ActivateActCtx
+                         18B FindActCtxSectionStringW
+                          BF CreateActCtxW
+                         463 QueryActCtxW
+                         439 OutputDebugStringA
+                         447 PowerCreateRequest
+                         448 PowerSetRequest
+                         446 PowerClearRequest
+                         487 RaiseException
+                         419 NormalizeString
+                         411 MulDiv
+                         66D lstrcmpW
+                         259 GetExitCodeThread
+                         5BD SuspendThread
+                         4F3 ResumeThread
+                         607 VirtualQuery
+                          A0 CloseThreadpoolWait
+                         614 WaitForThreadpoolWaitCallbacks
+                         59F SetThreadpoolWait
+                          CD CreateEventExW
+                         108 CreateThreadpoolWait
+                         38B InitializeSRWLock
+                         267 GetFileSize
+                         422 OpenEventW
+                         42A OpenMutexW
+                         426 OpenFileMappingW
+                         304 GetSystemInfo
+                         1CD GetActiveProcessorCount
+                         2CE GetProcessAffinityMask
+                         109 CreateThreadpoolWork
+                         5BC SubmitThreadpoolWork
+                         615 WaitForThreadpoolWorkCallbacks
+                          A1 CloseThreadpoolWork
+                         542 SetEndOfFile
+                         268 GetFileSizeEx
+                         555 SetFilePointerEx
+                          A8 CompareStringEx
+                         4DF RemoveDirectoryW
+                         2A2 GetNativeSystemInfo
+                         60E WaitForMultipleObjects
+                         3A8 IsProcessorFeaturePresent
+                         111 CreateWaitableTimerExW
+                         1C6 FreeLibraryAndExitThread
+                          FD CreateSemaphoreW
+                         47C QueueUserWorkItem
+                         612 WaitForThreadpoolIoCallbacks
+                          9E CloseThreadpoolIo
+                          82 CancelThreadpoolIo
+
+    GDI32.dll
+             16ACBA330 Import Address Table
+             16AE567E0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         1D7 EqualRgn
+                          5A CreateSolidBrush
+                         3B6 TextOutW
+                         2CB GetRegionData
+                         33C RestoreDC
+                         3A6 SetViewportOrgEx
+                          82 GetSystemPaletteEntries
+                         3AA SetWindowOrgEx
+                         391 SetMapMode
+                         343 SaveDC
+                         18E DeleteMetaFile
+                          1F CloseMetaFile
+                         3A9 SetWindowExtEx
+                          4A CreateMetaFileW
+                         210 GdiDrawStream
+                         28B GetDeviceCaps
+                          53 CreateRectRgn
+                         39D SetRectRgn
+                          22 CombineRgn
+                         18F DeleteObject
+                         2F7 LPtoDP
+                         18C DeleteDC
+                         374 SelectObject
+                          38 CreateDIBitmap
+                          31 CreateCompatibleDC
+                         375 SelectPalette
+                         32F RealizePalette
+                         372 SelectClipRgn
+                         37F SetBrushOrgEx
+                         268 GetBrushOrgEx
+                         37C SetBkMode
+                         265 GetBkMode
+                         37B SetBkColor
+                         3A3 SetTextColor
+                         3A1 SetTextAlign
+                         2D5 GetTextAlign
+                         3B1 StretchDIBits
+                          13 BitBlt
+                         2CE GetStockObject
+                         1DD ExtCreateRegion
+                         319 PatBlt
+                         39C SetROP2
+                         30D MoveToEx
+                         2F9 LineTo
+                         332 Rectangle
+                         39B SetPolyFillMode
+                         197 Ellipse
+                         329 Polygon
+                         1F1 FrameRgn
+                         1EC FillRgn
+                         283 GetCurrentObject
+                         2BD GetObjectW
+                          37 CreateDIBSection
+                          30 CreateCompatibleBitmap
+                          29 CreateBitmap
+                         379 SetBitmapBits
+                          4F CreatePen
+                          2D CreateBrushIndirect
+                          36 CreateDIBPatternBrushPt
+                          4D CreatePalette
+                         2B7 GetNearestPaletteIndex
+                         384 SetDIBColorTable
+                         2B6 GetNearestColor
+                         27E GetClipBox
+                         2C0 GetPaletteEntries
+                          34 CreateDCW
+                         289 GetDIBColorTable
+                         32C PtInRegion
+                          C7 SetStretchBltMode
+                          D3 StretchBlt
+                          43 CreateFontIndirectW
+                         398 SetPixel
+                         2DF GetTextExtentPoint32W
+                         1E2 ExtTextOutW
+                          52 CreatePolygonRgn
+                         2B0 GetMapMode
+                         2E2 GetTextExtentPointW
+                         27F GetClipRgn
+                         3BA UpdateColors
+                         2C4 GetPixel
+                         3AB SetWorldTransform
+                         2EE GetWorldTransform
+                         312 OffsetWindowOrgEx
+                         31E PlayMetaFile
+                         18D DeleteEnhMetaFile
+                         38A SetGraphicsMode
+                         2CD GetRgnBox
+                          54 CreateRectRgnIndirect
+                         2F3 IntersectClipRect
+                         14D DPtoLP
+                         310 OffsetRgn
+                         382 SetDCBrushColor
+                         393 SetMetaFileBitsEx
+                         2B2 GetMetaFileBitsEx
+
+    USER32.dll
+             16ACBAF78 Import Address Table
+             16AE57428 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         16F IntersectRect
+                         25C SetTimer
+                         195 LoadCursorW
+                         268 SetWindowPos
+                         274 ShowWindow
+                         18F KillTimer
+                          65 DestroyWindow
+                         293 UnregisterClassW
+                          BE GetClassInfoW
+                         1FD RegisterClassW
+                          4F CreateWindowExW
+                         251 SetPropW
+                          EE GetKeyState
+                         248 SetParent
+                         1BC MoveWindow
+                          F4 GetKeyboardType
+                         216 ScreenToClient
+                          B8 GetCapture
+                         132 GetSystemMetrics
+                         232 SetCursorPos
+                          34 ClientToScreen
+                         23A SetFocus
+                         1AE MapVirtualKeyW
+                          F3 GetKeyboardState
+                         2AB keybd_event
+                          D4 GetCursorPos
+                         124 GetRawInputData
+                          B4 GetAncestor
+                          F2 GetKeyboardLayoutNameW
+                         285 TrackMouseEvent
+                          5C DefWindowProcW
+                         14A GetWindowLongPtrW
+                         265 SetWindowLongPtrW
+                          60 CreateCursor
+                         114 FindWindowW
+                         24E IsWindowVisible
+                         1DD GetWindow
+                         2FD RegisterWindowMessageW
+                         250 IsZoomed
+                         237 IsIconic
+                         31E SetActiveWindow
+                         383 SetWindowRgn
+                         248 IsWindow
+                         27F MapWindowPoints
+                         10B EqualRect
+                         25D LoadImageW
+                          B1 DestroyIcon
+                         24A IsWindowEnabled
+                         305 RemovePropW
+                         171 GetLastActivePopup
+                         192 GetParent
+                         1EB GetWindowLongW
+                         31A SendMessageTimeoutW
+                         113 FindWindowExW
+                         11A GetActiveWindow
+                         33D SetForegroundWindow
+                         131 GetClassNameW
+                          10 BeginDeferWindowPos
+                         15B GetGUIThreadInfo
+                          A8 DeferWindowPos
+                          F0 EndDeferWindowPos
+                         1F8 GetWindowTextLengthW
+                         1F9 GetWindowTextW
+                         10A EnumWindows
+                         126 GetCaretBlinkTime
+                         376 SetWinEventHook
+                         3B9 UnhookWinEvent
+                         172 GetLastInputInfo
+                         3CD UpdateLayeredWindow
+                         2DB RedrawWindow
+                         144 GetWindowDC
+                         160 GetIconInfo
+                          D6 DrawIconEx
+                         2EB RegisterHotKey
+                         3C3 UnregisterHotKey
+                         2E5 RegisterDeviceNotificationW
+                         3C2 UnregisterDeviceNotification
+                         1D3 GetTopWindow
+                         29B OffsetRect
+                         3B6 TranslateMessage
+                         3BC UnionRect
+                          59 CopyIcon
+                         2B1 PostThreadMessageW
+                         293 MsgWaitForMultipleObjectsEx
+                          34 CharNextW
+                         22F IsChild
+                          21 CallWindowProcW
+                          DE DrawTextW
+                         380 SetWindowLongW
+                         107 EnumThreadWindows
+                          F7 EnumChildWindows
+                           8 AllowSetForegroundWindow
+                         28E MonitorFromPoint
+                         20D ReleaseDC
+                          31 CharLowerW
+                          B5 GetAsyncKeyState
+                           A AttachThreadInput
+                         155 GetWindowThreadProcessId
+                         26F SetWindowsHookExW
+                         231 SetCursor
+                         28D UnhookWindowsHookEx
+                          1F CharNextA
+                           C BeginPaint
+                          91 EndPaint
+                         14D GetWindowRect
+                          AF FlashWindow
+                         1B0 MessageBeep
+                         107 GetMessageExtraInfo
+                         23C SetKeyboardState
+                         225 SetCapture
+                          C6 GetClientRect
+                         20C ReleaseCapture
+                          6C DispatchMessageW
+                         10A GetMessageW
+                         1D6 PostQuitMessage
+                         29D ValidateRect
+                         26C SetWindowTextW
+                          36 CloseClipboard
+                         22D SetClipboardData
+                          89 EmptyClipboard
+                         1C5 OpenClipboard
+                          8D EnableWindow
+                         29B UpdateWindow
+                         1FC RegisterClassExW
+                          BD GetClassInfoExW
+                         185 IsRectEmpty
+                         253 SetRectEmpty
+                         1A0 LoadMenuW
+                          D5 GetDC
+                          69 DialogBoxParamW
+                          49 CreateDialogParamW
+                         170 InvalidateRect
+                         2E2 RegisterClipboardFormatW
+                          E5 GetForegroundWindow
+                          E4 GetFocus
+                         1D5 PostMessageW
+                          11 CallNextHookEx
+                         13A GetClipboardOwner
+                         136 GetClipboardData
+                          AA FillRect
+                         37B SetWindowDisplayAffinity
+                         221 SendMessageW
+                         230 IsClipboardFormatAvailable
+                         1BD MsgWaitForMultipleObjects
+                         1A3 LoadStringW
+                          F1 GetKeyboardLayoutNameA
+                          EF GetKeyboardLayout
+                          6D DisplayConfigGetDeviceInfo
+                          A0 DefDlgProcW
+                         14E GetWindowRgn
+                         1DC QueryDisplayConfig
+                          DA GetDisplayConfigBufferSizes
+                          9C EnumDisplaySettingsW
+                         197 LoadIconW
+                         131 GetSystemMenu
+                          8A EnableMenuItem
+                         267 SetWindowPlacement
+                          99 EnumDisplayMonitors
+                          3A CloseWindow
+                          98 EnumDisplayDevicesW
+                         14C GetWindowPlacement
+                         27D SystemParametersInfoA
+                         1A6 LockWindowUpdate
+                         12F GetSysColor
+                         255 SetScrollPos
+                           2 AdjustWindowRect
+                         273 ShowScrollBar
+                         254 SetScrollInfo
+                          D3 GetCursorInfo
+                          40 CopyRect
+                          2D CheckDlgButton
+                          8F EndDialog
+                         17F IsDlgButtonChecked
+                         237 SetDlgItemTextW
+                          DC GetDlgItem
+                          B0 FlashWindowEx
+                         11D GetProcessDefaultLayout
+                          DB GetDlgCtrlID
+                         1BA MonitorFromRect
+                         23E SetLayeredWindowAttributes
+                         12E GetSubMenu
+                         287 TrackPopupMenuEx
+                         22A SetClassLongPtrW
+                          C1 GetClassLongPtrW
+                         101 GetMenuItemInfoW
+                         245 SetMenuItemInfoW
+                          64 DestroyMenu
+                         252 SetRect
+                           5 AnimateWindow
+                         10C GetMonitorInfoW
+                         1BB MonitorFromWindow
+                         21B SendDlgItemMessageW
+                         10E GetNextDlgTabItem
+                          DF GetDlgItemTextW
+                         15F InflateRect
+                         130 GetSysColorBrush
+                         27E SystemParametersInfoW
+                          4B CreateIconIndirect
+                         3C0 UnregisterClassA
+                          22 CharPrevA
+                         1DB PtInRect
+                          CB GetClipboardFormatNameW
+                         206 RegisterRawInputDevices
+                         271 ShowCursor
+                          D7 GetDesktopWindow
+                          62 DestroyCursor
+                         21C SendInput
+                         1D1 PeekMessageW
+
+    SHLWAPI.dll
+             16ACBAF10 Import Address Table
+             16AE573C0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         12F UrlGetPartW
+                          99 SHDeleteKeyW
+                          76 PathRemoveFileSpecW
+                         124 UrlCombineW
+                          3D PathFindFileNameW
+                          ED StrChrW
+                          4D PathIsFileSpecW
+                          E0 ShellMessageBoxW
+                             Ordinal    12
+
+    setupapi.dll
+             16ACBBAF8 Import Address Table
+             16AE57FA8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          77 CM_Get_Parent
+                          FE SetupDiEnumDeviceInfo
+                          57 CM_Get_Device_ID_Size
+                          4C CM_Get_Device_IDW
+                          FC SetupDiDestroyDeviceInfoList
+                         10A SetupDiGetClassDevsW
+                         120 SetupDiGetDeviceRegistryPropertyW
+                          8B CM_Locate_DevNodeW
+                          49 CM_Get_DevNode_Status
+
+    VERSION.dll
+             16ACBB600 Import Address Table
+             16AE57AB0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           D VerQueryValueW
+                           7 GetFileVersionInfoW
+                           6 GetFileVersionInfoSizeW
+
+    IMM32.dll
+             16ACBA628 Import Address Table
+             16AE56AD8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1A ImmAssociateContext
+                          3B ImmGetContext
+
+    ncrypt.dll
+             16ACBB9B0 Import Address Table
+             16AE57E60 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          49 NCryptFinalizeKey
+                          3E NCryptCreatePersistedKey
+                          48 NCryptExportKey
+                          5C NCryptSetProperty
+                          5D NCryptSignHash
+                          4B NCryptFreeObject
+                          55 NCryptOpenStorageProvider
+
+    UIAutomationCore.DLL
+             16ACBAF60 Import Address Table
+             16AE57410 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          63 UiaReturnRawElementProvider
+                          4D UiaHostProviderFromHwnd
+
+    DEVOBJ.dll
+             16ACBA2C0 Import Address Table
+             16AE56770 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          24 DevObjOpenClassRegKey
+                          27 DevObjOpenDeviceInterface
+                          25 DevObjOpenDevRegKey
+                          1B DevObjGetDeviceInstanceId
+                          11 DevObjEnumDeviceInfo
+                          1D DevObjGetDeviceInterfaceDetail
+                          12 DevObjEnumDeviceInterfaces
+                          14 DevObjGetClassDevs
+                          20 DevObjGetDeviceProperty
+                          10 DevObjDestroyDeviceInfoList
+                          22 DevObjGetDeviceRegistryProperty
+                          26 DevObjOpenDeviceInfo
+                           7 DevObjCreateDeviceInfoList
+
+    pdh.dll
+             16ACBBAC0 Import Address Table
+             16AE57F70 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           C PdhGetFormattedCounterValue
+                           1 PdhAddEnglishCounterW
+                          10 PdhOpenQueryW
+                          11 PdhRemoveCounter
+                           5 PdhCollectQueryData
+                           4 PdhCloseQuery
+
+    SHCORE.dll
+             16ACBAF00 Import Address Table
+             16AE573B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                             Ordinal   109
+
+  Section contains the following delay load imports:
+
+    OLEAUT32.dll
+              00000001 Characteristics
+      000000016AE6C1C0 Address of HMODULE
+      000000016AEAA550 Import Address Table
+      000000016AE52EE0 Import Name Table
+      000000016AE55730 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71A804       Ordinal   163
+                                    000000016A71A816       Ordinal     3
+                                    000000016A71A828       Ordinal   314
+                                    000000016A71A7E0       Ordinal    12
+                                    000000016A71A7CE       Ordinal   161
+                                    000000016A71A7BC       Ordinal   162
+                                    000000016A71A7AA       Ordinal   277
+                                    000000016A71A798       Ordinal   150
+                                    000000016A71A786       Ordinal   313
+                                    000000016A71A774       Ordinal     4
+                                    000000016A71A762       Ordinal     7
+                                    000000016A71A750       Ordinal   149
+                                    000000016A71A73E       Ordinal    16
+                                    000000016A71A72C       Ordinal    26
+                                    000000016A71ADEA     3 BSTR_UserMarshal64
+                                    000000016A71ADD8     5 BSTR_UserSize64
+                                    000000016A71ADC6     1 BSTR_UserFree64
+                                    000000016A71ADB4       Ordinal   284
+                                    000000016A71ADA2       Ordinal   285
+                                    000000016A71AD90     7 BSTR_UserUnmarshal64
+                                    000000016A71AD7E       Ordinal   286
+                                    000000016A71AD6C       Ordinal   283
+                                    000000016A71A71A       Ordinal   411
+                                    000000016A71AC87       Ordinal    25
+                                    000000016A71AC75       Ordinal    19
+                                    000000016A71AC63       Ordinal    20
+                                    000000016A71AC51       Ordinal    17
+                                    000000016A719592       Ordinal     2
+                                    000000016A71A7F2       Ordinal   417
+                                    000000016A7191B0       Ordinal     6
+                                    000000016A719113       Ordinal     8
+                                    000000016A719101       Ordinal    10
+                                    000000016A719076       Ordinal     9
+
+    ADVAPI32.dll
+              00000001 Characteristics
+      000000016AE6C1C8 Address of HMODULE
+      000000016AEAA000 Import Address Table
+      000000016AE52990 Import Name Table
+      000000016AE55750 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71A389   10D EventSetInformation
+                                    000000016A71ABC1   10D GetUserNameA
+                                    000000016A71ABD3   1E2 RegDeleteKeyW
+                                    000000016A719125   283 TraceMessage
+                                    000000016A71A377    B6 CredUnprotectW
+                                    000000016A71ABE5    7B CredIsMarshaledCredentialW
+                                    000000016A71A365    AA CredProtectW
+                                    000000016A71ABF7    85 CredReadW
+                                    000000016A71A353   271 RegEnumKeyW
+                                    000000016A7192E4   1FD RegOpenKeyExW
+                                    000000016A7192F6   209 RegQueryValueExW
+                                    000000016A719308   1F2 RegGetValueW
+                                    000000016A71931A   1CE RegCloseKey
+                                    000000016A71C349   11E IsTextUnicode
+                                    000000016A71A341   274 RegFlushKey
+                                    000000016A7193C9    D4 EventActivityIdControl
+                                    000000016A7193E7   1EE RegEnumValueW
+                                    000000016A7193F9   1D7 RegCreateKeyExW
+                                    000000016A71940B   219 RegSetValueExW
+                                    000000016A71941D   1E6 RegDeleteValueW
+                                    000000016A71942F   1EB RegEnumKeyExW
+                                    000000016A71A32F    D2 CryptGenRandom
+                                    000000016A71945F    D9 EventUnregister
+                                    000000016A719471    D7 EventRegister
+                                    000000016A71948F    DD EventWriteTransfer
+                                    000000016A71A31D    C2 CryptAcquireContextW
+                                    000000016A7194BF   1FB RegOpenKeyA
+                                    000000016A7194D1   208 RegQueryValueExA
+                                    000000016A7194E3   1FC RegOpenKeyExA
+                                    000000016A71AC09    8D CredWriteW
+                                    000000016A71A30B   289 RegQueryInfoKeyW
+                                    000000016A71ADFC   1F9 RegNotifyChangeKeyValue
+                                    000000016A71AC1B    78 CredGetSessionTypes
+                                    000000016A719689    F2 GetLengthSid
+                                    000000016A71969B    65 CopySid
+                                    000000016A7196AD   18A OpenProcessToken
+                                    000000016A7196BF   109 GetTokenInformation
+                                    000000016A71A3AD   15D GetTraceEnableLevel
+                                    000000016A71A2F9    DC CryptReleaseContext
+                                    000000016A71A2E7    DF CryptSetProvParam
+                                    000000016A71A2D5    9C CredFree
+                                    000000016A71A2C3    B4 CredUnmarshalCredentialW
+                                    000000016A71A3BF   15C GetTraceEnableFlags
+                                    000000016A71A3D1   2AB RegisterTraceGuidsW
+                                    000000016A71A3E3   32B UnregisterTraceGuids
+                                    000000016A71A3F5    96 CredDeleteW
+                                    000000016A71A407    D5 CryptGetHashParam
+                                    000000016A71A419    C7 CryptDestroyHash
+                                    000000016A71A42B    D9 CryptHashData
+                                    000000016A71A43D    C4 CryptCreateHash
+                                    000000016A71A44F   276 RegGetValueA
+                                    000000016A71C11B    AE CredReadDomainCredentialsW
+                                    000000016A71C12D    B9 CredWriteDomainCredentialsW
+                                    000000016A71C13F   130 GetFileSecurityW
+                                    000000016A71C151   14A GetSecurityDescriptorLength
+                                    000000016A71C163   2D2 SetFileSecurityW
+                                    000000016A71A39B   15E GetTraceLoggerHandle
+                                    000000016A71C1E1   31C TraceEvent
+                                    000000016A71C1CF   29C RegSetKeyValueW
+                                    000000016A71C1BD   319 SystemFunction036
+                                    000000016A71C1AB    C8 CryptDestroyKey
+                                    000000016A71C199    EE DestroyPrivateObjectSecurity
+                                    000000016A71C187    81 ConvertStringSecurityDescriptorToSecurityDescriptorW
+                                    000000016A71C175    7B ConvertSidToStringSidW
+
+    OLE32.dll
+              00000001 Characteristics
+      000000016AE6C1D0 Address of HMODULE
+      000000016AEAA4E0 Import Address Table
+      000000016AE52E70 Import Name Table
+      000000016AE55768 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71AD5A    61 CoMarshalInterface
+                                    000000016A7195C8     C CLSIDFromString
+                                    000000016A7195DA    57 CoInitialize
+                                    000000016A71AC3F    7B CoSetProxyBlanket
+                                    000000016A7195B6    84 CoUninitialize
+                                    000000016A7195A4    58 CoInitializeEx
+                                    000000016A7194F5   187 StringFromGUID2
+                                    000000016A7194AD   186 StringFromCLSID
+                                    000000016A719441    7F CoTaskMemFree
+                                    000000016A71C325   14E OleGetClipboard
+                                    000000016A71C337   16D ReleaseStgMedium
+                                    000000016A7191C2    26 CoCreateInstance
+                                    000000016A71AB9D    36 CoFreeUnusedLibraries
+
+    SHELL32.dll
+              00000001 Characteristics
+      000000016AE6C1D8 Address of HMODULE
+      000000016AEAA7E8 Import Address Table
+      000000016AE53178 Import Name Table
+      000000016AE55778 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71AD48     3 CommandLineToArgvW
+                                    000000016A71A9CE    5F SHFileOperationW
+                                    000000016A71A9BC    6B SHGetFolderPathW
+                                    000000016A71A8D7    9C Shell_NotifyIconW
+                                    000000016A71A8C5    37 SHAppBarMessage
+                                    000000016A71C313    10 DragQueryFileW
+                                    000000016A71C229       Ordinal   100
+                                    000000016A719259    78 SHGetPropertyStoreForWindow
+                                    000000016A71AC99    17 ExtractIconW
+
+    WTSAPI32.dll
+              00000001 Characteristics
+      000000016AE6C1E0 Address of HMODULE
+      000000016AEAAB70 Import Address Table
+      000000016AE53500 Import Name Table
+      000000016AE557A8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A7193B7     D WTSUnRegisterSessionNotification
+                                    000000016A71932C     C WTSRegisterSessionNotification
+
+    COMCTL32.dll
+              00000001 Characteristics
+      000000016AE6C1E8 Address of HMODULE
+      000000016AEAA250 Import Address Table
+      000000016AE52BE0 Import Name Table
+      000000016AE55838 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71C2EF    24 ImageList_Add
+                                    000000016A719507    4D TaskDialogIndirect
+                                    000000016A71C301    28 ImageList_Create
+
+    WINMM.dll
+              00000001 Characteristics
+      000000016AE6C1F0 Address of HMODULE
+      000000016AEAA930 Import Address Table
+      000000016AE532C0 Import Name Table
+      000000016AE55870 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A719677    41 timeEndPeriod
+                                    000000016A71A27B    50 waveInPrepareHeader
+                                    000000016A71A28D    45 waveInAddBuffer
+                                    000000016A71ABAF    44 timeGetTime
+                                    000000016A71A29F    52 waveInStart
+                                    000000016A71A257    46 waveInClose
+                                    000000016A71A245    51 waveInReset
+                                    000000016A71A233    4C waveInGetNumDevs
+                                    000000016A7195EC    40 timeBeginPeriod
+                                    000000016A71A1FD    61 waveOutMessage
+                                    000000016A71A20F    4E waveInMessage
+                                    000000016A71A221    5C waveOutGetNumDevs
+                                    000000016A71A269    4F waveInOpen
+                                    000000016A71A2B1    54 waveInUnprepareHeader
+
+    IPHLPAPI.DLL
+              00000001 Characteristics
+      000000016AE6C1F8 Address of HMODULE
+      000000016AEAA420 Import Address Table
+      000000016AE52DB0 Import Name Table
+      000000016AE558A8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A7196D1    FF ParseNetworkString
+                                    000000016A71AE20    40 FreeMibTable
+                                    000000016A71AE0E    2C CreateSortedAddressPairs
+
+    CRYPT32.dll
+              00000001 Characteristics
+      000000016AE6C200 Address of HMODULE
+      000000016AEAA270 Import Address Table
+      000000016AE52C00 Import Name Table
+      000000016AE558B8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71B0FC    3E CertFreeCertificateChainEngine
+                                    000000016A71989B    12 CertCloseStore
+                                    000000016A7198AD    B6 CryptMsgOpenToDecode
+                                    000000016A7198BF    B9 CryptMsgUpdate
+                                    000000016A71B17A    C3 CryptProtectData
+                                    000000016A71B168    37 CertFindExtension
+                                    000000016A7198D1    59 CertOpenStore
+                                    000000016A719865    46 CertGetCertificateContextProperty
+                                    000000016A719853    24 CertDuplicateCertificateChain
+                                    000000016A719841    76 CertVerifyCertificateChainPolicy
+                                    000000016A71982F     E CertAddSerializedElementToStore
+                                    000000016A71981D    3D CertFreeCertificateChain
+                                    000000016A71980B    25 CertDuplicateCertificateContext
+                                    000000016A7197F9    40 CertFreeCertificateContext
+                                    000000016A7197E7    45 CertGetCertificateChain
+                                    000000016A71B144    78 CertVerifySubjectCertificateContext
+                                    000000016A71975C    82 CryptDecodeObject
+                                    000000016A71B132    E1 CryptUnprotectData
+                                    000000016A71B120    C4 CryptProtectMemory
+                                    000000016A7198E3    AE CryptMsgClose
+                                    000000016A719907    DF CryptStringToBinaryW
+                                    000000016A71B10E    E2 CryptUnprotectMemory
+                                    000000016A71B07E    35 CertFindCertificateInStore
+                                    000000016A71B090    7B CryptAcquireCertificatePrivateKey
+                                    000000016A719889    EA CryptVerifyDetachedMessageSignature
+                                    000000016A719877    DC CryptSignMessage
+                                    000000016A71B0A2    6C CertSetCertificateContextProperty
+                                    000000016A71B0B4    1C CertCreateCertificateContext
+                                    000000016A71B0C6    4B CertGetNameStringW
+                                    000000016A71B0D8     4 CertAddCertificateContextToStore
+                                    000000016A71C4AC    A5 CryptImportPublicKeyInfoEx2
+                                    000000016A71B0EA    1B CertCreateCertificateChainEngine
+                                    000000016A71B156    47 CertGetEnhancedKeyUsage
+                                    000000016A71C4BE    7C CryptBinaryToStringA
+                                    000000016A7198F5    7D CryptBinaryToStringW
+
+    api-ms-win-core-winrt-string-l1-1-0.dll
+              00000001 Characteristics
+      000000016AE6C208 Address of HMODULE
+      000000016AEAABE8 Import Address Table
+      000000016AE53578 Import Name Table
+      000000016AE55950 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A719919     A WindowsCreateString
+                                    000000016A719D21     C WindowsDeleteString
+                                    000000016A719D33    10 WindowsGetStringRawBuffer
+                                    000000016A719D45     B WindowsCreateStringReference
+                                    000000016A71B504    16 WindowsStringHasEmbeddedNull
+
+    api-ms-win-core-winrt-l1-1-0.dll
+              00000001 Characteristics
+      000000016AE6C210 Address of HMODULE
+      000000016AEAABC0 Import Address Table
+      000000016AE53550 Import Name Table
+      000000016AE55960 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A719D0F     0 RoActivateInstance
+                                    000000016A719CEB     7 RoUninitialize
+                                    000000016A719CFD     3 RoInitialize
+                                    000000016A7199A4     1 RoGetActivationFactory
+
+    api-ms-win-mm-mme-l1-1-0.dll
+              00000001 Characteristics
+      000000016AE6C218 Address of HMODULE
+      000000016AEAAC30 Import Address Table
+      000000016AE535C0 Import Name Table
+      000000016AE55970 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A719ABA    57 waveOutGetPitch
+                                    000000016A719A2F    5A waveOutGetVolume
+                                    000000016A719ACC    63 waveOutSetVolume
+                                    000000016A719ADE    5F waveOutReset
+                                    000000016A719B38    65 waveOutWrite
+                                    000000016A719B26    5E waveOutPrepareHeader
+                                    000000016A719AF0    64 waveOutUnprepareHeader
+                                    000000016A719B02    50 waveOutClose
+                                    000000016A719B14    5C waveOutOpen
+
+    d2d1.dll
+              00000001 Characteristics
+      000000016AE6C220 Address of HMODULE
+      000000016AEAAD20 Import Address Table
+      000000016AE536B0 Import Name Table
+      000000016AE559C0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A719B4A       Ordinal     1
+
+    DWrite.dll
+              00000001 Characteristics
+      000000016AE6C228 Address of HMODULE
+      000000016AEAA390 Import Address Table
+      000000016AE52D20 Import Name Table
+      000000016AE559D0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A719BD5     0 DWriteCreateFactory
+
+    Normaliz.dll
+              00000001 Characteristics
+      000000016AE6C230 Address of HMODULE
+      000000016AEAA4D0 Import Address Table
+      000000016AE52E60 Import Name Table
+      000000016AE559E0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A719C60     0 IdnToAscii
+
+    RPCRT4.dll
+              00000001 Characteristics
+      000000016AE6C250 Address of HMODULE
+      000000016AEAA660 Import Address Table
+      000000016AE52FF0 Import Name Table
+      000000016AE55A20 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71C0E5   10B NdrMesTypeFree3
+                                    000000016A71C0F7   227 UuidToStringW
+                                    000000016A71C109   215 RpcStringFreeW
+                                    000000016A71C0D3   109 NdrMesTypeEncode3
+                                    000000016A71C0C1   106 NdrMesTypeDecode3
+                                    000000016A71C0AF    85 MesEncodeDynBufferHandleCreate
+                                    000000016A71B00C     7 CStdStubBuffer_IsIIDSupported
+                                    000000016A71C09D    83 MesDecodeBufferHandleCreate
+                                    000000016A71C08B    88 MesHandleFree
+                                    000000016A71C079    2E I_RpcExceptionFilter
+                                    000000016A71A0D5   223 UuidFromStringW
+                                    000000016A71AFEC    10 IUnknown_QueryInterface_Proxy
+                                    000000016A71AFC0     5 CStdStubBuffer_Disconnect
+                                    000000016A71AFAE    D6 NdrDllGetClassObject
+                                    000000016A71AF9C    D7 NdrDllRegisterProxy
+                                    000000016A71AF7C     4 CStdStubBuffer_DebugServerRelease
+                                    000000016A71AF5C   117 NdrOleAllocate
+                                    000000016A71AF3C     8 CStdStubBuffer_QueryInterface
+                                    000000016A71AF0E     2 CStdStubBuffer_CountRefs
+                                    000000016A71AEFC    D8 NdrDllUnregisterProxy
+                                    000000016A71AEDC    11 IUnknown_Release_Proxy
+                                    000000016A71AEBC     0 CStdStubBuffer_AddRef
+                                    000000016A71AE9C   118 NdrOleFree
+                                    000000016A71B02C    D5 NdrDllCanUnloadNow
+                                    000000016A71AE7C     3 CStdStubBuffer_DebugServerQueryInterface
+                                    000000016A71AE5C     F IUnknown_AddRef_Proxy
+                                    000000016A71AE32     6 CStdStubBuffer_Invoke
+                                    000000016A71B03E     1 CStdStubBuffer_Connect
+                                    000000016A71B06C    A1 NdrCStdStubBuffer_Release
+
+    AVRT.dll
+              00000001 Characteristics
+      000000016AE6C258 Address of HMODULE
+      000000016AEAA208 Import Address Table
+      000000016AE52B98 Import Name Table
+      000000016AE55A30 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71A160     E AvSetMmThreadCharacteristicsW
+                                    000000016A71A1EB     F AvSetMmThreadPriority
+
+    MSACM32.dll
+              00000001 Characteristics
+      000000016AE6C260 Address of HMODULE
+      000000016AEAA440 Import Address Table
+      000000016AE52DD0 Import Name Table
+      000000016AE55B58 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71A558    26 acmStreamPrepareHeader
+                                    000000016A71A546    28 acmStreamSize
+                                    000000016A71A534     2 acmDriverClose
+                                    000000016A71A522    22 acmStreamClose
+                                    000000016A71A461     5 acmDriverEnum
+                                    000000016A71A56A    23 acmStreamConvert
+                                    000000016A71A57C    29 acmStreamUnprepareHeader
+                                    000000016A71A4EC    1D acmFormatTagDetailsW
+                                    000000016A71A4FE     8 acmDriverOpen
+                                    000000016A71A58E    1B acmFormatSuggest
+                                    000000016A71A510    25 acmStreamOpen
+
+    credui.dll
+              00000001 Characteristics
+      000000016AE6C268 Address of HMODULE
+      000000016AEAACE8 Import Address Table
+      000000016AE53678 Import Name Table
+      000000016AE55CE0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71C205    13 CredUnPackAuthenticationBufferW
+                                    000000016A71C1F3     C CredUIPromptForWindowsCredentialsW
+                                    000000016A71C217     8 CredUIParseUserNameW
+                                    000000016A71A83A     1 CredPackAuthenticationBufferW
+
+    SECUR32.dll
+              00000001 Characteristics
+      000000016AE6C270 Address of HMODULE
+      000000016AEAA750 Import Address Table
+      000000016AE530E0 Import Name Table
+      000000016AE55D00 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71A9AA    2A LsaLookupAuthenticationPackage
+                                    000000016A71A9F2     E DeleteSecurityContext
+                                    000000016A71AA04     2 AcquireCredentialsHandleW
+                                    000000016A71AA16     0 AcceptSecurityContext
+                                    000000016A71AA3A    15 FreeContextBuffer
+                                    000000016A71AA4C    35 QuerySecurityPackageInfoW
+                                    000000016A71AA5E    30 QueryContextAttributesW
+                                    000000016A71AA70     D DecryptMessage
+                                    000000016A71A998    24 LsaConnectUntrusted
+                                    000000016A71A986    25 LsaDeregisterLogonProcess
+                                    000000016A71A974    27 LsaFreeReturnBuffer
+                                    000000016A71A8E9    23 LsaCallAuthenticationPackage
+                                    000000016A71A9E0    16 FreeCredentialsHandle
+                                    000000016A71AA82    11 EncryptMessage
+                                    000000016A71AA94    4A SetContextAttributesW
+                                    000000016A71AAA6    20 InitSecurityInterfaceW
+                                    000000016A71AC2D    1B GetUserNameExW
+                                    000000016A71AA28    22 InitializeSecurityContextW
+
+    WINSPOOL.DRV
+              00000001 Characteristics
+      000000016AE6C278 Address of HMODULE
+      000000016AEAA9A8 Import Address Table
+      000000016AE53338 Import Name Table
+      000000016AE55DA0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71C25F    17 EnumPrintersW
+                                    000000016A71C271    11 EndDocPrinter
+                                    000000016A71C283    1D GetJobW
+                                    000000016A71C295    2A SetJobW
+                                    000000016A71C2A7    2F StartDocPrinterW
+                                    000000016A71C24D    21 GetPrinterDataW
+                                    000000016A71C2B9    31 WritePrinter
+                                    000000016A71AB79    24 GetPrinterW
+                                    000000016A71AB67    10 DocumentPropertiesW
+                                    000000016A71AB55     6 ClosePrinter
+                                    000000016A71AB43    23 GetPrinterDriverW
+                                    000000016A71AAB8     E DeviceCapabilitiesW
+                                    000000016A71AB8B    27 OpenPrinterW
+                                    000000016A71C2DD    1F GetPrinterA
+                                    000000016A71C2CB    2E SetPrinterW
+                                    000000016A71C23B       Ordinal   203
+
+    UXTHEME.dll
+              00000001 Characteristics
+      000000016AE6C280 Address of HMODULE
+      000000016AEAA838 Import Address Table
+      000000016AE531C8 Import Name Table
+      000000016AE55E50 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71ACAB    2B SetWindowTheme
+                                    000000016A71AD36     F GetCurrentThemeName
+
+    cryptui.dll
+              00000001 Characteristics
+      000000016AE6C288 Address of HMODULE
+      000000016AEAAD10 Import Address Table
+      000000016AE536A0 Import Name Table
+      000000016AE55FE0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71B205     7 CryptUIDlgViewCertificateW
+
+    dxgi.dll
+              00000001 Characteristics
+      000000016AE6C290 Address of HMODULE
+      000000016AEAAD68 Import Address Table
+      000000016AE536F8 Import Name Table
+      000000016AE55FF0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71B217     4 CreateDXGIFactory1
+
+    MSIMG32.dll
+              00000001 Characteristics
+      000000016AE6C298 Address of HMODULE
+      000000016AEAA4A0 Import Address Table
+      000000016AE52E30 Import Name Table
+      000000016AE56000 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71B2A2     0 AlphaBlend
+                                    000000016A71B32D     2 GradientFill
+
+    NETAPI32.dll
+              00000001 Characteristics
+      000000016AE6C2A0 Address of HMODULE
+      000000016AEAA4B8 Import Address Table
+      000000016AE52E48 Import Name Table
+      000000016AE56018 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71B3CA    87 NetGetJoinInformation
+                                    000000016A71B33F    52 NetApiBufferFree
+
+    api-ms-win-core-winrt-error-l1-1-0.dll
+              00000001 Characteristics
+      000000016AE6C2A8 Address of HMODULE
+      000000016AEAAB98 Import Address Table
+      000000016AE53528 Import Name Table
+      000000016AE56030 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71B3DC     A SetRestrictedErrorInfo
+                                    000000016A71B4F2     4 RoOriginateError
+
+    api-ms-win-core-winrt-error-l1-1-1.dll
+              00000001 Characteristics
+      000000016AE6C2B0 Address of HMODULE
+      000000016AEAABB0 Import Address Table
+      000000016AE53540 Import Name Table
+      000000016AE56040 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71B467     2 RoGetMatchingRestrictedErrorInfo
+
+    WINHTTP.dll
+              00000001 Characteristics
+      000000016AE6C2B8 Address of HMODULE
+      000000016AEAA850 Import Address Table
+      000000016AE531E0 Import Name Table
+      000000016AE56060 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71B6C1    3B WinHttpReceiveResponse
+                                    000000016A71B6F7    36 WinHttpQueryOption
+                                    000000016A71B6E5    40 WinHttpSetCredentials
+                                    000000016A71B6AF    45 WinHttpSetStatusCallback
+                                    000000016A71B69D    4B WinHttpWebSocketCompleteUpgrade
+                                    000000016A71B68B    33 WinHttpQueryDataAvailable
+                                    000000016A71B679    37 WinHttpReadData
+                                    000000016A71B667    4D WinHttpWebSocketReceive
+                                    000000016A71B655    50 WinHttpWriteData
+                                    000000016A71B73F    1A WinHttpCreateUrl
+                                    000000016A71B72D    46 WinHttpSetTimeouts
+                                    000000016A71B71B    22 WinHttpGetIEProxyConfigForCurrentUser
+                                    000000016A71B6D3    4C WinHttpWebSocketQueryCloseStatus
+                                    000000016A71B643    4E WinHttpWebSocketSend
+                                    000000016A71B631    3F WinHttpSendRequest
+                                    000000016A71B61F    34 WinHttpQueryHeaders
+                                    000000016A71B60D     4 WinHttpAddRequestHeaders
+                                    000000016A71B5FB    4A WinHttpWebSocketClose
+                                    000000016A71B516    18 WinHttpCrackUrl
+                                    000000016A71B5E9    2E WinHttpOpenRequest
+                                    000000016A71B5A1    2D WinHttpOpen
+                                    000000016A71B5B3    42 WinHttpSetOption
+                                    000000016A71B5C5     8 WinHttpCloseHandle
+                                    000000016A71B5D7     9 WinHttpConnect
+                                    000000016A71B709    23 WinHttpGetProxyForUrl
+
+    WININET.dll
+              00000001 Characteristics
+      000000016AE6C2C0 Address of HMODULE
+      000000016AEAA920 Import Address Table
+      000000016AE532B0 Import Name Table
+      000000016AE56130 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71B751    B7 InternetGetCookieW
+
+    api-ms-win-mm-misc-l2-1-0.dll
+              00000001 Characteristics
+      000000016AE6C2C8 Address of HMODULE
+      000000016AEAAC18 Import Address Table
+      000000016AE535A8 Import Name Table
+      000000016AE56140 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71C4D0     0 timeKillEvent
+                                    000000016A71B7DC     1 timeSetEvent
+
+    WS2_32.dll
+              00000001 Characteristics
+      000000016AE6C2D0 Address of HMODULE
+      000000016AEAAA30 Import Address Table
+      000000016AE533C0 Import Name Table
+      000000016AE56150 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71B9A6       Ordinal     1
+                                    000000016A71B9B8       Ordinal     5
+                                    000000016A71B9CA    14 WSAAddressToStringW
+                                    000000016A71B9DC    3B WSAIoctl
+                                    000000016A71B9EE       Ordinal    22
+                                    000000016A71BA00    49 WSARecv
+                                    000000016A71BA12    4E WSASend
+                                    000000016A71BA24     2 FreeAddrInfoW
+                                    000000016A71BA36     7 GetAddrInfoW
+                                    000000016A71BA48    58 WSASocketW
+                                    000000016A71B982       Ordinal     9
+                                    000000016A71BA6C       Ordinal     2
+                                    000000016A71BA7E       Ordinal    13
+                                    000000016A71BA90       Ordinal   115
+                                    000000016A71BAA2       Ordinal   116
+                                    000000016A71BAB4    42 WSALookupServiceNextW
+                                    000000016A71BAC6    3F WSALookupServiceBeginW
+                                    000000016A71BAD8    40 WSALookupServiceEnd
+                                    000000016A71BAEA    43 WSANSPIoctl
+                                    000000016A71BAFC       Ordinal     8
+                                    000000016A71BB0E       Ordinal    15
+                                    000000016A71BB20       Ordinal    14
+                                    000000016A71BB32    2C WSAEnumNetworkEvents
+                                    000000016A71BB44       Ordinal     6
+                                    000000016A71B970       Ordinal     4
+                                    000000016A71B95E       Ordinal    21
+                                    000000016A71B94C       Ordinal    23
+                                    000000016A71B93A       Ordinal     3
+                                    000000016A71C591       Ordinal    10
+                                    000000016A71C5A3     6 GetAddrInfoExW
+                                    000000016A71C5B5     1 FreeAddrInfoExW
+                                    000000016A71C5C7     9 GetNameInfoW
+                                    000000016A71B928       Ordinal     7
+                                    000000016A71B994       Ordinal    16
+                                    000000016A71B916    2F WSAEventSelect
+                                    000000016A71B904       Ordinal    19
+                                    000000016A71B8F2       Ordinal    18
+                                    000000016A71B8E0       Ordinal   111
+                                    000000016A71BA5A    5B WSAStringToAddressW
+
+    d3d11.dll
+              00000001 Characteristics
+      000000016AE6C2D8 Address of HMODULE
+      000000016AEAAD30 Import Address Table
+      000000016AE536C0 Import Name Table
+      000000016AE56270 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71BB56     6 D3D11CreateDevice
+
+    dwmapi.dll
+              00000001 Characteristics
+      000000016AE6C2E0 Address of HMODULE
+      000000016AEAAD40 Import Address Table
+      000000016AE536D0 Import Name Table
+      000000016AE56280 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71BC7E     7 DwmEnableMMCSS
+                                    000000016A71BC6C    10 DwmGetWindowAttribute
+                                    000000016A71BBE1    1B DwmSetWindowAttribute
+                                    000000016A71BC90    12 DwmIsCompositionEnabled
+
+    CFGMGR32.dll
+              00000001 Characteristics
+      000000016AE6C2E8 Address of HMODULE
+      000000016AEAA220 Import Address Table
+      000000016AE52BB0 Import Name Table
+      000000016AE562A8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71BD51    5E CM_Get_DevNode_Registry_PropertyW
+                                    000000016A71BD2D    AF CM_MapCrToWin32Err
+                                    000000016A71BCA2    7D CM_Get_Device_Interface_PropertyW
+                                    000000016A71BD3F    43 CM_Get_Child
+                                    000000016A71BD63    9C CM_Get_Sibling
+
+    GDIPLUS.dll
+              00000001 Characteristics
+      000000016AE6C2F0 Address of HMODULE
+      000000016AEAA3A0 Import Address Table
+      000000016AE52D30 Import Name Table
+      000000016AE562D8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71BE12    3B GdipDeletePen
+                                    000000016A71BE24    38 GdipDeleteGraphics
+                                    000000016A71BE36    62 GdipGetImageGraphicsContext
+                                    000000016A71BE48     C GdipCloneBrush
+                                    000000016A71BE00    1B GdipCreateBitmapFromScan0
+                                    000000016A71BE6C    70 GdipGraphicsClear
+                                    000000016A71BE7E    31 GdipCreateSolidFill
+                                    000000016A71BD75    2F GdipCreatePen1
+                                    000000016A71BE90    3E GdipDisposeImage
+                                    000000016A71BEA2     5 GdipAlloc
+                                    000000016A71BE5A    54 GdipFree
+                                    000000016A71BEC6     F GdipCloneImage
+                                    000000016A71BEEA    A3 GdiplusStartup
+                                    000000016A71BED8    A2 GdiplusShutdown
+                                    000000016A71BEB4    33 GdipDeleteBrush
+
+    bcrypt.dll
+              00000001 Characteristics
+      000000016AE6C2F8 Address of HMODULE
+      000000016AEAAC80 Import Address Table
+      000000016AE53610 Import Name Table
+      000000016AE564A0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71C49A     6 BCryptCreateHash
+                                    000000016A71C488    23 BCryptHashData
+                                    000000016A71C476    25 BCryptImportKeyPair
+                                    000000016A71C440    12 BCryptEncrypt
+                                    000000016A71C452    1B BCryptFinishHash
+                                    000000016A71C464     D BCryptDestroyHash
+                                    000000016A71C3E6    27 BCryptOpenAlgorithmProvider
+                                    000000016A71C3F8    21 BCryptGetProperty
+                                    000000016A71C35B     E BCryptDestroyKey
+                                    000000016A71C42E    24 BCryptImportKey
+                                    000000016A71C40A    1F BCryptGenerateSymmetricKey
+                                    000000016A71C41C     2 BCryptCloseAlgorithmProvider
+
+    ext-ms-win-printer-winspool-l1-1-4.dll
+              00000001 Characteristics
+      000000016AE6C300 Address of HMODULE
+      000000016AEAAD78 Import Address Table
+      000000016AE53708 Import Name Table
+      000000016AE56520 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71C57F     F FindClosePrinterChangeNotification
+                                    000000016A71C4E2    10 FindFirstPrinterChangeNotification
+                                    000000016A71C56D    11 FindNextPrinterChangeNotification
+
+    api-ms-win-core-path-l1-1-0.dll
+              00000001 Characteristics
+      000000016AE6C308 Address of HMODULE
+      000000016AEAAB88 Import Address Table
+      000000016AE53518 Import Name Table
+      000000016AE56570 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000016A71C636     7 PathCchCanonicalize
+
+  Summary
+
+       1C000 .data
+        1000 .didat
+       32000 .pdata
+      1D4000 .rdata
+        E000 .reloc
+       14000 .rsrc
+      687000 .text
